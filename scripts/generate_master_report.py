@@ -1,428 +1,227 @@
-import os
-import sys
-import json
-import xml.etree.ElementTree as ET
-from datetime import datetime
+#!/usr/bin/env python3
+"""
+Compiles per-suite pytest-json-report / k6 JSON outputs into:
+  1. master_report.xlsx  — full metric + per-suite breakdown workbook
+  2. dashboard.html       — dark-mode HTML dashboard, deployable to GitHub Pages
+
+Usage:
+  python generate_master_report.py --input-dir downloaded-reports \
+      --output-dir build/reports --commit-sha <sha> --run-number <n>
+"""
 import argparse
+import json
+import os
 from pathlib import Path
+from datetime import datetime, timezone
 
-def parse_junit(file_path):
-    if not os.path.exists(file_path):
-        return {"status": "PASS", "passed": 0, "failed": 0, "skipped": 0, "total": 0, "duration": "0.00"}
+from openpyxl import Workbook
+from openpyxl.styles import Font, PatternFill, Alignment
+from openpyxl.utils import get_column_letter
 
-    try:
-        tree = ET.parse(file_path)
-        root = tree.getroot()
+SUITES = [
+    ("unit-test-report", "unit_report.json", "🧪 Unit Tests — API", "pytest"),
+    ("validation-test-report", "validation_report.json", "✅ Validation Tests", "pytest"),
+    ("selenium-web-report", "selenium_report.json", "🌐 Selenium — Website Tests", "pytest"),
+    ("appium-android-report", "appium_report.json", "📱 Appium — Android Tests", "pytest"),
+    ("load-test-report", "load_report.json", "⚡ Load Testing — Performance", "k6"),
+    ("deployment-test-report", "deployment_report.json", "🚀 Deployment Status", "pytest"),
+]
 
-        # Handle either <testsuites> or <testsuite> root
-        if root.tag == "testsuites":
-            tests = int(root.get("tests", 0))
-            failures = int(root.get("failures", 0))
-            errors = int(root.get("errors", 0))
-            time = float(root.get("time", 0.0))
-            skipped = 0
-            for ts in root.findall("testsuite"):
-                skipped += int(ts.get("skipped", 0))
+
+def parse_pytest_json(path):
+    """Return (passed, failed, skipped, total, duration_s) from a pytest-json-report file."""
+    if not path.exists():
+        return 0, 0, 0, 0, None
+    data = json.loads(path.read_text())
+    summary = data.get("summary", {})
+    passed = summary.get("passed", 0)
+    failed = summary.get("failed", 0)
+    skipped = summary.get("skipped", 0)
+    total = summary.get("total", passed + failed + skipped)
+    duration = data.get("duration")
+    return passed, failed, skipped, total, duration
+
+
+def parse_k6_json(path):
+    """Return (passed, failed, skipped, total, duration_s) from a k6 --summary-export file."""
+    if not path.exists():
+        return 0, 0, 0, 0, None
+    data = json.loads(path.read_text())
+    metrics = data.get("metrics", {})
+    checks = metrics.get("checks", {})
+    passes = checks.get("passes", 0)
+    fails = checks.get("fails", 0)
+    total = passes + fails
+    duration = None
+    return passes, fails, 0, total, duration
+
+
+def collect_results(input_dir: Path):
+    results = []
+    for artifact_dir, filename, label, kind in SUITES:
+        report_path = input_dir / artifact_dir / filename
+        if kind == "k6":
+            passed, failed, skipped, total, duration = parse_k6_json(report_path)
         else:
-            tests = int(root.get("tests", 0))
-            failures = int(root.get("failures", 0))
-            errors = int(root.get("errors", 0))
-            skipped = int(root.get("skipped", 0))
-            time = float(root.get("time", 0.0))
-
-        # Check child testcases if root counts are 0
-        testcases = root.findall(".//testcase")
-        if tests == 0 and len(testcases) > 0:
-            tests = len(testcases)
-            for tc in testcases:
-                if tc.find("failure") is not None:
-                    failures += 1
-                elif tc.find("error") is not None:
-                    errors += 1
-                elif tc.find("skipped") is not None:
-                    skipped += 1
-
-        passed = max(0, tests - failures - errors - skipped)
-        status = "PASS" if (failures + errors) == 0 and tests > 0 else ("PASS" if tests == 0 else "FAIL")
-
-        return {
-            "status": status,
+            passed, failed, skipped, total, duration = parse_pytest_json(report_path)
+        status = "PASS" if failed == 0 and total > 0 else ("PASS" if total == 0 else "FAIL")
+        results.append({
+            "label": label,
             "passed": passed,
-            "failed": failures + errors,
+            "failed": failed,
             "skipped": skipped,
-            "total": tests,
-            "duration": f"{round(time, 2):.2f}"
-        }
-    except Exception as e:
-        print(f"Warning parsing {file_path}: {e}")
-        return {"status": "PASS", "passed": 1, "failed": 0, "skipped": 0, "total": 1, "duration": "0.05"}
+            "total": total,
+            "duration": duration,
+            "status": status,
+        })
+    return results
 
-def create_excel_report(output_path, results, total_executed, total_passed, total_failed, pass_rate, sha, run_number):
-    """Generates a CSV/Excel format test report."""
-    csv_content = f"RetinaSeg AI — Executive Master Test Summary\n"
-    csv_content += f"Commit SHA,{sha},CI Run Number,#{run_number},Timestamp,{datetime.now().isoformat()}\n"
-    csv_content += f"Total Executed,{total_executed},Passed,{total_passed},Failed,{total_failed},Pass Rate,{round(pass_rate, 1)}%\n\n"
-    csv_content += f"Suite,Status,Passed,Failed,Skipped,Total,Duration\n"
-    for suite, data in results.items():
-        csv_content += f"{suite},{data['status']},{data['passed']},{data['failed']},{data['skipped']},{data['total']},{data['duration']}s\n"
-    
-    with open(output_path, "w", encoding="utf-8") as f:
-        f.write(csv_content)
 
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--sha", default="7b0dc09")
-    parser.add_argument("--run-number", default="18")
-    parser.add_argument("--results-dir", default="results")
-    args = parser.parse_args()
+def build_excel(results, out_path: Path, commit_sha, run_number):
+    wb = Workbook()
+    ws = wb.active
+    ws.title = "Summary"
 
-    results_dir = args.results_dir
+    header_fill = PatternFill(start_color="1F2937", end_color="1F2937", fill_type="solid")
+    header_font = Font(color="FFFFFF", bold=True)
+    pass_font = Font(color="15803D", bold=True)
+    fail_font = Font(color="B91C1C", bold=True)
 
-    # Exact Suite Names matching the reference workflow graph & table
-    suites_mapping = [
-        ("🧪 Unit Tests — API", "unit-test-report.xml"),
-        ("✅ Validation Tests", "validation-test-report.xml"),
-        ("🌐 Selenium — Website Tests", "selenium-web-report.xml"),
-        ("📱 Appium — Android Tests", "appium-android-report.xml"),
-        ("⚡ Load Testing — Performance", "load-test-report.xml"),
-        ("🚀 Deployment Status", "deployment-test-report.xml"),
+    ws["A1"] = "Overall Status"
+    total_tests = sum(r["total"] for r in results)
+    total_failed = sum(r["failed"] for r in results)
+    overall = "PASSED" if total_failed == 0 else "FAILED"
+    ws["B1"] = overall
+    ws["B1"].font = pass_font if overall == "PASSED" else fail_font
+
+    meta_rows = [
+        ("Total Tests Executed", total_tests),
+        ("Failed", total_failed),
+        ("Pass Rate", f"{((total_tests - total_failed) / total_tests * 100):.1f}%" if total_tests else "N/A"),
+        ("Commit SHA", commit_sha),
+        ("CI Run Number", f"#{run_number}"),
+        ("Generated At (UTC)", datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")),
     ]
+    for i, (k, v) in enumerate(meta_rows, start=2):
+        ws.cell(row=i, column=1, value=k)
+        ws.cell(row=i, column=2, value=v)
 
-    results = {}
-    for suite_name, filename in suites_mapping:
-        file_path = os.path.join(results_dir, filename)
-        results[suite_name] = parse_junit(file_path)
+    start_row = len(meta_rows) + 4
+    headers = ["Suite", "Status", "Passed", "Failed", "Skipped", "Total"]
+    for col, h in enumerate(headers, start=1):
+        c = ws.cell(row=start_row, column=col, value=h)
+        c.font = header_font
+        c.fill = header_fill
+        c.alignment = Alignment(horizontal="center")
 
-    total_executed = sum(r["total"] for r in results.values())
-    total_passed = sum(r["passed"] for r in results.values())
-    total_failed = sum(r["failed"] for r in results.values())
-    total_skipped = sum(r["skipped"] for r in results.values())
+    for i, r in enumerate(results, start=start_row + 1):
+        ws.cell(row=i, column=1, value=r["label"])
+        status_cell = ws.cell(row=i, column=2, value=r["status"])
+        status_cell.font = pass_font if r["status"] == "PASS" else fail_font
+        ws.cell(row=i, column=3, value=r["passed"])
+        ws.cell(row=i, column=4, value=r["failed"])
+        ws.cell(row=i, column=5, value=r["skipped"])
+        ws.cell(row=i, column=6, value=r["total"])
 
-    pass_rate = (total_passed / total_executed * 100.0) if total_executed > 0 else 100.0
-    overall_status = "✅ PASSED" if total_failed == 0 and total_executed > 0 else "❌ FAILED"
+    for col in range(1, 7):
+        ws.column_dimensions[get_column_letter(col)].width = 22
 
-    # HTML Report Generation matching dark-mode high-tech design
-    html_content = f"""<!DOCTYPE html>
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    wb.save(out_path)
+
+
+def build_html(results, out_path: Path, commit_sha, run_number):
+    total_tests = sum(r["total"] for r in results)
+    total_failed = sum(r["failed"] for r in results)
+    total_passed = sum(r["passed"] for r in results)
+    overall = "PASSED" if total_failed == 0 else "FAILED"
+    pass_rate = f"{((total_tests - total_failed) / total_tests * 100):.1f}%" if total_tests else "N/A"
+
+    rows_html = "\n".join(f"""
+        <tr>
+          <td>{r['label']}</td>
+          <td><span class="badge {'pass' if r['status']=='PASS' else 'fail'}">{r['status']}</span></td>
+          <td>{r['passed']}</td>
+          <td>{r['failed']}</td>
+          <td>{r['skipped']}</td>
+          <td>{r['total']}</td>
+        </tr>""" for r in results)
+
+    html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RetinaSeg AI — Executive Master Test Summary</title>
-    <style>
-        :root {{
-            --bg: #090d16;
-            --card-bg: #0f172a;
-            --card-border: #1e293b;
-            --text-primary: #f8fafc;
-            --text-secondary: #94a3b8;
-            --accent-cyan: #00f2fe;
-            --accent-blue: #4facfe;
-            --pass-green: #10b981;
-            --fail-red: #ef4444;
-            --table-header: #1e293b;
-        }}
-        * {{ box-sizing: border-box; margin: 0; padding: 0; }}
-        body {{
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--bg);
-            color: var(--text-primary);
-            padding: 30px 20px;
-            line-height: 1.5;
-        }}
-        .container {{
-            max-width: 1080px;
-            margin: 0 auto;
-            background: var(--card-bg);
-            border: 1px solid var(--card-border);
-            border-radius: 12px;
-            padding: 32px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-        }}
-        .header-title {{
-            font-size: 1.8rem;
-            font-weight: 700;
-            background: linear-gradient(135deg, var(--accent-cyan), var(--accent-blue));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            margin-bottom: 6px;
-        }}
-        .header-subtitle {{
-            color: var(--text-secondary);
-            font-size: 0.95rem;
-            margin-bottom: 24px;
-            font-weight: 400;
-        }}
-        .status-badge-container {{
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            font-size: 1.25rem;
-            font-weight: 700;
-            margin-bottom: 24px;
-            padding: 6px 16px;
-            border-radius: 8px;
-            background: rgba(16, 185, 129, 0.1);
-            border: 1px solid rgba(16, 185, 129, 0.3);
-            color: var(--pass-green);
-        }}
-        .status-badge-container.failed {{
-            background: rgba(239, 68, 68, 0.1);
-            border-color: rgba(239, 68, 68, 0.3);
-            color: var(--fail-red);
-        }}
-        .metric-grid {{
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-            gap: 16px;
-            margin-bottom: 28px;
-        }}
-        .metric-card {{
-            background: #090d16;
-            border: 1px solid var(--card-border);
-            border-radius: 8px;
-            padding: 18px 12px;
-            text-align: center;
-        }}
-        .metric-value {{
-            font-size: 1.8rem;
-            font-weight: 800;
-            color: #ffffff;
-            margin-bottom: 4px;
-        }}
-        .metric-label {{
-            font-size: 0.75rem;
-            color: var(--text-secondary);
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }}
-        .info-table, .matrix-table {{
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 28px;
-            border-radius: 8px;
-            overflow: hidden;
-        }}
-        .info-table td, .matrix-table th, .matrix-table td {{
-            padding: 12px 16px;
-            text-align: left;
-            border-bottom: 1px solid var(--card-border);
-            font-size: 0.9rem;
-        }}
-        .info-table td:first-child {{
-            font-weight: 600;
-            color: var(--text-secondary);
-            width: 250px;
-        }}
-        .matrix-table th {{
-            background-color: var(--table-header);
-            color: #ffffff;
-            font-weight: 600;
-            text-transform: uppercase;
-            font-size: 0.8rem;
-            letter-spacing: 0.5px;
-        }}
-        .matrix-table tbody tr:hover {{
-            background-color: rgba(255,255,255,0.02);
-        }}
-        .status-pill {{
-            display: inline-block;
-            padding: 3px 10px;
-            border-radius: 4px;
-            font-weight: 700;
-            font-size: 0.8rem;
-        }}
-        .status-pill.pass {{
-            background: rgba(16, 185, 129, 0.15);
-            color: var(--pass-green);
-        }}
-        .status-pill.fail {{
-            background: rgba(239, 68, 68, 0.15);
-            color: var(--fail-red);
-        }}
-        .section-heading {{
-            font-size: 1.15rem;
-            font-weight: 600;
-            color: #ffffff;
-            margin-bottom: 14px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }}
-        .pipeline-card {{
-            background: #090d16;
-            border: 1px solid var(--card-border);
-            border-radius: 8px;
-            padding: 20px;
-            margin-bottom: 28px;
-        }}
-        .layer-badge-grid {{
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            margin-top: 10px;
-        }}
-        .layer-badge {{
-            padding: 4px 10px;
-            border-radius: 6px;
-            font-size: 0.75rem;
-            font-weight: 600;
-            background: #1e293b;
-            color: #e2e8f0;
-            border: 1px solid #334155;
-        }}
-        .footer {{
-            text-align: center;
-            font-size: 0.8rem;
-            color: var(--text-secondary);
-            border-top: 1px solid var(--card-border);
-            padding-top: 20px;
-            margin-top: 10px;
-        }}
-    </style>
+<meta charset="UTF-8">
+<title>OCT Segmentation — Master Test Summary</title>
+<style>
+  :root {{
+    --bg: #0d1117; --panel: #161b22; --border: #30363d;
+    --text: #e6edf3; --muted: #8b949e; --accent: #58a6ff;
+    --pass: #3fb950; --fail: #f85149;
+  }}
+  body {{ background: var(--bg); color: var(--text); font-family: -apple-system, Segoe UI, Roboto, sans-serif; margin: 0; padding: 2.5rem; }}
+  h1 {{ font-size: 1.6rem; margin-bottom: .25rem; }}
+  .sub {{ color: var(--muted); margin-bottom: 2rem; }}
+  .grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin-bottom: 2rem; }}
+  .card {{ background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 1.1rem 1.3rem; }}
+  .card .label {{ color: var(--muted); font-size: .8rem; text-transform: uppercase; letter-spacing: .04em; }}
+  .card .value {{ font-size: 1.7rem; font-weight: 700; margin-top: .3rem; }}
+  table {{ width: 100%; border-collapse: collapse; background: var(--panel); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }}
+  th, td {{ padding: .8rem 1rem; text-align: left; border-bottom: 1px solid var(--border); }}
+  th {{ background: #1c2128; color: var(--muted); font-size: .8rem; text-transform: uppercase; }}
+  tr:last-child td {{ border-bottom: none; }}
+  .badge {{ padding: .2rem .6rem; border-radius: 999px; font-size: .78rem; font-weight: 600; }}
+  .badge.pass {{ background: rgba(63,185,80,.15); color: var(--pass); }}
+  .badge.fail {{ background: rgba(248,81,73,.15); color: var(--fail); }}
+  footer {{ margin-top: 2rem; color: var(--muted); font-size: .8rem; font-style: italic; }}
+</style>
 </head>
 <body>
-    <div class="container">
-        <h1 class="header-title">RetinaSeg AI — Executive Master Test Summary</h1>
-        <div class="header-subtitle">Automated Retinal Layer Segmentation in OCT Images Using Enhanced Preprocessing and U-Net Architecture</div>
+  <h1>Automated Retinal Layer Segmentation — Master Test Summary</h1>
+  <div class="sub">Commit {commit_sha[:7] if commit_sha else 'N/A'} · CI Run #{run_number} · Generated {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}</div>
 
-        <div class="status-badge-container {'failed' if total_failed > 0 else ''}">
-            Overall Status: {overall_status}
-        </div>
+  <div class="grid">
+    <div class="card"><div class="label">Overall Status</div><div class="value" style="color: var(--{'pass' if overall=='PASSED' else 'fail'})">{overall}</div></div>
+    <div class="card"><div class="label">Total Tests</div><div class="value">{total_tests}</div></div>
+    <div class="card"><div class="label">Passed</div><div class="value" style="color: var(--pass)">{total_passed}</div></div>
+    <div class="card"><div class="label">Failed</div><div class="value" style="color: var(--fail)">{total_failed}</div></div>
+    <div class="card"><div class="label">Pass Rate</div><div class="value">{pass_rate}</div></div>
+  </div>
 
-        <div class="metric-grid">
-            <div class="metric-card">
-                <div class="metric-value">{total_executed}</div>
-                <div class="metric-label">Total Executed</div>
-            </div>
-            <div class="metric-card">
-                <div class="metric-value" style="color: var(--pass-green);">{total_passed}</div>
-                <div class="metric-label">Passed</div>
-            </div>
-            <div class="metric-card">
-                <div class="metric-value" style="color: var(--fail-red);">{total_failed}</div>
-                <div class="metric-label">Failed</div>
-            </div>
-            <div class="metric-card">
-                <div class="metric-value">{total_skipped}</div>
-                <div class="metric-label">Skipped</div>
-            </div>
-            <div class="metric-card">
-                <div class="metric-value" style="color: var(--accent-cyan);">{round(pass_rate, 1)}%</div>
-                <div class="metric-label">Pass Rate</div>
-            </div>
-        </div>
+  <table>
+    <thead>
+      <tr><th>Suite</th><th>Status</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Total</th></tr>
+    </thead>
+    <tbody>
+      {rows_html}
+    </tbody>
+  </table>
 
-        <table class="info-table">
-            <tr><td>Commit SHA</td><td><code>{args.sha[:7]}</code></td></tr>
-            <tr><td>CI Run Number</td><td>#{args.run_number}</td></tr>
-            <tr><td>Timestamp</td><td>{datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')}</td></tr>
-            <tr><td>Primary Database</td><td>Google Firebase Cloud Firestore (oct-medical-application)</td></tr>
-            <tr><td>AI Architecture</td><td>U-Net 4-Depth Residual Multi-Layer (512×512)</td></tr>
-        </table>
-
-        <div class="section-heading">🧪 Test Suite Results Matrix</div>
-        <table class="matrix-table">
-            <thead>
-                <tr>
-                    <th>Suite Icon & Name</th>
-                    <th>Status</th>
-                    <th>Passed</th>
-                    <th>Failed</th>
-                    <th>Skipped</th>
-                    <th>Total</th>
-                    <th>Duration</th>
-                </tr>
-            </thead>
-            <tbody>
-"""
-
-    for suite, data in results.items():
-        pill_class = "pass" if data["status"] == "PASS" else "fail"
-        icon_status = "PASS" if data["status"] == "PASS" else "FAIL"
-        html_content += f"""
-                <tr>
-                    <td style="font-weight: 500;">{suite}</td>
-                    <td><span class="status-pill {pill_class}">✔ {icon_status}</span></td>
-                    <td>{data["passed"]}</td>
-                    <td>{data["failed"]}</td>
-                    <td>{data["skipped"]}</td>
-                    <td>{data["total"]}</td>
-                    <td>⏱ {data["duration"]}s</td>
-                </tr>
-"""
-
-    html_content += """
-            </tbody>
-        </table>
-
-        <div class="section-heading">🔬 OCT AI Preprocessing & Segmentation Pipeline</div>
-        <div class="pipeline-card">
-            <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 10px;">
-                Verified 16-Step Pipeline: Grayscale Standardisation &rarr; Bilateral Filter ($d=9, \\sigma=75$) &rarr; CLAHE Contrast Enhancement &rarr; Min-Max [0,1] Normalization &rarr; $512\\times 512$ Tensor Shape &rarr; U-Net Residual Inference &rarr; 8-Layer Anatomical Class Indexing &rarr; Calibrated Axial Thickness ($3.87\\,\\mu\\text{m/px}$) &rarr; Diagnostic Overlay Export.
-            </p>
-            <div class="layer-badge-grid">
-                <span class="layer-badge" style="border-left: 3px solid #ff1744;">ILM — Inner Limiting Membrane</span>
-                <span class="layer-badge" style="border-left: 3px solid #ff9100;">RNFL — Retinal Nerve Fiber Layer</span>
-                <span class="layer-badge" style="border-left: 3px solid #ffea00;">GCL — Ganglion Cell Layer</span>
-                <span class="layer-badge" style="border-left: 3px solid #00e676;">IPL — Inner Plexiform Layer</span>
-                <span class="layer-badge" style="border-left: 3px solid #00b0ff;">INL — Inner Nuclear Layer</span>
-                <span class="layer-badge" style="border-left: 3px solid #651fff;">OPL — Outer Plexiform Layer</span>
-                <span class="layer-badge" style="border-left: 3px solid #d500f9;">ONL — Outer Nuclear Layer</span>
-                <span class="layer-badge" style="border-left: 3px solid #f50057;">RPE — Retinal Pigment Epithelium</span>
-            </div>
-        </div>
-
-        <div class="footer">
-            Report generated by RetinaSeg AI Master CI/CD Pipeline
-        </div>
-    </div>
+  <footer>Report generated by OCT Segmentation Master CI/CD Pipeline</footer>
 </body>
-</html>
-"""
+</html>"""
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(html)
 
-    os.makedirs("reports", exist_ok=True)
-    master_html = os.path.join("reports", "master-report.html")
-    index_html = os.path.join("reports", "index.html")
-    excel_path = os.path.join("reports", "master-excel-report.csv")
 
-    with open(master_html, "w", encoding="utf-8") as f:
-        f.write(html_content)
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--input-dir", required=True)
+    ap.add_argument("--output-dir", required=True)
+    ap.add_argument("--commit-sha", default="unknown")
+    ap.add_argument("--run-number", default="0")
+    args = ap.parse_args()
 
-    with open(index_html, "w", encoding="utf-8") as f:
-        f.write(html_content)
+    input_dir = Path(args.input_dir)
+    output_dir = Path(args.output_dir)
 
-    create_excel_report(excel_path, results, total_executed, total_passed, total_failed, pass_rate, args.sha, args.run_number)
+    results = collect_results(input_dir)
+    build_excel(results, output_dir / "master_report.xlsx", args.commit_sha, args.run_number)
+    build_html(results, output_dir / "dashboard.html", args.commit_sha, args.run_number)
+    # GitHub Pages needs an index.html
+    (output_dir / "index.html").write_text((output_dir / "dashboard.html").read_text())
 
-    print(f"Master HTML Report: {master_html}")
-    print(f"GitHub Pages Index: {index_html}")
-    print(f"Excel / CSV Report: {excel_path}")
+    print(f"Wrote reports to {output_dir}")
 
-    # Write GitHub Step Summary
-    summary_path = os.environ.get("GITHUB_STEP_SUMMARY", "summary.md")
-    try:
-        with open(summary_path, "a", encoding="utf-8") as f:
-            f.write(f"# RetinaSeg AI — Executive Master Test Summary\n\n")
-            f.write(f"**Automated Retinal Layer Segmentation in OCT Images Using Enhanced Preprocessing and U-Net Architecture**\n\n")
-            f.write(f"### Overall Status: {overall_status}\n\n")
-            f.write(f"| Metric | Value |\n| --- | --- |\n")
-            f.write(f"| Total Tests Executed | {total_executed} |\n")
-            f.write(f"| Passed | {total_passed} |\n")
-            f.write(f"| Failed | {total_failed} |\n")
-            f.write(f"| Skipped | {total_skipped} |\n")
-            f.write(f"| Pass Rate | {round(pass_rate, 1)}% |\n")
-            f.write(f"| Commit SHA | `{args.sha[:7]}` |\n")
-            f.write(f"| CI Run Number | #{args.run_number} |\n\n")
-
-            f.write(f"### 🧪 Test Suite Results Matrix\n\n")
-            f.write(f"| Suite Icon & Name | Status | Passed | Failed | Skipped | Total | Duration |\n")
-            f.write(f"| --- | --- | --- | --- | --- | --- | --- |\n")
-            for suite, data in results.items():
-                icon = "✔ PASS" if data["status"] == "PASS" else "✖ FAIL"
-                f.write(f"| {suite} | {icon} | {data['passed']} | {data['failed']} | {data['skipped']} | {data['total']} | {data['duration']}s |\n")
-
-            f.write(f"\n_Report generated by RetinaSeg AI Master CI/CD Pipeline_\n")
-    except Exception as e:
-        print(f"Note writing summary: {e}")
 
 if __name__ == "__main__":
     main()

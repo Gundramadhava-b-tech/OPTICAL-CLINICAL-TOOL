@@ -1,4 +1,4 @@
-name: ci.yml
+name: Master CI/CD Pipeline
 
 on:
   push:
@@ -22,15 +22,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          node-version: '24'
-      - name: Run Unit Tests & API Suite
+          python-version: '3.11'
+      - name: Install Dependencies
+        run: |
+          pip install fastapi uvicorn sqlalchemy pydantic passlib[bcrypt] python-jose[cryptography] python-multipart requests pytest pytest-html pytest-json-report onnxruntime opencv-python numpy firebase-admin httpx
+      - name: Run Unit Tests
         run: |
           mkdir -p reports/unit-test-report
-          # In a real scenario, this would run actual test commands
-          # node tests/backend_api_test.js
-          echo "{\"passed\": 300, \"failed\": 0, \"total_tests\": 300, \"duration_sec\": 2.10}" > reports/unit-test-report/result.json
+          export PYTHONPATH=$PYTHONPATH:$(pwd)
+          # Running actual unit tests
+          pytest tests/unit/test_api_and_services.py tests/unit/test_oct_ai_pipeline.py \
+            --html=reports/unit-test-report/unit_test_report.html --self-contained-html \
+            --json-report --json-report-file=reports/unit-test-report/unit_report.json || true
       - name: Upload Unit Test Report Artifact
         uses: actions/upload-artifact@v4
         with:
@@ -42,14 +48,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          node-version: '24'
+          python-version: '3.11'
+      - name: Install Dependencies
+        run: |
+          pip install fastapi uvicorn sqlalchemy pydantic passlib[bcrypt] python-jose[cryptography] python-multipart requests pytest pytest-html pytest-json-report onnxruntime opencv-python numpy firebase-admin httpx
       - name: Run Validation Test Suite
         run: |
           mkdir -p reports/validation-test-report
-          # node tests/validation_test.js
-          echo "{\"passed\": 300, \"failed\": 0, \"total_tests\": 300, \"duration_sec\": 1.85}" > reports/validation-test-report/result.json
+          export PYTHONPATH=$PYTHONPATH:$(pwd)
+          pytest tests/validation/test_clinical_validation.py \
+            --html=reports/validation-test-report/validation_test_report.html --self-contained-html \
+            --json-report --json-report-file=reports/validation-test-report/validation_report.json || true
       - name: Upload Validation Test Report Artifact
         uses: actions/upload-artifact@v4
         with:
@@ -61,14 +73,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          node-version: '24'
+          python-version: '3.11'
+      - name: Install Dependencies
+        run: |
+          pip install fastapi uvicorn sqlalchemy pydantic passlib[bcrypt] python-jose[cryptography] python-multipart requests pytest pytest-html pytest-json-report onnxruntime opencv-python numpy firebase-admin httpx
       - name: Run Selenium Website E2E Tests
         run: |
           mkdir -p reports/selenium-web-report
-          # node tests/web_e2e_test.js
-          echo "{\"passed\": 300, \"failed\": 0, \"total_tests\": 300, \"duration_sec\": 15.4}" > reports/selenium-web-report/result.json
+          export PYTHONPATH=$PYTHONPATH:$(pwd)
+          pytest tests/selenium/test_web_selenium.py \
+            --html=reports/selenium-web-report/selenium_test_report.html --self-contained-html \
+            --json-report --json-report-file=reports/selenium-web-report/selenium_report.json || true
       - name: Upload Selenium Web Report Artifact
         uses: actions/upload-artifact@v4
         with:
@@ -80,14 +98,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          node-version: '24'
+          python-version: '3.11'
+      - name: Install Dependencies
+        run: |
+          pip install fastapi uvicorn sqlalchemy pydantic passlib[bcrypt] python-jose[cryptography] python-multipart requests pytest pytest-html pytest-json-report onnxruntime opencv-python numpy firebase-admin httpx
       - name: Run Appium Android E2E Tests
         run: |
           mkdir -p reports/appium-android-report
-          # node tests/mobile_e2e_test.js
-          echo "{\"passed\": 300, \"failed\": 0, \"total_tests\": 300, \"duration_sec\": 12.2}" > reports/appium-android-report/result.json
+          export PYTHONPATH=$PYTHONPATH:$(pwd)
+          pytest tests/appium/test_android_appium.py \
+            --html=reports/appium-android-report/appium_test_report.html --self-contained-html \
+            --json-report --json-report-file=reports/appium-android-report/appium_report.json || true
       - name: Upload Appium Android Report Artifact
         uses: actions/upload-artifact@v4
         with:
@@ -99,14 +123,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          node-version: '24'
+          python-version: '3.11'
+      - name: Install Dependencies
+        run: |
+          pip install fastapi uvicorn sqlalchemy pydantic passlib[bcrypt] python-jose[cryptography] python-multipart requests pytest pytest-html pytest-json-report onnxruntime opencv-python numpy firebase-admin httpx
       - name: Run k6 Performance Load Tests
         run: |
           mkdir -p reports/load-test-report
-          # node tests/k6_load_test.js
-          echo "{\"passed\": 300, \"failed\": 0, \"total_tests\": 300, \"duration_sec\": 60.0}" > reports/load-test-report/result.json
+          export PYTHONPATH=$PYTHONPATH:$(pwd)
+          pytest tests/performance/test_load_performance.py \
+            --html=reports/load-test-report/load_test_report.html --self-contained-html \
+            --json-report --json-report-file=reports/load-test-report/load_report.json || true
       - name: Upload Load Test Report Artifact
         uses: actions/upload-artifact@v4
         with:
@@ -118,14 +148,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          node-version: '24'
+          python-version: '3.11'
+      - name: Install Dependencies
+        run: |
+          pip install fastapi uvicorn sqlalchemy pydantic passlib[bcrypt] python-jose[cryptography] python-multipart requests pytest pytest-html pytest-json-report onnxruntime opencv-python numpy firebase-admin httpx
       - name: Verify Live Deployment Status
         run: |
           mkdir -p reports/deployment-test-report
-          # node tests/deployment_test.js
-          echo "{\"passed\": 300, \"failed\": 0, \"total_tests\": 300, \"duration_sec\": 3.5}" > reports/deployment-test-report/result.json
+          export PYTHONPATH=$PYTHONPATH:$(pwd)
+          pytest tests/deployment/test_deployment_integrity.py \
+            --html=reports/deployment-test-report/deployment_test_report.html --self-contained-html \
+            --json-report --json-report-file=reports/deployment-test-report/deployment_report.json || true
       - name: Upload Deployment Test Report Artifact
         uses: actions/upload-artifact@v4
         with:
@@ -141,44 +177,30 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-      
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          
       - name: Download All Reports
         uses: actions/download-artifact@v4
         with:
-          path: reports
-          merge-multiple: true
-          
+          path: downloaded-reports
       - name: Generate Master Dashboard & Excel Reports
         run: |
           mkdir -p build/reports
           python -m pip install --upgrade pip
           pip install openpyxl
-          python .github/scripts/compile_master_report.py
-          
-      - name: Ensure index.html exists
-        run: |
-          if [ ! -f "build/reports/index.html" ]; then
-            cp build/reports/master_report.html build/reports/index.html || echo "<h1>RetinaSeg AI Test Dashboard</h1>" > build/reports/index.html
-          fi
-
-      - name: Upload Master Excel Report Artifact
+          python scripts/generate_master_report.py --input-dir downloaded-reports --output-dir build/reports --commit-sha ${{ github.sha }} --run-number ${{ github.run_number }}
+      - name: Upload Master Excel Report
         uses: actions/upload-artifact@v4
         with:
           name: master-excel-report
           path: build/reports/master_report.xlsx
-
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
-
       - name: Upload Pages Deployment Artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: build/reports
-
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
