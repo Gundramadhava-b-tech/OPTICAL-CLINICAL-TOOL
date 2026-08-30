@@ -1,0 +1,18 @@
+{
+  "project_id": "medical-clinical-tool",
+  "project_number": "244904937545",
+  "storage_bucket": "medical-clinical-tool.firebasestorage.app",
+  "android": {
+    "package_name": "com.example.oct_retinal_segmentation",
+    "app_id": "1:244904937545:android:14cb448d76e61c5b441798",
+    "sha1": "AA:77:6D:08:7B:41:A7:F8:01:49:68:9D:4D:15:9D:FF:54:B3:5D:DF",
+    "sha256": "58:4A:24:8B:1F:8F:44:08:AB:8C:BE:46:EF:F6:DC:AD:86:CD:64:5B:34:C2:37:AB:5E:EC:9F:23:59:D8:D1:DB",
+    "md5": "AE:FE:7B:4A:B3:8C:A8:3E:9F:B1:2B:8F:E8:99:25:38"
+  },
+  "web": {
+    "app_id": "1:244904937545:web:09629907cb2d398f441798",
+    "api_key": "AIzaSyA2J8MPP_YPToWFLLrRC1PeJtZp8xeBPtE",
+    "measurement_id": "G-958K3SXWMH",
+    "auth_domain": "medical-clinical-tool.firebaseapp.com"
+  }
+}

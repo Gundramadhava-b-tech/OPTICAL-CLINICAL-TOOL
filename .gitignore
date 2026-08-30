@@ -1,0 +1,39 @@
+# Flutter ignores
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+frontend/ios/
+frontend/android/app/src/main/res/values/google-services.xml
+frontend/android/app/google-services.json
+
+# Python ignores
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+backend/storage/uploads/*
+backend/storage/processed/*
+backend/storage/masks/*
+backend/storage/overlays/*
+backend/storage/reports/*
+!backend/storage/uploads/.gitkeep
+!backend/storage/processed/.gitkeep
+!backend/storage/masks/.gitkeep
+!backend/storage/overlays/.gitkeep
+!backend/storage/reports/.gitkeep
+
+# IDE ignores
+.idea/
+.vscode/
+*.iml
+
+# Machine Learning ignores
+machine_learning/IMAGE_PROCESSING/logs/*
+machine_learning/IMAGE_PROCESSING/checkpoints/*
+oct_ai_pipeline/output/*
+!oct_ai_pipeline/output/.gitkeep
