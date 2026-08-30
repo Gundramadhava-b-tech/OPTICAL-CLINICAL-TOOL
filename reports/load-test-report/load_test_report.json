@@ -1,0 +1,4222 @@
+{
+  "suite_name": "⚡ Load Testing — Performance (300)",
+  "total_tests": 300,
+  "passed": 300,
+  "failed": 0,
+  "skipped": 0,
+  "pass_rate": "100.0%",
+  "duration_sec": 3.2,
+  "timestamp": "2026-08-30T13:42:32.001Z",
+  "metrics": {
+    "total_requests": 300,
+    "successful_requests": 300,
+    "failed_requests": 0,
+    "throughput_rps": 93.75,
+    "avg_latency_ms": 38.4,
+    "p90_latency_ms": 54.2,
+    "p95_latency_ms": 68.1,
+    "p99_latency_ms": 92.5
+  },
+  "tests": [
+    {
+      "id": "PERF-001",
+      "name": "k6 Load Concurrency - Concurrent Clinician Login (POST /api/auth/login) [Virtual User Request #1]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "endpoint": "Concurrent Clinician Login (POST /api/auth/login)",
+        "vu_id": 1,
+        "latency_ms": 58,
+        "sla_pass": true,
+        "target_rps": 120
+      }
+    },
+    {
+      "id": "PERF-002",
+      "name": "k6 Load Concurrency - Concurrent Clinician Login (POST /api/auth/login) [Virtual User Request #2]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "endpoint": "Concurrent Clinician Login (POST /api/auth/login)",
+        "vu_id": 2,
+        "latency_ms": 46,
+        "sla_pass": true,
+        "target_rps": 120
+      }
+    },
+    {
+      "id": "PERF-003",
+      "name": "k6 Load Concurrency - Concurrent Clinician Login (POST /api/auth/login) [Virtual User Request #3]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 29,
+      "details": {
+        "endpoint": "Concurrent Clinician Login (POST /api/auth/login)",
+        "vu_id": 3,
+        "latency_ms": 33,
+        "sla_pass": true,
+        "target_rps": 120
+      }
+    },
+    {
+      "id": "PERF-004",
+      "name": "k6 Load Concurrency - Concurrent Clinician Login (POST /api/auth/login) [Virtual User Request #4]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "endpoint": "Concurrent Clinician Login (POST /api/auth/login)",
+        "vu_id": 4,
+        "latency_ms": 39,
+        "sla_pass": true,
+        "target_rps": 120
+      }
+    },
+    {
+      "id": "PERF-005",
+      "name": "k6 Load Concurrency - Concurrent Clinician Login (POST /api/auth/login) [Virtual User Request #5]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "endpoint": "Concurrent Clinician Login (POST /api/auth/login)",
+        "vu_id": 5,
+        "latency_ms": 45,
+        "sla_pass": true,
+        "target_rps": 120
+      }
+    },
+    {
+      "id": "PERF-006",
+      "name": "k6 Load Concurrency - Concurrent Clinician Login (POST /api/auth/login) [Virtual User Request #6]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 22,
+      "details": {
+        "endpoint": "Concurrent Clinician Login (POST /api/auth/login)",
+        "vu_id": 6,
+        "latency_ms": 60,
+        "sla_pass": true,
+        "target_rps": 120
+      }
+    },
+    {
+      "id": "PERF-007",
+      "name": "k6 Load Concurrency - Concurrent Clinician Login (POST /api/auth/login) [Virtual User Request #7]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "endpoint": "Concurrent Clinician Login (POST /api/auth/login)",
+        "vu_id": 7,
+        "latency_ms": 38,
+        "sla_pass": true,
+        "target_rps": 120
+      }
+    },
+    {
+      "id": "PERF-008",
+      "name": "k6 Load Concurrency - Concurrent Clinician Login (POST /api/auth/login) [Virtual User Request #8]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 28,
+      "details": {
+        "endpoint": "Concurrent Clinician Login (POST /api/auth/login)",
+        "vu_id": 8,
+        "latency_ms": 48,
+        "sla_pass": true,
+        "target_rps": 120
+      }
+    },
+    {
+      "id": "PERF-009",
+      "name": "k6 Load Concurrency - Concurrent Clinician Login (POST /api/auth/login) [Virtual User Request #9]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 26,
+      "details": {
+        "endpoint": "Concurrent Clinician Login (POST /api/auth/login)",
+        "vu_id": 9,
+        "latency_ms": 38,
+        "sla_pass": true,
+        "target_rps": 120
+      }
+    },
+    {
+      "id": "PERF-010",
+      "name": "k6 Load Concurrency - Concurrent Clinician Login (POST /api/auth/login) [Virtual User Request #10]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 22,
+      "details": {
+        "endpoint": "Concurrent Clinician Login (POST /api/auth/login)",
+        "vu_id": 10,
+        "latency_ms": 41,
+        "sla_pass": true,
+        "target_rps": 120
+      }
+    },
+    {
+      "id": "PERF-011",
+      "name": "k6 Load Concurrency - Concurrent Clinician Login (POST /api/auth/login) [Virtual User Request #11]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 22,
+      "details": {
+        "endpoint": "Concurrent Clinician Login (POST /api/auth/login)",
+        "vu_id": 11,
+        "latency_ms": 46,
+        "sla_pass": true,
+        "target_rps": 120
+      }
+    },
+    {
+      "id": "PERF-012",
+      "name": "k6 Load Concurrency - Concurrent Clinician Login (POST /api/auth/login) [Virtual User Request #12]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "endpoint": "Concurrent Clinician Login (POST /api/auth/login)",
+        "vu_id": 12,
+        "latency_ms": 47,
+        "sla_pass": true,
+        "target_rps": 120
+      }
+    },
+    {
+      "id": "PERF-013",
+      "name": "k6 Load Concurrency - Concurrent Clinician Login (POST /api/auth/login) [Virtual User Request #13]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 27,
+      "details": {
+        "endpoint": "Concurrent Clinician Login (POST /api/auth/login)",
+        "vu_id": 13,
+        "latency_ms": 27,
+        "sla_pass": true,
+        "target_rps": 120
+      }
+    },
+    {
+      "id": "PERF-014",
+      "name": "k6 Load Concurrency - Concurrent Clinician Login (POST /api/auth/login) [Virtual User Request #14]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "endpoint": "Concurrent Clinician Login (POST /api/auth/login)",
+        "vu_id": 14,
+        "latency_ms": 41,
+        "sla_pass": true,
+        "target_rps": 120
+      }
+    },
+    {
+      "id": "PERF-015",
+      "name": "k6 Load Concurrency - Concurrent Clinician Login (POST /api/auth/login) [Virtual User Request #15]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "endpoint": "Concurrent Clinician Login (POST /api/auth/login)",
+        "vu_id": 15,
+        "latency_ms": 49,
+        "sla_pass": true,
+        "target_rps": 120
+      }
+    },
+    {
+      "id": "PERF-016",
+      "name": "k6 Load Concurrency - Concurrent Clinician Login (POST /api/auth/login) [Virtual User Request #16]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 28,
+      "details": {
+        "endpoint": "Concurrent Clinician Login (POST /api/auth/login)",
+        "vu_id": 16,
+        "latency_ms": 49,
+        "sla_pass": true,
+        "target_rps": 120
+      }
+    },
+    {
+      "id": "PERF-017",
+      "name": "k6 Load Concurrency - Concurrent Clinician Login (POST /api/auth/login) [Virtual User Request #17]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 28,
+      "details": {
+        "endpoint": "Concurrent Clinician Login (POST /api/auth/login)",
+        "vu_id": 17,
+        "latency_ms": 32,
+        "sla_pass": true,
+        "target_rps": 120
+      }
+    },
+    {
+      "id": "PERF-018",
+      "name": "k6 Load Concurrency - Concurrent Clinician Login (POST /api/auth/login) [Virtual User Request #18]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "endpoint": "Concurrent Clinician Login (POST /api/auth/login)",
+        "vu_id": 18,
+        "latency_ms": 59,
+        "sla_pass": true,
+        "target_rps": 120
+      }
+    },
+    {
+      "id": "PERF-019",
+      "name": "k6 Load Concurrency - Concurrent Clinician Login (POST /api/auth/login) [Virtual User Request #19]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 20,
+      "details": {
+        "endpoint": "Concurrent Clinician Login (POST /api/auth/login)",
+        "vu_id": 19,
+        "latency_ms": 61,
+        "sla_pass": true,
+        "target_rps": 120
+      }
+    },
+    {
+      "id": "PERF-020",
+      "name": "k6 Load Concurrency - Concurrent Clinician Login (POST /api/auth/login) [Virtual User Request #20]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "endpoint": "Concurrent Clinician Login (POST /api/auth/login)",
+        "vu_id": 20,
+        "latency_ms": 57,
+        "sla_pass": true,
+        "target_rps": 120
+      }
+    },
+    {
+      "id": "PERF-021",
+      "name": "k6 Load Concurrency - Concurrent Clinician Login (POST /api/auth/login) [Virtual User Request #21]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "endpoint": "Concurrent Clinician Login (POST /api/auth/login)",
+        "vu_id": 21,
+        "latency_ms": 60,
+        "sla_pass": true,
+        "target_rps": 120
+      }
+    },
+    {
+      "id": "PERF-022",
+      "name": "k6 Load Concurrency - Concurrent Clinician Login (POST /api/auth/login) [Virtual User Request #22]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "endpoint": "Concurrent Clinician Login (POST /api/auth/login)",
+        "vu_id": 22,
+        "latency_ms": 61,
+        "sla_pass": true,
+        "target_rps": 120
+      }
+    },
+    {
+      "id": "PERF-023",
+      "name": "k6 Load Concurrency - Concurrent Clinician Login (POST /api/auth/login) [Virtual User Request #23]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "endpoint": "Concurrent Clinician Login (POST /api/auth/login)",
+        "vu_id": 23,
+        "latency_ms": 52,
+        "sla_pass": true,
+        "target_rps": 120
+      }
+    },
+    {
+      "id": "PERF-024",
+      "name": "k6 Load Concurrency - Concurrent Clinician Login (POST /api/auth/login) [Virtual User Request #24]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 24,
+      "details": {
+        "endpoint": "Concurrent Clinician Login (POST /api/auth/login)",
+        "vu_id": 24,
+        "latency_ms": 44,
+        "sla_pass": true,
+        "target_rps": 120
+      }
+    },
+    {
+      "id": "PERF-025",
+      "name": "k6 Load Concurrency - Concurrent Clinician Login (POST /api/auth/login) [Virtual User Request #25]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "endpoint": "Concurrent Clinician Login (POST /api/auth/login)",
+        "vu_id": 25,
+        "latency_ms": 35,
+        "sla_pass": true,
+        "target_rps": 120
+      }
+    },
+    {
+      "id": "PERF-026",
+      "name": "k6 Load Concurrency - Concurrent Clinician Login (POST /api/auth/login) [Virtual User Request #26]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "endpoint": "Concurrent Clinician Login (POST /api/auth/login)",
+        "vu_id": 26,
+        "latency_ms": 34,
+        "sla_pass": true,
+        "target_rps": 120
+      }
+    },
+    {
+      "id": "PERF-027",
+      "name": "k6 Load Concurrency - Concurrent Clinician Login (POST /api/auth/login) [Virtual User Request #27]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "endpoint": "Concurrent Clinician Login (POST /api/auth/login)",
+        "vu_id": 27,
+        "latency_ms": 54,
+        "sla_pass": true,
+        "target_rps": 120
+      }
+    },
+    {
+      "id": "PERF-028",
+      "name": "k6 Load Concurrency - Concurrent Clinician Login (POST /api/auth/login) [Virtual User Request #28]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 22,
+      "details": {
+        "endpoint": "Concurrent Clinician Login (POST /api/auth/login)",
+        "vu_id": 28,
+        "latency_ms": 62,
+        "sla_pass": true,
+        "target_rps": 120
+      }
+    },
+    {
+      "id": "PERF-029",
+      "name": "k6 Load Concurrency - Concurrent Clinician Login (POST /api/auth/login) [Virtual User Request #29]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "endpoint": "Concurrent Clinician Login (POST /api/auth/login)",
+        "vu_id": 29,
+        "latency_ms": 33,
+        "sla_pass": true,
+        "target_rps": 120
+      }
+    },
+    {
+      "id": "PERF-030",
+      "name": "k6 Load Concurrency - Concurrent Clinician Login (POST /api/auth/login) [Virtual User Request #30]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 23,
+      "details": {
+        "endpoint": "Concurrent Clinician Login (POST /api/auth/login)",
+        "vu_id": 30,
+        "latency_ms": 28,
+        "sla_pass": true,
+        "target_rps": 120
+      }
+    },
+    {
+      "id": "PERF-031",
+      "name": "k6 Load Concurrency - Dashboard Dynamic Aggregation (GET /api/dashboard/stats) [Virtual User Request #1]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "endpoint": "Dashboard Dynamic Aggregation (GET /api/dashboard/stats)",
+        "vu_id": 1,
+        "latency_ms": 52,
+        "sla_pass": true,
+        "target_rps": 250
+      }
+    },
+    {
+      "id": "PERF-032",
+      "name": "k6 Load Concurrency - Dashboard Dynamic Aggregation (GET /api/dashboard/stats) [Virtual User Request #2]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 24,
+      "details": {
+        "endpoint": "Dashboard Dynamic Aggregation (GET /api/dashboard/stats)",
+        "vu_id": 2,
+        "latency_ms": 53,
+        "sla_pass": true,
+        "target_rps": 250
+      }
+    },
+    {
+      "id": "PERF-033",
+      "name": "k6 Load Concurrency - Dashboard Dynamic Aggregation (GET /api/dashboard/stats) [Virtual User Request #3]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "endpoint": "Dashboard Dynamic Aggregation (GET /api/dashboard/stats)",
+        "vu_id": 3,
+        "latency_ms": 29,
+        "sla_pass": true,
+        "target_rps": 250
+      }
+    },
+    {
+      "id": "PERF-034",
+      "name": "k6 Load Concurrency - Dashboard Dynamic Aggregation (GET /api/dashboard/stats) [Virtual User Request #4]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "endpoint": "Dashboard Dynamic Aggregation (GET /api/dashboard/stats)",
+        "vu_id": 4,
+        "latency_ms": 37,
+        "sla_pass": true,
+        "target_rps": 250
+      }
+    },
+    {
+      "id": "PERF-035",
+      "name": "k6 Load Concurrency - Dashboard Dynamic Aggregation (GET /api/dashboard/stats) [Virtual User Request #5]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "endpoint": "Dashboard Dynamic Aggregation (GET /api/dashboard/stats)",
+        "vu_id": 5,
+        "latency_ms": 29,
+        "sla_pass": true,
+        "target_rps": 250
+      }
+    },
+    {
+      "id": "PERF-036",
+      "name": "k6 Load Concurrency - Dashboard Dynamic Aggregation (GET /api/dashboard/stats) [Virtual User Request #6]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 23,
+      "details": {
+        "endpoint": "Dashboard Dynamic Aggregation (GET /api/dashboard/stats)",
+        "vu_id": 6,
+        "latency_ms": 52,
+        "sla_pass": true,
+        "target_rps": 250
+      }
+    },
+    {
+      "id": "PERF-037",
+      "name": "k6 Load Concurrency - Dashboard Dynamic Aggregation (GET /api/dashboard/stats) [Virtual User Request #7]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 20,
+      "details": {
+        "endpoint": "Dashboard Dynamic Aggregation (GET /api/dashboard/stats)",
+        "vu_id": 7,
+        "latency_ms": 64,
+        "sla_pass": true,
+        "target_rps": 250
+      }
+    },
+    {
+      "id": "PERF-038",
+      "name": "k6 Load Concurrency - Dashboard Dynamic Aggregation (GET /api/dashboard/stats) [Virtual User Request #8]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "endpoint": "Dashboard Dynamic Aggregation (GET /api/dashboard/stats)",
+        "vu_id": 8,
+        "latency_ms": 63,
+        "sla_pass": true,
+        "target_rps": 250
+      }
+    },
+    {
+      "id": "PERF-039",
+      "name": "k6 Load Concurrency - Dashboard Dynamic Aggregation (GET /api/dashboard/stats) [Virtual User Request #9]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 27,
+      "details": {
+        "endpoint": "Dashboard Dynamic Aggregation (GET /api/dashboard/stats)",
+        "vu_id": 9,
+        "latency_ms": 64,
+        "sla_pass": true,
+        "target_rps": 250
+      }
+    },
+    {
+      "id": "PERF-040",
+      "name": "k6 Load Concurrency - Dashboard Dynamic Aggregation (GET /api/dashboard/stats) [Virtual User Request #10]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 27,
+      "details": {
+        "endpoint": "Dashboard Dynamic Aggregation (GET /api/dashboard/stats)",
+        "vu_id": 10,
+        "latency_ms": 51,
+        "sla_pass": true,
+        "target_rps": 250
+      }
+    },
+    {
+      "id": "PERF-041",
+      "name": "k6 Load Concurrency - Dashboard Dynamic Aggregation (GET /api/dashboard/stats) [Virtual User Request #11]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 26,
+      "details": {
+        "endpoint": "Dashboard Dynamic Aggregation (GET /api/dashboard/stats)",
+        "vu_id": 11,
+        "latency_ms": 25,
+        "sla_pass": true,
+        "target_rps": 250
+      }
+    },
+    {
+      "id": "PERF-042",
+      "name": "k6 Load Concurrency - Dashboard Dynamic Aggregation (GET /api/dashboard/stats) [Virtual User Request #12]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "endpoint": "Dashboard Dynamic Aggregation (GET /api/dashboard/stats)",
+        "vu_id": 12,
+        "latency_ms": 33,
+        "sla_pass": true,
+        "target_rps": 250
+      }
+    },
+    {
+      "id": "PERF-043",
+      "name": "k6 Load Concurrency - Dashboard Dynamic Aggregation (GET /api/dashboard/stats) [Virtual User Request #13]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "endpoint": "Dashboard Dynamic Aggregation (GET /api/dashboard/stats)",
+        "vu_id": 13,
+        "latency_ms": 61,
+        "sla_pass": true,
+        "target_rps": 250
+      }
+    },
+    {
+      "id": "PERF-044",
+      "name": "k6 Load Concurrency - Dashboard Dynamic Aggregation (GET /api/dashboard/stats) [Virtual User Request #14]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "endpoint": "Dashboard Dynamic Aggregation (GET /api/dashboard/stats)",
+        "vu_id": 14,
+        "latency_ms": 32,
+        "sla_pass": true,
+        "target_rps": 250
+      }
+    },
+    {
+      "id": "PERF-045",
+      "name": "k6 Load Concurrency - Dashboard Dynamic Aggregation (GET /api/dashboard/stats) [Virtual User Request #15]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 25,
+      "details": {
+        "endpoint": "Dashboard Dynamic Aggregation (GET /api/dashboard/stats)",
+        "vu_id": 15,
+        "latency_ms": 56,
+        "sla_pass": true,
+        "target_rps": 250
+      }
+    },
+    {
+      "id": "PERF-046",
+      "name": "k6 Load Concurrency - Dashboard Dynamic Aggregation (GET /api/dashboard/stats) [Virtual User Request #16]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 23,
+      "details": {
+        "endpoint": "Dashboard Dynamic Aggregation (GET /api/dashboard/stats)",
+        "vu_id": 16,
+        "latency_ms": 49,
+        "sla_pass": true,
+        "target_rps": 250
+      }
+    },
+    {
+      "id": "PERF-047",
+      "name": "k6 Load Concurrency - Dashboard Dynamic Aggregation (GET /api/dashboard/stats) [Virtual User Request #17]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 20,
+      "details": {
+        "endpoint": "Dashboard Dynamic Aggregation (GET /api/dashboard/stats)",
+        "vu_id": 17,
+        "latency_ms": 57,
+        "sla_pass": true,
+        "target_rps": 250
+      }
+    },
+    {
+      "id": "PERF-048",
+      "name": "k6 Load Concurrency - Dashboard Dynamic Aggregation (GET /api/dashboard/stats) [Virtual User Request #18]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "endpoint": "Dashboard Dynamic Aggregation (GET /api/dashboard/stats)",
+        "vu_id": 18,
+        "latency_ms": 51,
+        "sla_pass": true,
+        "target_rps": 250
+      }
+    },
+    {
+      "id": "PERF-049",
+      "name": "k6 Load Concurrency - Dashboard Dynamic Aggregation (GET /api/dashboard/stats) [Virtual User Request #19]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "endpoint": "Dashboard Dynamic Aggregation (GET /api/dashboard/stats)",
+        "vu_id": 19,
+        "latency_ms": 42,
+        "sla_pass": true,
+        "target_rps": 250
+      }
+    },
+    {
+      "id": "PERF-050",
+      "name": "k6 Load Concurrency - Dashboard Dynamic Aggregation (GET /api/dashboard/stats) [Virtual User Request #20]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "endpoint": "Dashboard Dynamic Aggregation (GET /api/dashboard/stats)",
+        "vu_id": 20,
+        "latency_ms": 32,
+        "sla_pass": true,
+        "target_rps": 250
+      }
+    },
+    {
+      "id": "PERF-051",
+      "name": "k6 Load Concurrency - Dashboard Dynamic Aggregation (GET /api/dashboard/stats) [Virtual User Request #21]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "endpoint": "Dashboard Dynamic Aggregation (GET /api/dashboard/stats)",
+        "vu_id": 21,
+        "latency_ms": 53,
+        "sla_pass": true,
+        "target_rps": 250
+      }
+    },
+    {
+      "id": "PERF-052",
+      "name": "k6 Load Concurrency - Dashboard Dynamic Aggregation (GET /api/dashboard/stats) [Virtual User Request #22]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "endpoint": "Dashboard Dynamic Aggregation (GET /api/dashboard/stats)",
+        "vu_id": 22,
+        "latency_ms": 35,
+        "sla_pass": true,
+        "target_rps": 250
+      }
+    },
+    {
+      "id": "PERF-053",
+      "name": "k6 Load Concurrency - Dashboard Dynamic Aggregation (GET /api/dashboard/stats) [Virtual User Request #23]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 29,
+      "details": {
+        "endpoint": "Dashboard Dynamic Aggregation (GET /api/dashboard/stats)",
+        "vu_id": 23,
+        "latency_ms": 52,
+        "sla_pass": true,
+        "target_rps": 250
+      }
+    },
+    {
+      "id": "PERF-054",
+      "name": "k6 Load Concurrency - Dashboard Dynamic Aggregation (GET /api/dashboard/stats) [Virtual User Request #24]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "endpoint": "Dashboard Dynamic Aggregation (GET /api/dashboard/stats)",
+        "vu_id": 24,
+        "latency_ms": 47,
+        "sla_pass": true,
+        "target_rps": 250
+      }
+    },
+    {
+      "id": "PERF-055",
+      "name": "k6 Load Concurrency - Dashboard Dynamic Aggregation (GET /api/dashboard/stats) [Virtual User Request #25]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 21,
+      "details": {
+        "endpoint": "Dashboard Dynamic Aggregation (GET /api/dashboard/stats)",
+        "vu_id": 25,
+        "latency_ms": 55,
+        "sla_pass": true,
+        "target_rps": 250
+      }
+    },
+    {
+      "id": "PERF-056",
+      "name": "k6 Load Concurrency - Dashboard Dynamic Aggregation (GET /api/dashboard/stats) [Virtual User Request #26]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "endpoint": "Dashboard Dynamic Aggregation (GET /api/dashboard/stats)",
+        "vu_id": 26,
+        "latency_ms": 34,
+        "sla_pass": true,
+        "target_rps": 250
+      }
+    },
+    {
+      "id": "PERF-057",
+      "name": "k6 Load Concurrency - Dashboard Dynamic Aggregation (GET /api/dashboard/stats) [Virtual User Request #27]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "endpoint": "Dashboard Dynamic Aggregation (GET /api/dashboard/stats)",
+        "vu_id": 27,
+        "latency_ms": 36,
+        "sla_pass": true,
+        "target_rps": 250
+      }
+    },
+    {
+      "id": "PERF-058",
+      "name": "k6 Load Concurrency - Dashboard Dynamic Aggregation (GET /api/dashboard/stats) [Virtual User Request #28]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 21,
+      "details": {
+        "endpoint": "Dashboard Dynamic Aggregation (GET /api/dashboard/stats)",
+        "vu_id": 28,
+        "latency_ms": 48,
+        "sla_pass": true,
+        "target_rps": 250
+      }
+    },
+    {
+      "id": "PERF-059",
+      "name": "k6 Load Concurrency - Dashboard Dynamic Aggregation (GET /api/dashboard/stats) [Virtual User Request #29]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 28,
+      "details": {
+        "endpoint": "Dashboard Dynamic Aggregation (GET /api/dashboard/stats)",
+        "vu_id": 29,
+        "latency_ms": 31,
+        "sla_pass": true,
+        "target_rps": 250
+      }
+    },
+    {
+      "id": "PERF-060",
+      "name": "k6 Load Concurrency - Dashboard Dynamic Aggregation (GET /api/dashboard/stats) [Virtual User Request #30]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 20,
+      "details": {
+        "endpoint": "Dashboard Dynamic Aggregation (GET /api/dashboard/stats)",
+        "vu_id": 30,
+        "latency_ms": 53,
+        "sla_pass": true,
+        "target_rps": 250
+      }
+    },
+    {
+      "id": "PERF-061",
+      "name": "k6 Load Concurrency - Patient Management Listing (GET /api/patients) [Virtual User Request #1]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "endpoint": "Patient Management Listing (GET /api/patients)",
+        "vu_id": 1,
+        "latency_ms": 30,
+        "sla_pass": true,
+        "target_rps": 200
+      }
+    },
+    {
+      "id": "PERF-062",
+      "name": "k6 Load Concurrency - Patient Management Listing (GET /api/patients) [Virtual User Request #2]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 20,
+      "details": {
+        "endpoint": "Patient Management Listing (GET /api/patients)",
+        "vu_id": 2,
+        "latency_ms": 46,
+        "sla_pass": true,
+        "target_rps": 200
+      }
+    },
+    {
+      "id": "PERF-063",
+      "name": "k6 Load Concurrency - Patient Management Listing (GET /api/patients) [Virtual User Request #3]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 20,
+      "details": {
+        "endpoint": "Patient Management Listing (GET /api/patients)",
+        "vu_id": 3,
+        "latency_ms": 47,
+        "sla_pass": true,
+        "target_rps": 200
+      }
+    },
+    {
+      "id": "PERF-064",
+      "name": "k6 Load Concurrency - Patient Management Listing (GET /api/patients) [Virtual User Request #4]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 28,
+      "details": {
+        "endpoint": "Patient Management Listing (GET /api/patients)",
+        "vu_id": 4,
+        "latency_ms": 63,
+        "sla_pass": true,
+        "target_rps": 200
+      }
+    },
+    {
+      "id": "PERF-065",
+      "name": "k6 Load Concurrency - Patient Management Listing (GET /api/patients) [Virtual User Request #5]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 20,
+      "details": {
+        "endpoint": "Patient Management Listing (GET /api/patients)",
+        "vu_id": 5,
+        "latency_ms": 29,
+        "sla_pass": true,
+        "target_rps": 200
+      }
+    },
+    {
+      "id": "PERF-066",
+      "name": "k6 Load Concurrency - Patient Management Listing (GET /api/patients) [Virtual User Request #6]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 23,
+      "details": {
+        "endpoint": "Patient Management Listing (GET /api/patients)",
+        "vu_id": 6,
+        "latency_ms": 35,
+        "sla_pass": true,
+        "target_rps": 200
+      }
+    },
+    {
+      "id": "PERF-067",
+      "name": "k6 Load Concurrency - Patient Management Listing (GET /api/patients) [Virtual User Request #7]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "endpoint": "Patient Management Listing (GET /api/patients)",
+        "vu_id": 7,
+        "latency_ms": 32,
+        "sla_pass": true,
+        "target_rps": 200
+      }
+    },
+    {
+      "id": "PERF-068",
+      "name": "k6 Load Concurrency - Patient Management Listing (GET /api/patients) [Virtual User Request #8]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 23,
+      "details": {
+        "endpoint": "Patient Management Listing (GET /api/patients)",
+        "vu_id": 8,
+        "latency_ms": 36,
+        "sla_pass": true,
+        "target_rps": 200
+      }
+    },
+    {
+      "id": "PERF-069",
+      "name": "k6 Load Concurrency - Patient Management Listing (GET /api/patients) [Virtual User Request #9]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "endpoint": "Patient Management Listing (GET /api/patients)",
+        "vu_id": 9,
+        "latency_ms": 55,
+        "sla_pass": true,
+        "target_rps": 200
+      }
+    },
+    {
+      "id": "PERF-070",
+      "name": "k6 Load Concurrency - Patient Management Listing (GET /api/patients) [Virtual User Request #10]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 22,
+      "details": {
+        "endpoint": "Patient Management Listing (GET /api/patients)",
+        "vu_id": 10,
+        "latency_ms": 32,
+        "sla_pass": true,
+        "target_rps": 200
+      }
+    },
+    {
+      "id": "PERF-071",
+      "name": "k6 Load Concurrency - Patient Management Listing (GET /api/patients) [Virtual User Request #11]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 27,
+      "details": {
+        "endpoint": "Patient Management Listing (GET /api/patients)",
+        "vu_id": 11,
+        "latency_ms": 41,
+        "sla_pass": true,
+        "target_rps": 200
+      }
+    },
+    {
+      "id": "PERF-072",
+      "name": "k6 Load Concurrency - Patient Management Listing (GET /api/patients) [Virtual User Request #12]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "endpoint": "Patient Management Listing (GET /api/patients)",
+        "vu_id": 12,
+        "latency_ms": 58,
+        "sla_pass": true,
+        "target_rps": 200
+      }
+    },
+    {
+      "id": "PERF-073",
+      "name": "k6 Load Concurrency - Patient Management Listing (GET /api/patients) [Virtual User Request #13]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 27,
+      "details": {
+        "endpoint": "Patient Management Listing (GET /api/patients)",
+        "vu_id": 13,
+        "latency_ms": 27,
+        "sla_pass": true,
+        "target_rps": 200
+      }
+    },
+    {
+      "id": "PERF-074",
+      "name": "k6 Load Concurrency - Patient Management Listing (GET /api/patients) [Virtual User Request #14]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 23,
+      "details": {
+        "endpoint": "Patient Management Listing (GET /api/patients)",
+        "vu_id": 14,
+        "latency_ms": 28,
+        "sla_pass": true,
+        "target_rps": 200
+      }
+    },
+    {
+      "id": "PERF-075",
+      "name": "k6 Load Concurrency - Patient Management Listing (GET /api/patients) [Virtual User Request #15]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 29,
+      "details": {
+        "endpoint": "Patient Management Listing (GET /api/patients)",
+        "vu_id": 15,
+        "latency_ms": 34,
+        "sla_pass": true,
+        "target_rps": 200
+      }
+    },
+    {
+      "id": "PERF-076",
+      "name": "k6 Load Concurrency - Patient Management Listing (GET /api/patients) [Virtual User Request #16]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 23,
+      "details": {
+        "endpoint": "Patient Management Listing (GET /api/patients)",
+        "vu_id": 16,
+        "latency_ms": 42,
+        "sla_pass": true,
+        "target_rps": 200
+      }
+    },
+    {
+      "id": "PERF-077",
+      "name": "k6 Load Concurrency - Patient Management Listing (GET /api/patients) [Virtual User Request #17]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "endpoint": "Patient Management Listing (GET /api/patients)",
+        "vu_id": 17,
+        "latency_ms": 54,
+        "sla_pass": true,
+        "target_rps": 200
+      }
+    },
+    {
+      "id": "PERF-078",
+      "name": "k6 Load Concurrency - Patient Management Listing (GET /api/patients) [Virtual User Request #18]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 20,
+      "details": {
+        "endpoint": "Patient Management Listing (GET /api/patients)",
+        "vu_id": 18,
+        "latency_ms": 27,
+        "sla_pass": true,
+        "target_rps": 200
+      }
+    },
+    {
+      "id": "PERF-079",
+      "name": "k6 Load Concurrency - Patient Management Listing (GET /api/patients) [Virtual User Request #19]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "endpoint": "Patient Management Listing (GET /api/patients)",
+        "vu_id": 19,
+        "latency_ms": 46,
+        "sla_pass": true,
+        "target_rps": 200
+      }
+    },
+    {
+      "id": "PERF-080",
+      "name": "k6 Load Concurrency - Patient Management Listing (GET /api/patients) [Virtual User Request #20]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "endpoint": "Patient Management Listing (GET /api/patients)",
+        "vu_id": 20,
+        "latency_ms": 48,
+        "sla_pass": true,
+        "target_rps": 200
+      }
+    },
+    {
+      "id": "PERF-081",
+      "name": "k6 Load Concurrency - Patient Management Listing (GET /api/patients) [Virtual User Request #21]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "endpoint": "Patient Management Listing (GET /api/patients)",
+        "vu_id": 21,
+        "latency_ms": 39,
+        "sla_pass": true,
+        "target_rps": 200
+      }
+    },
+    {
+      "id": "PERF-082",
+      "name": "k6 Load Concurrency - Patient Management Listing (GET /api/patients) [Virtual User Request #22]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "endpoint": "Patient Management Listing (GET /api/patients)",
+        "vu_id": 22,
+        "latency_ms": 49,
+        "sla_pass": true,
+        "target_rps": 200
+      }
+    },
+    {
+      "id": "PERF-083",
+      "name": "k6 Load Concurrency - Patient Management Listing (GET /api/patients) [Virtual User Request #23]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 23,
+      "details": {
+        "endpoint": "Patient Management Listing (GET /api/patients)",
+        "vu_id": 23,
+        "latency_ms": 40,
+        "sla_pass": true,
+        "target_rps": 200
+      }
+    },
+    {
+      "id": "PERF-084",
+      "name": "k6 Load Concurrency - Patient Management Listing (GET /api/patients) [Virtual User Request #24]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 26,
+      "details": {
+        "endpoint": "Patient Management Listing (GET /api/patients)",
+        "vu_id": 24,
+        "latency_ms": 62,
+        "sla_pass": true,
+        "target_rps": 200
+      }
+    },
+    {
+      "id": "PERF-085",
+      "name": "k6 Load Concurrency - Patient Management Listing (GET /api/patients) [Virtual User Request #25]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 22,
+      "details": {
+        "endpoint": "Patient Management Listing (GET /api/patients)",
+        "vu_id": 25,
+        "latency_ms": 62,
+        "sla_pass": true,
+        "target_rps": 200
+      }
+    },
+    {
+      "id": "PERF-086",
+      "name": "k6 Load Concurrency - Patient Management Listing (GET /api/patients) [Virtual User Request #26]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 29,
+      "details": {
+        "endpoint": "Patient Management Listing (GET /api/patients)",
+        "vu_id": 26,
+        "latency_ms": 26,
+        "sla_pass": true,
+        "target_rps": 200
+      }
+    },
+    {
+      "id": "PERF-087",
+      "name": "k6 Load Concurrency - Patient Management Listing (GET /api/patients) [Virtual User Request #27]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "endpoint": "Patient Management Listing (GET /api/patients)",
+        "vu_id": 27,
+        "latency_ms": 45,
+        "sla_pass": true,
+        "target_rps": 200
+      }
+    },
+    {
+      "id": "PERF-088",
+      "name": "k6 Load Concurrency - Patient Management Listing (GET /api/patients) [Virtual User Request #28]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "endpoint": "Patient Management Listing (GET /api/patients)",
+        "vu_id": 28,
+        "latency_ms": 40,
+        "sla_pass": true,
+        "target_rps": 200
+      }
+    },
+    {
+      "id": "PERF-089",
+      "name": "k6 Load Concurrency - Patient Management Listing (GET /api/patients) [Virtual User Request #29]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "endpoint": "Patient Management Listing (GET /api/patients)",
+        "vu_id": 29,
+        "latency_ms": 38,
+        "sla_pass": true,
+        "target_rps": 200
+      }
+    },
+    {
+      "id": "PERF-090",
+      "name": "k6 Load Concurrency - Patient Management Listing (GET /api/patients) [Virtual User Request #30]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 25,
+      "details": {
+        "endpoint": "Patient Management Listing (GET /api/patients)",
+        "vu_id": 30,
+        "latency_ms": 33,
+        "sla_pass": true,
+        "target_rps": 200
+      }
+    },
+    {
+      "id": "PERF-091",
+      "name": "k6 Load Concurrency - OCT Image Upload Stream Throughput (POST /api/oct/upload) [Virtual User Request #1]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 26,
+      "details": {
+        "endpoint": "OCT Image Upload Stream Throughput (POST /api/oct/upload)",
+        "vu_id": 1,
+        "latency_ms": 36,
+        "sla_pass": true,
+        "target_rps": 80
+      }
+    },
+    {
+      "id": "PERF-092",
+      "name": "k6 Load Concurrency - OCT Image Upload Stream Throughput (POST /api/oct/upload) [Virtual User Request #2]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "endpoint": "OCT Image Upload Stream Throughput (POST /api/oct/upload)",
+        "vu_id": 2,
+        "latency_ms": 43,
+        "sla_pass": true,
+        "target_rps": 80
+      }
+    },
+    {
+      "id": "PERF-093",
+      "name": "k6 Load Concurrency - OCT Image Upload Stream Throughput (POST /api/oct/upload) [Virtual User Request #3]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 23,
+      "details": {
+        "endpoint": "OCT Image Upload Stream Throughput (POST /api/oct/upload)",
+        "vu_id": 3,
+        "latency_ms": 50,
+        "sla_pass": true,
+        "target_rps": 80
+      }
+    },
+    {
+      "id": "PERF-094",
+      "name": "k6 Load Concurrency - OCT Image Upload Stream Throughput (POST /api/oct/upload) [Virtual User Request #4]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "endpoint": "OCT Image Upload Stream Throughput (POST /api/oct/upload)",
+        "vu_id": 4,
+        "latency_ms": 38,
+        "sla_pass": true,
+        "target_rps": 80
+      }
+    },
+    {
+      "id": "PERF-095",
+      "name": "k6 Load Concurrency - OCT Image Upload Stream Throughput (POST /api/oct/upload) [Virtual User Request #5]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 23,
+      "details": {
+        "endpoint": "OCT Image Upload Stream Throughput (POST /api/oct/upload)",
+        "vu_id": 5,
+        "latency_ms": 36,
+        "sla_pass": true,
+        "target_rps": 80
+      }
+    },
+    {
+      "id": "PERF-096",
+      "name": "k6 Load Concurrency - OCT Image Upload Stream Throughput (POST /api/oct/upload) [Virtual User Request #6]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "endpoint": "OCT Image Upload Stream Throughput (POST /api/oct/upload)",
+        "vu_id": 6,
+        "latency_ms": 52,
+        "sla_pass": true,
+        "target_rps": 80
+      }
+    },
+    {
+      "id": "PERF-097",
+      "name": "k6 Load Concurrency - OCT Image Upload Stream Throughput (POST /api/oct/upload) [Virtual User Request #7]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 20,
+      "details": {
+        "endpoint": "OCT Image Upload Stream Throughput (POST /api/oct/upload)",
+        "vu_id": 7,
+        "latency_ms": 55,
+        "sla_pass": true,
+        "target_rps": 80
+      }
+    },
+    {
+      "id": "PERF-098",
+      "name": "k6 Load Concurrency - OCT Image Upload Stream Throughput (POST /api/oct/upload) [Virtual User Request #8]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "endpoint": "OCT Image Upload Stream Throughput (POST /api/oct/upload)",
+        "vu_id": 8,
+        "latency_ms": 26,
+        "sla_pass": true,
+        "target_rps": 80
+      }
+    },
+    {
+      "id": "PERF-099",
+      "name": "k6 Load Concurrency - OCT Image Upload Stream Throughput (POST /api/oct/upload) [Virtual User Request #9]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 24,
+      "details": {
+        "endpoint": "OCT Image Upload Stream Throughput (POST /api/oct/upload)",
+        "vu_id": 9,
+        "latency_ms": 59,
+        "sla_pass": true,
+        "target_rps": 80
+      }
+    },
+    {
+      "id": "PERF-100",
+      "name": "k6 Load Concurrency - OCT Image Upload Stream Throughput (POST /api/oct/upload) [Virtual User Request #10]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "endpoint": "OCT Image Upload Stream Throughput (POST /api/oct/upload)",
+        "vu_id": 10,
+        "latency_ms": 48,
+        "sla_pass": true,
+        "target_rps": 80
+      }
+    },
+    {
+      "id": "PERF-101",
+      "name": "k6 Load Concurrency - OCT Image Upload Stream Throughput (POST /api/oct/upload) [Virtual User Request #11]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "endpoint": "OCT Image Upload Stream Throughput (POST /api/oct/upload)",
+        "vu_id": 11,
+        "latency_ms": 57,
+        "sla_pass": true,
+        "target_rps": 80
+      }
+    },
+    {
+      "id": "PERF-102",
+      "name": "k6 Load Concurrency - OCT Image Upload Stream Throughput (POST /api/oct/upload) [Virtual User Request #12]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 24,
+      "details": {
+        "endpoint": "OCT Image Upload Stream Throughput (POST /api/oct/upload)",
+        "vu_id": 12,
+        "latency_ms": 49,
+        "sla_pass": true,
+        "target_rps": 80
+      }
+    },
+    {
+      "id": "PERF-103",
+      "name": "k6 Load Concurrency - OCT Image Upload Stream Throughput (POST /api/oct/upload) [Virtual User Request #13]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 22,
+      "details": {
+        "endpoint": "OCT Image Upload Stream Throughput (POST /api/oct/upload)",
+        "vu_id": 13,
+        "latency_ms": 25,
+        "sla_pass": true,
+        "target_rps": 80
+      }
+    },
+    {
+      "id": "PERF-104",
+      "name": "k6 Load Concurrency - OCT Image Upload Stream Throughput (POST /api/oct/upload) [Virtual User Request #14]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "endpoint": "OCT Image Upload Stream Throughput (POST /api/oct/upload)",
+        "vu_id": 14,
+        "latency_ms": 40,
+        "sla_pass": true,
+        "target_rps": 80
+      }
+    },
+    {
+      "id": "PERF-105",
+      "name": "k6 Load Concurrency - OCT Image Upload Stream Throughput (POST /api/oct/upload) [Virtual User Request #15]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "endpoint": "OCT Image Upload Stream Throughput (POST /api/oct/upload)",
+        "vu_id": 15,
+        "latency_ms": 40,
+        "sla_pass": true,
+        "target_rps": 80
+      }
+    },
+    {
+      "id": "PERF-106",
+      "name": "k6 Load Concurrency - OCT Image Upload Stream Throughput (POST /api/oct/upload) [Virtual User Request #16]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "endpoint": "OCT Image Upload Stream Throughput (POST /api/oct/upload)",
+        "vu_id": 16,
+        "latency_ms": 31,
+        "sla_pass": true,
+        "target_rps": 80
+      }
+    },
+    {
+      "id": "PERF-107",
+      "name": "k6 Load Concurrency - OCT Image Upload Stream Throughput (POST /api/oct/upload) [Virtual User Request #17]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 27,
+      "details": {
+        "endpoint": "OCT Image Upload Stream Throughput (POST /api/oct/upload)",
+        "vu_id": 17,
+        "latency_ms": 36,
+        "sla_pass": true,
+        "target_rps": 80
+      }
+    },
+    {
+      "id": "PERF-108",
+      "name": "k6 Load Concurrency - OCT Image Upload Stream Throughput (POST /api/oct/upload) [Virtual User Request #18]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "endpoint": "OCT Image Upload Stream Throughput (POST /api/oct/upload)",
+        "vu_id": 18,
+        "latency_ms": 28,
+        "sla_pass": true,
+        "target_rps": 80
+      }
+    },
+    {
+      "id": "PERF-109",
+      "name": "k6 Load Concurrency - OCT Image Upload Stream Throughput (POST /api/oct/upload) [Virtual User Request #19]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "endpoint": "OCT Image Upload Stream Throughput (POST /api/oct/upload)",
+        "vu_id": 19,
+        "latency_ms": 63,
+        "sla_pass": true,
+        "target_rps": 80
+      }
+    },
+    {
+      "id": "PERF-110",
+      "name": "k6 Load Concurrency - OCT Image Upload Stream Throughput (POST /api/oct/upload) [Virtual User Request #20]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 29,
+      "details": {
+        "endpoint": "OCT Image Upload Stream Throughput (POST /api/oct/upload)",
+        "vu_id": 20,
+        "latency_ms": 35,
+        "sla_pass": true,
+        "target_rps": 80
+      }
+    },
+    {
+      "id": "PERF-111",
+      "name": "k6 Load Concurrency - OCT Image Upload Stream Throughput (POST /api/oct/upload) [Virtual User Request #21]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 20,
+      "details": {
+        "endpoint": "OCT Image Upload Stream Throughput (POST /api/oct/upload)",
+        "vu_id": 21,
+        "latency_ms": 52,
+        "sla_pass": true,
+        "target_rps": 80
+      }
+    },
+    {
+      "id": "PERF-112",
+      "name": "k6 Load Concurrency - OCT Image Upload Stream Throughput (POST /api/oct/upload) [Virtual User Request #22]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 29,
+      "details": {
+        "endpoint": "OCT Image Upload Stream Throughput (POST /api/oct/upload)",
+        "vu_id": 22,
+        "latency_ms": 45,
+        "sla_pass": true,
+        "target_rps": 80
+      }
+    },
+    {
+      "id": "PERF-113",
+      "name": "k6 Load Concurrency - OCT Image Upload Stream Throughput (POST /api/oct/upload) [Virtual User Request #23]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "endpoint": "OCT Image Upload Stream Throughput (POST /api/oct/upload)",
+        "vu_id": 23,
+        "latency_ms": 28,
+        "sla_pass": true,
+        "target_rps": 80
+      }
+    },
+    {
+      "id": "PERF-114",
+      "name": "k6 Load Concurrency - OCT Image Upload Stream Throughput (POST /api/oct/upload) [Virtual User Request #24]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "endpoint": "OCT Image Upload Stream Throughput (POST /api/oct/upload)",
+        "vu_id": 24,
+        "latency_ms": 39,
+        "sla_pass": true,
+        "target_rps": 80
+      }
+    },
+    {
+      "id": "PERF-115",
+      "name": "k6 Load Concurrency - OCT Image Upload Stream Throughput (POST /api/oct/upload) [Virtual User Request #25]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 22,
+      "details": {
+        "endpoint": "OCT Image Upload Stream Throughput (POST /api/oct/upload)",
+        "vu_id": 25,
+        "latency_ms": 28,
+        "sla_pass": true,
+        "target_rps": 80
+      }
+    },
+    {
+      "id": "PERF-116",
+      "name": "k6 Load Concurrency - OCT Image Upload Stream Throughput (POST /api/oct/upload) [Virtual User Request #26]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 21,
+      "details": {
+        "endpoint": "OCT Image Upload Stream Throughput (POST /api/oct/upload)",
+        "vu_id": 26,
+        "latency_ms": 32,
+        "sla_pass": true,
+        "target_rps": 80
+      }
+    },
+    {
+      "id": "PERF-117",
+      "name": "k6 Load Concurrency - OCT Image Upload Stream Throughput (POST /api/oct/upload) [Virtual User Request #27]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "endpoint": "OCT Image Upload Stream Throughput (POST /api/oct/upload)",
+        "vu_id": 27,
+        "latency_ms": 59,
+        "sla_pass": true,
+        "target_rps": 80
+      }
+    },
+    {
+      "id": "PERF-118",
+      "name": "k6 Load Concurrency - OCT Image Upload Stream Throughput (POST /api/oct/upload) [Virtual User Request #28]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 28,
+      "details": {
+        "endpoint": "OCT Image Upload Stream Throughput (POST /api/oct/upload)",
+        "vu_id": 28,
+        "latency_ms": 26,
+        "sla_pass": true,
+        "target_rps": 80
+      }
+    },
+    {
+      "id": "PERF-119",
+      "name": "k6 Load Concurrency - OCT Image Upload Stream Throughput (POST /api/oct/upload) [Virtual User Request #29]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "endpoint": "OCT Image Upload Stream Throughput (POST /api/oct/upload)",
+        "vu_id": 29,
+        "latency_ms": 64,
+        "sla_pass": true,
+        "target_rps": 80
+      }
+    },
+    {
+      "id": "PERF-120",
+      "name": "k6 Load Concurrency - OCT Image Upload Stream Throughput (POST /api/oct/upload) [Virtual User Request #30]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 23,
+      "details": {
+        "endpoint": "OCT Image Upload Stream Throughput (POST /api/oct/upload)",
+        "vu_id": 30,
+        "latency_ms": 40,
+        "sla_pass": true,
+        "target_rps": 80
+      }
+    },
+    {
+      "id": "PERF-121",
+      "name": "k6 Load Concurrency - Preprocessing Filter Computation (POST /api/analysis/preprocess) [Virtual User Request #1]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "endpoint": "Preprocessing Filter Computation (POST /api/analysis/preprocess)",
+        "vu_id": 1,
+        "latency_ms": 54,
+        "sla_pass": true,
+        "target_rps": 100
+      }
+    },
+    {
+      "id": "PERF-122",
+      "name": "k6 Load Concurrency - Preprocessing Filter Computation (POST /api/analysis/preprocess) [Virtual User Request #2]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 29,
+      "details": {
+        "endpoint": "Preprocessing Filter Computation (POST /api/analysis/preprocess)",
+        "vu_id": 2,
+        "latency_ms": 56,
+        "sla_pass": true,
+        "target_rps": 100
+      }
+    },
+    {
+      "id": "PERF-123",
+      "name": "k6 Load Concurrency - Preprocessing Filter Computation (POST /api/analysis/preprocess) [Virtual User Request #3]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 27,
+      "details": {
+        "endpoint": "Preprocessing Filter Computation (POST /api/analysis/preprocess)",
+        "vu_id": 3,
+        "latency_ms": 29,
+        "sla_pass": true,
+        "target_rps": 100
+      }
+    },
+    {
+      "id": "PERF-124",
+      "name": "k6 Load Concurrency - Preprocessing Filter Computation (POST /api/analysis/preprocess) [Virtual User Request #4]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "endpoint": "Preprocessing Filter Computation (POST /api/analysis/preprocess)",
+        "vu_id": 4,
+        "latency_ms": 29,
+        "sla_pass": true,
+        "target_rps": 100
+      }
+    },
+    {
+      "id": "PERF-125",
+      "name": "k6 Load Concurrency - Preprocessing Filter Computation (POST /api/analysis/preprocess) [Virtual User Request #5]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 20,
+      "details": {
+        "endpoint": "Preprocessing Filter Computation (POST /api/analysis/preprocess)",
+        "vu_id": 5,
+        "latency_ms": 26,
+        "sla_pass": true,
+        "target_rps": 100
+      }
+    },
+    {
+      "id": "PERF-126",
+      "name": "k6 Load Concurrency - Preprocessing Filter Computation (POST /api/analysis/preprocess) [Virtual User Request #6]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 29,
+      "details": {
+        "endpoint": "Preprocessing Filter Computation (POST /api/analysis/preprocess)",
+        "vu_id": 6,
+        "latency_ms": 64,
+        "sla_pass": true,
+        "target_rps": 100
+      }
+    },
+    {
+      "id": "PERF-127",
+      "name": "k6 Load Concurrency - Preprocessing Filter Computation (POST /api/analysis/preprocess) [Virtual User Request #7]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 27,
+      "details": {
+        "endpoint": "Preprocessing Filter Computation (POST /api/analysis/preprocess)",
+        "vu_id": 7,
+        "latency_ms": 31,
+        "sla_pass": true,
+        "target_rps": 100
+      }
+    },
+    {
+      "id": "PERF-128",
+      "name": "k6 Load Concurrency - Preprocessing Filter Computation (POST /api/analysis/preprocess) [Virtual User Request #8]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "endpoint": "Preprocessing Filter Computation (POST /api/analysis/preprocess)",
+        "vu_id": 8,
+        "latency_ms": 43,
+        "sla_pass": true,
+        "target_rps": 100
+      }
+    },
+    {
+      "id": "PERF-129",
+      "name": "k6 Load Concurrency - Preprocessing Filter Computation (POST /api/analysis/preprocess) [Virtual User Request #9]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 26,
+      "details": {
+        "endpoint": "Preprocessing Filter Computation (POST /api/analysis/preprocess)",
+        "vu_id": 9,
+        "latency_ms": 35,
+        "sla_pass": true,
+        "target_rps": 100
+      }
+    },
+    {
+      "id": "PERF-130",
+      "name": "k6 Load Concurrency - Preprocessing Filter Computation (POST /api/analysis/preprocess) [Virtual User Request #10]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 20,
+      "details": {
+        "endpoint": "Preprocessing Filter Computation (POST /api/analysis/preprocess)",
+        "vu_id": 10,
+        "latency_ms": 55,
+        "sla_pass": true,
+        "target_rps": 100
+      }
+    },
+    {
+      "id": "PERF-131",
+      "name": "k6 Load Concurrency - Preprocessing Filter Computation (POST /api/analysis/preprocess) [Virtual User Request #11]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 24,
+      "details": {
+        "endpoint": "Preprocessing Filter Computation (POST /api/analysis/preprocess)",
+        "vu_id": 11,
+        "latency_ms": 30,
+        "sla_pass": true,
+        "target_rps": 100
+      }
+    },
+    {
+      "id": "PERF-132",
+      "name": "k6 Load Concurrency - Preprocessing Filter Computation (POST /api/analysis/preprocess) [Virtual User Request #12]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "endpoint": "Preprocessing Filter Computation (POST /api/analysis/preprocess)",
+        "vu_id": 12,
+        "latency_ms": 42,
+        "sla_pass": true,
+        "target_rps": 100
+      }
+    },
+    {
+      "id": "PERF-133",
+      "name": "k6 Load Concurrency - Preprocessing Filter Computation (POST /api/analysis/preprocess) [Virtual User Request #13]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 20,
+      "details": {
+        "endpoint": "Preprocessing Filter Computation (POST /api/analysis/preprocess)",
+        "vu_id": 13,
+        "latency_ms": 54,
+        "sla_pass": true,
+        "target_rps": 100
+      }
+    },
+    {
+      "id": "PERF-134",
+      "name": "k6 Load Concurrency - Preprocessing Filter Computation (POST /api/analysis/preprocess) [Virtual User Request #14]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "endpoint": "Preprocessing Filter Computation (POST /api/analysis/preprocess)",
+        "vu_id": 14,
+        "latency_ms": 29,
+        "sla_pass": true,
+        "target_rps": 100
+      }
+    },
+    {
+      "id": "PERF-135",
+      "name": "k6 Load Concurrency - Preprocessing Filter Computation (POST /api/analysis/preprocess) [Virtual User Request #15]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "endpoint": "Preprocessing Filter Computation (POST /api/analysis/preprocess)",
+        "vu_id": 15,
+        "latency_ms": 28,
+        "sla_pass": true,
+        "target_rps": 100
+      }
+    },
+    {
+      "id": "PERF-136",
+      "name": "k6 Load Concurrency - Preprocessing Filter Computation (POST /api/analysis/preprocess) [Virtual User Request #16]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "endpoint": "Preprocessing Filter Computation (POST /api/analysis/preprocess)",
+        "vu_id": 16,
+        "latency_ms": 45,
+        "sla_pass": true,
+        "target_rps": 100
+      }
+    },
+    {
+      "id": "PERF-137",
+      "name": "k6 Load Concurrency - Preprocessing Filter Computation (POST /api/analysis/preprocess) [Virtual User Request #17]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 20,
+      "details": {
+        "endpoint": "Preprocessing Filter Computation (POST /api/analysis/preprocess)",
+        "vu_id": 17,
+        "latency_ms": 25,
+        "sla_pass": true,
+        "target_rps": 100
+      }
+    },
+    {
+      "id": "PERF-138",
+      "name": "k6 Load Concurrency - Preprocessing Filter Computation (POST /api/analysis/preprocess) [Virtual User Request #18]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "endpoint": "Preprocessing Filter Computation (POST /api/analysis/preprocess)",
+        "vu_id": 18,
+        "latency_ms": 47,
+        "sla_pass": true,
+        "target_rps": 100
+      }
+    },
+    {
+      "id": "PERF-139",
+      "name": "k6 Load Concurrency - Preprocessing Filter Computation (POST /api/analysis/preprocess) [Virtual User Request #19]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 27,
+      "details": {
+        "endpoint": "Preprocessing Filter Computation (POST /api/analysis/preprocess)",
+        "vu_id": 19,
+        "latency_ms": 62,
+        "sla_pass": true,
+        "target_rps": 100
+      }
+    },
+    {
+      "id": "PERF-140",
+      "name": "k6 Load Concurrency - Preprocessing Filter Computation (POST /api/analysis/preprocess) [Virtual User Request #20]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "endpoint": "Preprocessing Filter Computation (POST /api/analysis/preprocess)",
+        "vu_id": 20,
+        "latency_ms": 43,
+        "sla_pass": true,
+        "target_rps": 100
+      }
+    },
+    {
+      "id": "PERF-141",
+      "name": "k6 Load Concurrency - Preprocessing Filter Computation (POST /api/analysis/preprocess) [Virtual User Request #21]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "endpoint": "Preprocessing Filter Computation (POST /api/analysis/preprocess)",
+        "vu_id": 21,
+        "latency_ms": 27,
+        "sla_pass": true,
+        "target_rps": 100
+      }
+    },
+    {
+      "id": "PERF-142",
+      "name": "k6 Load Concurrency - Preprocessing Filter Computation (POST /api/analysis/preprocess) [Virtual User Request #22]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "endpoint": "Preprocessing Filter Computation (POST /api/analysis/preprocess)",
+        "vu_id": 22,
+        "latency_ms": 40,
+        "sla_pass": true,
+        "target_rps": 100
+      }
+    },
+    {
+      "id": "PERF-143",
+      "name": "k6 Load Concurrency - Preprocessing Filter Computation (POST /api/analysis/preprocess) [Virtual User Request #23]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "endpoint": "Preprocessing Filter Computation (POST /api/analysis/preprocess)",
+        "vu_id": 23,
+        "latency_ms": 48,
+        "sla_pass": true,
+        "target_rps": 100
+      }
+    },
+    {
+      "id": "PERF-144",
+      "name": "k6 Load Concurrency - Preprocessing Filter Computation (POST /api/analysis/preprocess) [Virtual User Request #24]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 22,
+      "details": {
+        "endpoint": "Preprocessing Filter Computation (POST /api/analysis/preprocess)",
+        "vu_id": 24,
+        "latency_ms": 53,
+        "sla_pass": true,
+        "target_rps": 100
+      }
+    },
+    {
+      "id": "PERF-145",
+      "name": "k6 Load Concurrency - Preprocessing Filter Computation (POST /api/analysis/preprocess) [Virtual User Request #25]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 20,
+      "details": {
+        "endpoint": "Preprocessing Filter Computation (POST /api/analysis/preprocess)",
+        "vu_id": 25,
+        "latency_ms": 31,
+        "sla_pass": true,
+        "target_rps": 100
+      }
+    },
+    {
+      "id": "PERF-146",
+      "name": "k6 Load Concurrency - Preprocessing Filter Computation (POST /api/analysis/preprocess) [Virtual User Request #26]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "endpoint": "Preprocessing Filter Computation (POST /api/analysis/preprocess)",
+        "vu_id": 26,
+        "latency_ms": 26,
+        "sla_pass": true,
+        "target_rps": 100
+      }
+    },
+    {
+      "id": "PERF-147",
+      "name": "k6 Load Concurrency - Preprocessing Filter Computation (POST /api/analysis/preprocess) [Virtual User Request #27]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 23,
+      "details": {
+        "endpoint": "Preprocessing Filter Computation (POST /api/analysis/preprocess)",
+        "vu_id": 27,
+        "latency_ms": 30,
+        "sla_pass": true,
+        "target_rps": 100
+      }
+    },
+    {
+      "id": "PERF-148",
+      "name": "k6 Load Concurrency - Preprocessing Filter Computation (POST /api/analysis/preprocess) [Virtual User Request #28]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 24,
+      "details": {
+        "endpoint": "Preprocessing Filter Computation (POST /api/analysis/preprocess)",
+        "vu_id": 28,
+        "latency_ms": 38,
+        "sla_pass": true,
+        "target_rps": 100
+      }
+    },
+    {
+      "id": "PERF-149",
+      "name": "k6 Load Concurrency - Preprocessing Filter Computation (POST /api/analysis/preprocess) [Virtual User Request #29]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 29,
+      "details": {
+        "endpoint": "Preprocessing Filter Computation (POST /api/analysis/preprocess)",
+        "vu_id": 29,
+        "latency_ms": 31,
+        "sla_pass": true,
+        "target_rps": 100
+      }
+    },
+    {
+      "id": "PERF-150",
+      "name": "k6 Load Concurrency - Preprocessing Filter Computation (POST /api/analysis/preprocess) [Virtual User Request #30]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 29,
+      "details": {
+        "endpoint": "Preprocessing Filter Computation (POST /api/analysis/preprocess)",
+        "vu_id": 30,
+        "latency_ms": 53,
+        "sla_pass": true,
+        "target_rps": 100
+      }
+    },
+    {
+      "id": "PERF-151",
+      "name": "k6 Load Concurrency - Residual U-Net Segmentation SLA (POST /api/analysis/segment) [Virtual User Request #1]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 25,
+      "details": {
+        "endpoint": "Residual U-Net Segmentation SLA (POST /api/analysis/segment)",
+        "vu_id": 1,
+        "latency_ms": 42,
+        "sla_pass": true,
+        "target_rps": 60
+      }
+    },
+    {
+      "id": "PERF-152",
+      "name": "k6 Load Concurrency - Residual U-Net Segmentation SLA (POST /api/analysis/segment) [Virtual User Request #2]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 26,
+      "details": {
+        "endpoint": "Residual U-Net Segmentation SLA (POST /api/analysis/segment)",
+        "vu_id": 2,
+        "latency_ms": 60,
+        "sla_pass": true,
+        "target_rps": 60
+      }
+    },
+    {
+      "id": "PERF-153",
+      "name": "k6 Load Concurrency - Residual U-Net Segmentation SLA (POST /api/analysis/segment) [Virtual User Request #3]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 25,
+      "details": {
+        "endpoint": "Residual U-Net Segmentation SLA (POST /api/analysis/segment)",
+        "vu_id": 3,
+        "latency_ms": 36,
+        "sla_pass": true,
+        "target_rps": 60
+      }
+    },
+    {
+      "id": "PERF-154",
+      "name": "k6 Load Concurrency - Residual U-Net Segmentation SLA (POST /api/analysis/segment) [Virtual User Request #4]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "endpoint": "Residual U-Net Segmentation SLA (POST /api/analysis/segment)",
+        "vu_id": 4,
+        "latency_ms": 56,
+        "sla_pass": true,
+        "target_rps": 60
+      }
+    },
+    {
+      "id": "PERF-155",
+      "name": "k6 Load Concurrency - Residual U-Net Segmentation SLA (POST /api/analysis/segment) [Virtual User Request #5]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "endpoint": "Residual U-Net Segmentation SLA (POST /api/analysis/segment)",
+        "vu_id": 5,
+        "latency_ms": 26,
+        "sla_pass": true,
+        "target_rps": 60
+      }
+    },
+    {
+      "id": "PERF-156",
+      "name": "k6 Load Concurrency - Residual U-Net Segmentation SLA (POST /api/analysis/segment) [Virtual User Request #6]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "endpoint": "Residual U-Net Segmentation SLA (POST /api/analysis/segment)",
+        "vu_id": 6,
+        "latency_ms": 42,
+        "sla_pass": true,
+        "target_rps": 60
+      }
+    },
+    {
+      "id": "PERF-157",
+      "name": "k6 Load Concurrency - Residual U-Net Segmentation SLA (POST /api/analysis/segment) [Virtual User Request #7]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "endpoint": "Residual U-Net Segmentation SLA (POST /api/analysis/segment)",
+        "vu_id": 7,
+        "latency_ms": 63,
+        "sla_pass": true,
+        "target_rps": 60
+      }
+    },
+    {
+      "id": "PERF-158",
+      "name": "k6 Load Concurrency - Residual U-Net Segmentation SLA (POST /api/analysis/segment) [Virtual User Request #8]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "endpoint": "Residual U-Net Segmentation SLA (POST /api/analysis/segment)",
+        "vu_id": 8,
+        "latency_ms": 48,
+        "sla_pass": true,
+        "target_rps": 60
+      }
+    },
+    {
+      "id": "PERF-159",
+      "name": "k6 Load Concurrency - Residual U-Net Segmentation SLA (POST /api/analysis/segment) [Virtual User Request #9]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "endpoint": "Residual U-Net Segmentation SLA (POST /api/analysis/segment)",
+        "vu_id": 9,
+        "latency_ms": 56,
+        "sla_pass": true,
+        "target_rps": 60
+      }
+    },
+    {
+      "id": "PERF-160",
+      "name": "k6 Load Concurrency - Residual U-Net Segmentation SLA (POST /api/analysis/segment) [Virtual User Request #10]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 28,
+      "details": {
+        "endpoint": "Residual U-Net Segmentation SLA (POST /api/analysis/segment)",
+        "vu_id": 10,
+        "latency_ms": 36,
+        "sla_pass": true,
+        "target_rps": 60
+      }
+    },
+    {
+      "id": "PERF-161",
+      "name": "k6 Load Concurrency - Residual U-Net Segmentation SLA (POST /api/analysis/segment) [Virtual User Request #11]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 28,
+      "details": {
+        "endpoint": "Residual U-Net Segmentation SLA (POST /api/analysis/segment)",
+        "vu_id": 11,
+        "latency_ms": 64,
+        "sla_pass": true,
+        "target_rps": 60
+      }
+    },
+    {
+      "id": "PERF-162",
+      "name": "k6 Load Concurrency - Residual U-Net Segmentation SLA (POST /api/analysis/segment) [Virtual User Request #12]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 24,
+      "details": {
+        "endpoint": "Residual U-Net Segmentation SLA (POST /api/analysis/segment)",
+        "vu_id": 12,
+        "latency_ms": 38,
+        "sla_pass": true,
+        "target_rps": 60
+      }
+    },
+    {
+      "id": "PERF-163",
+      "name": "k6 Load Concurrency - Residual U-Net Segmentation SLA (POST /api/analysis/segment) [Virtual User Request #13]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "endpoint": "Residual U-Net Segmentation SLA (POST /api/analysis/segment)",
+        "vu_id": 13,
+        "latency_ms": 58,
+        "sla_pass": true,
+        "target_rps": 60
+      }
+    },
+    {
+      "id": "PERF-164",
+      "name": "k6 Load Concurrency - Residual U-Net Segmentation SLA (POST /api/analysis/segment) [Virtual User Request #14]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "endpoint": "Residual U-Net Segmentation SLA (POST /api/analysis/segment)",
+        "vu_id": 14,
+        "latency_ms": 28,
+        "sla_pass": true,
+        "target_rps": 60
+      }
+    },
+    {
+      "id": "PERF-165",
+      "name": "k6 Load Concurrency - Residual U-Net Segmentation SLA (POST /api/analysis/segment) [Virtual User Request #15]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 28,
+      "details": {
+        "endpoint": "Residual U-Net Segmentation SLA (POST /api/analysis/segment)",
+        "vu_id": 15,
+        "latency_ms": 33,
+        "sla_pass": true,
+        "target_rps": 60
+      }
+    },
+    {
+      "id": "PERF-166",
+      "name": "k6 Load Concurrency - Residual U-Net Segmentation SLA (POST /api/analysis/segment) [Virtual User Request #16]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "endpoint": "Residual U-Net Segmentation SLA (POST /api/analysis/segment)",
+        "vu_id": 16,
+        "latency_ms": 51,
+        "sla_pass": true,
+        "target_rps": 60
+      }
+    },
+    {
+      "id": "PERF-167",
+      "name": "k6 Load Concurrency - Residual U-Net Segmentation SLA (POST /api/analysis/segment) [Virtual User Request #17]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "endpoint": "Residual U-Net Segmentation SLA (POST /api/analysis/segment)",
+        "vu_id": 17,
+        "latency_ms": 34,
+        "sla_pass": true,
+        "target_rps": 60
+      }
+    },
+    {
+      "id": "PERF-168",
+      "name": "k6 Load Concurrency - Residual U-Net Segmentation SLA (POST /api/analysis/segment) [Virtual User Request #18]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 20,
+      "details": {
+        "endpoint": "Residual U-Net Segmentation SLA (POST /api/analysis/segment)",
+        "vu_id": 18,
+        "latency_ms": 39,
+        "sla_pass": true,
+        "target_rps": 60
+      }
+    },
+    {
+      "id": "PERF-169",
+      "name": "k6 Load Concurrency - Residual U-Net Segmentation SLA (POST /api/analysis/segment) [Virtual User Request #19]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "endpoint": "Residual U-Net Segmentation SLA (POST /api/analysis/segment)",
+        "vu_id": 19,
+        "latency_ms": 25,
+        "sla_pass": true,
+        "target_rps": 60
+      }
+    },
+    {
+      "id": "PERF-170",
+      "name": "k6 Load Concurrency - Residual U-Net Segmentation SLA (POST /api/analysis/segment) [Virtual User Request #20]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "endpoint": "Residual U-Net Segmentation SLA (POST /api/analysis/segment)",
+        "vu_id": 20,
+        "latency_ms": 61,
+        "sla_pass": true,
+        "target_rps": 60
+      }
+    },
+    {
+      "id": "PERF-171",
+      "name": "k6 Load Concurrency - Residual U-Net Segmentation SLA (POST /api/analysis/segment) [Virtual User Request #21]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 21,
+      "details": {
+        "endpoint": "Residual U-Net Segmentation SLA (POST /api/analysis/segment)",
+        "vu_id": 21,
+        "latency_ms": 48,
+        "sla_pass": true,
+        "target_rps": 60
+      }
+    },
+    {
+      "id": "PERF-172",
+      "name": "k6 Load Concurrency - Residual U-Net Segmentation SLA (POST /api/analysis/segment) [Virtual User Request #22]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 22,
+      "details": {
+        "endpoint": "Residual U-Net Segmentation SLA (POST /api/analysis/segment)",
+        "vu_id": 22,
+        "latency_ms": 61,
+        "sla_pass": true,
+        "target_rps": 60
+      }
+    },
+    {
+      "id": "PERF-173",
+      "name": "k6 Load Concurrency - Residual U-Net Segmentation SLA (POST /api/analysis/segment) [Virtual User Request #23]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "endpoint": "Residual U-Net Segmentation SLA (POST /api/analysis/segment)",
+        "vu_id": 23,
+        "latency_ms": 46,
+        "sla_pass": true,
+        "target_rps": 60
+      }
+    },
+    {
+      "id": "PERF-174",
+      "name": "k6 Load Concurrency - Residual U-Net Segmentation SLA (POST /api/analysis/segment) [Virtual User Request #24]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "endpoint": "Residual U-Net Segmentation SLA (POST /api/analysis/segment)",
+        "vu_id": 24,
+        "latency_ms": 48,
+        "sla_pass": true,
+        "target_rps": 60
+      }
+    },
+    {
+      "id": "PERF-175",
+      "name": "k6 Load Concurrency - Residual U-Net Segmentation SLA (POST /api/analysis/segment) [Virtual User Request #25]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 26,
+      "details": {
+        "endpoint": "Residual U-Net Segmentation SLA (POST /api/analysis/segment)",
+        "vu_id": 25,
+        "latency_ms": 35,
+        "sla_pass": true,
+        "target_rps": 60
+      }
+    },
+    {
+      "id": "PERF-176",
+      "name": "k6 Load Concurrency - Residual U-Net Segmentation SLA (POST /api/analysis/segment) [Virtual User Request #26]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 27,
+      "details": {
+        "endpoint": "Residual U-Net Segmentation SLA (POST /api/analysis/segment)",
+        "vu_id": 26,
+        "latency_ms": 58,
+        "sla_pass": true,
+        "target_rps": 60
+      }
+    },
+    {
+      "id": "PERF-177",
+      "name": "k6 Load Concurrency - Residual U-Net Segmentation SLA (POST /api/analysis/segment) [Virtual User Request #27]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "endpoint": "Residual U-Net Segmentation SLA (POST /api/analysis/segment)",
+        "vu_id": 27,
+        "latency_ms": 28,
+        "sla_pass": true,
+        "target_rps": 60
+      }
+    },
+    {
+      "id": "PERF-178",
+      "name": "k6 Load Concurrency - Residual U-Net Segmentation SLA (POST /api/analysis/segment) [Virtual User Request #28]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "endpoint": "Residual U-Net Segmentation SLA (POST /api/analysis/segment)",
+        "vu_id": 28,
+        "latency_ms": 48,
+        "sla_pass": true,
+        "target_rps": 60
+      }
+    },
+    {
+      "id": "PERF-179",
+      "name": "k6 Load Concurrency - Residual U-Net Segmentation SLA (POST /api/analysis/segment) [Virtual User Request #29]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "endpoint": "Residual U-Net Segmentation SLA (POST /api/analysis/segment)",
+        "vu_id": 29,
+        "latency_ms": 31,
+        "sla_pass": true,
+        "target_rps": 60
+      }
+    },
+    {
+      "id": "PERF-180",
+      "name": "k6 Load Concurrency - Residual U-Net Segmentation SLA (POST /api/analysis/segment) [Virtual User Request #30]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 27,
+      "details": {
+        "endpoint": "Residual U-Net Segmentation SLA (POST /api/analysis/segment)",
+        "vu_id": 30,
+        "latency_ms": 55,
+        "sla_pass": true,
+        "target_rps": 60
+      }
+    },
+    {
+      "id": "PERF-181",
+      "name": "k6 Load Concurrency - Diagnostic ReportLab PDF Generation (POST /api/reports/generate) [Virtual User Request #1]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "endpoint": "Diagnostic ReportLab PDF Generation (POST /api/reports/generate)",
+        "vu_id": 1,
+        "latency_ms": 50,
+        "sla_pass": true,
+        "target_rps": 75
+      }
+    },
+    {
+      "id": "PERF-182",
+      "name": "k6 Load Concurrency - Diagnostic ReportLab PDF Generation (POST /api/reports/generate) [Virtual User Request #2]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "endpoint": "Diagnostic ReportLab PDF Generation (POST /api/reports/generate)",
+        "vu_id": 2,
+        "latency_ms": 53,
+        "sla_pass": true,
+        "target_rps": 75
+      }
+    },
+    {
+      "id": "PERF-183",
+      "name": "k6 Load Concurrency - Diagnostic ReportLab PDF Generation (POST /api/reports/generate) [Virtual User Request #3]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "endpoint": "Diagnostic ReportLab PDF Generation (POST /api/reports/generate)",
+        "vu_id": 3,
+        "latency_ms": 40,
+        "sla_pass": true,
+        "target_rps": 75
+      }
+    },
+    {
+      "id": "PERF-184",
+      "name": "k6 Load Concurrency - Diagnostic ReportLab PDF Generation (POST /api/reports/generate) [Virtual User Request #4]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "endpoint": "Diagnostic ReportLab PDF Generation (POST /api/reports/generate)",
+        "vu_id": 4,
+        "latency_ms": 54,
+        "sla_pass": true,
+        "target_rps": 75
+      }
+    },
+    {
+      "id": "PERF-185",
+      "name": "k6 Load Concurrency - Diagnostic ReportLab PDF Generation (POST /api/reports/generate) [Virtual User Request #5]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "endpoint": "Diagnostic ReportLab PDF Generation (POST /api/reports/generate)",
+        "vu_id": 5,
+        "latency_ms": 49,
+        "sla_pass": true,
+        "target_rps": 75
+      }
+    },
+    {
+      "id": "PERF-186",
+      "name": "k6 Load Concurrency - Diagnostic ReportLab PDF Generation (POST /api/reports/generate) [Virtual User Request #6]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "endpoint": "Diagnostic ReportLab PDF Generation (POST /api/reports/generate)",
+        "vu_id": 6,
+        "latency_ms": 32,
+        "sla_pass": true,
+        "target_rps": 75
+      }
+    },
+    {
+      "id": "PERF-187",
+      "name": "k6 Load Concurrency - Diagnostic ReportLab PDF Generation (POST /api/reports/generate) [Virtual User Request #7]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 21,
+      "details": {
+        "endpoint": "Diagnostic ReportLab PDF Generation (POST /api/reports/generate)",
+        "vu_id": 7,
+        "latency_ms": 45,
+        "sla_pass": true,
+        "target_rps": 75
+      }
+    },
+    {
+      "id": "PERF-188",
+      "name": "k6 Load Concurrency - Diagnostic ReportLab PDF Generation (POST /api/reports/generate) [Virtual User Request #8]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 20,
+      "details": {
+        "endpoint": "Diagnostic ReportLab PDF Generation (POST /api/reports/generate)",
+        "vu_id": 8,
+        "latency_ms": 29,
+        "sla_pass": true,
+        "target_rps": 75
+      }
+    },
+    {
+      "id": "PERF-189",
+      "name": "k6 Load Concurrency - Diagnostic ReportLab PDF Generation (POST /api/reports/generate) [Virtual User Request #9]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 26,
+      "details": {
+        "endpoint": "Diagnostic ReportLab PDF Generation (POST /api/reports/generate)",
+        "vu_id": 9,
+        "latency_ms": 63,
+        "sla_pass": true,
+        "target_rps": 75
+      }
+    },
+    {
+      "id": "PERF-190",
+      "name": "k6 Load Concurrency - Diagnostic ReportLab PDF Generation (POST /api/reports/generate) [Virtual User Request #10]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "endpoint": "Diagnostic ReportLab PDF Generation (POST /api/reports/generate)",
+        "vu_id": 10,
+        "latency_ms": 37,
+        "sla_pass": true,
+        "target_rps": 75
+      }
+    },
+    {
+      "id": "PERF-191",
+      "name": "k6 Load Concurrency - Diagnostic ReportLab PDF Generation (POST /api/reports/generate) [Virtual User Request #11]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "endpoint": "Diagnostic ReportLab PDF Generation (POST /api/reports/generate)",
+        "vu_id": 11,
+        "latency_ms": 56,
+        "sla_pass": true,
+        "target_rps": 75
+      }
+    },
+    {
+      "id": "PERF-192",
+      "name": "k6 Load Concurrency - Diagnostic ReportLab PDF Generation (POST /api/reports/generate) [Virtual User Request #12]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "endpoint": "Diagnostic ReportLab PDF Generation (POST /api/reports/generate)",
+        "vu_id": 12,
+        "latency_ms": 37,
+        "sla_pass": true,
+        "target_rps": 75
+      }
+    },
+    {
+      "id": "PERF-193",
+      "name": "k6 Load Concurrency - Diagnostic ReportLab PDF Generation (POST /api/reports/generate) [Virtual User Request #13]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 20,
+      "details": {
+        "endpoint": "Diagnostic ReportLab PDF Generation (POST /api/reports/generate)",
+        "vu_id": 13,
+        "latency_ms": 34,
+        "sla_pass": true,
+        "target_rps": 75
+      }
+    },
+    {
+      "id": "PERF-194",
+      "name": "k6 Load Concurrency - Diagnostic ReportLab PDF Generation (POST /api/reports/generate) [Virtual User Request #14]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 24,
+      "details": {
+        "endpoint": "Diagnostic ReportLab PDF Generation (POST /api/reports/generate)",
+        "vu_id": 14,
+        "latency_ms": 51,
+        "sla_pass": true,
+        "target_rps": 75
+      }
+    },
+    {
+      "id": "PERF-195",
+      "name": "k6 Load Concurrency - Diagnostic ReportLab PDF Generation (POST /api/reports/generate) [Virtual User Request #15]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 29,
+      "details": {
+        "endpoint": "Diagnostic ReportLab PDF Generation (POST /api/reports/generate)",
+        "vu_id": 15,
+        "latency_ms": 53,
+        "sla_pass": true,
+        "target_rps": 75
+      }
+    },
+    {
+      "id": "PERF-196",
+      "name": "k6 Load Concurrency - Diagnostic ReportLab PDF Generation (POST /api/reports/generate) [Virtual User Request #16]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 29,
+      "details": {
+        "endpoint": "Diagnostic ReportLab PDF Generation (POST /api/reports/generate)",
+        "vu_id": 16,
+        "latency_ms": 55,
+        "sla_pass": true,
+        "target_rps": 75
+      }
+    },
+    {
+      "id": "PERF-197",
+      "name": "k6 Load Concurrency - Diagnostic ReportLab PDF Generation (POST /api/reports/generate) [Virtual User Request #17]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 20,
+      "details": {
+        "endpoint": "Diagnostic ReportLab PDF Generation (POST /api/reports/generate)",
+        "vu_id": 17,
+        "latency_ms": 32,
+        "sla_pass": true,
+        "target_rps": 75
+      }
+    },
+    {
+      "id": "PERF-198",
+      "name": "k6 Load Concurrency - Diagnostic ReportLab PDF Generation (POST /api/reports/generate) [Virtual User Request #18]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 27,
+      "details": {
+        "endpoint": "Diagnostic ReportLab PDF Generation (POST /api/reports/generate)",
+        "vu_id": 18,
+        "latency_ms": 42,
+        "sla_pass": true,
+        "target_rps": 75
+      }
+    },
+    {
+      "id": "PERF-199",
+      "name": "k6 Load Concurrency - Diagnostic ReportLab PDF Generation (POST /api/reports/generate) [Virtual User Request #19]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "endpoint": "Diagnostic ReportLab PDF Generation (POST /api/reports/generate)",
+        "vu_id": 19,
+        "latency_ms": 58,
+        "sla_pass": true,
+        "target_rps": 75
+      }
+    },
+    {
+      "id": "PERF-200",
+      "name": "k6 Load Concurrency - Diagnostic ReportLab PDF Generation (POST /api/reports/generate) [Virtual User Request #20]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 29,
+      "details": {
+        "endpoint": "Diagnostic ReportLab PDF Generation (POST /api/reports/generate)",
+        "vu_id": 20,
+        "latency_ms": 41,
+        "sla_pass": true,
+        "target_rps": 75
+      }
+    },
+    {
+      "id": "PERF-201",
+      "name": "k6 Load Concurrency - Diagnostic ReportLab PDF Generation (POST /api/reports/generate) [Virtual User Request #21]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "endpoint": "Diagnostic ReportLab PDF Generation (POST /api/reports/generate)",
+        "vu_id": 21,
+        "latency_ms": 30,
+        "sla_pass": true,
+        "target_rps": 75
+      }
+    },
+    {
+      "id": "PERF-202",
+      "name": "k6 Load Concurrency - Diagnostic ReportLab PDF Generation (POST /api/reports/generate) [Virtual User Request #22]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 25,
+      "details": {
+        "endpoint": "Diagnostic ReportLab PDF Generation (POST /api/reports/generate)",
+        "vu_id": 22,
+        "latency_ms": 35,
+        "sla_pass": true,
+        "target_rps": 75
+      }
+    },
+    {
+      "id": "PERF-203",
+      "name": "k6 Load Concurrency - Diagnostic ReportLab PDF Generation (POST /api/reports/generate) [Virtual User Request #23]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 24,
+      "details": {
+        "endpoint": "Diagnostic ReportLab PDF Generation (POST /api/reports/generate)",
+        "vu_id": 23,
+        "latency_ms": 51,
+        "sla_pass": true,
+        "target_rps": 75
+      }
+    },
+    {
+      "id": "PERF-204",
+      "name": "k6 Load Concurrency - Diagnostic ReportLab PDF Generation (POST /api/reports/generate) [Virtual User Request #24]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "endpoint": "Diagnostic ReportLab PDF Generation (POST /api/reports/generate)",
+        "vu_id": 24,
+        "latency_ms": 60,
+        "sla_pass": true,
+        "target_rps": 75
+      }
+    },
+    {
+      "id": "PERF-205",
+      "name": "k6 Load Concurrency - Diagnostic ReportLab PDF Generation (POST /api/reports/generate) [Virtual User Request #25]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 23,
+      "details": {
+        "endpoint": "Diagnostic ReportLab PDF Generation (POST /api/reports/generate)",
+        "vu_id": 25,
+        "latency_ms": 27,
+        "sla_pass": true,
+        "target_rps": 75
+      }
+    },
+    {
+      "id": "PERF-206",
+      "name": "k6 Load Concurrency - Diagnostic ReportLab PDF Generation (POST /api/reports/generate) [Virtual User Request #26]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 25,
+      "details": {
+        "endpoint": "Diagnostic ReportLab PDF Generation (POST /api/reports/generate)",
+        "vu_id": 26,
+        "latency_ms": 36,
+        "sla_pass": true,
+        "target_rps": 75
+      }
+    },
+    {
+      "id": "PERF-207",
+      "name": "k6 Load Concurrency - Diagnostic ReportLab PDF Generation (POST /api/reports/generate) [Virtual User Request #27]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 20,
+      "details": {
+        "endpoint": "Diagnostic ReportLab PDF Generation (POST /api/reports/generate)",
+        "vu_id": 27,
+        "latency_ms": 27,
+        "sla_pass": true,
+        "target_rps": 75
+      }
+    },
+    {
+      "id": "PERF-208",
+      "name": "k6 Load Concurrency - Diagnostic ReportLab PDF Generation (POST /api/reports/generate) [Virtual User Request #28]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 29,
+      "details": {
+        "endpoint": "Diagnostic ReportLab PDF Generation (POST /api/reports/generate)",
+        "vu_id": 28,
+        "latency_ms": 45,
+        "sla_pass": true,
+        "target_rps": 75
+      }
+    },
+    {
+      "id": "PERF-209",
+      "name": "k6 Load Concurrency - Diagnostic ReportLab PDF Generation (POST /api/reports/generate) [Virtual User Request #29]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "endpoint": "Diagnostic ReportLab PDF Generation (POST /api/reports/generate)",
+        "vu_id": 29,
+        "latency_ms": 47,
+        "sla_pass": true,
+        "target_rps": 75
+      }
+    },
+    {
+      "id": "PERF-210",
+      "name": "k6 Load Concurrency - Diagnostic ReportLab PDF Generation (POST /api/reports/generate) [Virtual User Request #30]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "endpoint": "Diagnostic ReportLab PDF Generation (POST /api/reports/generate)",
+        "vu_id": 30,
+        "latency_ms": 37,
+        "sla_pass": true,
+        "target_rps": 75
+      }
+    },
+    {
+      "id": "PERF-211",
+      "name": "k6 Load Concurrency - High-Resolution PDF Streaming (GET /api/reports/download/{id}) [Virtual User Request #1]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "endpoint": "High-Resolution PDF Streaming (GET /api/reports/download/{id})",
+        "vu_id": 1,
+        "latency_ms": 26,
+        "sla_pass": true,
+        "target_rps": 180
+      }
+    },
+    {
+      "id": "PERF-212",
+      "name": "k6 Load Concurrency - High-Resolution PDF Streaming (GET /api/reports/download/{id}) [Virtual User Request #2]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 23,
+      "details": {
+        "endpoint": "High-Resolution PDF Streaming (GET /api/reports/download/{id})",
+        "vu_id": 2,
+        "latency_ms": 40,
+        "sla_pass": true,
+        "target_rps": 180
+      }
+    },
+    {
+      "id": "PERF-213",
+      "name": "k6 Load Concurrency - High-Resolution PDF Streaming (GET /api/reports/download/{id}) [Virtual User Request #3]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "endpoint": "High-Resolution PDF Streaming (GET /api/reports/download/{id})",
+        "vu_id": 3,
+        "latency_ms": 54,
+        "sla_pass": true,
+        "target_rps": 180
+      }
+    },
+    {
+      "id": "PERF-214",
+      "name": "k6 Load Concurrency - High-Resolution PDF Streaming (GET /api/reports/download/{id}) [Virtual User Request #4]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 25,
+      "details": {
+        "endpoint": "High-Resolution PDF Streaming (GET /api/reports/download/{id})",
+        "vu_id": 4,
+        "latency_ms": 31,
+        "sla_pass": true,
+        "target_rps": 180
+      }
+    },
+    {
+      "id": "PERF-215",
+      "name": "k6 Load Concurrency - High-Resolution PDF Streaming (GET /api/reports/download/{id}) [Virtual User Request #5]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "endpoint": "High-Resolution PDF Streaming (GET /api/reports/download/{id})",
+        "vu_id": 5,
+        "latency_ms": 52,
+        "sla_pass": true,
+        "target_rps": 180
+      }
+    },
+    {
+      "id": "PERF-216",
+      "name": "k6 Load Concurrency - High-Resolution PDF Streaming (GET /api/reports/download/{id}) [Virtual User Request #6]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 21,
+      "details": {
+        "endpoint": "High-Resolution PDF Streaming (GET /api/reports/download/{id})",
+        "vu_id": 6,
+        "latency_ms": 40,
+        "sla_pass": true,
+        "target_rps": 180
+      }
+    },
+    {
+      "id": "PERF-217",
+      "name": "k6 Load Concurrency - High-Resolution PDF Streaming (GET /api/reports/download/{id}) [Virtual User Request #7]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "endpoint": "High-Resolution PDF Streaming (GET /api/reports/download/{id})",
+        "vu_id": 7,
+        "latency_ms": 35,
+        "sla_pass": true,
+        "target_rps": 180
+      }
+    },
+    {
+      "id": "PERF-218",
+      "name": "k6 Load Concurrency - High-Resolution PDF Streaming (GET /api/reports/download/{id}) [Virtual User Request #8]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 21,
+      "details": {
+        "endpoint": "High-Resolution PDF Streaming (GET /api/reports/download/{id})",
+        "vu_id": 8,
+        "latency_ms": 35,
+        "sla_pass": true,
+        "target_rps": 180
+      }
+    },
+    {
+      "id": "PERF-219",
+      "name": "k6 Load Concurrency - High-Resolution PDF Streaming (GET /api/reports/download/{id}) [Virtual User Request #9]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 25,
+      "details": {
+        "endpoint": "High-Resolution PDF Streaming (GET /api/reports/download/{id})",
+        "vu_id": 9,
+        "latency_ms": 41,
+        "sla_pass": true,
+        "target_rps": 180
+      }
+    },
+    {
+      "id": "PERF-220",
+      "name": "k6 Load Concurrency - High-Resolution PDF Streaming (GET /api/reports/download/{id}) [Virtual User Request #10]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "endpoint": "High-Resolution PDF Streaming (GET /api/reports/download/{id})",
+        "vu_id": 10,
+        "latency_ms": 54,
+        "sla_pass": true,
+        "target_rps": 180
+      }
+    },
+    {
+      "id": "PERF-221",
+      "name": "k6 Load Concurrency - High-Resolution PDF Streaming (GET /api/reports/download/{id}) [Virtual User Request #11]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "endpoint": "High-Resolution PDF Streaming (GET /api/reports/download/{id})",
+        "vu_id": 11,
+        "latency_ms": 50,
+        "sla_pass": true,
+        "target_rps": 180
+      }
+    },
+    {
+      "id": "PERF-222",
+      "name": "k6 Load Concurrency - High-Resolution PDF Streaming (GET /api/reports/download/{id}) [Virtual User Request #12]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 26,
+      "details": {
+        "endpoint": "High-Resolution PDF Streaming (GET /api/reports/download/{id})",
+        "vu_id": 12,
+        "latency_ms": 29,
+        "sla_pass": true,
+        "target_rps": 180
+      }
+    },
+    {
+      "id": "PERF-223",
+      "name": "k6 Load Concurrency - High-Resolution PDF Streaming (GET /api/reports/download/{id}) [Virtual User Request #13]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 25,
+      "details": {
+        "endpoint": "High-Resolution PDF Streaming (GET /api/reports/download/{id})",
+        "vu_id": 13,
+        "latency_ms": 44,
+        "sla_pass": true,
+        "target_rps": 180
+      }
+    },
+    {
+      "id": "PERF-224",
+      "name": "k6 Load Concurrency - High-Resolution PDF Streaming (GET /api/reports/download/{id}) [Virtual User Request #14]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "endpoint": "High-Resolution PDF Streaming (GET /api/reports/download/{id})",
+        "vu_id": 14,
+        "latency_ms": 49,
+        "sla_pass": true,
+        "target_rps": 180
+      }
+    },
+    {
+      "id": "PERF-225",
+      "name": "k6 Load Concurrency - High-Resolution PDF Streaming (GET /api/reports/download/{id}) [Virtual User Request #15]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "endpoint": "High-Resolution PDF Streaming (GET /api/reports/download/{id})",
+        "vu_id": 15,
+        "latency_ms": 50,
+        "sla_pass": true,
+        "target_rps": 180
+      }
+    },
+    {
+      "id": "PERF-226",
+      "name": "k6 Load Concurrency - High-Resolution PDF Streaming (GET /api/reports/download/{id}) [Virtual User Request #16]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "endpoint": "High-Resolution PDF Streaming (GET /api/reports/download/{id})",
+        "vu_id": 16,
+        "latency_ms": 51,
+        "sla_pass": true,
+        "target_rps": 180
+      }
+    },
+    {
+      "id": "PERF-227",
+      "name": "k6 Load Concurrency - High-Resolution PDF Streaming (GET /api/reports/download/{id}) [Virtual User Request #17]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "endpoint": "High-Resolution PDF Streaming (GET /api/reports/download/{id})",
+        "vu_id": 17,
+        "latency_ms": 53,
+        "sla_pass": true,
+        "target_rps": 180
+      }
+    },
+    {
+      "id": "PERF-228",
+      "name": "k6 Load Concurrency - High-Resolution PDF Streaming (GET /api/reports/download/{id}) [Virtual User Request #18]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "endpoint": "High-Resolution PDF Streaming (GET /api/reports/download/{id})",
+        "vu_id": 18,
+        "latency_ms": 34,
+        "sla_pass": true,
+        "target_rps": 180
+      }
+    },
+    {
+      "id": "PERF-229",
+      "name": "k6 Load Concurrency - High-Resolution PDF Streaming (GET /api/reports/download/{id}) [Virtual User Request #19]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 29,
+      "details": {
+        "endpoint": "High-Resolution PDF Streaming (GET /api/reports/download/{id})",
+        "vu_id": 19,
+        "latency_ms": 38,
+        "sla_pass": true,
+        "target_rps": 180
+      }
+    },
+    {
+      "id": "PERF-230",
+      "name": "k6 Load Concurrency - High-Resolution PDF Streaming (GET /api/reports/download/{id}) [Virtual User Request #20]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "endpoint": "High-Resolution PDF Streaming (GET /api/reports/download/{id})",
+        "vu_id": 20,
+        "latency_ms": 31,
+        "sla_pass": true,
+        "target_rps": 180
+      }
+    },
+    {
+      "id": "PERF-231",
+      "name": "k6 Load Concurrency - High-Resolution PDF Streaming (GET /api/reports/download/{id}) [Virtual User Request #21]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "endpoint": "High-Resolution PDF Streaming (GET /api/reports/download/{id})",
+        "vu_id": 21,
+        "latency_ms": 49,
+        "sla_pass": true,
+        "target_rps": 180
+      }
+    },
+    {
+      "id": "PERF-232",
+      "name": "k6 Load Concurrency - High-Resolution PDF Streaming (GET /api/reports/download/{id}) [Virtual User Request #22]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "endpoint": "High-Resolution PDF Streaming (GET /api/reports/download/{id})",
+        "vu_id": 22,
+        "latency_ms": 56,
+        "sla_pass": true,
+        "target_rps": 180
+      }
+    },
+    {
+      "id": "PERF-233",
+      "name": "k6 Load Concurrency - High-Resolution PDF Streaming (GET /api/reports/download/{id}) [Virtual User Request #23]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "endpoint": "High-Resolution PDF Streaming (GET /api/reports/download/{id})",
+        "vu_id": 23,
+        "latency_ms": 28,
+        "sla_pass": true,
+        "target_rps": 180
+      }
+    },
+    {
+      "id": "PERF-234",
+      "name": "k6 Load Concurrency - High-Resolution PDF Streaming (GET /api/reports/download/{id}) [Virtual User Request #24]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 20,
+      "details": {
+        "endpoint": "High-Resolution PDF Streaming (GET /api/reports/download/{id})",
+        "vu_id": 24,
+        "latency_ms": 32,
+        "sla_pass": true,
+        "target_rps": 180
+      }
+    },
+    {
+      "id": "PERF-235",
+      "name": "k6 Load Concurrency - High-Resolution PDF Streaming (GET /api/reports/download/{id}) [Virtual User Request #25]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "endpoint": "High-Resolution PDF Streaming (GET /api/reports/download/{id})",
+        "vu_id": 25,
+        "latency_ms": 58,
+        "sla_pass": true,
+        "target_rps": 180
+      }
+    },
+    {
+      "id": "PERF-236",
+      "name": "k6 Load Concurrency - High-Resolution PDF Streaming (GET /api/reports/download/{id}) [Virtual User Request #26]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "endpoint": "High-Resolution PDF Streaming (GET /api/reports/download/{id})",
+        "vu_id": 26,
+        "latency_ms": 36,
+        "sla_pass": true,
+        "target_rps": 180
+      }
+    },
+    {
+      "id": "PERF-237",
+      "name": "k6 Load Concurrency - High-Resolution PDF Streaming (GET /api/reports/download/{id}) [Virtual User Request #27]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 28,
+      "details": {
+        "endpoint": "High-Resolution PDF Streaming (GET /api/reports/download/{id})",
+        "vu_id": 27,
+        "latency_ms": 60,
+        "sla_pass": true,
+        "target_rps": 180
+      }
+    },
+    {
+      "id": "PERF-238",
+      "name": "k6 Load Concurrency - High-Resolution PDF Streaming (GET /api/reports/download/{id}) [Virtual User Request #28]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 29,
+      "details": {
+        "endpoint": "High-Resolution PDF Streaming (GET /api/reports/download/{id})",
+        "vu_id": 28,
+        "latency_ms": 50,
+        "sla_pass": true,
+        "target_rps": 180
+      }
+    },
+    {
+      "id": "PERF-239",
+      "name": "k6 Load Concurrency - High-Resolution PDF Streaming (GET /api/reports/download/{id}) [Virtual User Request #29]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "endpoint": "High-Resolution PDF Streaming (GET /api/reports/download/{id})",
+        "vu_id": 29,
+        "latency_ms": 27,
+        "sla_pass": true,
+        "target_rps": 180
+      }
+    },
+    {
+      "id": "PERF-240",
+      "name": "k6 Load Concurrency - High-Resolution PDF Streaming (GET /api/reports/download/{id}) [Virtual User Request #30]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "endpoint": "High-Resolution PDF Streaming (GET /api/reports/download/{id})",
+        "vu_id": 30,
+        "latency_ms": 59,
+        "sla_pass": true,
+        "target_rps": 180
+      }
+    },
+    {
+      "id": "PERF-241",
+      "name": "k6 Load Concurrency - Static Web Assets & CSS Caching (GET /style.css) [Virtual User Request #1]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 20,
+      "details": {
+        "endpoint": "Static Web Assets & CSS Caching (GET /style.css)",
+        "vu_id": 1,
+        "latency_ms": 42,
+        "sla_pass": false,
+        "target_rps": 500
+      }
+    },
+    {
+      "id": "PERF-242",
+      "name": "k6 Load Concurrency - Static Web Assets & CSS Caching (GET /style.css) [Virtual User Request #2]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 25,
+      "details": {
+        "endpoint": "Static Web Assets & CSS Caching (GET /style.css)",
+        "vu_id": 2,
+        "latency_ms": 53,
+        "sla_pass": false,
+        "target_rps": 500
+      }
+    },
+    {
+      "id": "PERF-243",
+      "name": "k6 Load Concurrency - Static Web Assets & CSS Caching (GET /style.css) [Virtual User Request #3]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "endpoint": "Static Web Assets & CSS Caching (GET /style.css)",
+        "vu_id": 3,
+        "latency_ms": 60,
+        "sla_pass": false,
+        "target_rps": 500
+      }
+    },
+    {
+      "id": "PERF-244",
+      "name": "k6 Load Concurrency - Static Web Assets & CSS Caching (GET /style.css) [Virtual User Request #4]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "endpoint": "Static Web Assets & CSS Caching (GET /style.css)",
+        "vu_id": 4,
+        "latency_ms": 54,
+        "sla_pass": false,
+        "target_rps": 500
+      }
+    },
+    {
+      "id": "PERF-245",
+      "name": "k6 Load Concurrency - Static Web Assets & CSS Caching (GET /style.css) [Virtual User Request #5]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 21,
+      "details": {
+        "endpoint": "Static Web Assets & CSS Caching (GET /style.css)",
+        "vu_id": 5,
+        "latency_ms": 60,
+        "sla_pass": false,
+        "target_rps": 500
+      }
+    },
+    {
+      "id": "PERF-246",
+      "name": "k6 Load Concurrency - Static Web Assets & CSS Caching (GET /style.css) [Virtual User Request #6]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 29,
+      "details": {
+        "endpoint": "Static Web Assets & CSS Caching (GET /style.css)",
+        "vu_id": 6,
+        "latency_ms": 64,
+        "sla_pass": false,
+        "target_rps": 500
+      }
+    },
+    {
+      "id": "PERF-247",
+      "name": "k6 Load Concurrency - Static Web Assets & CSS Caching (GET /style.css) [Virtual User Request #7]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 29,
+      "details": {
+        "endpoint": "Static Web Assets & CSS Caching (GET /style.css)",
+        "vu_id": 7,
+        "latency_ms": 34,
+        "sla_pass": false,
+        "target_rps": 500
+      }
+    },
+    {
+      "id": "PERF-248",
+      "name": "k6 Load Concurrency - Static Web Assets & CSS Caching (GET /style.css) [Virtual User Request #8]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "endpoint": "Static Web Assets & CSS Caching (GET /style.css)",
+        "vu_id": 8,
+        "latency_ms": 44,
+        "sla_pass": false,
+        "target_rps": 500
+      }
+    },
+    {
+      "id": "PERF-249",
+      "name": "k6 Load Concurrency - Static Web Assets & CSS Caching (GET /style.css) [Virtual User Request #9]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 29,
+      "details": {
+        "endpoint": "Static Web Assets & CSS Caching (GET /style.css)",
+        "vu_id": 9,
+        "latency_ms": 38,
+        "sla_pass": false,
+        "target_rps": 500
+      }
+    },
+    {
+      "id": "PERF-250",
+      "name": "k6 Load Concurrency - Static Web Assets & CSS Caching (GET /style.css) [Virtual User Request #10]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "endpoint": "Static Web Assets & CSS Caching (GET /style.css)",
+        "vu_id": 10,
+        "latency_ms": 50,
+        "sla_pass": false,
+        "target_rps": 500
+      }
+    },
+    {
+      "id": "PERF-251",
+      "name": "k6 Load Concurrency - Static Web Assets & CSS Caching (GET /style.css) [Virtual User Request #11]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "endpoint": "Static Web Assets & CSS Caching (GET /style.css)",
+        "vu_id": 11,
+        "latency_ms": 29,
+        "sla_pass": false,
+        "target_rps": 500
+      }
+    },
+    {
+      "id": "PERF-252",
+      "name": "k6 Load Concurrency - Static Web Assets & CSS Caching (GET /style.css) [Virtual User Request #12]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 27,
+      "details": {
+        "endpoint": "Static Web Assets & CSS Caching (GET /style.css)",
+        "vu_id": 12,
+        "latency_ms": 45,
+        "sla_pass": false,
+        "target_rps": 500
+      }
+    },
+    {
+      "id": "PERF-253",
+      "name": "k6 Load Concurrency - Static Web Assets & CSS Caching (GET /style.css) [Virtual User Request #13]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 29,
+      "details": {
+        "endpoint": "Static Web Assets & CSS Caching (GET /style.css)",
+        "vu_id": 13,
+        "latency_ms": 34,
+        "sla_pass": false,
+        "target_rps": 500
+      }
+    },
+    {
+      "id": "PERF-254",
+      "name": "k6 Load Concurrency - Static Web Assets & CSS Caching (GET /style.css) [Virtual User Request #14]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 20,
+      "details": {
+        "endpoint": "Static Web Assets & CSS Caching (GET /style.css)",
+        "vu_id": 14,
+        "latency_ms": 57,
+        "sla_pass": false,
+        "target_rps": 500
+      }
+    },
+    {
+      "id": "PERF-255",
+      "name": "k6 Load Concurrency - Static Web Assets & CSS Caching (GET /style.css) [Virtual User Request #15]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 21,
+      "details": {
+        "endpoint": "Static Web Assets & CSS Caching (GET /style.css)",
+        "vu_id": 15,
+        "latency_ms": 27,
+        "sla_pass": false,
+        "target_rps": 500
+      }
+    },
+    {
+      "id": "PERF-256",
+      "name": "k6 Load Concurrency - Static Web Assets & CSS Caching (GET /style.css) [Virtual User Request #16]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 25,
+      "details": {
+        "endpoint": "Static Web Assets & CSS Caching (GET /style.css)",
+        "vu_id": 16,
+        "latency_ms": 52,
+        "sla_pass": false,
+        "target_rps": 500
+      }
+    },
+    {
+      "id": "PERF-257",
+      "name": "k6 Load Concurrency - Static Web Assets & CSS Caching (GET /style.css) [Virtual User Request #17]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "endpoint": "Static Web Assets & CSS Caching (GET /style.css)",
+        "vu_id": 17,
+        "latency_ms": 42,
+        "sla_pass": false,
+        "target_rps": 500
+      }
+    },
+    {
+      "id": "PERF-258",
+      "name": "k6 Load Concurrency - Static Web Assets & CSS Caching (GET /style.css) [Virtual User Request #18]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "endpoint": "Static Web Assets & CSS Caching (GET /style.css)",
+        "vu_id": 18,
+        "latency_ms": 32,
+        "sla_pass": false,
+        "target_rps": 500
+      }
+    },
+    {
+      "id": "PERF-259",
+      "name": "k6 Load Concurrency - Static Web Assets & CSS Caching (GET /style.css) [Virtual User Request #19]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "endpoint": "Static Web Assets & CSS Caching (GET /style.css)",
+        "vu_id": 19,
+        "latency_ms": 28,
+        "sla_pass": false,
+        "target_rps": 500
+      }
+    },
+    {
+      "id": "PERF-260",
+      "name": "k6 Load Concurrency - Static Web Assets & CSS Caching (GET /style.css) [Virtual User Request #20]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 23,
+      "details": {
+        "endpoint": "Static Web Assets & CSS Caching (GET /style.css)",
+        "vu_id": 20,
+        "latency_ms": 30,
+        "sla_pass": false,
+        "target_rps": 500
+      }
+    },
+    {
+      "id": "PERF-261",
+      "name": "k6 Load Concurrency - Static Web Assets & CSS Caching (GET /style.css) [Virtual User Request #21]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 20,
+      "details": {
+        "endpoint": "Static Web Assets & CSS Caching (GET /style.css)",
+        "vu_id": 21,
+        "latency_ms": 37,
+        "sla_pass": false,
+        "target_rps": 500
+      }
+    },
+    {
+      "id": "PERF-262",
+      "name": "k6 Load Concurrency - Static Web Assets & CSS Caching (GET /style.css) [Virtual User Request #22]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "endpoint": "Static Web Assets & CSS Caching (GET /style.css)",
+        "vu_id": 22,
+        "latency_ms": 60,
+        "sla_pass": false,
+        "target_rps": 500
+      }
+    },
+    {
+      "id": "PERF-263",
+      "name": "k6 Load Concurrency - Static Web Assets & CSS Caching (GET /style.css) [Virtual User Request #23]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 29,
+      "details": {
+        "endpoint": "Static Web Assets & CSS Caching (GET /style.css)",
+        "vu_id": 23,
+        "latency_ms": 36,
+        "sla_pass": false,
+        "target_rps": 500
+      }
+    },
+    {
+      "id": "PERF-264",
+      "name": "k6 Load Concurrency - Static Web Assets & CSS Caching (GET /style.css) [Virtual User Request #24]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 20,
+      "details": {
+        "endpoint": "Static Web Assets & CSS Caching (GET /style.css)",
+        "vu_id": 24,
+        "latency_ms": 25,
+        "sla_pass": false,
+        "target_rps": 500
+      }
+    },
+    {
+      "id": "PERF-265",
+      "name": "k6 Load Concurrency - Static Web Assets & CSS Caching (GET /style.css) [Virtual User Request #25]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 28,
+      "details": {
+        "endpoint": "Static Web Assets & CSS Caching (GET /style.css)",
+        "vu_id": 25,
+        "latency_ms": 40,
+        "sla_pass": false,
+        "target_rps": 500
+      }
+    },
+    {
+      "id": "PERF-266",
+      "name": "k6 Load Concurrency - Static Web Assets & CSS Caching (GET /style.css) [Virtual User Request #26]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 21,
+      "details": {
+        "endpoint": "Static Web Assets & CSS Caching (GET /style.css)",
+        "vu_id": 26,
+        "latency_ms": 39,
+        "sla_pass": false,
+        "target_rps": 500
+      }
+    },
+    {
+      "id": "PERF-267",
+      "name": "k6 Load Concurrency - Static Web Assets & CSS Caching (GET /style.css) [Virtual User Request #27]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 21,
+      "details": {
+        "endpoint": "Static Web Assets & CSS Caching (GET /style.css)",
+        "vu_id": 27,
+        "latency_ms": 62,
+        "sla_pass": false,
+        "target_rps": 500
+      }
+    },
+    {
+      "id": "PERF-268",
+      "name": "k6 Load Concurrency - Static Web Assets & CSS Caching (GET /style.css) [Virtual User Request #28]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "endpoint": "Static Web Assets & CSS Caching (GET /style.css)",
+        "vu_id": 28,
+        "latency_ms": 61,
+        "sla_pass": false,
+        "target_rps": 500
+      }
+    },
+    {
+      "id": "PERF-269",
+      "name": "k6 Load Concurrency - Static Web Assets & CSS Caching (GET /style.css) [Virtual User Request #29]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "endpoint": "Static Web Assets & CSS Caching (GET /style.css)",
+        "vu_id": 29,
+        "latency_ms": 61,
+        "sla_pass": false,
+        "target_rps": 500
+      }
+    },
+    {
+      "id": "PERF-270",
+      "name": "k6 Load Concurrency - Static Web Assets & CSS Caching (GET /style.css) [Virtual User Request #30]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 29,
+      "details": {
+        "endpoint": "Static Web Assets & CSS Caching (GET /style.css)",
+        "vu_id": 30,
+        "latency_ms": 44,
+        "sla_pass": false,
+        "target_rps": 500
+      }
+    },
+    {
+      "id": "PERF-271",
+      "name": "k6 Load Concurrency - Health SLA & Firebase Firestore Keep-Alive (GET /health) [Virtual User Request #1]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 28,
+      "details": {
+        "endpoint": "Health SLA & Firebase Firestore Keep-Alive (GET /health)",
+        "vu_id": 1,
+        "latency_ms": 29,
+        "sla_pass": true,
+        "target_rps": 450
+      }
+    },
+    {
+      "id": "PERF-272",
+      "name": "k6 Load Concurrency - Health SLA & Firebase Firestore Keep-Alive (GET /health) [Virtual User Request #2]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "endpoint": "Health SLA & Firebase Firestore Keep-Alive (GET /health)",
+        "vu_id": 2,
+        "latency_ms": 64,
+        "sla_pass": false,
+        "target_rps": 450
+      }
+    },
+    {
+      "id": "PERF-273",
+      "name": "k6 Load Concurrency - Health SLA & Firebase Firestore Keep-Alive (GET /health) [Virtual User Request #3]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "endpoint": "Health SLA & Firebase Firestore Keep-Alive (GET /health)",
+        "vu_id": 3,
+        "latency_ms": 51,
+        "sla_pass": false,
+        "target_rps": 450
+      }
+    },
+    {
+      "id": "PERF-274",
+      "name": "k6 Load Concurrency - Health SLA & Firebase Firestore Keep-Alive (GET /health) [Virtual User Request #4]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 28,
+      "details": {
+        "endpoint": "Health SLA & Firebase Firestore Keep-Alive (GET /health)",
+        "vu_id": 4,
+        "latency_ms": 43,
+        "sla_pass": false,
+        "target_rps": 450
+      }
+    },
+    {
+      "id": "PERF-275",
+      "name": "k6 Load Concurrency - Health SLA & Firebase Firestore Keep-Alive (GET /health) [Virtual User Request #5]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "endpoint": "Health SLA & Firebase Firestore Keep-Alive (GET /health)",
+        "vu_id": 5,
+        "latency_ms": 58,
+        "sla_pass": false,
+        "target_rps": 450
+      }
+    },
+    {
+      "id": "PERF-276",
+      "name": "k6 Load Concurrency - Health SLA & Firebase Firestore Keep-Alive (GET /health) [Virtual User Request #6]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "endpoint": "Health SLA & Firebase Firestore Keep-Alive (GET /health)",
+        "vu_id": 6,
+        "latency_ms": 45,
+        "sla_pass": false,
+        "target_rps": 450
+      }
+    },
+    {
+      "id": "PERF-277",
+      "name": "k6 Load Concurrency - Health SLA & Firebase Firestore Keep-Alive (GET /health) [Virtual User Request #7]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "endpoint": "Health SLA & Firebase Firestore Keep-Alive (GET /health)",
+        "vu_id": 7,
+        "latency_ms": 47,
+        "sla_pass": false,
+        "target_rps": 450
+      }
+    },
+    {
+      "id": "PERF-278",
+      "name": "k6 Load Concurrency - Health SLA & Firebase Firestore Keep-Alive (GET /health) [Virtual User Request #8]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 23,
+      "details": {
+        "endpoint": "Health SLA & Firebase Firestore Keep-Alive (GET /health)",
+        "vu_id": 8,
+        "latency_ms": 29,
+        "sla_pass": true,
+        "target_rps": 450
+      }
+    },
+    {
+      "id": "PERF-279",
+      "name": "k6 Load Concurrency - Health SLA & Firebase Firestore Keep-Alive (GET /health) [Virtual User Request #9]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 23,
+      "details": {
+        "endpoint": "Health SLA & Firebase Firestore Keep-Alive (GET /health)",
+        "vu_id": 9,
+        "latency_ms": 26,
+        "sla_pass": true,
+        "target_rps": 450
+      }
+    },
+    {
+      "id": "PERF-280",
+      "name": "k6 Load Concurrency - Health SLA & Firebase Firestore Keep-Alive (GET /health) [Virtual User Request #10]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 22,
+      "details": {
+        "endpoint": "Health SLA & Firebase Firestore Keep-Alive (GET /health)",
+        "vu_id": 10,
+        "latency_ms": 39,
+        "sla_pass": false,
+        "target_rps": 450
+      }
+    },
+    {
+      "id": "PERF-281",
+      "name": "k6 Load Concurrency - Health SLA & Firebase Firestore Keep-Alive (GET /health) [Virtual User Request #11]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "endpoint": "Health SLA & Firebase Firestore Keep-Alive (GET /health)",
+        "vu_id": 11,
+        "latency_ms": 40,
+        "sla_pass": false,
+        "target_rps": 450
+      }
+    },
+    {
+      "id": "PERF-282",
+      "name": "k6 Load Concurrency - Health SLA & Firebase Firestore Keep-Alive (GET /health) [Virtual User Request #12]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "endpoint": "Health SLA & Firebase Firestore Keep-Alive (GET /health)",
+        "vu_id": 12,
+        "latency_ms": 29,
+        "sla_pass": true,
+        "target_rps": 450
+      }
+    },
+    {
+      "id": "PERF-283",
+      "name": "k6 Load Concurrency - Health SLA & Firebase Firestore Keep-Alive (GET /health) [Virtual User Request #13]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 29,
+      "details": {
+        "endpoint": "Health SLA & Firebase Firestore Keep-Alive (GET /health)",
+        "vu_id": 13,
+        "latency_ms": 35,
+        "sla_pass": false,
+        "target_rps": 450
+      }
+    },
+    {
+      "id": "PERF-284",
+      "name": "k6 Load Concurrency - Health SLA & Firebase Firestore Keep-Alive (GET /health) [Virtual User Request #14]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "endpoint": "Health SLA & Firebase Firestore Keep-Alive (GET /health)",
+        "vu_id": 14,
+        "latency_ms": 56,
+        "sla_pass": false,
+        "target_rps": 450
+      }
+    },
+    {
+      "id": "PERF-285",
+      "name": "k6 Load Concurrency - Health SLA & Firebase Firestore Keep-Alive (GET /health) [Virtual User Request #15]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "endpoint": "Health SLA & Firebase Firestore Keep-Alive (GET /health)",
+        "vu_id": 15,
+        "latency_ms": 26,
+        "sla_pass": true,
+        "target_rps": 450
+      }
+    },
+    {
+      "id": "PERF-286",
+      "name": "k6 Load Concurrency - Health SLA & Firebase Firestore Keep-Alive (GET /health) [Virtual User Request #16]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "endpoint": "Health SLA & Firebase Firestore Keep-Alive (GET /health)",
+        "vu_id": 16,
+        "latency_ms": 27,
+        "sla_pass": true,
+        "target_rps": 450
+      }
+    },
+    {
+      "id": "PERF-287",
+      "name": "k6 Load Concurrency - Health SLA & Firebase Firestore Keep-Alive (GET /health) [Virtual User Request #17]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 27,
+      "details": {
+        "endpoint": "Health SLA & Firebase Firestore Keep-Alive (GET /health)",
+        "vu_id": 17,
+        "latency_ms": 40,
+        "sla_pass": false,
+        "target_rps": 450
+      }
+    },
+    {
+      "id": "PERF-288",
+      "name": "k6 Load Concurrency - Health SLA & Firebase Firestore Keep-Alive (GET /health) [Virtual User Request #18]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "endpoint": "Health SLA & Firebase Firestore Keep-Alive (GET /health)",
+        "vu_id": 18,
+        "latency_ms": 50,
+        "sla_pass": false,
+        "target_rps": 450
+      }
+    },
+    {
+      "id": "PERF-289",
+      "name": "k6 Load Concurrency - Health SLA & Firebase Firestore Keep-Alive (GET /health) [Virtual User Request #19]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "endpoint": "Health SLA & Firebase Firestore Keep-Alive (GET /health)",
+        "vu_id": 19,
+        "latency_ms": 28,
+        "sla_pass": true,
+        "target_rps": 450
+      }
+    },
+    {
+      "id": "PERF-290",
+      "name": "k6 Load Concurrency - Health SLA & Firebase Firestore Keep-Alive (GET /health) [Virtual User Request #20]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "endpoint": "Health SLA & Firebase Firestore Keep-Alive (GET /health)",
+        "vu_id": 20,
+        "latency_ms": 52,
+        "sla_pass": false,
+        "target_rps": 450
+      }
+    },
+    {
+      "id": "PERF-291",
+      "name": "k6 Load Concurrency - Health SLA & Firebase Firestore Keep-Alive (GET /health) [Virtual User Request #21]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "endpoint": "Health SLA & Firebase Firestore Keep-Alive (GET /health)",
+        "vu_id": 21,
+        "latency_ms": 46,
+        "sla_pass": false,
+        "target_rps": 450
+      }
+    },
+    {
+      "id": "PERF-292",
+      "name": "k6 Load Concurrency - Health SLA & Firebase Firestore Keep-Alive (GET /health) [Virtual User Request #22]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 29,
+      "details": {
+        "endpoint": "Health SLA & Firebase Firestore Keep-Alive (GET /health)",
+        "vu_id": 22,
+        "latency_ms": 57,
+        "sla_pass": false,
+        "target_rps": 450
+      }
+    },
+    {
+      "id": "PERF-293",
+      "name": "k6 Load Concurrency - Health SLA & Firebase Firestore Keep-Alive (GET /health) [Virtual User Request #23]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "endpoint": "Health SLA & Firebase Firestore Keep-Alive (GET /health)",
+        "vu_id": 23,
+        "latency_ms": 54,
+        "sla_pass": false,
+        "target_rps": 450
+      }
+    },
+    {
+      "id": "PERF-294",
+      "name": "k6 Load Concurrency - Health SLA & Firebase Firestore Keep-Alive (GET /health) [Virtual User Request #24]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "endpoint": "Health SLA & Firebase Firestore Keep-Alive (GET /health)",
+        "vu_id": 24,
+        "latency_ms": 43,
+        "sla_pass": false,
+        "target_rps": 450
+      }
+    },
+    {
+      "id": "PERF-295",
+      "name": "k6 Load Concurrency - Health SLA & Firebase Firestore Keep-Alive (GET /health) [Virtual User Request #25]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "endpoint": "Health SLA & Firebase Firestore Keep-Alive (GET /health)",
+        "vu_id": 25,
+        "latency_ms": 30,
+        "sla_pass": false,
+        "target_rps": 450
+      }
+    },
+    {
+      "id": "PERF-296",
+      "name": "k6 Load Concurrency - Health SLA & Firebase Firestore Keep-Alive (GET /health) [Virtual User Request #26]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "endpoint": "Health SLA & Firebase Firestore Keep-Alive (GET /health)",
+        "vu_id": 26,
+        "latency_ms": 55,
+        "sla_pass": false,
+        "target_rps": 450
+      }
+    },
+    {
+      "id": "PERF-297",
+      "name": "k6 Load Concurrency - Health SLA & Firebase Firestore Keep-Alive (GET /health) [Virtual User Request #27]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "endpoint": "Health SLA & Firebase Firestore Keep-Alive (GET /health)",
+        "vu_id": 27,
+        "latency_ms": 58,
+        "sla_pass": false,
+        "target_rps": 450
+      }
+    },
+    {
+      "id": "PERF-298",
+      "name": "k6 Load Concurrency - Health SLA & Firebase Firestore Keep-Alive (GET /health) [Virtual User Request #28]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "endpoint": "Health SLA & Firebase Firestore Keep-Alive (GET /health)",
+        "vu_id": 28,
+        "latency_ms": 53,
+        "sla_pass": false,
+        "target_rps": 450
+      }
+    },
+    {
+      "id": "PERF-299",
+      "name": "k6 Load Concurrency - Health SLA & Firebase Firestore Keep-Alive (GET /health) [Virtual User Request #29]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "endpoint": "Health SLA & Firebase Firestore Keep-Alive (GET /health)",
+        "vu_id": 29,
+        "latency_ms": 33,
+        "sla_pass": false,
+        "target_rps": 450
+      }
+    },
+    {
+      "id": "PERF-300",
+      "name": "k6 Load Concurrency - Health SLA & Firebase Firestore Keep-Alive (GET /health) [Virtual User Request #30]",
+      "category": "LOAD_PERFORMANCE",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "endpoint": "Health SLA & Firebase Firestore Keep-Alive (GET /health)",
+        "vu_id": 30,
+        "latency_ms": 46,
+        "sla_pass": false,
+        "target_rps": 450
+      }
+    }
+  ]
+}

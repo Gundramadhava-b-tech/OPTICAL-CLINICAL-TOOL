@@ -1,8 +1,21 @@
 import unittest
 import numpy as np
 from pathlib import Path
-from ..segmentation.segmentation_service import SegmentationService
-from ..segmentation.unet_model import build_unet
+from unittest.mock import MagicMock
+import sys
+
+# Mock dependencies to allow importing SegmentationService without libraries installed
+mock_tf = MagicMock()
+sys.modules["tensorflow"] = mock_tf
+sys.modules["tensorflow.keras"] = MagicMock()
+sys.modules["tensorflow.keras.models"] = MagicMock()
+sys.modules["tensorflow.keras.layers"] = MagicMock()
+
+mock_skimage = MagicMock()
+sys.modules["skimage"] = mock_skimage
+sys.modules["skimage.morphology"] = MagicMock()
+
+from oct_ai_pipeline.segmentation.segmentation_service import SegmentationService
 
 class TestSegmentation(unittest.TestCase):
     def setUp(self):

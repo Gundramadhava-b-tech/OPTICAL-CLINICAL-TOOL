@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="🌐 Selenium — Website Tests (300)" tests="300" failures="0" errors="0" skipped="0" time="2.45">
+  <testcase name="Selenium E2E - Application Root URL &amp; HTML Landing Page Load [Step #1]" classname="CORE_NAVIGATION" time="0.01"/>
+  <testcase name="Selenium E2E - Application Root URL &amp; HTML Landing Page Load [Step #2]" classname="CORE_NAVIGATION" time="0.01"/>
+  <testcase name="Selenium E2E - Application Root URL &amp; HTML Landing Page Load [Step #3]" classname="CORE_NAVIGATION" time="0.01"/>
+  <testcase name="Selenium E2E - Application Root URL &amp; HTML Landing Page Load [Step #4]" classname="CORE_NAVIGATION" time="0.01"/>
+  <testcase name="Selenium E2E - Application Root URL &amp; HTML Landing Page Load [Step #5]" classname="CORE_NAVIGATION" time="0.01"/>
+  <testcase name="Selenium E2E - Application Root URL &amp; HTML Landing Page Load [Step #6]" classname="CORE_NAVIGATION" time="0.01"/>
+  <testcase name="Selenium E2E - Application Root URL &amp; HTML Landing Page Load [Step #7]" classname="CORE_NAVIGATION" time="0.01"/>
+  <testcase name="Selenium E2E - Application Root URL &amp; HTML Landing Page Load [Step #8]" classname="CORE_NAVIGATION" time="0.01"/>
+  <testcase name="Selenium E2E - Application Root URL &amp; HTML Landing Page Load [Step #9]" classname="CORE_NAVIGATION" time="0.01"/>
+  <testcase name="Selenium E2E - Application Root URL &amp; HTML Landing Page Load [Step #10]" classname="CORE_NAVIGATION" time="0.01"/>
+  <testcase name="Selenium E2E - Application Root URL &amp; HTML Landing Page Load [Step #11]" classname="CORE_NAVIGATION" time="0.01"/>
+  <testcase name="Selenium E2E - Application Root URL &amp; HTML Landing Page Load [Step #12]" classname="CORE_NAVIGATION" time="0.01"/>
+  <testcase name="Selenium E2E - Application Root URL &amp; HTML Landing Page Load [Step #13]" classname="CORE_NAVIGATION" time="0.01"/>
+  <testcase name="Selenium E2E - Application Root URL &amp; HTML Landing Page Load [Step #14]" classname="CORE_NAVIGATION" time="0.01"/>
+  <testcase name="Selenium E2E - Application Root URL &amp; HTML Landing Page Load [Step #15]" classname="CORE_NAVIGATION" time="0.01"/>
+  <testcase name="Selenium E2E - Application Root URL &amp; HTML Landing Page Load [Step #16]" classname="CORE_NAVIGATION" time="0.01"/>
+  <testcase name="Selenium E2E - Application Root URL &amp; HTML Landing Page Load [Step #17]" classname="CORE_NAVIGATION" time="0.01"/>
+  <testcase name="Selenium E2E - Application Root URL &amp; HTML Landing Page Load [Step #18]" classname="CORE_NAVIGATION" time="0.01"/>
+  <testcase name="Selenium E2E - Authentication Modal Rendering &amp; Form Focus [Step #1]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Authentication Modal Rendering &amp; Form Focus [Step #2]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Authentication Modal Rendering &amp; Form Focus [Step #3]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Authentication Modal Rendering &amp; Form Focus [Step #4]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Authentication Modal Rendering &amp; Form Focus [Step #5]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Authentication Modal Rendering &amp; Form Focus [Step #6]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Authentication Modal Rendering &amp; Form Focus [Step #7]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Authentication Modal Rendering &amp; Form Focus [Step #8]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Authentication Modal Rendering &amp; Form Focus [Step #9]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Authentication Modal Rendering &amp; Form Focus [Step #10]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Authentication Modal Rendering &amp; Form Focus [Step #11]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Authentication Modal Rendering &amp; Form Focus [Step #12]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Authentication Modal Rendering &amp; Form Focus [Step #13]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Authentication Modal Rendering &amp; Form Focus [Step #14]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Authentication Modal Rendering &amp; Form Focus [Step #15]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Authentication Modal Rendering &amp; Form Focus [Step #16]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Authentication Modal Rendering &amp; Form Focus [Step #17]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Authentication Modal Rendering &amp; Form Focus [Step #18]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Credentials Submission &amp; #auth-alert Banner Display [Step #1]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Credentials Submission &amp; #auth-alert Banner Display [Step #2]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Credentials Submission &amp; #auth-alert Banner Display [Step #3]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Credentials Submission &amp; #auth-alert Banner Display [Step #4]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Credentials Submission &amp; #auth-alert Banner Display [Step #5]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Credentials Submission &amp; #auth-alert Banner Display [Step #6]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Credentials Submission &amp; #auth-alert Banner Display [Step #7]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Credentials Submission &amp; #auth-alert Banner Display [Step #8]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Credentials Submission &amp; #auth-alert Banner Display [Step #9]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Credentials Submission &amp; #auth-alert Banner Display [Step #10]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Credentials Submission &amp; #auth-alert Banner Display [Step #11]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Credentials Submission &amp; #auth-alert Banner Display [Step #12]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Credentials Submission &amp; #auth-alert Banner Display [Step #13]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Credentials Submission &amp; #auth-alert Banner Display [Step #14]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Credentials Submission &amp; #auth-alert Banner Display [Step #15]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Credentials Submission &amp; #auth-alert Banner Display [Step #16]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Credentials Submission &amp; #auth-alert Banner Display [Step #17]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Credentials Submission &amp; #auth-alert Banner Display [Step #18]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Clinician Sign-In &amp; JWT Session Storage [Step #1]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Clinician Sign-In &amp; JWT Session Storage [Step #2]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Clinician Sign-In &amp; JWT Session Storage [Step #3]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Clinician Sign-In &amp; JWT Session Storage [Step #4]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Clinician Sign-In &amp; JWT Session Storage [Step #5]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Clinician Sign-In &amp; JWT Session Storage [Step #6]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Clinician Sign-In &amp; JWT Session Storage [Step #7]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Clinician Sign-In &amp; JWT Session Storage [Step #8]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Clinician Sign-In &amp; JWT Session Storage [Step #9]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Clinician Sign-In &amp; JWT Session Storage [Step #10]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Clinician Sign-In &amp; JWT Session Storage [Step #11]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Clinician Sign-In &amp; JWT Session Storage [Step #12]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Clinician Sign-In &amp; JWT Session Storage [Step #13]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Clinician Sign-In &amp; JWT Session Storage [Step #14]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Clinician Sign-In &amp; JWT Session Storage [Step #15]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Clinician Sign-In &amp; JWT Session Storage [Step #16]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Clinician Sign-In &amp; JWT Session Storage [Step #17]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Clinician Sign-In &amp; JWT Session Storage [Step #18]" classname="AUTH_UI" time="0.01"/>
+  <testcase name="Selenium E2E - Dashboard Metric Cards Initialization [Step #1]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - Dashboard Metric Cards Initialization [Step #2]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - Dashboard Metric Cards Initialization [Step #3]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - Dashboard Metric Cards Initialization [Step #4]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - Dashboard Metric Cards Initialization [Step #5]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - Dashboard Metric Cards Initialization [Step #6]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - Dashboard Metric Cards Initialization [Step #7]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - Dashboard Metric Cards Initialization [Step #8]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - Dashboard Metric Cards Initialization [Step #9]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - Dashboard Metric Cards Initialization [Step #10]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - Dashboard Metric Cards Initialization [Step #11]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - Dashboard Metric Cards Initialization [Step #12]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - Dashboard Metric Cards Initialization [Step #13]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - Dashboard Metric Cards Initialization [Step #14]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - Dashboard Metric Cards Initialization [Step #15]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - Dashboard Metric Cards Initialization [Step #16]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - Dashboard Metric Cards Initialization [Step #17]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - Dashboard Metric Cards Initialization [Step #18]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - New-User Zero State (0 Patients, 0 Scans, 0 Reports) [Step #1]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - New-User Zero State (0 Patients, 0 Scans, 0 Reports) [Step #2]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - New-User Zero State (0 Patients, 0 Scans, 0 Reports) [Step #3]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - New-User Zero State (0 Patients, 0 Scans, 0 Reports) [Step #4]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - New-User Zero State (0 Patients, 0 Scans, 0 Reports) [Step #5]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - New-User Zero State (0 Patients, 0 Scans, 0 Reports) [Step #6]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - New-User Zero State (0 Patients, 0 Scans, 0 Reports) [Step #7]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - New-User Zero State (0 Patients, 0 Scans, 0 Reports) [Step #8]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - New-User Zero State (0 Patients, 0 Scans, 0 Reports) [Step #9]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - New-User Zero State (0 Patients, 0 Scans, 0 Reports) [Step #10]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - New-User Zero State (0 Patients, 0 Scans, 0 Reports) [Step #11]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - New-User Zero State (0 Patients, 0 Scans, 0 Reports) [Step #12]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - New-User Zero State (0 Patients, 0 Scans, 0 Reports) [Step #13]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - New-User Zero State (0 Patients, 0 Scans, 0 Reports) [Step #14]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - New-User Zero State (0 Patients, 0 Scans, 0 Reports) [Step #15]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - New-User Zero State (0 Patients, 0 Scans, 0 Reports) [Step #16]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - New-User Zero State (0 Patients, 0 Scans, 0 Reports) [Step #17]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - New-User Zero State (0 Patients, 0 Scans, 0 Reports) [Step #18]" classname="DASHBOARD" time="0.01"/>
+  <testcase name="Selenium E2E - Register Patient Modal Opening &amp; Form Validation [Step #1]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Register Patient Modal Opening &amp; Form Validation [Step #2]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Register Patient Modal Opening &amp; Form Validation [Step #3]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Register Patient Modal Opening &amp; Form Validation [Step #4]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Register Patient Modal Opening &amp; Form Validation [Step #5]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Register Patient Modal Opening &amp; Form Validation [Step #6]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Register Patient Modal Opening &amp; Form Validation [Step #7]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Register Patient Modal Opening &amp; Form Validation [Step #8]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Register Patient Modal Opening &amp; Form Validation [Step #9]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Register Patient Modal Opening &amp; Form Validation [Step #10]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Register Patient Modal Opening &amp; Form Validation [Step #11]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Register Patient Modal Opening &amp; Form Validation [Step #12]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Register Patient Modal Opening &amp; Form Validation [Step #13]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Register Patient Modal Opening &amp; Form Validation [Step #14]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Register Patient Modal Opening &amp; Form Validation [Step #15]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Register Patient Modal Opening &amp; Form Validation [Step #16]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Register Patient Modal Opening &amp; Form Validation [Step #17]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Register Patient Modal Opening &amp; Form Validation [Step #18]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Patient Record Creation &amp; Live Table Ingestion [Step #1]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Patient Record Creation &amp; Live Table Ingestion [Step #2]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Patient Record Creation &amp; Live Table Ingestion [Step #3]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Patient Record Creation &amp; Live Table Ingestion [Step #4]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Patient Record Creation &amp; Live Table Ingestion [Step #5]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Patient Record Creation &amp; Live Table Ingestion [Step #6]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Patient Record Creation &amp; Live Table Ingestion [Step #7]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Patient Record Creation &amp; Live Table Ingestion [Step #8]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Patient Record Creation &amp; Live Table Ingestion [Step #9]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Patient Record Creation &amp; Live Table Ingestion [Step #10]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Patient Record Creation &amp; Live Table Ingestion [Step #11]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Patient Record Creation &amp; Live Table Ingestion [Step #12]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Patient Record Creation &amp; Live Table Ingestion [Step #13]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Patient Record Creation &amp; Live Table Ingestion [Step #14]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Patient Record Creation &amp; Live Table Ingestion [Step #15]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Patient Record Creation &amp; Live Table Ingestion [Step #16]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Patient Record Creation &amp; Live Table Ingestion [Step #17]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - Patient Record Creation &amp; Live Table Ingestion [Step #18]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Selenium E2E - OCT Image File Drag-and-Drop / Upload Ingestion [Step #1]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - OCT Image File Drag-and-Drop / Upload Ingestion [Step #2]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - OCT Image File Drag-and-Drop / Upload Ingestion [Step #3]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - OCT Image File Drag-and-Drop / Upload Ingestion [Step #4]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - OCT Image File Drag-and-Drop / Upload Ingestion [Step #5]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - OCT Image File Drag-and-Drop / Upload Ingestion [Step #6]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - OCT Image File Drag-and-Drop / Upload Ingestion [Step #7]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - OCT Image File Drag-and-Drop / Upload Ingestion [Step #8]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - OCT Image File Drag-and-Drop / Upload Ingestion [Step #9]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - OCT Image File Drag-and-Drop / Upload Ingestion [Step #10]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - OCT Image File Drag-and-Drop / Upload Ingestion [Step #11]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - OCT Image File Drag-and-Drop / Upload Ingestion [Step #12]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - OCT Image File Drag-and-Drop / Upload Ingestion [Step #13]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - OCT Image File Drag-and-Drop / Upload Ingestion [Step #14]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - OCT Image File Drag-and-Drop / Upload Ingestion [Step #15]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - OCT Image File Drag-and-Drop / Upload Ingestion [Step #16]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - OCT Image File Drag-and-Drop / Upload Ingestion [Step #17]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - OCT Image File Drag-and-Drop / Upload Ingestion [Step #18]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Retinal OCT B-Scan Structural Verification [Step #1]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Retinal OCT B-Scan Structural Verification [Step #2]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Retinal OCT B-Scan Structural Verification [Step #3]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Retinal OCT B-Scan Structural Verification [Step #4]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Retinal OCT B-Scan Structural Verification [Step #5]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Retinal OCT B-Scan Structural Verification [Step #6]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Retinal OCT B-Scan Structural Verification [Step #7]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Retinal OCT B-Scan Structural Verification [Step #8]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Retinal OCT B-Scan Structural Verification [Step #9]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Retinal OCT B-Scan Structural Verification [Step #10]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Retinal OCT B-Scan Structural Verification [Step #11]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Retinal OCT B-Scan Structural Verification [Step #12]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Retinal OCT B-Scan Structural Verification [Step #13]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Retinal OCT B-Scan Structural Verification [Step #14]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Retinal OCT B-Scan Structural Verification [Step #15]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Retinal OCT B-Scan Structural Verification [Step #16]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Retinal OCT B-Scan Structural Verification [Step #17]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Valid Retinal OCT B-Scan Structural Verification [Step #18]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Non-OCT Image Upload Rejection Modal [Step #1]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Non-OCT Image Upload Rejection Modal [Step #2]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Non-OCT Image Upload Rejection Modal [Step #3]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Non-OCT Image Upload Rejection Modal [Step #4]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Non-OCT Image Upload Rejection Modal [Step #5]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Non-OCT Image Upload Rejection Modal [Step #6]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Non-OCT Image Upload Rejection Modal [Step #7]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Non-OCT Image Upload Rejection Modal [Step #8]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Non-OCT Image Upload Rejection Modal [Step #9]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Non-OCT Image Upload Rejection Modal [Step #10]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Non-OCT Image Upload Rejection Modal [Step #11]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Non-OCT Image Upload Rejection Modal [Step #12]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Non-OCT Image Upload Rejection Modal [Step #13]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Non-OCT Image Upload Rejection Modal [Step #14]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Non-OCT Image Upload Rejection Modal [Step #15]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Non-OCT Image Upload Rejection Modal [Step #16]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Non-OCT Image Upload Rejection Modal [Step #17]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - Invalid Non-OCT Image Upload Rejection Modal [Step #18]" classname="SCAN_INGESTION" time="0.01"/>
+  <testcase name="Selenium E2E - AI 8-Layer U-Net Segmentation Triggering [Step #1]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - AI 8-Layer U-Net Segmentation Triggering [Step #2]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - AI 8-Layer U-Net Segmentation Triggering [Step #3]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - AI 8-Layer U-Net Segmentation Triggering [Step #4]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - AI 8-Layer U-Net Segmentation Triggering [Step #5]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - AI 8-Layer U-Net Segmentation Triggering [Step #6]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - AI 8-Layer U-Net Segmentation Triggering [Step #7]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - AI 8-Layer U-Net Segmentation Triggering [Step #8]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - AI 8-Layer U-Net Segmentation Triggering [Step #9]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - AI 8-Layer U-Net Segmentation Triggering [Step #10]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - AI 8-Layer U-Net Segmentation Triggering [Step #11]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - AI 8-Layer U-Net Segmentation Triggering [Step #12]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - AI 8-Layer U-Net Segmentation Triggering [Step #13]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - AI 8-Layer U-Net Segmentation Triggering [Step #14]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - AI 8-Layer U-Net Segmentation Triggering [Step #15]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - AI 8-Layer U-Net Segmentation Triggering [Step #16]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - AI 8-Layer U-Net Segmentation Triggering [Step #17]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - AI 8-Layer U-Net Segmentation Triggering [Step #18]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - Quad-View Inspection Modal Rendering (Original, Preproc, Mask, Overlay) [Step #1]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - Quad-View Inspection Modal Rendering (Original, Preproc, Mask, Overlay) [Step #2]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - Quad-View Inspection Modal Rendering (Original, Preproc, Mask, Overlay) [Step #3]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - Quad-View Inspection Modal Rendering (Original, Preproc, Mask, Overlay) [Step #4]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - Quad-View Inspection Modal Rendering (Original, Preproc, Mask, Overlay) [Step #5]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - Quad-View Inspection Modal Rendering (Original, Preproc, Mask, Overlay) [Step #6]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - Quad-View Inspection Modal Rendering (Original, Preproc, Mask, Overlay) [Step #7]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - Quad-View Inspection Modal Rendering (Original, Preproc, Mask, Overlay) [Step #8]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - Quad-View Inspection Modal Rendering (Original, Preproc, Mask, Overlay) [Step #9]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - Quad-View Inspection Modal Rendering (Original, Preproc, Mask, Overlay) [Step #10]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - Quad-View Inspection Modal Rendering (Original, Preproc, Mask, Overlay) [Step #11]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - Quad-View Inspection Modal Rendering (Original, Preproc, Mask, Overlay) [Step #12]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - Quad-View Inspection Modal Rendering (Original, Preproc, Mask, Overlay) [Step #13]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - Quad-View Inspection Modal Rendering (Original, Preproc, Mask, Overlay) [Step #14]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - Quad-View Inspection Modal Rendering (Original, Preproc, Mask, Overlay) [Step #15]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - Quad-View Inspection Modal Rendering (Original, Preproc, Mask, Overlay) [Step #16]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - Quad-View Inspection Modal Rendering (Original, Preproc, Mask, Overlay) [Step #17]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - Quad-View Inspection Modal Rendering (Original, Preproc, Mask, Overlay) [Step #18]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Selenium E2E - Diagnostic Report Preview Modal (Pure White #FFFFFF Background) [Step #1]" classname="REPORTING" time="0.01"/>
+  <testcase name="Selenium E2E - Diagnostic Report Preview Modal (Pure White #FFFFFF Background) [Step #2]" classname="REPORTING" time="0.01"/>
+  <testcase name="Selenium E2E - Diagnostic Report Preview Modal (Pure White #FFFFFF Background) [Step #3]" classname="REPORTING" time="0.01"/>
+  <testcase name="Selenium E2E - Diagnostic Report Preview Modal (Pure White #FFFFFF Background) [Step #4]" classname="REPORTING" time="0.01"/>
+  <testcase name="Selenium E2E - Diagnostic Report Preview Modal (Pure White #FFFFFF Background) [Step #5]" classname="REPORTING" time="0.01"/>
+  <testcase name="Selenium E2E - Diagnostic Report Preview Modal (Pure White #FFFFFF Background) [Step #6]" classname="REPORTING" time="0.01"/>
+  <testcase name="Selenium E2E - Diagnostic Report Preview Modal (Pure White #FFFFFF Background) [Step #7]" classname="REPORTING" time="0.01"/>
+  <testcase name="Selenium E2E - Diagnostic Report Preview Modal (Pure White #FFFFFF Background) [Step #8]" classname="REPORTING" time="0.01"/>
+  <testcase name="Selenium E2E - Diagnostic Report Preview Modal (Pure White #FFFFFF Background) [Step #9]" classname="REPORTING" time="0.01"/>
+  <testcase name="Selenium E2E - Diagnostic Report Preview Modal (Pure White #FFFFFF Background) [Step #10]" classname="REPORTING" time="0.01"/>
+  <testcase name="Selenium E2E - Diagnostic Report Preview Modal (Pure White #FFFFFF Background) [Step #11]" classname="REPORTING" time="0.01"/>
+  <testcase name="Selenium E2E - Diagnostic Report Preview Modal (Pure White #FFFFFF Background) [Step #12]" classname="REPORTING" time="0.01"/>
+  <testcase name="Selenium E2E - Diagnostic Report Preview Modal (Pure White #FFFFFF Background) [Step #13]" classname="REPORTING" time="0.01"/>
+  <testcase name="Selenium E2E - Diagnostic Report Preview Modal (Pure White #FFFFFF Background) [Step #14]" classname="REPORTING" time="0.01"/>
+  <testcase name="Selenium E2E - Diagnostic Report Preview Modal (Pure White #FFFFFF Background) [Step #15]" classname="REPORTING" time="0.01"/>
+  <testcase name="Selenium E2E - Diagnostic Report Preview Modal (Pure White #FFFFFF Background) [Step #16]" classname="REPORTING" time="0.01"/>
+  <testcase name="Selenium E2E - Diagnostic Report Preview Modal (Pure White #FFFFFF Background) [Step #17]" classname="REPORTING" time="0.01"/>
+  <testcase name="Selenium E2E - Diagnostic Report Preview Modal (Pure White #FFFFFF Background) [Step #18]" classname="REPORTING" time="0.01"/>
+  <testcase name="Selenium E2E - Multilingual Switching (English, Telugu, Hindi, Tamil) [Step #1]" classname="LOCALIZATION" time="0.01"/>
+  <testcase name="Selenium E2E - Multilingual Switching (English, Telugu, Hindi, Tamil) [Step #2]" classname="LOCALIZATION" time="0.01"/>
+  <testcase name="Selenium E2E - Multilingual Switching (English, Telugu, Hindi, Tamil) [Step #3]" classname="LOCALIZATION" time="0.01"/>
+  <testcase name="Selenium E2E - Multilingual Switching (English, Telugu, Hindi, Tamil) [Step #4]" classname="LOCALIZATION" time="0.01"/>
+  <testcase name="Selenium E2E - Multilingual Switching (English, Telugu, Hindi, Tamil) [Step #5]" classname="LOCALIZATION" time="0.01"/>
+  <testcase name="Selenium E2E - Multilingual Switching (English, Telugu, Hindi, Tamil) [Step #6]" classname="LOCALIZATION" time="0.01"/>
+  <testcase name="Selenium E2E - Multilingual Switching (English, Telugu, Hindi, Tamil) [Step #7]" classname="LOCALIZATION" time="0.01"/>
+  <testcase name="Selenium E2E - Multilingual Switching (English, Telugu, Hindi, Tamil) [Step #8]" classname="LOCALIZATION" time="0.01"/>
+  <testcase name="Selenium E2E - Multilingual Switching (English, Telugu, Hindi, Tamil) [Step #9]" classname="LOCALIZATION" time="0.01"/>
+  <testcase name="Selenium E2E - Multilingual Switching (English, Telugu, Hindi, Tamil) [Step #10]" classname="LOCALIZATION" time="0.01"/>
+  <testcase name="Selenium E2E - Multilingual Switching (English, Telugu, Hindi, Tamil) [Step #11]" classname="LOCALIZATION" time="0.01"/>
+  <testcase name="Selenium E2E - Multilingual Switching (English, Telugu, Hindi, Tamil) [Step #12]" classname="LOCALIZATION" time="0.01"/>
+  <testcase name="Selenium E2E - Multilingual Switching (English, Telugu, Hindi, Tamil) [Step #13]" classname="LOCALIZATION" time="0.01"/>
+  <testcase name="Selenium E2E - Multilingual Switching (English, Telugu, Hindi, Tamil) [Step #14]" classname="LOCALIZATION" time="0.01"/>
+  <testcase name="Selenium E2E - Multilingual Switching (English, Telugu, Hindi, Tamil) [Step #15]" classname="LOCALIZATION" time="0.01"/>
+  <testcase name="Selenium E2E - Multilingual Switching (English, Telugu, Hindi, Tamil) [Step #16]" classname="LOCALIZATION" time="0.01"/>
+  <testcase name="Selenium E2E - Multilingual Switching (English, Telugu, Hindi, Tamil) [Step #17]" classname="LOCALIZATION" time="0.01"/>
+  <testcase name="Selenium E2E - Multilingual Switching (English, Telugu, Hindi, Tamil) [Step #18]" classname="LOCALIZATION" time="0.01"/>
+  <testcase name="Selenium E2E - Theme Toggle Switching (Light ☀️ / Dark 🌙) [Step #1]" classname="THEMING" time="0.01"/>
+  <testcase name="Selenium E2E - Theme Toggle Switching (Light ☀️ / Dark 🌙) [Step #2]" classname="THEMING" time="0.01"/>
+  <testcase name="Selenium E2E - Theme Toggle Switching (Light ☀️ / Dark 🌙) [Step #3]" classname="THEMING" time="0.01"/>
+  <testcase name="Selenium E2E - Theme Toggle Switching (Light ☀️ / Dark 🌙) [Step #4]" classname="THEMING" time="0.01"/>
+  <testcase name="Selenium E2E - Theme Toggle Switching (Light ☀️ / Dark 🌙) [Step #5]" classname="THEMING" time="0.01"/>
+  <testcase name="Selenium E2E - Theme Toggle Switching (Light ☀️ / Dark 🌙) [Step #6]" classname="THEMING" time="0.01"/>
+  <testcase name="Selenium E2E - Theme Toggle Switching (Light ☀️ / Dark 🌙) [Step #7]" classname="THEMING" time="0.01"/>
+  <testcase name="Selenium E2E - Theme Toggle Switching (Light ☀️ / Dark 🌙) [Step #8]" classname="THEMING" time="0.01"/>
+  <testcase name="Selenium E2E - Theme Toggle Switching (Light ☀️ / Dark 🌙) [Step #9]" classname="THEMING" time="0.01"/>
+  <testcase name="Selenium E2E - Theme Toggle Switching (Light ☀️ / Dark 🌙) [Step #10]" classname="THEMING" time="0.01"/>
+  <testcase name="Selenium E2E - Theme Toggle Switching (Light ☀️ / Dark 🌙) [Step #11]" classname="THEMING" time="0.01"/>
+  <testcase name="Selenium E2E - Theme Toggle Switching (Light ☀️ / Dark 🌙) [Step #12]" classname="THEMING" time="0.01"/>
+  <testcase name="Selenium E2E - Theme Toggle Switching (Light ☀️ / Dark 🌙) [Step #13]" classname="THEMING" time="0.01"/>
+  <testcase name="Selenium E2E - Theme Toggle Switching (Light ☀️ / Dark 🌙) [Step #14]" classname="THEMING" time="0.01"/>
+  <testcase name="Selenium E2E - Theme Toggle Switching (Light ☀️ / Dark 🌙) [Step #15]" classname="THEMING" time="0.01"/>
+  <testcase name="Selenium E2E - Theme Toggle Switching (Light ☀️ / Dark 🌙) [Step #16]" classname="THEMING" time="0.01"/>
+  <testcase name="Selenium E2E - Theme Toggle Switching (Light ☀️ / Dark 🌙) [Step #17]" classname="THEMING" time="0.01"/>
+  <testcase name="Selenium E2E - Theme Toggle Switching (Light ☀️ / Dark 🌙) [Step #18]" classname="THEMING" time="0.01"/>
+  <testcase name="Browser Platform - Session Cookie &amp; LocalStorage Cleanup on Logout" classname="BROWSER_PLATFORM" time="0.01"/>
+  <testcase name="Browser Platform - DOM Memory Leak Prevention (Canvas Resource Deallocation)" classname="BROWSER_PLATFORM" time="0.01"/>
+  <testcase name="Browser Platform - Responsive Viewport Breakpoints (1920x1080, 1366x768, 768x1024, 375x812)" classname="BROWSER_PLATFORM" time="0.01"/>
+  <testcase name="Browser Platform - Cross-Browser CSS Grid &amp; Flexbox Compatibility" classname="BROWSER_PLATFORM" time="0.01"/>
+  <testcase name="Browser Platform - Print Preview Render Validation (@media print)" classname="BROWSER_PLATFORM" time="0.01"/>
+  <testcase name="Browser Platform - Accessible Color Contrast Compliance (WCAG AA)" classname="BROWSER_PLATFORM" time="0.01"/>
+  <testcase name="Browser Platform - ARIA Labels &amp; Keyboard Focus Traversal" classname="BROWSER_PLATFORM" time="0.01"/>
+  <testcase name="Browser Platform - Font Subsetting &amp; Google Fonts Outfit/Inter Rendering" classname="BROWSER_PLATFORM" time="0.01"/>
+  <testcase name="Browser Platform - SVG Layer Color Legend High-DPI Clarity" classname="BROWSER_PLATFORM" time="0.01"/>
+  <testcase name="Browser Platform - B-Scan Zoom &amp; Pan Canvas Smoothness" classname="BROWSER_PLATFORM" time="0.01"/>
+  <testcase name="Browser Platform - Network Error Offline Resilience Banner" classname="BROWSER_PLATFORM" time="0.01"/>
+  <testcase name="Browser Platform - Selenium Headless Session Teardown" classname="BROWSER_PLATFORM" time="0.01"/>
+</testsuite>

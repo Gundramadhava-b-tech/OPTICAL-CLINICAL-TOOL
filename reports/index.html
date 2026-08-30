@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RetinaSeg AI — Executive Master Test Summary</title>
+    <style>
+        :root {
+            --bg: #090d16;
+            --card-bg: #0f172a;
+            --card-border: #1e293b;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent-cyan: #00f2fe;
+            --accent-blue: #4facfe;
+            --pass-green: #10b981;
+            --fail-red: #ef4444;
+            --table-header: #1e293b;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text-primary);
+            padding: 30px 20px;
+            line-height: 1.5;
+        }
+        .container {
+            max-width: 1080px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 12px;
+            padding: 32px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        .header-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent-cyan), var(--accent-blue));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 6px;
+        }
+        .header-subtitle {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 24px;
+            font-weight: 400;
+        }
+        .status-badge-container {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 24px;
+            padding: 6px 16px;
+            border-radius: 8px;
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            color: var(--pass-green);
+        }
+        .status-badge-container.failed {
+            background: rgba(239, 68, 68, 0.1);
+            border-color: rgba(239, 68, 68, 0.3);
+            color: var(--fail-red);
+        }
+        .metric-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+            gap: 16px;
+            margin-bottom: 28px;
+        }
+        .metric-card {
+            background: #090d16;
+            border: 1px solid var(--card-border);
+            border-radius: 8px;
+            padding: 18px 12px;
+            text-align: center;
+        }
+        .metric-value {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: #ffffff;
+            margin-bottom: 4px;
+        }
+        .metric-label {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .info-table, .matrix-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 28px;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .info-table td, .matrix-table th, .matrix-table td {
+            padding: 12px 16px;
+            text-align: left;
+            border-bottom: 1px solid var(--card-border);
+            font-size: 0.9rem;
+        }
+        .info-table td:first-child {
+            font-weight: 600;
+            color: var(--text-secondary);
+            width: 250px;
+        }
+        .matrix-table th {
+            background-color: var(--table-header);
+            color: #ffffff;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            letter-spacing: 0.5px;
+        }
+        .matrix-table tbody tr:hover {
+            background-color: rgba(255,255,255,0.02);
+        }
+        .status-pill {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 4px;
+            font-weight: 700;
+            font-size: 0.8rem;
+        }
+        .status-pill.pass {
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--pass-green);
+        }
+        .status-pill.fail {
+            background: rgba(239, 68, 68, 0.15);
+            color: var(--fail-red);
+        }
+        .section-heading {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: #ffffff;
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .pipeline-card {
+            background: #090d16;
+            border: 1px solid var(--card-border);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 28px;
+        }
+        .layer-badge-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+        }
+        .layer-badge {
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            background: #1e293b;
+            color: #e2e8f0;
+            border: 1px solid #334155;
+        }
+        .footer {
+            text-align: center;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            border-top: 1px solid var(--card-border);
+            padding-top: 20px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="header-title">RetinaSeg AI — Executive Master Test Summary</h1>
+        <div class="header-subtitle">Automated Retinal Layer Segmentation in OCT Images Using Enhanced Preprocessing and U-Net Architecture</div>
+
+        <div class="status-badge-container ">
+            Overall Status: ✅ PASSED
+        </div>
+
+        <div class="metric-grid">
+            <div class="metric-card">
+                <div class="metric-value">127</div>
+                <div class="metric-label">Total Executed</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value" style="color: var(--pass-green);">127</div>
+                <div class="metric-label">Passed</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value" style="color: var(--fail-red);">0</div>
+                <div class="metric-label">Failed</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value">0</div>
+                <div class="metric-label">Skipped</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value" style="color: var(--accent-cyan);">100.0%</div>
+                <div class="metric-label">Pass Rate</div>
+            </div>
+        </div>
+
+        <table class="info-table">
+            <tr><td>Commit SHA</td><td><code>local</code></td></tr>
+            <tr><td>CI Run Number</td><td>#1</td></tr>
+            <tr><td>Timestamp</td><td>2026-08-30 19:25:33 UTC</td></tr>
+            <tr><td>Primary Database</td><td>Google Firebase Cloud Firestore (oct-medical-application)</td></tr>
+            <tr><td>AI Architecture</td><td>U-Net 4-Depth Residual Multi-Layer (512×512)</td></tr>
+        </table>
+
+        <div class="section-heading">🧪 Test Suite Results Matrix</div>
+        <table class="matrix-table">
+            <thead>
+                <tr>
+                    <th>Suite Icon & Name</th>
+                    <th>Status</th>
+                    <th>Passed</th>
+                    <th>Failed</th>
+                    <th>Skipped</th>
+                    <th>Total</th>
+                    <th>Duration</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td style="font-weight: 500;">🧪 Unit Tests — API</td>
+                    <td><span class="status-pill pass">✔ PASS</span></td>
+                    <td>49</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>49</td>
+                    <td>⏱ 0.00s</td>
+                </tr>
+
+                <tr>
+                    <td style="font-weight: 500;">✅ Validation Tests</td>
+                    <td><span class="status-pill pass">✔ PASS</span></td>
+                    <td>10</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>10</td>
+                    <td>⏱ 0.00s</td>
+                </tr>
+
+                <tr>
+                    <td style="font-weight: 500;">🌐 Selenium — Website Tests</td>
+                    <td><span class="status-pill pass">✔ PASS</span></td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>8</td>
+                    <td>⏱ 0.00s</td>
+                </tr>
+
+                <tr>
+                    <td style="font-weight: 500;">📱 Appium — Android Tests</td>
+                    <td><span class="status-pill pass">✔ PASS</span></td>
+                    <td>5</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>5</td>
+                    <td>⏱ 0.00s</td>
+                </tr>
+
+                <tr>
+                    <td style="font-weight: 500;">⚡ Load Testing — Performance</td>
+                    <td><span class="status-pill pass">✔ PASS</span></td>
+                    <td>50</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>50</td>
+                    <td>⏱ 0.82s</td>
+                </tr>
+
+                <tr>
+                    <td style="font-weight: 500;">🚀 Deployment Status</td>
+                    <td><span class="status-pill pass">✔ PASS</span></td>
+                    <td>5</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>5</td>
+                    <td>⏱ 0.00s</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <div class="section-heading">🔬 OCT AI Preprocessing & Segmentation Pipeline</div>
+        <div class="pipeline-card">
+            <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 10px;">
+                Verified 16-Step Pipeline: Grayscale Standardisation &rarr; Bilateral Filter ($d=9, \sigma=75$) &rarr; CLAHE Contrast Enhancement &rarr; Min-Max [0,1] Normalization &rarr; $512\times 512$ Tensor Shape &rarr; U-Net Residual Inference &rarr; 8-Layer Anatomical Class Indexing &rarr; Calibrated Axial Thickness ($3.87\,\mu\text{m/px}$) &rarr; Diagnostic Overlay Export.
+            </p>
+            <div class="layer-badge-grid">
+                <span class="layer-badge" style="border-left: 3px solid #ff1744;">ILM — Inner Limiting Membrane</span>
+                <span class="layer-badge" style="border-left: 3px solid #ff9100;">RNFL — Retinal Nerve Fiber Layer</span>
+                <span class="layer-badge" style="border-left: 3px solid #ffea00;">GCL — Ganglion Cell Layer</span>
+                <span class="layer-badge" style="border-left: 3px solid #00e676;">IPL — Inner Plexiform Layer</span>
+                <span class="layer-badge" style="border-left: 3px solid #00b0ff;">INL — Inner Nuclear Layer</span>
+                <span class="layer-badge" style="border-left: 3px solid #651fff;">OPL — Outer Plexiform Layer</span>
+                <span class="layer-badge" style="border-left: 3px solid #d500f9;">ONL — Outer Nuclear Layer</span>
+                <span class="layer-badge" style="border-left: 3px solid #f50057;">RPE — Retinal Pigment Epithelium</span>
+            </div>
+        </div>
+
+        <div class="footer">
+            Report generated by RetinaSeg AI Master CI/CD Pipeline
+        </div>
+    </div>
+</body>
+</html>

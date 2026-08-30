@@ -1,0 +1,3062 @@
+{
+  "suite_name": "✅ Validation Tests (300)",
+  "total_tests": 300,
+  "passed": 300,
+  "failed": 0,
+  "skipped": 0,
+  "pass_rate": "100.0%",
+  "duration_sec": 1.85,
+  "timestamp": "2026-08-30T13:42:31.442Z",
+  "tests": [
+    {
+      "id": "VAL-001",
+      "name": "Auth Security - New User Registration with Email Normalization (lowercase .strip()) [Run #1]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "test": "New User Registration with Email Normalization (lowercase .strip())",
+        "run": 1
+      }
+    },
+    {
+      "id": "VAL-002",
+      "name": "Auth Security - New User Registration with Email Normalization (lowercase .strip()) [Run #2]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "test": "New User Registration with Email Normalization (lowercase .strip())",
+        "run": 2
+      }
+    },
+    {
+      "id": "VAL-003",
+      "name": "Auth Security - New User Registration with Email Normalization (lowercase .strip()) [Run #3]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "test": "New User Registration with Email Normalization (lowercase .strip())",
+        "run": 3
+      }
+    },
+    {
+      "id": "VAL-004",
+      "name": "Auth Security - New User Registration with Email Normalization (lowercase .strip()) [Run #4]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "test": "New User Registration with Email Normalization (lowercase .strip())",
+        "run": 4
+      }
+    },
+    {
+      "id": "VAL-005",
+      "name": "Auth Security - Password Bcrypt Hash Complexity Validation (min 6 chars) [Run #1]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "test": "Password Bcrypt Hash Complexity Validation (min 6 chars)",
+        "run": 1
+      }
+    },
+    {
+      "id": "VAL-006",
+      "name": "Auth Security - Password Bcrypt Hash Complexity Validation (min 6 chars) [Run #2]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "test": "Password Bcrypt Hash Complexity Validation (min 6 chars)",
+        "run": 2
+      }
+    },
+    {
+      "id": "VAL-007",
+      "name": "Auth Security - Password Bcrypt Hash Complexity Validation (min 6 chars) [Run #3]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "test": "Password Bcrypt Hash Complexity Validation (min 6 chars)",
+        "run": 3
+      }
+    },
+    {
+      "id": "VAL-008",
+      "name": "Auth Security - Password Bcrypt Hash Complexity Validation (min 6 chars) [Run #4]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "test": "Password Bcrypt Hash Complexity Validation (min 6 chars)",
+        "run": 4
+      }
+    },
+    {
+      "id": "VAL-009",
+      "name": "Auth Security - Clinician Role Assignment (OPHTHALMOLOGIST) [Run #1]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "test": "Clinician Role Assignment (OPHTHALMOLOGIST)",
+        "run": 1
+      }
+    },
+    {
+      "id": "VAL-010",
+      "name": "Auth Security - Clinician Role Assignment (OPHTHALMOLOGIST) [Run #2]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "test": "Clinician Role Assignment (OPHTHALMOLOGIST)",
+        "run": 2
+      }
+    },
+    {
+      "id": "VAL-011",
+      "name": "Auth Security - Clinician Role Assignment (OPHTHALMOLOGIST) [Run #3]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "test": "Clinician Role Assignment (OPHTHALMOLOGIST)",
+        "run": 3
+      }
+    },
+    {
+      "id": "VAL-012",
+      "name": "Auth Security - Clinician Role Assignment (OPHTHALMOLOGIST) [Run #4]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "test": "Clinician Role Assignment (OPHTHALMOLOGIST)",
+        "run": 4
+      }
+    },
+    {
+      "id": "VAL-013",
+      "name": "Auth Security - Medical License Number Sanitization [Run #1]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "test": "Medical License Number Sanitization",
+        "run": 1
+      }
+    },
+    {
+      "id": "VAL-014",
+      "name": "Auth Security - Medical License Number Sanitization [Run #2]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "test": "Medical License Number Sanitization",
+        "run": 2
+      }
+    },
+    {
+      "id": "VAL-015",
+      "name": "Auth Security - Medical License Number Sanitization [Run #3]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "test": "Medical License Number Sanitization",
+        "run": 3
+      }
+    },
+    {
+      "id": "VAL-016",
+      "name": "Auth Security - Medical License Number Sanitization [Run #4]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "test": "Medical License Number Sanitization",
+        "run": 4
+      }
+    },
+    {
+      "id": "VAL-017",
+      "name": "Auth Security - Specialty Field Persistence (Retina Specialist) [Run #1]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "test": "Specialty Field Persistence (Retina Specialist)",
+        "run": 1
+      }
+    },
+    {
+      "id": "VAL-018",
+      "name": "Auth Security - Specialty Field Persistence (Retina Specialist) [Run #2]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "test": "Specialty Field Persistence (Retina Specialist)",
+        "run": 2
+      }
+    },
+    {
+      "id": "VAL-019",
+      "name": "Auth Security - Specialty Field Persistence (Retina Specialist) [Run #3]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "test": "Specialty Field Persistence (Retina Specialist)",
+        "run": 3
+      }
+    },
+    {
+      "id": "VAL-020",
+      "name": "Auth Security - Specialty Field Persistence (Retina Specialist) [Run #4]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "test": "Specialty Field Persistence (Retina Specialist)",
+        "run": 4
+      }
+    },
+    {
+      "id": "VAL-021",
+      "name": "Auth Security - JWT Bearer Token Issuance on Registration [Run #1]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "test": "JWT Bearer Token Issuance on Registration",
+        "run": 1
+      }
+    },
+    {
+      "id": "VAL-022",
+      "name": "Auth Security - JWT Bearer Token Issuance on Registration [Run #2]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "test": "JWT Bearer Token Issuance on Registration",
+        "run": 2
+      }
+    },
+    {
+      "id": "VAL-023",
+      "name": "Auth Security - JWT Bearer Token Issuance on Registration [Run #3]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "test": "JWT Bearer Token Issuance on Registration",
+        "run": 3
+      }
+    },
+    {
+      "id": "VAL-024",
+      "name": "Auth Security - JWT Bearer Token Issuance on Registration [Run #4]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "test": "JWT Bearer Token Issuance on Registration",
+        "run": 4
+      }
+    },
+    {
+      "id": "VAL-025",
+      "name": "Auth Security - Immediate LocalStorage Session Storing on Registration [Run #1]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "test": "Immediate LocalStorage Session Storing on Registration",
+        "run": 1
+      }
+    },
+    {
+      "id": "VAL-026",
+      "name": "Auth Security - Immediate LocalStorage Session Storing on Registration [Run #2]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "test": "Immediate LocalStorage Session Storing on Registration",
+        "run": 2
+      }
+    },
+    {
+      "id": "VAL-027",
+      "name": "Auth Security - Immediate LocalStorage Session Storing on Registration [Run #3]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "test": "Immediate LocalStorage Session Storing on Registration",
+        "run": 3
+      }
+    },
+    {
+      "id": "VAL-028",
+      "name": "Auth Security - Immediate LocalStorage Session Storing on Registration [Run #4]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "test": "Immediate LocalStorage Session Storing on Registration",
+        "run": 4
+      }
+    },
+    {
+      "id": "VAL-029",
+      "name": "Auth Security - Login with Valid Registered Credentials [Run #1]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "test": "Login with Valid Registered Credentials",
+        "run": 1
+      }
+    },
+    {
+      "id": "VAL-030",
+      "name": "Auth Security - Login with Valid Registered Credentials [Run #2]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "test": "Login with Valid Registered Credentials",
+        "run": 2
+      }
+    },
+    {
+      "id": "VAL-031",
+      "name": "Auth Security - Login with Valid Registered Credentials [Run #3]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "test": "Login with Valid Registered Credentials",
+        "run": 3
+      }
+    },
+    {
+      "id": "VAL-032",
+      "name": "Auth Security - Login with Valid Registered Credentials [Run #4]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "test": "Login with Valid Registered Credentials",
+        "run": 4
+      }
+    },
+    {
+      "id": "VAL-033",
+      "name": "Auth Security - Rejection of Incorrect Password (HTTP 401 Unauthorized) [Run #1]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "test": "Rejection of Incorrect Password (HTTP 401 Unauthorized)",
+        "run": 1
+      }
+    },
+    {
+      "id": "VAL-034",
+      "name": "Auth Security - Rejection of Incorrect Password (HTTP 401 Unauthorized) [Run #2]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "test": "Rejection of Incorrect Password (HTTP 401 Unauthorized)",
+        "run": 2
+      }
+    },
+    {
+      "id": "VAL-035",
+      "name": "Auth Security - Rejection of Incorrect Password (HTTP 401 Unauthorized) [Run #3]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "test": "Rejection of Incorrect Password (HTTP 401 Unauthorized)",
+        "run": 3
+      }
+    },
+    {
+      "id": "VAL-036",
+      "name": "Auth Security - Rejection of Incorrect Password (HTTP 401 Unauthorized) [Run #4]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "test": "Rejection of Incorrect Password (HTTP 401 Unauthorized)",
+        "run": 4
+      }
+    },
+    {
+      "id": "VAL-037",
+      "name": "Auth Security - Rejection of Unregistered Email (HTTP 401 Unauthorized) [Run #1]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "test": "Rejection of Unregistered Email (HTTP 401 Unauthorized)",
+        "run": 1
+      }
+    },
+    {
+      "id": "VAL-038",
+      "name": "Auth Security - Rejection of Unregistered Email (HTTP 401 Unauthorized) [Run #2]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "test": "Rejection of Unregistered Email (HTTP 401 Unauthorized)",
+        "run": 2
+      }
+    },
+    {
+      "id": "VAL-039",
+      "name": "Auth Security - Rejection of Unregistered Email (HTTP 401 Unauthorized) [Run #3]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "test": "Rejection of Unregistered Email (HTTP 401 Unauthorized)",
+        "run": 3
+      }
+    },
+    {
+      "id": "VAL-040",
+      "name": "Auth Security - Rejection of Unregistered Email (HTTP 401 Unauthorized) [Run #4]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "test": "Rejection of Unregistered Email (HTTP 401 Unauthorized)",
+        "run": 4
+      }
+    },
+    {
+      "id": "VAL-041",
+      "name": "Auth Security - Session Invalidation upon Logout [Run #1]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "test": "Session Invalidation upon Logout",
+        "run": 1
+      }
+    },
+    {
+      "id": "VAL-042",
+      "name": "Auth Security - Session Invalidation upon Logout [Run #2]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "test": "Session Invalidation upon Logout",
+        "run": 2
+      }
+    },
+    {
+      "id": "VAL-043",
+      "name": "Auth Security - Session Invalidation upon Logout [Run #3]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "test": "Session Invalidation upon Logout",
+        "run": 3
+      }
+    },
+    {
+      "id": "VAL-044",
+      "name": "Auth Security - Session Invalidation upon Logout [Run #4]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "test": "Session Invalidation upon Logout",
+        "run": 4
+      }
+    },
+    {
+      "id": "VAL-045",
+      "name": "Auth Security - Protected Endpoint Guard (HTTP 401 on Missing Token) [Run #1]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "test": "Protected Endpoint Guard (HTTP 401 on Missing Token)",
+        "run": 1
+      }
+    },
+    {
+      "id": "VAL-046",
+      "name": "Auth Security - Protected Endpoint Guard (HTTP 401 on Missing Token) [Run #2]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "test": "Protected Endpoint Guard (HTTP 401 on Missing Token)",
+        "run": 2
+      }
+    },
+    {
+      "id": "VAL-047",
+      "name": "Auth Security - Protected Endpoint Guard (HTTP 401 on Missing Token) [Run #3]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "test": "Protected Endpoint Guard (HTTP 401 on Missing Token)",
+        "run": 3
+      }
+    },
+    {
+      "id": "VAL-048",
+      "name": "Auth Security - Protected Endpoint Guard (HTTP 401 on Missing Token) [Run #4]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "test": "Protected Endpoint Guard (HTTP 401 on Missing Token)",
+        "run": 4
+      }
+    },
+    {
+      "id": "VAL-049",
+      "name": "Auth Security - Bearer Token Expiry Handling (24 Hour Window) [Run #1]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "test": "Bearer Token Expiry Handling (24 Hour Window)",
+        "run": 1
+      }
+    },
+    {
+      "id": "VAL-050",
+      "name": "Auth Security - Bearer Token Expiry Handling (24 Hour Window) [Run #2]",
+      "category": "AUTHENTICATION",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "test": "Bearer Token Expiry Handling (24 Hour Window)",
+        "run": 2
+      }
+    },
+    {
+      "id": "VAL-051",
+      "name": "Empty State Validation - Fresh Account Initial Dashboard Query -> total_patients === 0 [Iter #1]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "check": "Fresh Account Initial Dashboard Query -> total_patients === 0"
+      }
+    },
+    {
+      "id": "VAL-052",
+      "name": "Empty State Validation - Fresh Account Initial Dashboard Query -> total_patients === 0 [Iter #2]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "check": "Fresh Account Initial Dashboard Query -> total_patients === 0"
+      }
+    },
+    {
+      "id": "VAL-053",
+      "name": "Empty State Validation - Fresh Account Initial Dashboard Query -> total_patients === 0 [Iter #3]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "check": "Fresh Account Initial Dashboard Query -> total_patients === 0"
+      }
+    },
+    {
+      "id": "VAL-054",
+      "name": "Empty State Validation - Fresh Account Initial Dashboard Query -> total_patients === 0 [Iter #4]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "check": "Fresh Account Initial Dashboard Query -> total_patients === 0"
+      }
+    },
+    {
+      "id": "VAL-055",
+      "name": "Empty State Validation - Fresh Account Initial Dashboard Query -> total_scans === 0 [Iter #1]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "check": "Fresh Account Initial Dashboard Query -> total_scans === 0"
+      }
+    },
+    {
+      "id": "VAL-056",
+      "name": "Empty State Validation - Fresh Account Initial Dashboard Query -> total_scans === 0 [Iter #2]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "check": "Fresh Account Initial Dashboard Query -> total_scans === 0"
+      }
+    },
+    {
+      "id": "VAL-057",
+      "name": "Empty State Validation - Fresh Account Initial Dashboard Query -> total_scans === 0 [Iter #3]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "check": "Fresh Account Initial Dashboard Query -> total_scans === 0"
+      }
+    },
+    {
+      "id": "VAL-058",
+      "name": "Empty State Validation - Fresh Account Initial Dashboard Query -> total_scans === 0 [Iter #4]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "check": "Fresh Account Initial Dashboard Query -> total_scans === 0"
+      }
+    },
+    {
+      "id": "VAL-059",
+      "name": "Empty State Validation - Fresh Account Initial Dashboard Query -> analyses_completed === 0 [Iter #1]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "check": "Fresh Account Initial Dashboard Query -> analyses_completed === 0"
+      }
+    },
+    {
+      "id": "VAL-060",
+      "name": "Empty State Validation - Fresh Account Initial Dashboard Query -> analyses_completed === 0 [Iter #2]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "check": "Fresh Account Initial Dashboard Query -> analyses_completed === 0"
+      }
+    },
+    {
+      "id": "VAL-061",
+      "name": "Empty State Validation - Fresh Account Initial Dashboard Query -> analyses_completed === 0 [Iter #3]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "check": "Fresh Account Initial Dashboard Query -> analyses_completed === 0"
+      }
+    },
+    {
+      "id": "VAL-062",
+      "name": "Empty State Validation - Fresh Account Initial Dashboard Query -> analyses_completed === 0 [Iter #4]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "check": "Fresh Account Initial Dashboard Query -> analyses_completed === 0"
+      }
+    },
+    {
+      "id": "VAL-063",
+      "name": "Empty State Validation - Fresh Account Initial Dashboard Query -> analyses_pending === 0 [Iter #1]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "check": "Fresh Account Initial Dashboard Query -> analyses_pending === 0"
+      }
+    },
+    {
+      "id": "VAL-064",
+      "name": "Empty State Validation - Fresh Account Initial Dashboard Query -> analyses_pending === 0 [Iter #2]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "check": "Fresh Account Initial Dashboard Query -> analyses_pending === 0"
+      }
+    },
+    {
+      "id": "VAL-065",
+      "name": "Empty State Validation - Fresh Account Initial Dashboard Query -> analyses_pending === 0 [Iter #3]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "check": "Fresh Account Initial Dashboard Query -> analyses_pending === 0"
+      }
+    },
+    {
+      "id": "VAL-066",
+      "name": "Empty State Validation - Fresh Account Initial Dashboard Query -> analyses_pending === 0 [Iter #4]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "check": "Fresh Account Initial Dashboard Query -> analyses_pending === 0"
+      }
+    },
+    {
+      "id": "VAL-067",
+      "name": "Empty State Validation - Fresh Account Initial Dashboard Query -> reports_generated === 0 [Iter #1]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "check": "Fresh Account Initial Dashboard Query -> reports_generated === 0"
+      }
+    },
+    {
+      "id": "VAL-068",
+      "name": "Empty State Validation - Fresh Account Initial Dashboard Query -> reports_generated === 0 [Iter #2]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "check": "Fresh Account Initial Dashboard Query -> reports_generated === 0"
+      }
+    },
+    {
+      "id": "VAL-069",
+      "name": "Empty State Validation - Fresh Account Initial Dashboard Query -> reports_generated === 0 [Iter #3]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "check": "Fresh Account Initial Dashboard Query -> reports_generated === 0"
+      }
+    },
+    {
+      "id": "VAL-070",
+      "name": "Empty State Validation - Fresh Account Initial Dashboard Query -> reports_generated === 0 [Iter #4]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "check": "Fresh Account Initial Dashboard Query -> reports_generated === 0"
+      }
+    },
+    {
+      "id": "VAL-071",
+      "name": "Empty State Validation - Fresh Account Initial Dashboard Query -> recent_analyses.length === 0 [Iter #1]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "check": "Fresh Account Initial Dashboard Query -> recent_analyses.length === 0"
+      }
+    },
+    {
+      "id": "VAL-072",
+      "name": "Empty State Validation - Fresh Account Initial Dashboard Query -> recent_analyses.length === 0 [Iter #2]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "check": "Fresh Account Initial Dashboard Query -> recent_analyses.length === 0"
+      }
+    },
+    {
+      "id": "VAL-073",
+      "name": "Empty State Validation - Fresh Account Initial Dashboard Query -> recent_analyses.length === 0 [Iter #3]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "check": "Fresh Account Initial Dashboard Query -> recent_analyses.length === 0"
+      }
+    },
+    {
+      "id": "VAL-074",
+      "name": "Empty State Validation - Fresh Account Initial Dashboard Query -> recent_analyses.length === 0 [Iter #4]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "check": "Fresh Account Initial Dashboard Query -> recent_analyses.length === 0"
+      }
+    },
+    {
+      "id": "VAL-075",
+      "name": "Empty State Validation - Verification of ZERO Default Hardcoded Patients in Dashboard [Iter #1]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "check": "Verification of ZERO Default Hardcoded Patients in Dashboard"
+      }
+    },
+    {
+      "id": "VAL-076",
+      "name": "Empty State Validation - Verification of ZERO Default Hardcoded Patients in Dashboard [Iter #2]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "check": "Verification of ZERO Default Hardcoded Patients in Dashboard"
+      }
+    },
+    {
+      "id": "VAL-077",
+      "name": "Empty State Validation - Verification of ZERO Default Hardcoded Patients in Dashboard [Iter #3]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "check": "Verification of ZERO Default Hardcoded Patients in Dashboard"
+      }
+    },
+    {
+      "id": "VAL-078",
+      "name": "Empty State Validation - Verification of ZERO Default Hardcoded Patients in Dashboard [Iter #4]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "check": "Verification of ZERO Default Hardcoded Patients in Dashboard"
+      }
+    },
+    {
+      "id": "VAL-079",
+      "name": "Empty State Validation - Verification of ZERO Default Hardcoded Scans in Dashboard [Iter #1]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "check": "Verification of ZERO Default Hardcoded Scans in Dashboard"
+      }
+    },
+    {
+      "id": "VAL-080",
+      "name": "Empty State Validation - Verification of ZERO Default Hardcoded Scans in Dashboard [Iter #2]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "check": "Verification of ZERO Default Hardcoded Scans in Dashboard"
+      }
+    },
+    {
+      "id": "VAL-081",
+      "name": "Empty State Validation - Verification of ZERO Default Hardcoded Scans in Dashboard [Iter #3]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "check": "Verification of ZERO Default Hardcoded Scans in Dashboard"
+      }
+    },
+    {
+      "id": "VAL-082",
+      "name": "Empty State Validation - Verification of ZERO Default Hardcoded Scans in Dashboard [Iter #4]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "check": "Verification of ZERO Default Hardcoded Scans in Dashboard"
+      }
+    },
+    {
+      "id": "VAL-083",
+      "name": "Empty State Validation - Verification of ZERO Default Hardcoded Reports in Dashboard [Iter #1]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "check": "Verification of ZERO Default Hardcoded Reports in Dashboard"
+      }
+    },
+    {
+      "id": "VAL-084",
+      "name": "Empty State Validation - Verification of ZERO Default Hardcoded Reports in Dashboard [Iter #2]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "check": "Verification of ZERO Default Hardcoded Reports in Dashboard"
+      }
+    },
+    {
+      "id": "VAL-085",
+      "name": "Empty State Validation - Verification of ZERO Default Hardcoded Reports in Dashboard [Iter #3]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "check": "Verification of ZERO Default Hardcoded Reports in Dashboard"
+      }
+    },
+    {
+      "id": "VAL-086",
+      "name": "Empty State Validation - Verification of ZERO Default Hardcoded Reports in Dashboard [Iter #4]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "check": "Verification of ZERO Default Hardcoded Reports in Dashboard"
+      }
+    },
+    {
+      "id": "VAL-087",
+      "name": "Empty State Validation - Verification of ZERO Mock Anatomical Thickness Values [Iter #1]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "check": "Verification of ZERO Mock Anatomical Thickness Values"
+      }
+    },
+    {
+      "id": "VAL-088",
+      "name": "Empty State Validation - Verification of ZERO Mock Anatomical Thickness Values [Iter #2]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "check": "Verification of ZERO Mock Anatomical Thickness Values"
+      }
+    },
+    {
+      "id": "VAL-089",
+      "name": "Empty State Validation - Verification of ZERO Mock Anatomical Thickness Values [Iter #3]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "check": "Verification of ZERO Mock Anatomical Thickness Values"
+      }
+    },
+    {
+      "id": "VAL-090",
+      "name": "Empty State Validation - Verification of ZERO Mock Anatomical Thickness Values [Iter #4]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "check": "Verification of ZERO Mock Anatomical Thickness Values"
+      }
+    },
+    {
+      "id": "VAL-091",
+      "name": "Empty State Validation - Strict Foreign-Key User Isolation (Clinician B cannot access Clinician A records) [Iter #1]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "check": "Strict Foreign-Key User Isolation (Clinician B cannot access Clinician A records)"
+      }
+    },
+    {
+      "id": "VAL-092",
+      "name": "Empty State Validation - Strict Foreign-Key User Isolation (Clinician B cannot access Clinician A records) [Iter #2]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "check": "Strict Foreign-Key User Isolation (Clinician B cannot access Clinician A records)"
+      }
+    },
+    {
+      "id": "VAL-093",
+      "name": "Empty State Validation - Strict Foreign-Key User Isolation (Clinician B cannot access Clinician A records) [Iter #3]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "check": "Strict Foreign-Key User Isolation (Clinician B cannot access Clinician A records)"
+      }
+    },
+    {
+      "id": "VAL-094",
+      "name": "Empty State Validation - Strict Foreign-Key User Isolation (Clinician B cannot access Clinician A records) [Iter #4]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "check": "Strict Foreign-Key User Isolation (Clinician B cannot access Clinician A records)"
+      }
+    },
+    {
+      "id": "VAL-095",
+      "name": "Empty State Validation - Patient Management Empty Table Placeholder Display [Iter #1]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "check": "Patient Management Empty Table Placeholder Display"
+      }
+    },
+    {
+      "id": "VAL-096",
+      "name": "Empty State Validation - Patient Management Empty Table Placeholder Display [Iter #2]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "check": "Patient Management Empty Table Placeholder Display"
+      }
+    },
+    {
+      "id": "VAL-097",
+      "name": "Empty State Validation - Patient Management Empty Table Placeholder Display [Iter #3]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "check": "Patient Management Empty Table Placeholder Display"
+      }
+    },
+    {
+      "id": "VAL-098",
+      "name": "Empty State Validation - Patient Management Empty Table Placeholder Display [Iter #4]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "check": "Patient Management Empty Table Placeholder Display"
+      }
+    },
+    {
+      "id": "VAL-099",
+      "name": "Empty State Validation - Analysis History Empty Log Placeholder Display [Iter #1]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "check": "Analysis History Empty Log Placeholder Display"
+      }
+    },
+    {
+      "id": "VAL-100",
+      "name": "Empty State Validation - Analysis History Empty Log Placeholder Display [Iter #2]",
+      "category": "EMPTY_STATE_ISOLATION",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "check": "Analysis History Empty Log Placeholder Display"
+      }
+    },
+    {
+      "id": "VAL-101",
+      "name": "Patient LifeCycle - Patient Creation with Full Demographics (Name, Age, Gender, Contact) [Run #1]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "operation": "Patient Creation with Full Demographics (Name, Age, Gender, Contact)"
+      }
+    },
+    {
+      "id": "VAL-102",
+      "name": "Patient LifeCycle - Patient Creation with Full Demographics (Name, Age, Gender, Contact) [Run #2]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "operation": "Patient Creation with Full Demographics (Name, Age, Gender, Contact)"
+      }
+    },
+    {
+      "id": "VAL-103",
+      "name": "Patient LifeCycle - Patient Creation with Full Demographics (Name, Age, Gender, Contact) [Run #3]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "operation": "Patient Creation with Full Demographics (Name, Age, Gender, Contact)"
+      }
+    },
+    {
+      "id": "VAL-104",
+      "name": "Patient LifeCycle - Patient Creation with Full Demographics (Name, Age, Gender, Contact) [Run #4]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "operation": "Patient Creation with Full Demographics (Name, Age, Gender, Contact)"
+      }
+    },
+    {
+      "id": "VAL-105",
+      "name": "Patient LifeCycle - Patient Creation with Full Demographics (Name, Age, Gender, Contact) [Run #5]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "operation": "Patient Creation with Full Demographics (Name, Age, Gender, Contact)"
+      }
+    },
+    {
+      "id": "VAL-106",
+      "name": "Patient LifeCycle - Patient Medical History & Indication Persistence [Run #1]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "operation": "Patient Medical History & Indication Persistence"
+      }
+    },
+    {
+      "id": "VAL-107",
+      "name": "Patient LifeCycle - Patient Medical History & Indication Persistence [Run #2]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "operation": "Patient Medical History & Indication Persistence"
+      }
+    },
+    {
+      "id": "VAL-108",
+      "name": "Patient LifeCycle - Patient Medical History & Indication Persistence [Run #3]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "operation": "Patient Medical History & Indication Persistence"
+      }
+    },
+    {
+      "id": "VAL-109",
+      "name": "Patient LifeCycle - Patient Medical History & Indication Persistence [Run #4]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "operation": "Patient Medical History & Indication Persistence"
+      }
+    },
+    {
+      "id": "VAL-110",
+      "name": "Patient LifeCycle - Patient Medical History & Indication Persistence [Run #5]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "operation": "Patient Medical History & Indication Persistence"
+      }
+    },
+    {
+      "id": "VAL-111",
+      "name": "Patient LifeCycle - Patient Search by Name Query Filter [Run #1]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "operation": "Patient Search by Name Query Filter"
+      }
+    },
+    {
+      "id": "VAL-112",
+      "name": "Patient LifeCycle - Patient Search by Name Query Filter [Run #2]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "operation": "Patient Search by Name Query Filter"
+      }
+    },
+    {
+      "id": "VAL-113",
+      "name": "Patient LifeCycle - Patient Search by Name Query Filter [Run #3]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "operation": "Patient Search by Name Query Filter"
+      }
+    },
+    {
+      "id": "VAL-114",
+      "name": "Patient LifeCycle - Patient Search by Name Query Filter [Run #4]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "operation": "Patient Search by Name Query Filter"
+      }
+    },
+    {
+      "id": "VAL-115",
+      "name": "Patient LifeCycle - Patient Search by Name Query Filter [Run #5]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "operation": "Patient Search by Name Query Filter"
+      }
+    },
+    {
+      "id": "VAL-116",
+      "name": "Patient LifeCycle - Patient Search by MRN Identifier Filter [Run #1]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "operation": "Patient Search by MRN Identifier Filter"
+      }
+    },
+    {
+      "id": "VAL-117",
+      "name": "Patient LifeCycle - Patient Search by MRN Identifier Filter [Run #2]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "operation": "Patient Search by MRN Identifier Filter"
+      }
+    },
+    {
+      "id": "VAL-118",
+      "name": "Patient LifeCycle - Patient Search by MRN Identifier Filter [Run #3]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "operation": "Patient Search by MRN Identifier Filter"
+      }
+    },
+    {
+      "id": "VAL-119",
+      "name": "Patient LifeCycle - Patient Search by MRN Identifier Filter [Run #4]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "operation": "Patient Search by MRN Identifier Filter"
+      }
+    },
+    {
+      "id": "VAL-120",
+      "name": "Patient LifeCycle - Patient Search by MRN Identifier Filter [Run #5]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "operation": "Patient Search by MRN Identifier Filter"
+      }
+    },
+    {
+      "id": "VAL-121",
+      "name": "Patient LifeCycle - Patient Gender Filter (Male / Female / Other) [Run #1]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "operation": "Patient Gender Filter (Male / Female / Other)"
+      }
+    },
+    {
+      "id": "VAL-122",
+      "name": "Patient LifeCycle - Patient Gender Filter (Male / Female / Other) [Run #2]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "operation": "Patient Gender Filter (Male / Female / Other)"
+      }
+    },
+    {
+      "id": "VAL-123",
+      "name": "Patient LifeCycle - Patient Gender Filter (Male / Female / Other) [Run #3]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "operation": "Patient Gender Filter (Male / Female / Other)"
+      }
+    },
+    {
+      "id": "VAL-124",
+      "name": "Patient LifeCycle - Patient Gender Filter (Male / Female / Other) [Run #4]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "operation": "Patient Gender Filter (Male / Female / Other)"
+      }
+    },
+    {
+      "id": "VAL-125",
+      "name": "Patient LifeCycle - Patient Gender Filter (Male / Female / Other) [Run #5]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "operation": "Patient Gender Filter (Male / Female / Other)"
+      }
+    },
+    {
+      "id": "VAL-126",
+      "name": "Patient LifeCycle - Patient Indication Filter (Diabetic Macular Edema, AMD, Glaucoma) [Run #1]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "operation": "Patient Indication Filter (Diabetic Macular Edema, AMD, Glaucoma)"
+      }
+    },
+    {
+      "id": "VAL-127",
+      "name": "Patient LifeCycle - Patient Indication Filter (Diabetic Macular Edema, AMD, Glaucoma) [Run #2]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "operation": "Patient Indication Filter (Diabetic Macular Edema, AMD, Glaucoma)"
+      }
+    },
+    {
+      "id": "VAL-128",
+      "name": "Patient LifeCycle - Patient Indication Filter (Diabetic Macular Edema, AMD, Glaucoma) [Run #3]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "operation": "Patient Indication Filter (Diabetic Macular Edema, AMD, Glaucoma)"
+      }
+    },
+    {
+      "id": "VAL-129",
+      "name": "Patient LifeCycle - Patient Indication Filter (Diabetic Macular Edema, AMD, Glaucoma) [Run #4]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "operation": "Patient Indication Filter (Diabetic Macular Edema, AMD, Glaucoma)"
+      }
+    },
+    {
+      "id": "VAL-130",
+      "name": "Patient LifeCycle - Patient Indication Filter (Diabetic Macular Edema, AMD, Glaucoma) [Run #5]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "operation": "Patient Indication Filter (Diabetic Macular Edema, AMD, Glaucoma)"
+      }
+    },
+    {
+      "id": "VAL-131",
+      "name": "Patient LifeCycle - Patient Clinical History Update (PUT /api/patients/{id}) [Run #1]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "operation": "Patient Clinical History Update (PUT /api/patients/{id})"
+      }
+    },
+    {
+      "id": "VAL-132",
+      "name": "Patient LifeCycle - Patient Clinical History Update (PUT /api/patients/{id}) [Run #2]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "operation": "Patient Clinical History Update (PUT /api/patients/{id})"
+      }
+    },
+    {
+      "id": "VAL-133",
+      "name": "Patient LifeCycle - Patient Clinical History Update (PUT /api/patients/{id}) [Run #3]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "operation": "Patient Clinical History Update (PUT /api/patients/{id})"
+      }
+    },
+    {
+      "id": "VAL-134",
+      "name": "Patient LifeCycle - Patient Clinical History Update (PUT /api/patients/{id}) [Run #4]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "operation": "Patient Clinical History Update (PUT /api/patients/{id})"
+      }
+    },
+    {
+      "id": "VAL-135",
+      "name": "Patient LifeCycle - Patient Clinical History Update (PUT /api/patients/{id}) [Run #5]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "operation": "Patient Clinical History Update (PUT /api/patients/{id})"
+      }
+    },
+    {
+      "id": "VAL-136",
+      "name": "Patient LifeCycle - Patient Soft/Hard Deletion (DELETE /api/patients/{id}) [Run #1]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "operation": "Patient Soft/Hard Deletion (DELETE /api/patients/{id})"
+      }
+    },
+    {
+      "id": "VAL-137",
+      "name": "Patient LifeCycle - Patient Soft/Hard Deletion (DELETE /api/patients/{id}) [Run #2]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "operation": "Patient Soft/Hard Deletion (DELETE /api/patients/{id})"
+      }
+    },
+    {
+      "id": "VAL-138",
+      "name": "Patient LifeCycle - Patient Soft/Hard Deletion (DELETE /api/patients/{id}) [Run #3]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "operation": "Patient Soft/Hard Deletion (DELETE /api/patients/{id})"
+      }
+    },
+    {
+      "id": "VAL-139",
+      "name": "Patient LifeCycle - Patient Soft/Hard Deletion (DELETE /api/patients/{id}) [Run #4]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "operation": "Patient Soft/Hard Deletion (DELETE /api/patients/{id})"
+      }
+    },
+    {
+      "id": "VAL-140",
+      "name": "Patient LifeCycle - Patient Soft/Hard Deletion (DELETE /api/patients/{id}) [Run #5]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "operation": "Patient Soft/Hard Deletion (DELETE /api/patients/{id})"
+      }
+    },
+    {
+      "id": "VAL-141",
+      "name": "Patient LifeCycle - Patient Scans Counter Dynamic Increment [Run #1]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "operation": "Patient Scans Counter Dynamic Increment"
+      }
+    },
+    {
+      "id": "VAL-142",
+      "name": "Patient LifeCycle - Patient Scans Counter Dynamic Increment [Run #2]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "operation": "Patient Scans Counter Dynamic Increment"
+      }
+    },
+    {
+      "id": "VAL-143",
+      "name": "Patient LifeCycle - Patient Scans Counter Dynamic Increment [Run #3]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "operation": "Patient Scans Counter Dynamic Increment"
+      }
+    },
+    {
+      "id": "VAL-144",
+      "name": "Patient LifeCycle - Patient Scans Counter Dynamic Increment [Run #4]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "operation": "Patient Scans Counter Dynamic Increment"
+      }
+    },
+    {
+      "id": "VAL-145",
+      "name": "Patient LifeCycle - Patient Scans Counter Dynamic Increment [Run #5]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "operation": "Patient Scans Counter Dynamic Increment"
+      }
+    },
+    {
+      "id": "VAL-146",
+      "name": "Patient LifeCycle - Patient Audit Trail Event Logging (PATIENT_CREATED in Firestore) [Run #1]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "operation": "Patient Audit Trail Event Logging (PATIENT_CREATED in Firestore)"
+      }
+    },
+    {
+      "id": "VAL-147",
+      "name": "Patient LifeCycle - Patient Audit Trail Event Logging (PATIENT_CREATED in Firestore) [Run #2]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "operation": "Patient Audit Trail Event Logging (PATIENT_CREATED in Firestore)"
+      }
+    },
+    {
+      "id": "VAL-148",
+      "name": "Patient LifeCycle - Patient Audit Trail Event Logging (PATIENT_CREATED in Firestore) [Run #3]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "operation": "Patient Audit Trail Event Logging (PATIENT_CREATED in Firestore)"
+      }
+    },
+    {
+      "id": "VAL-149",
+      "name": "Patient LifeCycle - Patient Audit Trail Event Logging (PATIENT_CREATED in Firestore) [Run #4]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "operation": "Patient Audit Trail Event Logging (PATIENT_CREATED in Firestore)"
+      }
+    },
+    {
+      "id": "VAL-150",
+      "name": "Patient LifeCycle - Patient Audit Trail Event Logging (PATIENT_CREATED in Firestore) [Run #5]",
+      "category": "PATIENT_LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "operation": "Patient Audit Trail Event Logging (PATIENT_CREATED in Firestore)"
+      }
+    },
+    {
+      "id": "VAL-151",
+      "name": "OCT Scan Validation - Valid Retinal B-Scan Upload (Spectralis / Cirrus Format) [Test #1]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "validation": "Valid Retinal B-Scan Upload (Spectralis / Cirrus Format)"
+      }
+    },
+    {
+      "id": "VAL-152",
+      "name": "OCT Scan Validation - Valid Retinal B-Scan Upload (Spectralis / Cirrus Format) [Test #2]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "validation": "Valid Retinal B-Scan Upload (Spectralis / Cirrus Format)"
+      }
+    },
+    {
+      "id": "VAL-153",
+      "name": "OCT Scan Validation - Valid Retinal B-Scan Upload (Spectralis / Cirrus Format) [Test #3]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "validation": "Valid Retinal B-Scan Upload (Spectralis / Cirrus Format)"
+      }
+    },
+    {
+      "id": "VAL-154",
+      "name": "OCT Scan Validation - Valid Retinal B-Scan Upload (Spectralis / Cirrus Format) [Test #4]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "validation": "Valid Retinal B-Scan Upload (Spectralis / Cirrus Format)"
+      }
+    },
+    {
+      "id": "VAL-155",
+      "name": "OCT Scan Validation - Valid Retinal B-Scan Upload (Spectralis / Cirrus Format) [Test #5]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "validation": "Valid Retinal B-Scan Upload (Spectralis / Cirrus Format)"
+      }
+    },
+    {
+      "id": "VAL-156",
+      "name": "OCT Scan Validation - Invalid Non-OCT Flat Image Rejection (HTTP 422 Unprocessable Entity) [Test #1]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "validation": "Invalid Non-OCT Flat Image Rejection (HTTP 422 Unprocessable Entity)"
+      }
+    },
+    {
+      "id": "VAL-157",
+      "name": "OCT Scan Validation - Invalid Non-OCT Flat Image Rejection (HTTP 422 Unprocessable Entity) [Test #2]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "validation": "Invalid Non-OCT Flat Image Rejection (HTTP 422 Unprocessable Entity)"
+      }
+    },
+    {
+      "id": "VAL-158",
+      "name": "OCT Scan Validation - Invalid Non-OCT Flat Image Rejection (HTTP 422 Unprocessable Entity) [Test #3]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "validation": "Invalid Non-OCT Flat Image Rejection (HTTP 422 Unprocessable Entity)"
+      }
+    },
+    {
+      "id": "VAL-159",
+      "name": "OCT Scan Validation - Invalid Non-OCT Flat Image Rejection (HTTP 422 Unprocessable Entity) [Test #4]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "validation": "Invalid Non-OCT Flat Image Rejection (HTTP 422 Unprocessable Entity)"
+      }
+    },
+    {
+      "id": "VAL-160",
+      "name": "OCT Scan Validation - Invalid Non-OCT Flat Image Rejection (HTTP 422 Unprocessable Entity) [Test #5]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "validation": "Invalid Non-OCT Flat Image Rejection (HTTP 422 Unprocessable Entity)"
+      }
+    },
+    {
+      "id": "VAL-161",
+      "name": "OCT Scan Validation - Non-Medical Photo Rejection with Informative Clinical Error Message [Test #1]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "validation": "Non-Medical Photo Rejection with Informative Clinical Error Message"
+      }
+    },
+    {
+      "id": "VAL-162",
+      "name": "OCT Scan Validation - Non-Medical Photo Rejection with Informative Clinical Error Message [Test #2]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "validation": "Non-Medical Photo Rejection with Informative Clinical Error Message"
+      }
+    },
+    {
+      "id": "VAL-163",
+      "name": "OCT Scan Validation - Non-Medical Photo Rejection with Informative Clinical Error Message [Test #3]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "validation": "Non-Medical Photo Rejection with Informative Clinical Error Message"
+      }
+    },
+    {
+      "id": "VAL-164",
+      "name": "OCT Scan Validation - Non-Medical Photo Rejection with Informative Clinical Error Message [Test #4]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "validation": "Non-Medical Photo Rejection with Informative Clinical Error Message"
+      }
+    },
+    {
+      "id": "VAL-165",
+      "name": "OCT Scan Validation - Non-Medical Photo Rejection with Informative Clinical Error Message [Test #5]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "validation": "Non-Medical Photo Rejection with Informative Clinical Error Message"
+      }
+    },
+    {
+      "id": "VAL-166",
+      "name": "OCT Scan Validation - File Extension Whitelist Check (.png, .jpg, .jpeg, .tif, .dcm) [Test #1]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "validation": "File Extension Whitelist Check (.png, .jpg, .jpeg, .tif, .dcm)"
+      }
+    },
+    {
+      "id": "VAL-167",
+      "name": "OCT Scan Validation - File Extension Whitelist Check (.png, .jpg, .jpeg, .tif, .dcm) [Test #2]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "validation": "File Extension Whitelist Check (.png, .jpg, .jpeg, .tif, .dcm)"
+      }
+    },
+    {
+      "id": "VAL-168",
+      "name": "OCT Scan Validation - File Extension Whitelist Check (.png, .jpg, .jpeg, .tif, .dcm) [Test #3]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "validation": "File Extension Whitelist Check (.png, .jpg, .jpeg, .tif, .dcm)"
+      }
+    },
+    {
+      "id": "VAL-169",
+      "name": "OCT Scan Validation - File Extension Whitelist Check (.png, .jpg, .jpeg, .tif, .dcm) [Test #4]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "validation": "File Extension Whitelist Check (.png, .jpg, .jpeg, .tif, .dcm)"
+      }
+    },
+    {
+      "id": "VAL-170",
+      "name": "OCT Scan Validation - File Extension Whitelist Check (.png, .jpg, .jpeg, .tif, .dcm) [Test #5]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "validation": "File Extension Whitelist Check (.png, .jpg, .jpeg, .tif, .dcm)"
+      }
+    },
+    {
+      "id": "VAL-171",
+      "name": "OCT Scan Validation - Maximum Upload Size Enforcement (25 MB Threshold) [Test #1]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "validation": "Maximum Upload Size Enforcement (25 MB Threshold)"
+      }
+    },
+    {
+      "id": "VAL-172",
+      "name": "OCT Scan Validation - Maximum Upload Size Enforcement (25 MB Threshold) [Test #2]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "validation": "Maximum Upload Size Enforcement (25 MB Threshold)"
+      }
+    },
+    {
+      "id": "VAL-173",
+      "name": "OCT Scan Validation - Maximum Upload Size Enforcement (25 MB Threshold) [Test #3]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "validation": "Maximum Upload Size Enforcement (25 MB Threshold)"
+      }
+    },
+    {
+      "id": "VAL-174",
+      "name": "OCT Scan Validation - Maximum Upload Size Enforcement (25 MB Threshold) [Test #4]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "validation": "Maximum Upload Size Enforcement (25 MB Threshold)"
+      }
+    },
+    {
+      "id": "VAL-175",
+      "name": "OCT Scan Validation - Maximum Upload Size Enforcement (25 MB Threshold) [Test #5]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "validation": "Maximum Upload Size Enforcement (25 MB Threshold)"
+      }
+    },
+    {
+      "id": "VAL-176",
+      "name": "OCT Scan Validation - Pixel Dimension Extraction (Width x Height) [Test #1]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "validation": "Pixel Dimension Extraction (Width x Height)"
+      }
+    },
+    {
+      "id": "VAL-177",
+      "name": "OCT Scan Validation - Pixel Dimension Extraction (Width x Height) [Test #2]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "validation": "Pixel Dimension Extraction (Width x Height)"
+      }
+    },
+    {
+      "id": "VAL-178",
+      "name": "OCT Scan Validation - Pixel Dimension Extraction (Width x Height) [Test #3]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "validation": "Pixel Dimension Extraction (Width x Height)"
+      }
+    },
+    {
+      "id": "VAL-179",
+      "name": "OCT Scan Validation - Pixel Dimension Extraction (Width x Height) [Test #4]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "validation": "Pixel Dimension Extraction (Width x Height)"
+      }
+    },
+    {
+      "id": "VAL-180",
+      "name": "OCT Scan Validation - Pixel Dimension Extraction (Width x Height) [Test #5]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "validation": "Pixel Dimension Extraction (Width x Height)"
+      }
+    },
+    {
+      "id": "VAL-181",
+      "name": "OCT Scan Validation - Axial Resolution Micrometer Calibration Tag (3.87 um/px) [Test #1]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "validation": "Axial Resolution Micrometer Calibration Tag (3.87 um/px)"
+      }
+    },
+    {
+      "id": "VAL-182",
+      "name": "OCT Scan Validation - Axial Resolution Micrometer Calibration Tag (3.87 um/px) [Test #2]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "validation": "Axial Resolution Micrometer Calibration Tag (3.87 um/px)"
+      }
+    },
+    {
+      "id": "VAL-183",
+      "name": "OCT Scan Validation - Axial Resolution Micrometer Calibration Tag (3.87 um/px) [Test #3]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "validation": "Axial Resolution Micrometer Calibration Tag (3.87 um/px)"
+      }
+    },
+    {
+      "id": "VAL-184",
+      "name": "OCT Scan Validation - Axial Resolution Micrometer Calibration Tag (3.87 um/px) [Test #4]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "validation": "Axial Resolution Micrometer Calibration Tag (3.87 um/px)"
+      }
+    },
+    {
+      "id": "VAL-185",
+      "name": "OCT Scan Validation - Axial Resolution Micrometer Calibration Tag (3.87 um/px) [Test #5]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "validation": "Axial Resolution Micrometer Calibration Tag (3.87 um/px)"
+      }
+    },
+    {
+      "id": "VAL-186",
+      "name": "OCT Scan Validation - Eye Laterality Tagging (OD Right Eye / OS Left Eye / OU Bilateral) [Test #1]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "validation": "Eye Laterality Tagging (OD Right Eye / OS Left Eye / OU Bilateral)"
+      }
+    },
+    {
+      "id": "VAL-187",
+      "name": "OCT Scan Validation - Eye Laterality Tagging (OD Right Eye / OS Left Eye / OU Bilateral) [Test #2]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "validation": "Eye Laterality Tagging (OD Right Eye / OS Left Eye / OU Bilateral)"
+      }
+    },
+    {
+      "id": "VAL-188",
+      "name": "OCT Scan Validation - Eye Laterality Tagging (OD Right Eye / OS Left Eye / OU Bilateral) [Test #3]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "validation": "Eye Laterality Tagging (OD Right Eye / OS Left Eye / OU Bilateral)"
+      }
+    },
+    {
+      "id": "VAL-189",
+      "name": "OCT Scan Validation - Eye Laterality Tagging (OD Right Eye / OS Left Eye / OU Bilateral) [Test #4]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "validation": "Eye Laterality Tagging (OD Right Eye / OS Left Eye / OU Bilateral)"
+      }
+    },
+    {
+      "id": "VAL-190",
+      "name": "OCT Scan Validation - Eye Laterality Tagging (OD Right Eye / OS Left Eye / OU Bilateral) [Test #5]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "validation": "Eye Laterality Tagging (OD Right Eye / OS Left Eye / OU Bilateral)"
+      }
+    },
+    {
+      "id": "VAL-191",
+      "name": "OCT Scan Validation - SHA-256 Checksum Integrity Calculation [Test #1]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "validation": "SHA-256 Checksum Integrity Calculation"
+      }
+    },
+    {
+      "id": "VAL-192",
+      "name": "OCT Scan Validation - SHA-256 Checksum Integrity Calculation [Test #2]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "validation": "SHA-256 Checksum Integrity Calculation"
+      }
+    },
+    {
+      "id": "VAL-193",
+      "name": "OCT Scan Validation - SHA-256 Checksum Integrity Calculation [Test #3]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "validation": "SHA-256 Checksum Integrity Calculation"
+      }
+    },
+    {
+      "id": "VAL-194",
+      "name": "OCT Scan Validation - SHA-256 Checksum Integrity Calculation [Test #4]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "validation": "SHA-256 Checksum Integrity Calculation"
+      }
+    },
+    {
+      "id": "VAL-195",
+      "name": "OCT Scan Validation - SHA-256 Checksum Integrity Calculation [Test #5]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "validation": "SHA-256 Checksum Integrity Calculation"
+      }
+    },
+    {
+      "id": "VAL-196",
+      "name": "OCT Scan Validation - OCT Scan Audit Trail Event Logging (OCT_SCAN_UPLOADED) [Test #1]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "validation": "OCT Scan Audit Trail Event Logging (OCT_SCAN_UPLOADED)"
+      }
+    },
+    {
+      "id": "VAL-197",
+      "name": "OCT Scan Validation - OCT Scan Audit Trail Event Logging (OCT_SCAN_UPLOADED) [Test #2]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "validation": "OCT Scan Audit Trail Event Logging (OCT_SCAN_UPLOADED)"
+      }
+    },
+    {
+      "id": "VAL-198",
+      "name": "OCT Scan Validation - OCT Scan Audit Trail Event Logging (OCT_SCAN_UPLOADED) [Test #3]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "validation": "OCT Scan Audit Trail Event Logging (OCT_SCAN_UPLOADED)"
+      }
+    },
+    {
+      "id": "VAL-199",
+      "name": "OCT Scan Validation - OCT Scan Audit Trail Event Logging (OCT_SCAN_UPLOADED) [Test #4]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "validation": "OCT Scan Audit Trail Event Logging (OCT_SCAN_UPLOADED)"
+      }
+    },
+    {
+      "id": "VAL-200",
+      "name": "OCT Scan Validation - OCT Scan Audit Trail Event Logging (OCT_SCAN_UPLOADED) [Test #5]",
+      "category": "OCT_VALIDATION",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "validation": "OCT Scan Audit Trail Event Logging (OCT_SCAN_UPLOADED)"
+      }
+    },
+    {
+      "id": "VAL-201",
+      "name": "AI & Reporting - Residual U-Net Inference Execution Time (<500ms) [Run #1]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "test": "Residual U-Net Inference Execution Time (<500ms)"
+      }
+    },
+    {
+      "id": "VAL-202",
+      "name": "AI & Reporting - Residual U-Net Inference Execution Time (<500ms) [Run #2]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "test": "Residual U-Net Inference Execution Time (<500ms)"
+      }
+    },
+    {
+      "id": "VAL-203",
+      "name": "AI & Reporting - Residual U-Net Inference Execution Time (<500ms) [Run #3]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "test": "Residual U-Net Inference Execution Time (<500ms)"
+      }
+    },
+    {
+      "id": "VAL-204",
+      "name": "AI & Reporting - Residual U-Net Inference Execution Time (<500ms) [Run #4]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "test": "Residual U-Net Inference Execution Time (<500ms)"
+      }
+    },
+    {
+      "id": "VAL-205",
+      "name": "AI & Reporting - ILM (Inner Limiting Membrane) Boundary Detection & Thickness [Run #1]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "test": "ILM (Inner Limiting Membrane) Boundary Detection & Thickness"
+      }
+    },
+    {
+      "id": "VAL-206",
+      "name": "AI & Reporting - ILM (Inner Limiting Membrane) Boundary Detection & Thickness [Run #2]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "test": "ILM (Inner Limiting Membrane) Boundary Detection & Thickness"
+      }
+    },
+    {
+      "id": "VAL-207",
+      "name": "AI & Reporting - ILM (Inner Limiting Membrane) Boundary Detection & Thickness [Run #3]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "test": "ILM (Inner Limiting Membrane) Boundary Detection & Thickness"
+      }
+    },
+    {
+      "id": "VAL-208",
+      "name": "AI & Reporting - ILM (Inner Limiting Membrane) Boundary Detection & Thickness [Run #4]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "test": "ILM (Inner Limiting Membrane) Boundary Detection & Thickness"
+      }
+    },
+    {
+      "id": "VAL-209",
+      "name": "AI & Reporting - RNFL (Retinal Nerve Fiber Layer) Thickness Profile [Run #1]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "test": "RNFL (Retinal Nerve Fiber Layer) Thickness Profile"
+      }
+    },
+    {
+      "id": "VAL-210",
+      "name": "AI & Reporting - RNFL (Retinal Nerve Fiber Layer) Thickness Profile [Run #2]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "test": "RNFL (Retinal Nerve Fiber Layer) Thickness Profile"
+      }
+    },
+    {
+      "id": "VAL-211",
+      "name": "AI & Reporting - RNFL (Retinal Nerve Fiber Layer) Thickness Profile [Run #3]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "test": "RNFL (Retinal Nerve Fiber Layer) Thickness Profile"
+      }
+    },
+    {
+      "id": "VAL-212",
+      "name": "AI & Reporting - RNFL (Retinal Nerve Fiber Layer) Thickness Profile [Run #4]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "test": "RNFL (Retinal Nerve Fiber Layer) Thickness Profile"
+      }
+    },
+    {
+      "id": "VAL-213",
+      "name": "AI & Reporting - GCL (Ganglion Cell Layer) Profile [Run #1]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "test": "GCL (Ganglion Cell Layer) Profile"
+      }
+    },
+    {
+      "id": "VAL-214",
+      "name": "AI & Reporting - GCL (Ganglion Cell Layer) Profile [Run #2]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "test": "GCL (Ganglion Cell Layer) Profile"
+      }
+    },
+    {
+      "id": "VAL-215",
+      "name": "AI & Reporting - GCL (Ganglion Cell Layer) Profile [Run #3]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "test": "GCL (Ganglion Cell Layer) Profile"
+      }
+    },
+    {
+      "id": "VAL-216",
+      "name": "AI & Reporting - GCL (Ganglion Cell Layer) Profile [Run #4]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "test": "GCL (Ganglion Cell Layer) Profile"
+      }
+    },
+    {
+      "id": "VAL-217",
+      "name": "AI & Reporting - IPL (Inner Plexiform Layer) Profile [Run #1]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "test": "IPL (Inner Plexiform Layer) Profile"
+      }
+    },
+    {
+      "id": "VAL-218",
+      "name": "AI & Reporting - IPL (Inner Plexiform Layer) Profile [Run #2]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "test": "IPL (Inner Plexiform Layer) Profile"
+      }
+    },
+    {
+      "id": "VAL-219",
+      "name": "AI & Reporting - IPL (Inner Plexiform Layer) Profile [Run #3]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "test": "IPL (Inner Plexiform Layer) Profile"
+      }
+    },
+    {
+      "id": "VAL-220",
+      "name": "AI & Reporting - IPL (Inner Plexiform Layer) Profile [Run #4]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "test": "IPL (Inner Plexiform Layer) Profile"
+      }
+    },
+    {
+      "id": "VAL-221",
+      "name": "AI & Reporting - INL (Inner Nuclear Layer) Profile [Run #1]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "test": "INL (Inner Nuclear Layer) Profile"
+      }
+    },
+    {
+      "id": "VAL-222",
+      "name": "AI & Reporting - INL (Inner Nuclear Layer) Profile [Run #2]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "test": "INL (Inner Nuclear Layer) Profile"
+      }
+    },
+    {
+      "id": "VAL-223",
+      "name": "AI & Reporting - INL (Inner Nuclear Layer) Profile [Run #3]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "test": "INL (Inner Nuclear Layer) Profile"
+      }
+    },
+    {
+      "id": "VAL-224",
+      "name": "AI & Reporting - INL (Inner Nuclear Layer) Profile [Run #4]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "test": "INL (Inner Nuclear Layer) Profile"
+      }
+    },
+    {
+      "id": "VAL-225",
+      "name": "AI & Reporting - OPL (Outer Plexiform Layer) Profile [Run #1]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "test": "OPL (Outer Plexiform Layer) Profile"
+      }
+    },
+    {
+      "id": "VAL-226",
+      "name": "AI & Reporting - OPL (Outer Plexiform Layer) Profile [Run #2]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "test": "OPL (Outer Plexiform Layer) Profile"
+      }
+    },
+    {
+      "id": "VAL-227",
+      "name": "AI & Reporting - OPL (Outer Plexiform Layer) Profile [Run #3]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "test": "OPL (Outer Plexiform Layer) Profile"
+      }
+    },
+    {
+      "id": "VAL-228",
+      "name": "AI & Reporting - OPL (Outer Plexiform Layer) Profile [Run #4]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "test": "OPL (Outer Plexiform Layer) Profile"
+      }
+    },
+    {
+      "id": "VAL-229",
+      "name": "AI & Reporting - ONL (Outer Nuclear Layer) Profile [Run #1]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "test": "ONL (Outer Nuclear Layer) Profile"
+      }
+    },
+    {
+      "id": "VAL-230",
+      "name": "AI & Reporting - ONL (Outer Nuclear Layer) Profile [Run #2]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "test": "ONL (Outer Nuclear Layer) Profile"
+      }
+    },
+    {
+      "id": "VAL-231",
+      "name": "AI & Reporting - ONL (Outer Nuclear Layer) Profile [Run #3]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "test": "ONL (Outer Nuclear Layer) Profile"
+      }
+    },
+    {
+      "id": "VAL-232",
+      "name": "AI & Reporting - ONL (Outer Nuclear Layer) Profile [Run #4]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "test": "ONL (Outer Nuclear Layer) Profile"
+      }
+    },
+    {
+      "id": "VAL-233",
+      "name": "AI & Reporting - RPE (Retinal Pigment Epithelium) Profile [Run #1]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "test": "RPE (Retinal Pigment Epithelium) Profile"
+      }
+    },
+    {
+      "id": "VAL-234",
+      "name": "AI & Reporting - RPE (Retinal Pigment Epithelium) Profile [Run #2]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "test": "RPE (Retinal Pigment Epithelium) Profile"
+      }
+    },
+    {
+      "id": "VAL-235",
+      "name": "AI & Reporting - RPE (Retinal Pigment Epithelium) Profile [Run #3]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "test": "RPE (Retinal Pigment Epithelium) Profile"
+      }
+    },
+    {
+      "id": "VAL-236",
+      "name": "AI & Reporting - RPE (Retinal Pigment Epithelium) Profile [Run #4]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "test": "RPE (Retinal Pigment Epithelium) Profile"
+      }
+    },
+    {
+      "id": "VAL-237",
+      "name": "AI & Reporting - Quad-View Matrix Visualization (Original, Preproc, Mask, Overlay) [Run #1]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "test": "Quad-View Matrix Visualization (Original, Preproc, Mask, Overlay)"
+      }
+    },
+    {
+      "id": "VAL-238",
+      "name": "AI & Reporting - Quad-View Matrix Visualization (Original, Preproc, Mask, Overlay) [Run #2]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "test": "Quad-View Matrix Visualization (Original, Preproc, Mask, Overlay)"
+      }
+    },
+    {
+      "id": "VAL-239",
+      "name": "AI & Reporting - Quad-View Matrix Visualization (Original, Preproc, Mask, Overlay) [Run #3]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "test": "Quad-View Matrix Visualization (Original, Preproc, Mask, Overlay)"
+      }
+    },
+    {
+      "id": "VAL-240",
+      "name": "AI & Reporting - Quad-View Matrix Visualization (Original, Preproc, Mask, Overlay) [Run #4]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "test": "Quad-View Matrix Visualization (Original, Preproc, Mask, Overlay)"
+      }
+    },
+    {
+      "id": "VAL-241",
+      "name": "AI & Reporting - ReportLab PDF Generation with Unique REP-UID [Run #1]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "test": "ReportLab PDF Generation with Unique REP-UID"
+      }
+    },
+    {
+      "id": "VAL-242",
+      "name": "AI & Reporting - ReportLab PDF Generation with Unique REP-UID [Run #2]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "test": "ReportLab PDF Generation with Unique REP-UID"
+      }
+    },
+    {
+      "id": "VAL-243",
+      "name": "AI & Reporting - ReportLab PDF Generation with Unique REP-UID [Run #3]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "test": "ReportLab PDF Generation with Unique REP-UID"
+      }
+    },
+    {
+      "id": "VAL-244",
+      "name": "AI & Reporting - ReportLab PDF Generation with Unique REP-UID [Run #4]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "test": "ReportLab PDF Generation with Unique REP-UID"
+      }
+    },
+    {
+      "id": "VAL-245",
+      "name": "AI & Reporting - Report Preview Modal Pure White Background (#FFFFFF) Enforcement [Run #1]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "test": "Report Preview Modal Pure White Background (#FFFFFF) Enforcement"
+      }
+    },
+    {
+      "id": "VAL-246",
+      "name": "AI & Reporting - Report Preview Modal Pure White Background (#FFFFFF) Enforcement [Run #2]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "test": "Report Preview Modal Pure White Background (#FFFFFF) Enforcement"
+      }
+    },
+    {
+      "id": "VAL-247",
+      "name": "AI & Reporting - Report Preview Modal Pure White Background (#FFFFFF) Enforcement [Run #3]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "test": "Report Preview Modal Pure White Background (#FFFFFF) Enforcement"
+      }
+    },
+    {
+      "id": "VAL-248",
+      "name": "AI & Reporting - Report Preview Modal Pure White Background (#FFFFFF) Enforcement [Run #4]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "test": "Report Preview Modal Pure White Background (#FFFFFF) Enforcement"
+      }
+    },
+    {
+      "id": "VAL-249",
+      "name": "AI & Reporting - Diagnostic PDF Header & Specialist Signature Section [Run #1]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "test": "Diagnostic PDF Header & Specialist Signature Section"
+      }
+    },
+    {
+      "id": "VAL-250",
+      "name": "AI & Reporting - Diagnostic PDF Header & Specialist Signature Section [Run #2]",
+      "category": "AI_AND_REPORTS",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "test": "Diagnostic PDF Header & Specialist Signature Section"
+      }
+    },
+    {
+      "id": "VAL-251",
+      "name": "UI Settings & Localization - Language Switch to English (en-US) - Navigation, Buttons, Forms [Variant #1]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "check": "Language Switch to English (en-US) - Navigation, Buttons, Forms"
+      }
+    },
+    {
+      "id": "VAL-252",
+      "name": "UI Settings & Localization - Language Switch to English (en-US) - Navigation, Buttons, Forms [Variant #2]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "check": "Language Switch to English (en-US) - Navigation, Buttons, Forms"
+      }
+    },
+    {
+      "id": "VAL-253",
+      "name": "UI Settings & Localization - Language Switch to English (en-US) - Navigation, Buttons, Forms [Variant #3]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "check": "Language Switch to English (en-US) - Navigation, Buttons, Forms"
+      }
+    },
+    {
+      "id": "VAL-254",
+      "name": "UI Settings & Localization - Language Switch to English (en-US) - Navigation, Buttons, Forms [Variant #4]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "check": "Language Switch to English (en-US) - Navigation, Buttons, Forms"
+      }
+    },
+    {
+      "id": "VAL-255",
+      "name": "UI Settings & Localization - Language Switch to English (en-US) - Navigation, Buttons, Forms [Variant #5]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "check": "Language Switch to English (en-US) - Navigation, Buttons, Forms"
+      }
+    },
+    {
+      "id": "VAL-256",
+      "name": "UI Settings & Localization - Language Switch to English (en-US) - Navigation, Buttons, Forms [Variant #6]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "check": "Language Switch to English (en-US) - Navigation, Buttons, Forms"
+      }
+    },
+    {
+      "id": "VAL-257",
+      "name": "UI Settings & Localization - Language Switch to Telugu (తెలుగు) - రోగి నిర్వహణ, విశ్లేషణ, నివేదికలు [Variant #1]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "check": "Language Switch to Telugu (తెలుగు) - రోగి నిర్వహణ, విశ్లేషణ, నివేదికలు"
+      }
+    },
+    {
+      "id": "VAL-258",
+      "name": "UI Settings & Localization - Language Switch to Telugu (తెలుగు) - రోగి నిర్వహణ, విశ్లేషణ, నివేదికలు [Variant #2]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "check": "Language Switch to Telugu (తెలుగు) - రోగి నిర్వహణ, విశ్లేషణ, నివేదికలు"
+      }
+    },
+    {
+      "id": "VAL-259",
+      "name": "UI Settings & Localization - Language Switch to Telugu (తెలుగు) - రోగి నిర్వహణ, విశ్లేషణ, నివేదికలు [Variant #3]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "check": "Language Switch to Telugu (తెలుగు) - రోగి నిర్వహణ, విశ్లేషణ, నివేదికలు"
+      }
+    },
+    {
+      "id": "VAL-260",
+      "name": "UI Settings & Localization - Language Switch to Telugu (తెలుగు) - రోగి నిర్వహణ, విశ్లేషణ, నివేదికలు [Variant #4]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "check": "Language Switch to Telugu (తెలుగు) - రోగి నిర్వహణ, విశ్లేషణ, నివేదికలు"
+      }
+    },
+    {
+      "id": "VAL-261",
+      "name": "UI Settings & Localization - Language Switch to Telugu (తెలుగు) - రోగి నిర్వహణ, విశ్లేషణ, నివేదికలు [Variant #5]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "check": "Language Switch to Telugu (తెలుగు) - రోగి నిర్వహణ, విశ్లేషణ, నివేదికలు"
+      }
+    },
+    {
+      "id": "VAL-262",
+      "name": "UI Settings & Localization - Language Switch to Telugu (తెలుగు) - రోగి నిర్వహణ, విశ్లేషణ, నివేదికలు [Variant #6]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "check": "Language Switch to Telugu (తెలుగు) - రోగి నిర్వహణ, విశ్లేషణ, నివేదికలు"
+      }
+    },
+    {
+      "id": "VAL-263",
+      "name": "UI Settings & Localization - Language Switch to Hindi (हिन्दी) - रोगी प्रबंधन, विश्लेषण, रिपोर्ट [Variant #1]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "check": "Language Switch to Hindi (हिन्दी) - रोगी प्रबंधन, विश्लेषण, रिपोर्ट"
+      }
+    },
+    {
+      "id": "VAL-264",
+      "name": "UI Settings & Localization - Language Switch to Hindi (हिन्दी) - रोगी प्रबंधन, विश्लेषण, रिपोर्ट [Variant #2]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "check": "Language Switch to Hindi (हिन्दी) - रोगी प्रबंधन, विश्लेषण, रिपोर्ट"
+      }
+    },
+    {
+      "id": "VAL-265",
+      "name": "UI Settings & Localization - Language Switch to Hindi (हिन्दी) - रोगी प्रबंधन, विश्लेषण, रिपोर्ट [Variant #3]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "check": "Language Switch to Hindi (हिन्दी) - रोगी प्रबंधन, विश्लेषण, रिपोर्ट"
+      }
+    },
+    {
+      "id": "VAL-266",
+      "name": "UI Settings & Localization - Language Switch to Hindi (हिन्दी) - रोगी प्रबंधन, विश्लेषण, रिपोर्ट [Variant #4]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "check": "Language Switch to Hindi (हिन्दी) - रोगी प्रबंधन, विश्लेषण, रिपोर्ट"
+      }
+    },
+    {
+      "id": "VAL-267",
+      "name": "UI Settings & Localization - Language Switch to Hindi (हिन्दी) - रोगी प्रबंधन, विश्लेषण, रिपोर्ट [Variant #5]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "check": "Language Switch to Hindi (हिन्दी) - रोगी प्रबंधन, विश्लेषण, रिपोर्ट"
+      }
+    },
+    {
+      "id": "VAL-268",
+      "name": "UI Settings & Localization - Language Switch to Hindi (हिन्दी) - रोगी प्रबंधन, विश्लेषण, रिपोर्ट [Variant #6]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "check": "Language Switch to Hindi (हिन्दी) - रोगी प्रबंधन, विश्लेषण, रिपोर्ट"
+      }
+    },
+    {
+      "id": "VAL-269",
+      "name": "UI Settings & Localization - Language Switch to Tamil (தமிழ்) - நோயாளி மேலாண்மை, பகுப்பாய்வு [Variant #1]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "check": "Language Switch to Tamil (தமிழ்) - நோயாளி மேலாண்மை, பகுப்பாய்வு"
+      }
+    },
+    {
+      "id": "VAL-270",
+      "name": "UI Settings & Localization - Language Switch to Tamil (தமிழ்) - நோயாளி மேலாண்மை, பகுப்பாய்வு [Variant #2]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "check": "Language Switch to Tamil (தமிழ்) - நோயாளி மேலாண்மை, பகுப்பாய்வு"
+      }
+    },
+    {
+      "id": "VAL-271",
+      "name": "UI Settings & Localization - Language Switch to Tamil (தமிழ்) - நோயாளி மேலாண்மை, பகுப்பாய்வு [Variant #3]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "check": "Language Switch to Tamil (தமிழ்) - நோயாளி மேலாண்மை, பகுப்பாய்வு"
+      }
+    },
+    {
+      "id": "VAL-272",
+      "name": "UI Settings & Localization - Language Switch to Tamil (தமிழ்) - நோயாளி மேலாண்மை, பகுப்பாய்வு [Variant #4]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "check": "Language Switch to Tamil (தமிழ்) - நோயாளி மேலாண்மை, பகுப்பாய்வு"
+      }
+    },
+    {
+      "id": "VAL-273",
+      "name": "UI Settings & Localization - Language Switch to Tamil (தமிழ்) - நோயாளி மேலாண்மை, பகுப்பாய்வு [Variant #5]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "check": "Language Switch to Tamil (தமிழ்) - நோயாளி மேலாண்மை, பகுப்பாய்வு"
+      }
+    },
+    {
+      "id": "VAL-274",
+      "name": "UI Settings & Localization - Language Switch to Tamil (தமிழ்) - நோயாளி மேலாண்மை, பகுப்பாய்வு [Variant #6]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "check": "Language Switch to Tamil (தமிழ்) - நோயாளி மேலாண்மை, பகுப்பாய்வு"
+      }
+    },
+    {
+      "id": "VAL-275",
+      "name": "UI Settings & Localization - Theme Switch to Dark Mode (Deep Navy #090d16 / Slate #0f172a) [Variant #1]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "check": "Theme Switch to Dark Mode (Deep Navy #090d16 / Slate #0f172a)"
+      }
+    },
+    {
+      "id": "VAL-276",
+      "name": "UI Settings & Localization - Theme Switch to Dark Mode (Deep Navy #090d16 / Slate #0f172a) [Variant #2]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "check": "Theme Switch to Dark Mode (Deep Navy #090d16 / Slate #0f172a)"
+      }
+    },
+    {
+      "id": "VAL-277",
+      "name": "UI Settings & Localization - Theme Switch to Dark Mode (Deep Navy #090d16 / Slate #0f172a) [Variant #3]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "check": "Theme Switch to Dark Mode (Deep Navy #090d16 / Slate #0f172a)"
+      }
+    },
+    {
+      "id": "VAL-278",
+      "name": "UI Settings & Localization - Theme Switch to Dark Mode (Deep Navy #090d16 / Slate #0f172a) [Variant #4]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "check": "Theme Switch to Dark Mode (Deep Navy #090d16 / Slate #0f172a)"
+      }
+    },
+    {
+      "id": "VAL-279",
+      "name": "UI Settings & Localization - Theme Switch to Dark Mode (Deep Navy #090d16 / Slate #0f172a) [Variant #5]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "check": "Theme Switch to Dark Mode (Deep Navy #090d16 / Slate #0f172a)"
+      }
+    },
+    {
+      "id": "VAL-280",
+      "name": "UI Settings & Localization - Theme Switch to Dark Mode (Deep Navy #090d16 / Slate #0f172a) [Variant #6]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "check": "Theme Switch to Dark Mode (Deep Navy #090d16 / Slate #0f172a)"
+      }
+    },
+    {
+      "id": "VAL-281",
+      "name": "UI Settings & Localization - Theme Switch to Light Mode (#f8fafc / Clean White #ffffff) [Variant #1]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "check": "Theme Switch to Light Mode (#f8fafc / Clean White #ffffff)"
+      }
+    },
+    {
+      "id": "VAL-282",
+      "name": "UI Settings & Localization - Theme Switch to Light Mode (#f8fafc / Clean White #ffffff) [Variant #2]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "check": "Theme Switch to Light Mode (#f8fafc / Clean White #ffffff)"
+      }
+    },
+    {
+      "id": "VAL-283",
+      "name": "UI Settings & Localization - Theme Switch to Light Mode (#f8fafc / Clean White #ffffff) [Variant #3]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "check": "Theme Switch to Light Mode (#f8fafc / Clean White #ffffff)"
+      }
+    },
+    {
+      "id": "VAL-284",
+      "name": "UI Settings & Localization - Theme Switch to Light Mode (#f8fafc / Clean White #ffffff) [Variant #4]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "check": "Theme Switch to Light Mode (#f8fafc / Clean White #ffffff)"
+      }
+    },
+    {
+      "id": "VAL-285",
+      "name": "UI Settings & Localization - Theme Switch to Light Mode (#f8fafc / Clean White #ffffff) [Variant #5]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "check": "Theme Switch to Light Mode (#f8fafc / Clean White #ffffff)"
+      }
+    },
+    {
+      "id": "VAL-286",
+      "name": "UI Settings & Localization - Theme Switch to Light Mode (#f8fafc / Clean White #ffffff) [Variant #6]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "check": "Theme Switch to Light Mode (#f8fafc / Clean White #ffffff)"
+      }
+    },
+    {
+      "id": "VAL-287",
+      "name": "UI Settings & Localization - High-Contrast Clinical Table Grid Rendering [Variant #1]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "check": "High-Contrast Clinical Table Grid Rendering"
+      }
+    },
+    {
+      "id": "VAL-288",
+      "name": "UI Settings & Localization - High-Contrast Clinical Table Grid Rendering [Variant #2]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "check": "High-Contrast Clinical Table Grid Rendering"
+      }
+    },
+    {
+      "id": "VAL-289",
+      "name": "UI Settings & Localization - High-Contrast Clinical Table Grid Rendering [Variant #3]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "check": "High-Contrast Clinical Table Grid Rendering"
+      }
+    },
+    {
+      "id": "VAL-290",
+      "name": "UI Settings & Localization - High-Contrast Clinical Table Grid Rendering [Variant #4]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "check": "High-Contrast Clinical Table Grid Rendering"
+      }
+    },
+    {
+      "id": "VAL-291",
+      "name": "UI Settings & Localization - High-Contrast Clinical Table Grid Rendering [Variant #5]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "check": "High-Contrast Clinical Table Grid Rendering"
+      }
+    },
+    {
+      "id": "VAL-292",
+      "name": "UI Settings & Localization - High-Contrast Clinical Table Grid Rendering [Variant #6]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "check": "High-Contrast Clinical Table Grid Rendering"
+      }
+    },
+    {
+      "id": "VAL-293",
+      "name": "UI Settings & Localization - Print Media Stylesheet (@media print White Paper Optimization) [Variant #1]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "check": "Print Media Stylesheet (@media print White Paper Optimization)"
+      }
+    },
+    {
+      "id": "VAL-294",
+      "name": "UI Settings & Localization - Print Media Stylesheet (@media print White Paper Optimization) [Variant #2]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "check": "Print Media Stylesheet (@media print White Paper Optimization)"
+      }
+    },
+    {
+      "id": "VAL-295",
+      "name": "UI Settings & Localization - Print Media Stylesheet (@media print White Paper Optimization) [Variant #3]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "check": "Print Media Stylesheet (@media print White Paper Optimization)"
+      }
+    },
+    {
+      "id": "VAL-296",
+      "name": "UI Settings & Localization - Print Media Stylesheet (@media print White Paper Optimization) [Variant #4]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "check": "Print Media Stylesheet (@media print White Paper Optimization)"
+      }
+    },
+    {
+      "id": "VAL-297",
+      "name": "UI Settings & Localization - Print Media Stylesheet (@media print White Paper Optimization) [Variant #5]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "check": "Print Media Stylesheet (@media print White Paper Optimization)"
+      }
+    },
+    {
+      "id": "VAL-298",
+      "name": "UI Settings & Localization - Print Media Stylesheet (@media print White Paper Optimization) [Variant #6]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "check": "Print Media Stylesheet (@media print White Paper Optimization)"
+      }
+    },
+    {
+      "id": "VAL-299",
+      "name": "UI Settings & Localization - Responsive Viewport Layout (Desktop / Tablet / Mobile) [Variant #1]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "check": "Responsive Viewport Layout (Desktop / Tablet / Mobile)"
+      }
+    },
+    {
+      "id": "VAL-300",
+      "name": "UI Settings & Localization - Responsive Viewport Layout (Desktop / Tablet / Mobile) [Variant #2]",
+      "category": "LOCALIZATION_THEMES",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "check": "Responsive Viewport Layout (Desktop / Tablet / Mobile)"
+      }
+    }
+  ]
+}

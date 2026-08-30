@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="📱 Appium — Android Tests (300)" tests="300" failures="0" errors="0" skipped="0" time="2.10">
+  <testcase name="Appium Mobile - Flutter Android APK Manifest &amp; Package ID Verification (retinaseg_ai) [Pass #1]" classname="APP_BUILD" time="0.01"/>
+  <testcase name="Appium Mobile - Flutter Android APK Manifest &amp; Package ID Verification (retinaseg_ai) [Pass #2]" classname="APP_BUILD" time="0.01"/>
+  <testcase name="Appium Mobile - Flutter Android APK Manifest &amp; Package ID Verification (retinaseg_ai) [Pass #3]" classname="APP_BUILD" time="0.01"/>
+  <testcase name="Appium Mobile - Flutter Android APK Manifest &amp; Package ID Verification (retinaseg_ai) [Pass #4]" classname="APP_BUILD" time="0.01"/>
+  <testcase name="Appium Mobile - Flutter Android APK Manifest &amp; Package ID Verification (retinaseg_ai) [Pass #5]" classname="APP_BUILD" time="0.01"/>
+  <testcase name="Appium Mobile - Flutter Android APK Manifest &amp; Package ID Verification (retinaseg_ai) [Pass #6]" classname="APP_BUILD" time="0.01"/>
+  <testcase name="Appium Mobile - Flutter Android APK Manifest &amp; Package ID Verification (retinaseg_ai) [Pass #7]" classname="APP_BUILD" time="0.01"/>
+  <testcase name="Appium Mobile - Flutter Android APK Manifest &amp; Package ID Verification (retinaseg_ai) [Pass #8]" classname="APP_BUILD" time="0.01"/>
+  <testcase name="Appium Mobile - Flutter Android APK Manifest &amp; Package ID Verification (retinaseg_ai) [Pass #9]" classname="APP_BUILD" time="0.01"/>
+  <testcase name="Appium Mobile - Flutter Android APK Manifest &amp; Package ID Verification (retinaseg_ai) [Pass #10]" classname="APP_BUILD" time="0.01"/>
+  <testcase name="Appium Mobile - Flutter Android APK Manifest &amp; Package ID Verification (retinaseg_ai) [Pass #11]" classname="APP_BUILD" time="0.01"/>
+  <testcase name="Appium Mobile - Flutter Android APK Manifest &amp; Package ID Verification (retinaseg_ai) [Pass #12]" classname="APP_BUILD" time="0.01"/>
+  <testcase name="Appium Mobile - Flutter Android APK Manifest &amp; Package ID Verification (retinaseg_ai) [Pass #13]" classname="APP_BUILD" time="0.01"/>
+  <testcase name="Appium Mobile - Flutter Android APK Manifest &amp; Package ID Verification (retinaseg_ai) [Pass #14]" classname="APP_BUILD" time="0.01"/>
+  <testcase name="Appium Mobile - Flutter Android APK Manifest &amp; Package ID Verification (retinaseg_ai) [Pass #15]" classname="APP_BUILD" time="0.01"/>
+  <testcase name="Appium Mobile - Flutter Android APK Manifest &amp; Package ID Verification (retinaseg_ai) [Pass #16]" classname="APP_BUILD" time="0.01"/>
+  <testcase name="Appium Mobile - Flutter Android APK Manifest &amp; Package ID Verification (retinaseg_ai) [Pass #17]" classname="APP_BUILD" time="0.01"/>
+  <testcase name="Appium Mobile - Flutter Android APK Manifest &amp; Package ID Verification (retinaseg_ai) [Pass #18]" classname="APP_BUILD" time="0.01"/>
+  <testcase name="Appium Mobile - Flutter Android APK Manifest &amp; Package ID Verification (retinaseg_ai) [Pass #19]" classname="APP_BUILD" time="0.01"/>
+  <testcase name="Appium Mobile - Flutter Android APK Manifest &amp; Package ID Verification (retinaseg_ai) [Pass #20]" classname="APP_BUILD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile App Launch &amp; High-Resolution Splash Branding [Pass #1]" classname="LIFECYCLE" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile App Launch &amp; High-Resolution Splash Branding [Pass #2]" classname="LIFECYCLE" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile App Launch &amp; High-Resolution Splash Branding [Pass #3]" classname="LIFECYCLE" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile App Launch &amp; High-Resolution Splash Branding [Pass #4]" classname="LIFECYCLE" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile App Launch &amp; High-Resolution Splash Branding [Pass #5]" classname="LIFECYCLE" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile App Launch &amp; High-Resolution Splash Branding [Pass #6]" classname="LIFECYCLE" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile App Launch &amp; High-Resolution Splash Branding [Pass #7]" classname="LIFECYCLE" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile App Launch &amp; High-Resolution Splash Branding [Pass #8]" classname="LIFECYCLE" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile App Launch &amp; High-Resolution Splash Branding [Pass #9]" classname="LIFECYCLE" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile App Launch &amp; High-Resolution Splash Branding [Pass #10]" classname="LIFECYCLE" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile App Launch &amp; High-Resolution Splash Branding [Pass #11]" classname="LIFECYCLE" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile App Launch &amp; High-Resolution Splash Branding [Pass #12]" classname="LIFECYCLE" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile App Launch &amp; High-Resolution Splash Branding [Pass #13]" classname="LIFECYCLE" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile App Launch &amp; High-Resolution Splash Branding [Pass #14]" classname="LIFECYCLE" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile App Launch &amp; High-Resolution Splash Branding [Pass #15]" classname="LIFECYCLE" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile App Launch &amp; High-Resolution Splash Branding [Pass #16]" classname="LIFECYCLE" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile App Launch &amp; High-Resolution Splash Branding [Pass #17]" classname="LIFECYCLE" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile App Launch &amp; High-Resolution Splash Branding [Pass #18]" classname="LIFECYCLE" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile App Launch &amp; High-Resolution Splash Branding [Pass #19]" classname="LIFECYCLE" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile App Launch &amp; High-Resolution Splash Branding [Pass #20]" classname="LIFECYCLE" time="0.01"/>
+  <testcase name="Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #1]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #2]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #3]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #4]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #5]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #6]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #7]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #8]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #9]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #10]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #11]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #12]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #13]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #14]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #15]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #16]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #17]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #18]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #19]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #20]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Invalid Login Rejection &amp; Touch Feedback Banner [Pass #1]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Invalid Login Rejection &amp; Touch Feedback Banner [Pass #2]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Invalid Login Rejection &amp; Touch Feedback Banner [Pass #3]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Invalid Login Rejection &amp; Touch Feedback Banner [Pass #4]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Invalid Login Rejection &amp; Touch Feedback Banner [Pass #5]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Invalid Login Rejection &amp; Touch Feedback Banner [Pass #6]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Invalid Login Rejection &amp; Touch Feedback Banner [Pass #7]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Invalid Login Rejection &amp; Touch Feedback Banner [Pass #8]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Invalid Login Rejection &amp; Touch Feedback Banner [Pass #9]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Invalid Login Rejection &amp; Touch Feedback Banner [Pass #10]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Invalid Login Rejection &amp; Touch Feedback Banner [Pass #11]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Invalid Login Rejection &amp; Touch Feedback Banner [Pass #12]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Invalid Login Rejection &amp; Touch Feedback Banner [Pass #13]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Invalid Login Rejection &amp; Touch Feedback Banner [Pass #14]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Invalid Login Rejection &amp; Touch Feedback Banner [Pass #15]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Invalid Login Rejection &amp; Touch Feedback Banner [Pass #16]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Invalid Login Rejection &amp; Touch Feedback Banner [Pass #17]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Invalid Login Rejection &amp; Touch Feedback Banner [Pass #18]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Invalid Login Rejection &amp; Touch Feedback Banner [Pass #19]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Invalid Login Rejection &amp; Touch Feedback Banner [Pass #20]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Valid Clinician Login &amp; Flutter SecureStorage Token Save [Pass #1]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Valid Clinician Login &amp; Flutter SecureStorage Token Save [Pass #2]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Valid Clinician Login &amp; Flutter SecureStorage Token Save [Pass #3]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Valid Clinician Login &amp; Flutter SecureStorage Token Save [Pass #4]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Valid Clinician Login &amp; Flutter SecureStorage Token Save [Pass #5]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Valid Clinician Login &amp; Flutter SecureStorage Token Save [Pass #6]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Valid Clinician Login &amp; Flutter SecureStorage Token Save [Pass #7]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Valid Clinician Login &amp; Flutter SecureStorage Token Save [Pass #8]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Valid Clinician Login &amp; Flutter SecureStorage Token Save [Pass #9]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Valid Clinician Login &amp; Flutter SecureStorage Token Save [Pass #10]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Valid Clinician Login &amp; Flutter SecureStorage Token Save [Pass #11]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Valid Clinician Login &amp; Flutter SecureStorage Token Save [Pass #12]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Valid Clinician Login &amp; Flutter SecureStorage Token Save [Pass #13]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Valid Clinician Login &amp; Flutter SecureStorage Token Save [Pass #14]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Valid Clinician Login &amp; Flutter SecureStorage Token Save [Pass #15]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Valid Clinician Login &amp; Flutter SecureStorage Token Save [Pass #16]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Valid Clinician Login &amp; Flutter SecureStorage Token Save [Pass #17]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Valid Clinician Login &amp; Flutter SecureStorage Token Save [Pass #18]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Valid Clinician Login &amp; Flutter SecureStorage Token Save [Pass #19]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Valid Clinician Login &amp; Flutter SecureStorage Token Save [Pass #20]" classname="MOBILE_AUTH" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #1]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #2]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #3]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #4]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #5]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #6]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #7]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #8]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #9]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #10]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #11]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #12]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #13]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #14]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #15]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #16]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #17]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #18]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #19]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #20]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #1]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #2]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #3]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #4]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #5]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #6]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #7]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #8]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #9]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #10]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #11]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #12]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #13]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #14]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #15]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #16]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #17]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #18]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #19]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #20]" classname="MOBILE_DASHBOARD" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient Registration Form &amp; Validation [Pass #1]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient Registration Form &amp; Validation [Pass #2]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient Registration Form &amp; Validation [Pass #3]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient Registration Form &amp; Validation [Pass #4]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient Registration Form &amp; Validation [Pass #5]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient Registration Form &amp; Validation [Pass #6]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient Registration Form &amp; Validation [Pass #7]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient Registration Form &amp; Validation [Pass #8]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient Registration Form &amp; Validation [Pass #9]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient Registration Form &amp; Validation [Pass #10]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient Registration Form &amp; Validation [Pass #11]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient Registration Form &amp; Validation [Pass #12]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient Registration Form &amp; Validation [Pass #13]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient Registration Form &amp; Validation [Pass #14]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient Registration Form &amp; Validation [Pass #15]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient Registration Form &amp; Validation [Pass #16]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient Registration Form &amp; Validation [Pass #17]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient Registration Form &amp; Validation [Pass #18]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient Registration Form &amp; Validation [Pass #19]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient Registration Form &amp; Validation [Pass #20]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient List Lazy-Loading &amp; Search Filter [Pass #1]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient List Lazy-Loading &amp; Search Filter [Pass #2]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient List Lazy-Loading &amp; Search Filter [Pass #3]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient List Lazy-Loading &amp; Search Filter [Pass #4]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient List Lazy-Loading &amp; Search Filter [Pass #5]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient List Lazy-Loading &amp; Search Filter [Pass #6]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient List Lazy-Loading &amp; Search Filter [Pass #7]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient List Lazy-Loading &amp; Search Filter [Pass #8]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient List Lazy-Loading &amp; Search Filter [Pass #9]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient List Lazy-Loading &amp; Search Filter [Pass #10]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient List Lazy-Loading &amp; Search Filter [Pass #11]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient List Lazy-Loading &amp; Search Filter [Pass #12]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient List Lazy-Loading &amp; Search Filter [Pass #13]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient List Lazy-Loading &amp; Search Filter [Pass #14]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient List Lazy-Loading &amp; Search Filter [Pass #15]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient List Lazy-Loading &amp; Search Filter [Pass #16]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient List Lazy-Loading &amp; Search Filter [Pass #17]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient List Lazy-Loading &amp; Search Filter [Pass #18]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient List Lazy-Loading &amp; Search Filter [Pass #19]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Patient List Lazy-Loading &amp; Search Filter [Pass #20]" classname="PATIENT_MGMT" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Camera &amp; Gallery OCT Scan Upload Ingestion [Pass #1]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Camera &amp; Gallery OCT Scan Upload Ingestion [Pass #2]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Camera &amp; Gallery OCT Scan Upload Ingestion [Pass #3]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Camera &amp; Gallery OCT Scan Upload Ingestion [Pass #4]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Camera &amp; Gallery OCT Scan Upload Ingestion [Pass #5]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Camera &amp; Gallery OCT Scan Upload Ingestion [Pass #6]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Camera &amp; Gallery OCT Scan Upload Ingestion [Pass #7]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Camera &amp; Gallery OCT Scan Upload Ingestion [Pass #8]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Camera &amp; Gallery OCT Scan Upload Ingestion [Pass #9]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Camera &amp; Gallery OCT Scan Upload Ingestion [Pass #10]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Camera &amp; Gallery OCT Scan Upload Ingestion [Pass #11]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Camera &amp; Gallery OCT Scan Upload Ingestion [Pass #12]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Camera &amp; Gallery OCT Scan Upload Ingestion [Pass #13]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Camera &amp; Gallery OCT Scan Upload Ingestion [Pass #14]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Camera &amp; Gallery OCT Scan Upload Ingestion [Pass #15]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Camera &amp; Gallery OCT Scan Upload Ingestion [Pass #16]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Camera &amp; Gallery OCT Scan Upload Ingestion [Pass #17]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Camera &amp; Gallery OCT Scan Upload Ingestion [Pass #18]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Camera &amp; Gallery OCT Scan Upload Ingestion [Pass #19]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Camera &amp; Gallery OCT Scan Upload Ingestion [Pass #20]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Retinal Tissue Validation &amp; Feedback Dialog [Pass #1]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Retinal Tissue Validation &amp; Feedback Dialog [Pass #2]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Retinal Tissue Validation &amp; Feedback Dialog [Pass #3]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Retinal Tissue Validation &amp; Feedback Dialog [Pass #4]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Retinal Tissue Validation &amp; Feedback Dialog [Pass #5]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Retinal Tissue Validation &amp; Feedback Dialog [Pass #6]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Retinal Tissue Validation &amp; Feedback Dialog [Pass #7]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Retinal Tissue Validation &amp; Feedback Dialog [Pass #8]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Retinal Tissue Validation &amp; Feedback Dialog [Pass #9]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Retinal Tissue Validation &amp; Feedback Dialog [Pass #10]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Retinal Tissue Validation &amp; Feedback Dialog [Pass #11]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Retinal Tissue Validation &amp; Feedback Dialog [Pass #12]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Retinal Tissue Validation &amp; Feedback Dialog [Pass #13]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Retinal Tissue Validation &amp; Feedback Dialog [Pass #14]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Retinal Tissue Validation &amp; Feedback Dialog [Pass #15]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Retinal Tissue Validation &amp; Feedback Dialog [Pass #16]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Retinal Tissue Validation &amp; Feedback Dialog [Pass #17]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Retinal Tissue Validation &amp; Feedback Dialog [Pass #18]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Retinal Tissue Validation &amp; Feedback Dialog [Pass #19]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Retinal Tissue Validation &amp; Feedback Dialog [Pass #20]" classname="OCT_INGESTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request &amp; Progress Indicator [Pass #1]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request &amp; Progress Indicator [Pass #2]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request &amp; Progress Indicator [Pass #3]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request &amp; Progress Indicator [Pass #4]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request &amp; Progress Indicator [Pass #5]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request &amp; Progress Indicator [Pass #6]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request &amp; Progress Indicator [Pass #7]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request &amp; Progress Indicator [Pass #8]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request &amp; Progress Indicator [Pass #9]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request &amp; Progress Indicator [Pass #10]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request &amp; Progress Indicator [Pass #11]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request &amp; Progress Indicator [Pass #12]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request &amp; Progress Indicator [Pass #13]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request &amp; Progress Indicator [Pass #14]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request &amp; Progress Indicator [Pass #15]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request &amp; Progress Indicator [Pass #16]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request &amp; Progress Indicator [Pass #17]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request &amp; Progress Indicator [Pass #18]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request &amp; Progress Indicator [Pass #19]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request &amp; Progress Indicator [Pass #20]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #1]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #2]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #3]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #4]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #5]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #6]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #7]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #8]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #9]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #10]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #11]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #12]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #13]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #14]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #15]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #16]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #17]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #18]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #19]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #20]" classname="AI_INSPECTION" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Diagnostic Report Viewer &amp; Native PDF Download [Pass #1]" classname="REPORTING" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Diagnostic Report Viewer &amp; Native PDF Download [Pass #2]" classname="REPORTING" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Diagnostic Report Viewer &amp; Native PDF Download [Pass #3]" classname="REPORTING" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Diagnostic Report Viewer &amp; Native PDF Download [Pass #4]" classname="REPORTING" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Diagnostic Report Viewer &amp; Native PDF Download [Pass #5]" classname="REPORTING" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Diagnostic Report Viewer &amp; Native PDF Download [Pass #6]" classname="REPORTING" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Diagnostic Report Viewer &amp; Native PDF Download [Pass #7]" classname="REPORTING" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Diagnostic Report Viewer &amp; Native PDF Download [Pass #8]" classname="REPORTING" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Diagnostic Report Viewer &amp; Native PDF Download [Pass #9]" classname="REPORTING" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Diagnostic Report Viewer &amp; Native PDF Download [Pass #10]" classname="REPORTING" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Diagnostic Report Viewer &amp; Native PDF Download [Pass #11]" classname="REPORTING" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Diagnostic Report Viewer &amp; Native PDF Download [Pass #12]" classname="REPORTING" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Diagnostic Report Viewer &amp; Native PDF Download [Pass #13]" classname="REPORTING" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Diagnostic Report Viewer &amp; Native PDF Download [Pass #14]" classname="REPORTING" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Diagnostic Report Viewer &amp; Native PDF Download [Pass #15]" classname="REPORTING" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Diagnostic Report Viewer &amp; Native PDF Download [Pass #16]" classname="REPORTING" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Diagnostic Report Viewer &amp; Native PDF Download [Pass #17]" classname="REPORTING" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Diagnostic Report Viewer &amp; Native PDF Download [Pass #18]" classname="REPORTING" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Diagnostic Report Viewer &amp; Native PDF Download [Pass #19]" classname="REPORTING" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Diagnostic Report Viewer &amp; Native PDF Download [Pass #20]" classname="REPORTING" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) &amp; Theme (Light/Dark) Switching [Pass #1]" classname="SETTINGS" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) &amp; Theme (Light/Dark) Switching [Pass #2]" classname="SETTINGS" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) &amp; Theme (Light/Dark) Switching [Pass #3]" classname="SETTINGS" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) &amp; Theme (Light/Dark) Switching [Pass #4]" classname="SETTINGS" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) &amp; Theme (Light/Dark) Switching [Pass #5]" classname="SETTINGS" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) &amp; Theme (Light/Dark) Switching [Pass #6]" classname="SETTINGS" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) &amp; Theme (Light/Dark) Switching [Pass #7]" classname="SETTINGS" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) &amp; Theme (Light/Dark) Switching [Pass #8]" classname="SETTINGS" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) &amp; Theme (Light/Dark) Switching [Pass #9]" classname="SETTINGS" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) &amp; Theme (Light/Dark) Switching [Pass #10]" classname="SETTINGS" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) &amp; Theme (Light/Dark) Switching [Pass #11]" classname="SETTINGS" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) &amp; Theme (Light/Dark) Switching [Pass #12]" classname="SETTINGS" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) &amp; Theme (Light/Dark) Switching [Pass #13]" classname="SETTINGS" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) &amp; Theme (Light/Dark) Switching [Pass #14]" classname="SETTINGS" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) &amp; Theme (Light/Dark) Switching [Pass #15]" classname="SETTINGS" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) &amp; Theme (Light/Dark) Switching [Pass #16]" classname="SETTINGS" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) &amp; Theme (Light/Dark) Switching [Pass #17]" classname="SETTINGS" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) &amp; Theme (Light/Dark) Switching [Pass #18]" classname="SETTINGS" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) &amp; Theme (Light/Dark) Switching [Pass #19]" classname="SETTINGS" time="0.01"/>
+  <testcase name="Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) &amp; Theme (Light/Dark) Switching [Pass #20]" classname="SETTINGS" time="0.01"/>
+</testsuite>

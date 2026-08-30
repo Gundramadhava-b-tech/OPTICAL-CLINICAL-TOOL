@@ -1,6 +1,6 @@
 import unittest
 import numpy as np
-from ..measurements.measurement_service import MeasurementService
+from oct_ai_pipeline.measurements.measurement_service import MeasurementService
 
 class TestMeasurements(unittest.TestCase):
     def test_calculate_layer_metrics(self):

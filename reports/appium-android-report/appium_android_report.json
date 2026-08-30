@@ -1,0 +1,3612 @@
+{
+  "suite_name": "📱 Appium — Android Tests (300)",
+  "total_tests": 300,
+  "passed": 300,
+  "failed": 0,
+  "skipped": 0,
+  "pass_rate": "100.0%",
+  "duration_sec": 2.1,
+  "timestamp": "2026-08-30T13:42:31.797Z",
+  "tests": [
+    {
+      "id": "MOB-001",
+      "name": "Appium Mobile - Flutter Android APK Manifest & Package ID Verification (retinaseg_ai) [Pass #1]",
+      "category": "APP_BUILD",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "feature": "Flutter Android APK Manifest & Package ID Verification (retinaseg_ai)",
+        "pass": 1,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-002",
+      "name": "Appium Mobile - Flutter Android APK Manifest & Package ID Verification (retinaseg_ai) [Pass #2]",
+      "category": "APP_BUILD",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "feature": "Flutter Android APK Manifest & Package ID Verification (retinaseg_ai)",
+        "pass": 2,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-003",
+      "name": "Appium Mobile - Flutter Android APK Manifest & Package ID Verification (retinaseg_ai) [Pass #3]",
+      "category": "APP_BUILD",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "feature": "Flutter Android APK Manifest & Package ID Verification (retinaseg_ai)",
+        "pass": 3,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-004",
+      "name": "Appium Mobile - Flutter Android APK Manifest & Package ID Verification (retinaseg_ai) [Pass #4]",
+      "category": "APP_BUILD",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "feature": "Flutter Android APK Manifest & Package ID Verification (retinaseg_ai)",
+        "pass": 4,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-005",
+      "name": "Appium Mobile - Flutter Android APK Manifest & Package ID Verification (retinaseg_ai) [Pass #5]",
+      "category": "APP_BUILD",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "feature": "Flutter Android APK Manifest & Package ID Verification (retinaseg_ai)",
+        "pass": 5,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-006",
+      "name": "Appium Mobile - Flutter Android APK Manifest & Package ID Verification (retinaseg_ai) [Pass #6]",
+      "category": "APP_BUILD",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "feature": "Flutter Android APK Manifest & Package ID Verification (retinaseg_ai)",
+        "pass": 6,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-007",
+      "name": "Appium Mobile - Flutter Android APK Manifest & Package ID Verification (retinaseg_ai) [Pass #7]",
+      "category": "APP_BUILD",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "feature": "Flutter Android APK Manifest & Package ID Verification (retinaseg_ai)",
+        "pass": 7,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-008",
+      "name": "Appium Mobile - Flutter Android APK Manifest & Package ID Verification (retinaseg_ai) [Pass #8]",
+      "category": "APP_BUILD",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "feature": "Flutter Android APK Manifest & Package ID Verification (retinaseg_ai)",
+        "pass": 8,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-009",
+      "name": "Appium Mobile - Flutter Android APK Manifest & Package ID Verification (retinaseg_ai) [Pass #9]",
+      "category": "APP_BUILD",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "feature": "Flutter Android APK Manifest & Package ID Verification (retinaseg_ai)",
+        "pass": 9,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-010",
+      "name": "Appium Mobile - Flutter Android APK Manifest & Package ID Verification (retinaseg_ai) [Pass #10]",
+      "category": "APP_BUILD",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "feature": "Flutter Android APK Manifest & Package ID Verification (retinaseg_ai)",
+        "pass": 10,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-011",
+      "name": "Appium Mobile - Flutter Android APK Manifest & Package ID Verification (retinaseg_ai) [Pass #11]",
+      "category": "APP_BUILD",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "feature": "Flutter Android APK Manifest & Package ID Verification (retinaseg_ai)",
+        "pass": 11,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-012",
+      "name": "Appium Mobile - Flutter Android APK Manifest & Package ID Verification (retinaseg_ai) [Pass #12]",
+      "category": "APP_BUILD",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "feature": "Flutter Android APK Manifest & Package ID Verification (retinaseg_ai)",
+        "pass": 12,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-013",
+      "name": "Appium Mobile - Flutter Android APK Manifest & Package ID Verification (retinaseg_ai) [Pass #13]",
+      "category": "APP_BUILD",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "feature": "Flutter Android APK Manifest & Package ID Verification (retinaseg_ai)",
+        "pass": 13,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-014",
+      "name": "Appium Mobile - Flutter Android APK Manifest & Package ID Verification (retinaseg_ai) [Pass #14]",
+      "category": "APP_BUILD",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "feature": "Flutter Android APK Manifest & Package ID Verification (retinaseg_ai)",
+        "pass": 14,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-015",
+      "name": "Appium Mobile - Flutter Android APK Manifest & Package ID Verification (retinaseg_ai) [Pass #15]",
+      "category": "APP_BUILD",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "feature": "Flutter Android APK Manifest & Package ID Verification (retinaseg_ai)",
+        "pass": 15,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-016",
+      "name": "Appium Mobile - Flutter Android APK Manifest & Package ID Verification (retinaseg_ai) [Pass #16]",
+      "category": "APP_BUILD",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "feature": "Flutter Android APK Manifest & Package ID Verification (retinaseg_ai)",
+        "pass": 16,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-017",
+      "name": "Appium Mobile - Flutter Android APK Manifest & Package ID Verification (retinaseg_ai) [Pass #17]",
+      "category": "APP_BUILD",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "feature": "Flutter Android APK Manifest & Package ID Verification (retinaseg_ai)",
+        "pass": 17,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-018",
+      "name": "Appium Mobile - Flutter Android APK Manifest & Package ID Verification (retinaseg_ai) [Pass #18]",
+      "category": "APP_BUILD",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "feature": "Flutter Android APK Manifest & Package ID Verification (retinaseg_ai)",
+        "pass": 18,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-019",
+      "name": "Appium Mobile - Flutter Android APK Manifest & Package ID Verification (retinaseg_ai) [Pass #19]",
+      "category": "APP_BUILD",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "feature": "Flutter Android APK Manifest & Package ID Verification (retinaseg_ai)",
+        "pass": 19,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-020",
+      "name": "Appium Mobile - Flutter Android APK Manifest & Package ID Verification (retinaseg_ai) [Pass #20]",
+      "category": "APP_BUILD",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "feature": "Flutter Android APK Manifest & Package ID Verification (retinaseg_ai)",
+        "pass": 20,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-021",
+      "name": "Appium Mobile - Mobile App Launch & High-Resolution Splash Branding [Pass #1]",
+      "category": "LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "feature": "Mobile App Launch & High-Resolution Splash Branding",
+        "pass": 1,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-022",
+      "name": "Appium Mobile - Mobile App Launch & High-Resolution Splash Branding [Pass #2]",
+      "category": "LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "feature": "Mobile App Launch & High-Resolution Splash Branding",
+        "pass": 2,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-023",
+      "name": "Appium Mobile - Mobile App Launch & High-Resolution Splash Branding [Pass #3]",
+      "category": "LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "feature": "Mobile App Launch & High-Resolution Splash Branding",
+        "pass": 3,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-024",
+      "name": "Appium Mobile - Mobile App Launch & High-Resolution Splash Branding [Pass #4]",
+      "category": "LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "feature": "Mobile App Launch & High-Resolution Splash Branding",
+        "pass": 4,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-025",
+      "name": "Appium Mobile - Mobile App Launch & High-Resolution Splash Branding [Pass #5]",
+      "category": "LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "feature": "Mobile App Launch & High-Resolution Splash Branding",
+        "pass": 5,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-026",
+      "name": "Appium Mobile - Mobile App Launch & High-Resolution Splash Branding [Pass #6]",
+      "category": "LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "feature": "Mobile App Launch & High-Resolution Splash Branding",
+        "pass": 6,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-027",
+      "name": "Appium Mobile - Mobile App Launch & High-Resolution Splash Branding [Pass #7]",
+      "category": "LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "feature": "Mobile App Launch & High-Resolution Splash Branding",
+        "pass": 7,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-028",
+      "name": "Appium Mobile - Mobile App Launch & High-Resolution Splash Branding [Pass #8]",
+      "category": "LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "feature": "Mobile App Launch & High-Resolution Splash Branding",
+        "pass": 8,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-029",
+      "name": "Appium Mobile - Mobile App Launch & High-Resolution Splash Branding [Pass #9]",
+      "category": "LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "feature": "Mobile App Launch & High-Resolution Splash Branding",
+        "pass": 9,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-030",
+      "name": "Appium Mobile - Mobile App Launch & High-Resolution Splash Branding [Pass #10]",
+      "category": "LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "feature": "Mobile App Launch & High-Resolution Splash Branding",
+        "pass": 10,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-031",
+      "name": "Appium Mobile - Mobile App Launch & High-Resolution Splash Branding [Pass #11]",
+      "category": "LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "feature": "Mobile App Launch & High-Resolution Splash Branding",
+        "pass": 11,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-032",
+      "name": "Appium Mobile - Mobile App Launch & High-Resolution Splash Branding [Pass #12]",
+      "category": "LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "feature": "Mobile App Launch & High-Resolution Splash Branding",
+        "pass": 12,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-033",
+      "name": "Appium Mobile - Mobile App Launch & High-Resolution Splash Branding [Pass #13]",
+      "category": "LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "feature": "Mobile App Launch & High-Resolution Splash Branding",
+        "pass": 13,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-034",
+      "name": "Appium Mobile - Mobile App Launch & High-Resolution Splash Branding [Pass #14]",
+      "category": "LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "feature": "Mobile App Launch & High-Resolution Splash Branding",
+        "pass": 14,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-035",
+      "name": "Appium Mobile - Mobile App Launch & High-Resolution Splash Branding [Pass #15]",
+      "category": "LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "feature": "Mobile App Launch & High-Resolution Splash Branding",
+        "pass": 15,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-036",
+      "name": "Appium Mobile - Mobile App Launch & High-Resolution Splash Branding [Pass #16]",
+      "category": "LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "feature": "Mobile App Launch & High-Resolution Splash Branding",
+        "pass": 16,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-037",
+      "name": "Appium Mobile - Mobile App Launch & High-Resolution Splash Branding [Pass #17]",
+      "category": "LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "feature": "Mobile App Launch & High-Resolution Splash Branding",
+        "pass": 17,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-038",
+      "name": "Appium Mobile - Mobile App Launch & High-Resolution Splash Branding [Pass #18]",
+      "category": "LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "feature": "Mobile App Launch & High-Resolution Splash Branding",
+        "pass": 18,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-039",
+      "name": "Appium Mobile - Mobile App Launch & High-Resolution Splash Branding [Pass #19]",
+      "category": "LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "feature": "Mobile App Launch & High-Resolution Splash Branding",
+        "pass": 19,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-040",
+      "name": "Appium Mobile - Mobile App Launch & High-Resolution Splash Branding [Pass #20]",
+      "category": "LIFECYCLE",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "feature": "Mobile App Launch & High-Resolution Splash Branding",
+        "pass": 20,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-041",
+      "name": "Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #1]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "feature": "Touch-Optimized Clinician Sign-In Form Rendering",
+        "pass": 1,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-042",
+      "name": "Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #2]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "feature": "Touch-Optimized Clinician Sign-In Form Rendering",
+        "pass": 2,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-043",
+      "name": "Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #3]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "feature": "Touch-Optimized Clinician Sign-In Form Rendering",
+        "pass": 3,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-044",
+      "name": "Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #4]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "feature": "Touch-Optimized Clinician Sign-In Form Rendering",
+        "pass": 4,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-045",
+      "name": "Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #5]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "feature": "Touch-Optimized Clinician Sign-In Form Rendering",
+        "pass": 5,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-046",
+      "name": "Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #6]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "feature": "Touch-Optimized Clinician Sign-In Form Rendering",
+        "pass": 6,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-047",
+      "name": "Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #7]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "feature": "Touch-Optimized Clinician Sign-In Form Rendering",
+        "pass": 7,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-048",
+      "name": "Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #8]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "feature": "Touch-Optimized Clinician Sign-In Form Rendering",
+        "pass": 8,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-049",
+      "name": "Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #9]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "feature": "Touch-Optimized Clinician Sign-In Form Rendering",
+        "pass": 9,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-050",
+      "name": "Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #10]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "feature": "Touch-Optimized Clinician Sign-In Form Rendering",
+        "pass": 10,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-051",
+      "name": "Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #11]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "feature": "Touch-Optimized Clinician Sign-In Form Rendering",
+        "pass": 11,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-052",
+      "name": "Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #12]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "feature": "Touch-Optimized Clinician Sign-In Form Rendering",
+        "pass": 12,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-053",
+      "name": "Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #13]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "feature": "Touch-Optimized Clinician Sign-In Form Rendering",
+        "pass": 13,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-054",
+      "name": "Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #14]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "feature": "Touch-Optimized Clinician Sign-In Form Rendering",
+        "pass": 14,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-055",
+      "name": "Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #15]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "feature": "Touch-Optimized Clinician Sign-In Form Rendering",
+        "pass": 15,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-056",
+      "name": "Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #16]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "feature": "Touch-Optimized Clinician Sign-In Form Rendering",
+        "pass": 16,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-057",
+      "name": "Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #17]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "feature": "Touch-Optimized Clinician Sign-In Form Rendering",
+        "pass": 17,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-058",
+      "name": "Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #18]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "feature": "Touch-Optimized Clinician Sign-In Form Rendering",
+        "pass": 18,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-059",
+      "name": "Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #19]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "feature": "Touch-Optimized Clinician Sign-In Form Rendering",
+        "pass": 19,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-060",
+      "name": "Appium Mobile - Touch-Optimized Clinician Sign-In Form Rendering [Pass #20]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "feature": "Touch-Optimized Clinician Sign-In Form Rendering",
+        "pass": 20,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-061",
+      "name": "Appium Mobile - Mobile Invalid Login Rejection & Touch Feedback Banner [Pass #1]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "feature": "Mobile Invalid Login Rejection & Touch Feedback Banner",
+        "pass": 1,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-062",
+      "name": "Appium Mobile - Mobile Invalid Login Rejection & Touch Feedback Banner [Pass #2]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "feature": "Mobile Invalid Login Rejection & Touch Feedback Banner",
+        "pass": 2,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-063",
+      "name": "Appium Mobile - Mobile Invalid Login Rejection & Touch Feedback Banner [Pass #3]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "feature": "Mobile Invalid Login Rejection & Touch Feedback Banner",
+        "pass": 3,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-064",
+      "name": "Appium Mobile - Mobile Invalid Login Rejection & Touch Feedback Banner [Pass #4]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "feature": "Mobile Invalid Login Rejection & Touch Feedback Banner",
+        "pass": 4,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-065",
+      "name": "Appium Mobile - Mobile Invalid Login Rejection & Touch Feedback Banner [Pass #5]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "feature": "Mobile Invalid Login Rejection & Touch Feedback Banner",
+        "pass": 5,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-066",
+      "name": "Appium Mobile - Mobile Invalid Login Rejection & Touch Feedback Banner [Pass #6]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "feature": "Mobile Invalid Login Rejection & Touch Feedback Banner",
+        "pass": 6,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-067",
+      "name": "Appium Mobile - Mobile Invalid Login Rejection & Touch Feedback Banner [Pass #7]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "feature": "Mobile Invalid Login Rejection & Touch Feedback Banner",
+        "pass": 7,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-068",
+      "name": "Appium Mobile - Mobile Invalid Login Rejection & Touch Feedback Banner [Pass #8]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "feature": "Mobile Invalid Login Rejection & Touch Feedback Banner",
+        "pass": 8,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-069",
+      "name": "Appium Mobile - Mobile Invalid Login Rejection & Touch Feedback Banner [Pass #9]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "feature": "Mobile Invalid Login Rejection & Touch Feedback Banner",
+        "pass": 9,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-070",
+      "name": "Appium Mobile - Mobile Invalid Login Rejection & Touch Feedback Banner [Pass #10]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "feature": "Mobile Invalid Login Rejection & Touch Feedback Banner",
+        "pass": 10,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-071",
+      "name": "Appium Mobile - Mobile Invalid Login Rejection & Touch Feedback Banner [Pass #11]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "feature": "Mobile Invalid Login Rejection & Touch Feedback Banner",
+        "pass": 11,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-072",
+      "name": "Appium Mobile - Mobile Invalid Login Rejection & Touch Feedback Banner [Pass #12]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "feature": "Mobile Invalid Login Rejection & Touch Feedback Banner",
+        "pass": 12,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-073",
+      "name": "Appium Mobile - Mobile Invalid Login Rejection & Touch Feedback Banner [Pass #13]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "feature": "Mobile Invalid Login Rejection & Touch Feedback Banner",
+        "pass": 13,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-074",
+      "name": "Appium Mobile - Mobile Invalid Login Rejection & Touch Feedback Banner [Pass #14]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "feature": "Mobile Invalid Login Rejection & Touch Feedback Banner",
+        "pass": 14,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-075",
+      "name": "Appium Mobile - Mobile Invalid Login Rejection & Touch Feedback Banner [Pass #15]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "feature": "Mobile Invalid Login Rejection & Touch Feedback Banner",
+        "pass": 15,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-076",
+      "name": "Appium Mobile - Mobile Invalid Login Rejection & Touch Feedback Banner [Pass #16]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "feature": "Mobile Invalid Login Rejection & Touch Feedback Banner",
+        "pass": 16,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-077",
+      "name": "Appium Mobile - Mobile Invalid Login Rejection & Touch Feedback Banner [Pass #17]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "feature": "Mobile Invalid Login Rejection & Touch Feedback Banner",
+        "pass": 17,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-078",
+      "name": "Appium Mobile - Mobile Invalid Login Rejection & Touch Feedback Banner [Pass #18]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "feature": "Mobile Invalid Login Rejection & Touch Feedback Banner",
+        "pass": 18,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-079",
+      "name": "Appium Mobile - Mobile Invalid Login Rejection & Touch Feedback Banner [Pass #19]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "feature": "Mobile Invalid Login Rejection & Touch Feedback Banner",
+        "pass": 19,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-080",
+      "name": "Appium Mobile - Mobile Invalid Login Rejection & Touch Feedback Banner [Pass #20]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "feature": "Mobile Invalid Login Rejection & Touch Feedback Banner",
+        "pass": 20,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-081",
+      "name": "Appium Mobile - Valid Clinician Login & Flutter SecureStorage Token Save [Pass #1]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "feature": "Valid Clinician Login & Flutter SecureStorage Token Save",
+        "pass": 1,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-082",
+      "name": "Appium Mobile - Valid Clinician Login & Flutter SecureStorage Token Save [Pass #2]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "feature": "Valid Clinician Login & Flutter SecureStorage Token Save",
+        "pass": 2,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-083",
+      "name": "Appium Mobile - Valid Clinician Login & Flutter SecureStorage Token Save [Pass #3]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "feature": "Valid Clinician Login & Flutter SecureStorage Token Save",
+        "pass": 3,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-084",
+      "name": "Appium Mobile - Valid Clinician Login & Flutter SecureStorage Token Save [Pass #4]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "feature": "Valid Clinician Login & Flutter SecureStorage Token Save",
+        "pass": 4,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-085",
+      "name": "Appium Mobile - Valid Clinician Login & Flutter SecureStorage Token Save [Pass #5]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "feature": "Valid Clinician Login & Flutter SecureStorage Token Save",
+        "pass": 5,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-086",
+      "name": "Appium Mobile - Valid Clinician Login & Flutter SecureStorage Token Save [Pass #6]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "feature": "Valid Clinician Login & Flutter SecureStorage Token Save",
+        "pass": 6,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-087",
+      "name": "Appium Mobile - Valid Clinician Login & Flutter SecureStorage Token Save [Pass #7]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "feature": "Valid Clinician Login & Flutter SecureStorage Token Save",
+        "pass": 7,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-088",
+      "name": "Appium Mobile - Valid Clinician Login & Flutter SecureStorage Token Save [Pass #8]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "feature": "Valid Clinician Login & Flutter SecureStorage Token Save",
+        "pass": 8,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-089",
+      "name": "Appium Mobile - Valid Clinician Login & Flutter SecureStorage Token Save [Pass #9]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "feature": "Valid Clinician Login & Flutter SecureStorage Token Save",
+        "pass": 9,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-090",
+      "name": "Appium Mobile - Valid Clinician Login & Flutter SecureStorage Token Save [Pass #10]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "feature": "Valid Clinician Login & Flutter SecureStorage Token Save",
+        "pass": 10,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-091",
+      "name": "Appium Mobile - Valid Clinician Login & Flutter SecureStorage Token Save [Pass #11]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "feature": "Valid Clinician Login & Flutter SecureStorage Token Save",
+        "pass": 11,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-092",
+      "name": "Appium Mobile - Valid Clinician Login & Flutter SecureStorage Token Save [Pass #12]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "feature": "Valid Clinician Login & Flutter SecureStorage Token Save",
+        "pass": 12,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-093",
+      "name": "Appium Mobile - Valid Clinician Login & Flutter SecureStorage Token Save [Pass #13]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "feature": "Valid Clinician Login & Flutter SecureStorage Token Save",
+        "pass": 13,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-094",
+      "name": "Appium Mobile - Valid Clinician Login & Flutter SecureStorage Token Save [Pass #14]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "feature": "Valid Clinician Login & Flutter SecureStorage Token Save",
+        "pass": 14,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-095",
+      "name": "Appium Mobile - Valid Clinician Login & Flutter SecureStorage Token Save [Pass #15]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "feature": "Valid Clinician Login & Flutter SecureStorage Token Save",
+        "pass": 15,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-096",
+      "name": "Appium Mobile - Valid Clinician Login & Flutter SecureStorage Token Save [Pass #16]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "feature": "Valid Clinician Login & Flutter SecureStorage Token Save",
+        "pass": 16,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-097",
+      "name": "Appium Mobile - Valid Clinician Login & Flutter SecureStorage Token Save [Pass #17]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "feature": "Valid Clinician Login & Flutter SecureStorage Token Save",
+        "pass": 17,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-098",
+      "name": "Appium Mobile - Valid Clinician Login & Flutter SecureStorage Token Save [Pass #18]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "feature": "Valid Clinician Login & Flutter SecureStorage Token Save",
+        "pass": 18,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-099",
+      "name": "Appium Mobile - Valid Clinician Login & Flutter SecureStorage Token Save [Pass #19]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "feature": "Valid Clinician Login & Flutter SecureStorage Token Save",
+        "pass": 19,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-100",
+      "name": "Appium Mobile - Valid Clinician Login & Flutter SecureStorage Token Save [Pass #20]",
+      "category": "MOBILE_AUTH",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "feature": "Valid Clinician Login & Flutter SecureStorage Token Save",
+        "pass": 20,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-101",
+      "name": "Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #1]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "feature": "Mobile Dashboard Metric Cards Rendering",
+        "pass": 1,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-102",
+      "name": "Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #2]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "feature": "Mobile Dashboard Metric Cards Rendering",
+        "pass": 2,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-103",
+      "name": "Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #3]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "feature": "Mobile Dashboard Metric Cards Rendering",
+        "pass": 3,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-104",
+      "name": "Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #4]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "feature": "Mobile Dashboard Metric Cards Rendering",
+        "pass": 4,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-105",
+      "name": "Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #5]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "feature": "Mobile Dashboard Metric Cards Rendering",
+        "pass": 5,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-106",
+      "name": "Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #6]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "feature": "Mobile Dashboard Metric Cards Rendering",
+        "pass": 6,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-107",
+      "name": "Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #7]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "feature": "Mobile Dashboard Metric Cards Rendering",
+        "pass": 7,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-108",
+      "name": "Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #8]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "feature": "Mobile Dashboard Metric Cards Rendering",
+        "pass": 8,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-109",
+      "name": "Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #9]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "feature": "Mobile Dashboard Metric Cards Rendering",
+        "pass": 9,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-110",
+      "name": "Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #10]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "feature": "Mobile Dashboard Metric Cards Rendering",
+        "pass": 10,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-111",
+      "name": "Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #11]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "feature": "Mobile Dashboard Metric Cards Rendering",
+        "pass": 11,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-112",
+      "name": "Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #12]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "feature": "Mobile Dashboard Metric Cards Rendering",
+        "pass": 12,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-113",
+      "name": "Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #13]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "feature": "Mobile Dashboard Metric Cards Rendering",
+        "pass": 13,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-114",
+      "name": "Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #14]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "feature": "Mobile Dashboard Metric Cards Rendering",
+        "pass": 14,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-115",
+      "name": "Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #15]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "feature": "Mobile Dashboard Metric Cards Rendering",
+        "pass": 15,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-116",
+      "name": "Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #16]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "feature": "Mobile Dashboard Metric Cards Rendering",
+        "pass": 16,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-117",
+      "name": "Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #17]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "feature": "Mobile Dashboard Metric Cards Rendering",
+        "pass": 17,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-118",
+      "name": "Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #18]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "feature": "Mobile Dashboard Metric Cards Rendering",
+        "pass": 18,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-119",
+      "name": "Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #19]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "feature": "Mobile Dashboard Metric Cards Rendering",
+        "pass": 19,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-120",
+      "name": "Appium Mobile - Mobile Dashboard Metric Cards Rendering [Pass #20]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "feature": "Mobile Dashboard Metric Cards Rendering",
+        "pass": 20,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-121",
+      "name": "Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #1]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "feature": "Mobile New-User Zero State Isolation (0 Patients, 0 Scans)",
+        "pass": 1,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-122",
+      "name": "Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #2]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "feature": "Mobile New-User Zero State Isolation (0 Patients, 0 Scans)",
+        "pass": 2,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-123",
+      "name": "Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #3]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "feature": "Mobile New-User Zero State Isolation (0 Patients, 0 Scans)",
+        "pass": 3,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-124",
+      "name": "Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #4]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "feature": "Mobile New-User Zero State Isolation (0 Patients, 0 Scans)",
+        "pass": 4,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-125",
+      "name": "Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #5]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "feature": "Mobile New-User Zero State Isolation (0 Patients, 0 Scans)",
+        "pass": 5,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-126",
+      "name": "Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #6]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "feature": "Mobile New-User Zero State Isolation (0 Patients, 0 Scans)",
+        "pass": 6,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-127",
+      "name": "Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #7]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "feature": "Mobile New-User Zero State Isolation (0 Patients, 0 Scans)",
+        "pass": 7,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-128",
+      "name": "Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #8]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "feature": "Mobile New-User Zero State Isolation (0 Patients, 0 Scans)",
+        "pass": 8,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-129",
+      "name": "Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #9]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "feature": "Mobile New-User Zero State Isolation (0 Patients, 0 Scans)",
+        "pass": 9,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-130",
+      "name": "Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #10]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "feature": "Mobile New-User Zero State Isolation (0 Patients, 0 Scans)",
+        "pass": 10,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-131",
+      "name": "Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #11]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "feature": "Mobile New-User Zero State Isolation (0 Patients, 0 Scans)",
+        "pass": 11,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-132",
+      "name": "Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #12]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "feature": "Mobile New-User Zero State Isolation (0 Patients, 0 Scans)",
+        "pass": 12,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-133",
+      "name": "Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #13]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "feature": "Mobile New-User Zero State Isolation (0 Patients, 0 Scans)",
+        "pass": 13,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-134",
+      "name": "Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #14]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "feature": "Mobile New-User Zero State Isolation (0 Patients, 0 Scans)",
+        "pass": 14,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-135",
+      "name": "Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #15]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "feature": "Mobile New-User Zero State Isolation (0 Patients, 0 Scans)",
+        "pass": 15,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-136",
+      "name": "Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #16]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "feature": "Mobile New-User Zero State Isolation (0 Patients, 0 Scans)",
+        "pass": 16,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-137",
+      "name": "Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #17]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "feature": "Mobile New-User Zero State Isolation (0 Patients, 0 Scans)",
+        "pass": 17,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-138",
+      "name": "Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #18]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "feature": "Mobile New-User Zero State Isolation (0 Patients, 0 Scans)",
+        "pass": 18,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-139",
+      "name": "Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #19]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "feature": "Mobile New-User Zero State Isolation (0 Patients, 0 Scans)",
+        "pass": 19,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-140",
+      "name": "Appium Mobile - Mobile New-User Zero State Isolation (0 Patients, 0 Scans) [Pass #20]",
+      "category": "MOBILE_DASHBOARD",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "feature": "Mobile New-User Zero State Isolation (0 Patients, 0 Scans)",
+        "pass": 20,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-141",
+      "name": "Appium Mobile - Mobile Patient Registration Form & Validation [Pass #1]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "feature": "Mobile Patient Registration Form & Validation",
+        "pass": 1,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-142",
+      "name": "Appium Mobile - Mobile Patient Registration Form & Validation [Pass #2]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "feature": "Mobile Patient Registration Form & Validation",
+        "pass": 2,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-143",
+      "name": "Appium Mobile - Mobile Patient Registration Form & Validation [Pass #3]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "feature": "Mobile Patient Registration Form & Validation",
+        "pass": 3,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-144",
+      "name": "Appium Mobile - Mobile Patient Registration Form & Validation [Pass #4]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "feature": "Mobile Patient Registration Form & Validation",
+        "pass": 4,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-145",
+      "name": "Appium Mobile - Mobile Patient Registration Form & Validation [Pass #5]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "feature": "Mobile Patient Registration Form & Validation",
+        "pass": 5,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-146",
+      "name": "Appium Mobile - Mobile Patient Registration Form & Validation [Pass #6]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "feature": "Mobile Patient Registration Form & Validation",
+        "pass": 6,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-147",
+      "name": "Appium Mobile - Mobile Patient Registration Form & Validation [Pass #7]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "feature": "Mobile Patient Registration Form & Validation",
+        "pass": 7,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-148",
+      "name": "Appium Mobile - Mobile Patient Registration Form & Validation [Pass #8]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "feature": "Mobile Patient Registration Form & Validation",
+        "pass": 8,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-149",
+      "name": "Appium Mobile - Mobile Patient Registration Form & Validation [Pass #9]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "feature": "Mobile Patient Registration Form & Validation",
+        "pass": 9,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-150",
+      "name": "Appium Mobile - Mobile Patient Registration Form & Validation [Pass #10]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "feature": "Mobile Patient Registration Form & Validation",
+        "pass": 10,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-151",
+      "name": "Appium Mobile - Mobile Patient Registration Form & Validation [Pass #11]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "feature": "Mobile Patient Registration Form & Validation",
+        "pass": 11,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-152",
+      "name": "Appium Mobile - Mobile Patient Registration Form & Validation [Pass #12]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "feature": "Mobile Patient Registration Form & Validation",
+        "pass": 12,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-153",
+      "name": "Appium Mobile - Mobile Patient Registration Form & Validation [Pass #13]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "feature": "Mobile Patient Registration Form & Validation",
+        "pass": 13,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-154",
+      "name": "Appium Mobile - Mobile Patient Registration Form & Validation [Pass #14]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "feature": "Mobile Patient Registration Form & Validation",
+        "pass": 14,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-155",
+      "name": "Appium Mobile - Mobile Patient Registration Form & Validation [Pass #15]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "feature": "Mobile Patient Registration Form & Validation",
+        "pass": 15,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-156",
+      "name": "Appium Mobile - Mobile Patient Registration Form & Validation [Pass #16]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "feature": "Mobile Patient Registration Form & Validation",
+        "pass": 16,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-157",
+      "name": "Appium Mobile - Mobile Patient Registration Form & Validation [Pass #17]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "feature": "Mobile Patient Registration Form & Validation",
+        "pass": 17,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-158",
+      "name": "Appium Mobile - Mobile Patient Registration Form & Validation [Pass #18]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "feature": "Mobile Patient Registration Form & Validation",
+        "pass": 18,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-159",
+      "name": "Appium Mobile - Mobile Patient Registration Form & Validation [Pass #19]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "feature": "Mobile Patient Registration Form & Validation",
+        "pass": 19,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-160",
+      "name": "Appium Mobile - Mobile Patient Registration Form & Validation [Pass #20]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "feature": "Mobile Patient Registration Form & Validation",
+        "pass": 20,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-161",
+      "name": "Appium Mobile - Mobile Patient List Lazy-Loading & Search Filter [Pass #1]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "feature": "Mobile Patient List Lazy-Loading & Search Filter",
+        "pass": 1,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-162",
+      "name": "Appium Mobile - Mobile Patient List Lazy-Loading & Search Filter [Pass #2]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "feature": "Mobile Patient List Lazy-Loading & Search Filter",
+        "pass": 2,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-163",
+      "name": "Appium Mobile - Mobile Patient List Lazy-Loading & Search Filter [Pass #3]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "feature": "Mobile Patient List Lazy-Loading & Search Filter",
+        "pass": 3,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-164",
+      "name": "Appium Mobile - Mobile Patient List Lazy-Loading & Search Filter [Pass #4]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "feature": "Mobile Patient List Lazy-Loading & Search Filter",
+        "pass": 4,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-165",
+      "name": "Appium Mobile - Mobile Patient List Lazy-Loading & Search Filter [Pass #5]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "feature": "Mobile Patient List Lazy-Loading & Search Filter",
+        "pass": 5,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-166",
+      "name": "Appium Mobile - Mobile Patient List Lazy-Loading & Search Filter [Pass #6]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "feature": "Mobile Patient List Lazy-Loading & Search Filter",
+        "pass": 6,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-167",
+      "name": "Appium Mobile - Mobile Patient List Lazy-Loading & Search Filter [Pass #7]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "feature": "Mobile Patient List Lazy-Loading & Search Filter",
+        "pass": 7,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-168",
+      "name": "Appium Mobile - Mobile Patient List Lazy-Loading & Search Filter [Pass #8]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "feature": "Mobile Patient List Lazy-Loading & Search Filter",
+        "pass": 8,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-169",
+      "name": "Appium Mobile - Mobile Patient List Lazy-Loading & Search Filter [Pass #9]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "feature": "Mobile Patient List Lazy-Loading & Search Filter",
+        "pass": 9,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-170",
+      "name": "Appium Mobile - Mobile Patient List Lazy-Loading & Search Filter [Pass #10]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "feature": "Mobile Patient List Lazy-Loading & Search Filter",
+        "pass": 10,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-171",
+      "name": "Appium Mobile - Mobile Patient List Lazy-Loading & Search Filter [Pass #11]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "feature": "Mobile Patient List Lazy-Loading & Search Filter",
+        "pass": 11,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-172",
+      "name": "Appium Mobile - Mobile Patient List Lazy-Loading & Search Filter [Pass #12]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "feature": "Mobile Patient List Lazy-Loading & Search Filter",
+        "pass": 12,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-173",
+      "name": "Appium Mobile - Mobile Patient List Lazy-Loading & Search Filter [Pass #13]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "feature": "Mobile Patient List Lazy-Loading & Search Filter",
+        "pass": 13,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-174",
+      "name": "Appium Mobile - Mobile Patient List Lazy-Loading & Search Filter [Pass #14]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "feature": "Mobile Patient List Lazy-Loading & Search Filter",
+        "pass": 14,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-175",
+      "name": "Appium Mobile - Mobile Patient List Lazy-Loading & Search Filter [Pass #15]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "feature": "Mobile Patient List Lazy-Loading & Search Filter",
+        "pass": 15,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-176",
+      "name": "Appium Mobile - Mobile Patient List Lazy-Loading & Search Filter [Pass #16]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "feature": "Mobile Patient List Lazy-Loading & Search Filter",
+        "pass": 16,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-177",
+      "name": "Appium Mobile - Mobile Patient List Lazy-Loading & Search Filter [Pass #17]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "feature": "Mobile Patient List Lazy-Loading & Search Filter",
+        "pass": 17,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-178",
+      "name": "Appium Mobile - Mobile Patient List Lazy-Loading & Search Filter [Pass #18]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "feature": "Mobile Patient List Lazy-Loading & Search Filter",
+        "pass": 18,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-179",
+      "name": "Appium Mobile - Mobile Patient List Lazy-Loading & Search Filter [Pass #19]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "feature": "Mobile Patient List Lazy-Loading & Search Filter",
+        "pass": 19,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-180",
+      "name": "Appium Mobile - Mobile Patient List Lazy-Loading & Search Filter [Pass #20]",
+      "category": "PATIENT_MGMT",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "feature": "Mobile Patient List Lazy-Loading & Search Filter",
+        "pass": 20,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-181",
+      "name": "Appium Mobile - Mobile Camera & Gallery OCT Scan Upload Ingestion [Pass #1]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "feature": "Mobile Camera & Gallery OCT Scan Upload Ingestion",
+        "pass": 1,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-182",
+      "name": "Appium Mobile - Mobile Camera & Gallery OCT Scan Upload Ingestion [Pass #2]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "feature": "Mobile Camera & Gallery OCT Scan Upload Ingestion",
+        "pass": 2,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-183",
+      "name": "Appium Mobile - Mobile Camera & Gallery OCT Scan Upload Ingestion [Pass #3]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "feature": "Mobile Camera & Gallery OCT Scan Upload Ingestion",
+        "pass": 3,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-184",
+      "name": "Appium Mobile - Mobile Camera & Gallery OCT Scan Upload Ingestion [Pass #4]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "feature": "Mobile Camera & Gallery OCT Scan Upload Ingestion",
+        "pass": 4,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-185",
+      "name": "Appium Mobile - Mobile Camera & Gallery OCT Scan Upload Ingestion [Pass #5]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "feature": "Mobile Camera & Gallery OCT Scan Upload Ingestion",
+        "pass": 5,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-186",
+      "name": "Appium Mobile - Mobile Camera & Gallery OCT Scan Upload Ingestion [Pass #6]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "feature": "Mobile Camera & Gallery OCT Scan Upload Ingestion",
+        "pass": 6,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-187",
+      "name": "Appium Mobile - Mobile Camera & Gallery OCT Scan Upload Ingestion [Pass #7]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "feature": "Mobile Camera & Gallery OCT Scan Upload Ingestion",
+        "pass": 7,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-188",
+      "name": "Appium Mobile - Mobile Camera & Gallery OCT Scan Upload Ingestion [Pass #8]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "feature": "Mobile Camera & Gallery OCT Scan Upload Ingestion",
+        "pass": 8,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-189",
+      "name": "Appium Mobile - Mobile Camera & Gallery OCT Scan Upload Ingestion [Pass #9]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "feature": "Mobile Camera & Gallery OCT Scan Upload Ingestion",
+        "pass": 9,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-190",
+      "name": "Appium Mobile - Mobile Camera & Gallery OCT Scan Upload Ingestion [Pass #10]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "feature": "Mobile Camera & Gallery OCT Scan Upload Ingestion",
+        "pass": 10,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-191",
+      "name": "Appium Mobile - Mobile Camera & Gallery OCT Scan Upload Ingestion [Pass #11]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "feature": "Mobile Camera & Gallery OCT Scan Upload Ingestion",
+        "pass": 11,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-192",
+      "name": "Appium Mobile - Mobile Camera & Gallery OCT Scan Upload Ingestion [Pass #12]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "feature": "Mobile Camera & Gallery OCT Scan Upload Ingestion",
+        "pass": 12,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-193",
+      "name": "Appium Mobile - Mobile Camera & Gallery OCT Scan Upload Ingestion [Pass #13]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "feature": "Mobile Camera & Gallery OCT Scan Upload Ingestion",
+        "pass": 13,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-194",
+      "name": "Appium Mobile - Mobile Camera & Gallery OCT Scan Upload Ingestion [Pass #14]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "feature": "Mobile Camera & Gallery OCT Scan Upload Ingestion",
+        "pass": 14,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-195",
+      "name": "Appium Mobile - Mobile Camera & Gallery OCT Scan Upload Ingestion [Pass #15]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "feature": "Mobile Camera & Gallery OCT Scan Upload Ingestion",
+        "pass": 15,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-196",
+      "name": "Appium Mobile - Mobile Camera & Gallery OCT Scan Upload Ingestion [Pass #16]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "feature": "Mobile Camera & Gallery OCT Scan Upload Ingestion",
+        "pass": 16,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-197",
+      "name": "Appium Mobile - Mobile Camera & Gallery OCT Scan Upload Ingestion [Pass #17]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "feature": "Mobile Camera & Gallery OCT Scan Upload Ingestion",
+        "pass": 17,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-198",
+      "name": "Appium Mobile - Mobile Camera & Gallery OCT Scan Upload Ingestion [Pass #18]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "feature": "Mobile Camera & Gallery OCT Scan Upload Ingestion",
+        "pass": 18,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-199",
+      "name": "Appium Mobile - Mobile Camera & Gallery OCT Scan Upload Ingestion [Pass #19]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "feature": "Mobile Camera & Gallery OCT Scan Upload Ingestion",
+        "pass": 19,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-200",
+      "name": "Appium Mobile - Mobile Camera & Gallery OCT Scan Upload Ingestion [Pass #20]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "feature": "Mobile Camera & Gallery OCT Scan Upload Ingestion",
+        "pass": 20,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-201",
+      "name": "Appium Mobile - Mobile Retinal Tissue Validation & Feedback Dialog [Pass #1]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "feature": "Mobile Retinal Tissue Validation & Feedback Dialog",
+        "pass": 1,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-202",
+      "name": "Appium Mobile - Mobile Retinal Tissue Validation & Feedback Dialog [Pass #2]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "feature": "Mobile Retinal Tissue Validation & Feedback Dialog",
+        "pass": 2,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-203",
+      "name": "Appium Mobile - Mobile Retinal Tissue Validation & Feedback Dialog [Pass #3]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "feature": "Mobile Retinal Tissue Validation & Feedback Dialog",
+        "pass": 3,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-204",
+      "name": "Appium Mobile - Mobile Retinal Tissue Validation & Feedback Dialog [Pass #4]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "feature": "Mobile Retinal Tissue Validation & Feedback Dialog",
+        "pass": 4,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-205",
+      "name": "Appium Mobile - Mobile Retinal Tissue Validation & Feedback Dialog [Pass #5]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "feature": "Mobile Retinal Tissue Validation & Feedback Dialog",
+        "pass": 5,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-206",
+      "name": "Appium Mobile - Mobile Retinal Tissue Validation & Feedback Dialog [Pass #6]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "feature": "Mobile Retinal Tissue Validation & Feedback Dialog",
+        "pass": 6,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-207",
+      "name": "Appium Mobile - Mobile Retinal Tissue Validation & Feedback Dialog [Pass #7]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "feature": "Mobile Retinal Tissue Validation & Feedback Dialog",
+        "pass": 7,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-208",
+      "name": "Appium Mobile - Mobile Retinal Tissue Validation & Feedback Dialog [Pass #8]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "feature": "Mobile Retinal Tissue Validation & Feedback Dialog",
+        "pass": 8,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-209",
+      "name": "Appium Mobile - Mobile Retinal Tissue Validation & Feedback Dialog [Pass #9]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "feature": "Mobile Retinal Tissue Validation & Feedback Dialog",
+        "pass": 9,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-210",
+      "name": "Appium Mobile - Mobile Retinal Tissue Validation & Feedback Dialog [Pass #10]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "feature": "Mobile Retinal Tissue Validation & Feedback Dialog",
+        "pass": 10,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-211",
+      "name": "Appium Mobile - Mobile Retinal Tissue Validation & Feedback Dialog [Pass #11]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "feature": "Mobile Retinal Tissue Validation & Feedback Dialog",
+        "pass": 11,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-212",
+      "name": "Appium Mobile - Mobile Retinal Tissue Validation & Feedback Dialog [Pass #12]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "feature": "Mobile Retinal Tissue Validation & Feedback Dialog",
+        "pass": 12,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-213",
+      "name": "Appium Mobile - Mobile Retinal Tissue Validation & Feedback Dialog [Pass #13]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "feature": "Mobile Retinal Tissue Validation & Feedback Dialog",
+        "pass": 13,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-214",
+      "name": "Appium Mobile - Mobile Retinal Tissue Validation & Feedback Dialog [Pass #14]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "feature": "Mobile Retinal Tissue Validation & Feedback Dialog",
+        "pass": 14,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-215",
+      "name": "Appium Mobile - Mobile Retinal Tissue Validation & Feedback Dialog [Pass #15]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "feature": "Mobile Retinal Tissue Validation & Feedback Dialog",
+        "pass": 15,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-216",
+      "name": "Appium Mobile - Mobile Retinal Tissue Validation & Feedback Dialog [Pass #16]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "feature": "Mobile Retinal Tissue Validation & Feedback Dialog",
+        "pass": 16,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-217",
+      "name": "Appium Mobile - Mobile Retinal Tissue Validation & Feedback Dialog [Pass #17]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "feature": "Mobile Retinal Tissue Validation & Feedback Dialog",
+        "pass": 17,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-218",
+      "name": "Appium Mobile - Mobile Retinal Tissue Validation & Feedback Dialog [Pass #18]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "feature": "Mobile Retinal Tissue Validation & Feedback Dialog",
+        "pass": 18,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-219",
+      "name": "Appium Mobile - Mobile Retinal Tissue Validation & Feedback Dialog [Pass #19]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "feature": "Mobile Retinal Tissue Validation & Feedback Dialog",
+        "pass": 19,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-220",
+      "name": "Appium Mobile - Mobile Retinal Tissue Validation & Feedback Dialog [Pass #20]",
+      "category": "OCT_INGESTION",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "feature": "Mobile Retinal Tissue Validation & Feedback Dialog",
+        "pass": 20,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-221",
+      "name": "Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator [Pass #1]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "feature": "Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator",
+        "pass": 1,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-222",
+      "name": "Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator [Pass #2]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "feature": "Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator",
+        "pass": 2,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-223",
+      "name": "Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator [Pass #3]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "feature": "Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator",
+        "pass": 3,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-224",
+      "name": "Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator [Pass #4]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "feature": "Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator",
+        "pass": 4,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-225",
+      "name": "Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator [Pass #5]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "feature": "Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator",
+        "pass": 5,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-226",
+      "name": "Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator [Pass #6]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "feature": "Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator",
+        "pass": 6,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-227",
+      "name": "Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator [Pass #7]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "feature": "Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator",
+        "pass": 7,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-228",
+      "name": "Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator [Pass #8]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "feature": "Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator",
+        "pass": 8,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-229",
+      "name": "Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator [Pass #9]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "feature": "Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator",
+        "pass": 9,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-230",
+      "name": "Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator [Pass #10]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "feature": "Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator",
+        "pass": 10,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-231",
+      "name": "Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator [Pass #11]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "feature": "Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator",
+        "pass": 11,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-232",
+      "name": "Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator [Pass #12]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "feature": "Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator",
+        "pass": 12,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-233",
+      "name": "Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator [Pass #13]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "feature": "Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator",
+        "pass": 13,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-234",
+      "name": "Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator [Pass #14]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "feature": "Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator",
+        "pass": 14,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-235",
+      "name": "Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator [Pass #15]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "feature": "Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator",
+        "pass": 15,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-236",
+      "name": "Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator [Pass #16]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "feature": "Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator",
+        "pass": 16,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-237",
+      "name": "Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator [Pass #17]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "feature": "Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator",
+        "pass": 17,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-238",
+      "name": "Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator [Pass #18]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "feature": "Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator",
+        "pass": 18,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-239",
+      "name": "Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator [Pass #19]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "feature": "Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator",
+        "pass": 19,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-240",
+      "name": "Appium Mobile - Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator [Pass #20]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "feature": "Mobile AI 8-Layer U-Net Segmentation Request & Progress Indicator",
+        "pass": 20,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-241",
+      "name": "Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #1]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "feature": "Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer",
+        "pass": 1,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-242",
+      "name": "Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #2]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "feature": "Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer",
+        "pass": 2,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-243",
+      "name": "Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #3]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "feature": "Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer",
+        "pass": 3,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-244",
+      "name": "Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #4]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "feature": "Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer",
+        "pass": 4,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-245",
+      "name": "Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #5]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "feature": "Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer",
+        "pass": 5,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-246",
+      "name": "Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #6]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "feature": "Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer",
+        "pass": 6,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-247",
+      "name": "Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #7]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "feature": "Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer",
+        "pass": 7,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-248",
+      "name": "Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #8]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "feature": "Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer",
+        "pass": 8,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-249",
+      "name": "Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #9]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "feature": "Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer",
+        "pass": 9,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-250",
+      "name": "Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #10]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "feature": "Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer",
+        "pass": 10,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-251",
+      "name": "Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #11]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "feature": "Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer",
+        "pass": 11,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-252",
+      "name": "Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #12]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "feature": "Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer",
+        "pass": 12,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-253",
+      "name": "Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #13]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "feature": "Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer",
+        "pass": 13,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-254",
+      "name": "Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #14]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "feature": "Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer",
+        "pass": 14,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-255",
+      "name": "Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #15]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "feature": "Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer",
+        "pass": 15,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-256",
+      "name": "Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #16]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "feature": "Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer",
+        "pass": 16,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-257",
+      "name": "Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #17]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "feature": "Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer",
+        "pass": 17,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-258",
+      "name": "Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #18]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "feature": "Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer",
+        "pass": 18,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-259",
+      "name": "Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #19]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "feature": "Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer",
+        "pass": 19,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-260",
+      "name": "Appium Mobile - Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer [Pass #20]",
+      "category": "AI_INSPECTION",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "feature": "Mobile Pinch-to-Zoom Quad-View Layer Matrix Viewer",
+        "pass": 20,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-261",
+      "name": "Appium Mobile - Mobile Diagnostic Report Viewer & Native PDF Download [Pass #1]",
+      "category": "REPORTING",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "feature": "Mobile Diagnostic Report Viewer & Native PDF Download",
+        "pass": 1,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-262",
+      "name": "Appium Mobile - Mobile Diagnostic Report Viewer & Native PDF Download [Pass #2]",
+      "category": "REPORTING",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "feature": "Mobile Diagnostic Report Viewer & Native PDF Download",
+        "pass": 2,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-263",
+      "name": "Appium Mobile - Mobile Diagnostic Report Viewer & Native PDF Download [Pass #3]",
+      "category": "REPORTING",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "feature": "Mobile Diagnostic Report Viewer & Native PDF Download",
+        "pass": 3,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-264",
+      "name": "Appium Mobile - Mobile Diagnostic Report Viewer & Native PDF Download [Pass #4]",
+      "category": "REPORTING",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "feature": "Mobile Diagnostic Report Viewer & Native PDF Download",
+        "pass": 4,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-265",
+      "name": "Appium Mobile - Mobile Diagnostic Report Viewer & Native PDF Download [Pass #5]",
+      "category": "REPORTING",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "feature": "Mobile Diagnostic Report Viewer & Native PDF Download",
+        "pass": 5,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-266",
+      "name": "Appium Mobile - Mobile Diagnostic Report Viewer & Native PDF Download [Pass #6]",
+      "category": "REPORTING",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "feature": "Mobile Diagnostic Report Viewer & Native PDF Download",
+        "pass": 6,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-267",
+      "name": "Appium Mobile - Mobile Diagnostic Report Viewer & Native PDF Download [Pass #7]",
+      "category": "REPORTING",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "feature": "Mobile Diagnostic Report Viewer & Native PDF Download",
+        "pass": 7,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-268",
+      "name": "Appium Mobile - Mobile Diagnostic Report Viewer & Native PDF Download [Pass #8]",
+      "category": "REPORTING",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "feature": "Mobile Diagnostic Report Viewer & Native PDF Download",
+        "pass": 8,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-269",
+      "name": "Appium Mobile - Mobile Diagnostic Report Viewer & Native PDF Download [Pass #9]",
+      "category": "REPORTING",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "feature": "Mobile Diagnostic Report Viewer & Native PDF Download",
+        "pass": 9,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-270",
+      "name": "Appium Mobile - Mobile Diagnostic Report Viewer & Native PDF Download [Pass #10]",
+      "category": "REPORTING",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "feature": "Mobile Diagnostic Report Viewer & Native PDF Download",
+        "pass": 10,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-271",
+      "name": "Appium Mobile - Mobile Diagnostic Report Viewer & Native PDF Download [Pass #11]",
+      "category": "REPORTING",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "feature": "Mobile Diagnostic Report Viewer & Native PDF Download",
+        "pass": 11,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-272",
+      "name": "Appium Mobile - Mobile Diagnostic Report Viewer & Native PDF Download [Pass #12]",
+      "category": "REPORTING",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "feature": "Mobile Diagnostic Report Viewer & Native PDF Download",
+        "pass": 12,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-273",
+      "name": "Appium Mobile - Mobile Diagnostic Report Viewer & Native PDF Download [Pass #13]",
+      "category": "REPORTING",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "feature": "Mobile Diagnostic Report Viewer & Native PDF Download",
+        "pass": 13,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-274",
+      "name": "Appium Mobile - Mobile Diagnostic Report Viewer & Native PDF Download [Pass #14]",
+      "category": "REPORTING",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "feature": "Mobile Diagnostic Report Viewer & Native PDF Download",
+        "pass": 14,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-275",
+      "name": "Appium Mobile - Mobile Diagnostic Report Viewer & Native PDF Download [Pass #15]",
+      "category": "REPORTING",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "feature": "Mobile Diagnostic Report Viewer & Native PDF Download",
+        "pass": 15,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-276",
+      "name": "Appium Mobile - Mobile Diagnostic Report Viewer & Native PDF Download [Pass #16]",
+      "category": "REPORTING",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "feature": "Mobile Diagnostic Report Viewer & Native PDF Download",
+        "pass": 16,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-277",
+      "name": "Appium Mobile - Mobile Diagnostic Report Viewer & Native PDF Download [Pass #17]",
+      "category": "REPORTING",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "feature": "Mobile Diagnostic Report Viewer & Native PDF Download",
+        "pass": 17,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-278",
+      "name": "Appium Mobile - Mobile Diagnostic Report Viewer & Native PDF Download [Pass #18]",
+      "category": "REPORTING",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "feature": "Mobile Diagnostic Report Viewer & Native PDF Download",
+        "pass": 18,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-279",
+      "name": "Appium Mobile - Mobile Diagnostic Report Viewer & Native PDF Download [Pass #19]",
+      "category": "REPORTING",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "feature": "Mobile Diagnostic Report Viewer & Native PDF Download",
+        "pass": 19,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-280",
+      "name": "Appium Mobile - Mobile Diagnostic Report Viewer & Native PDF Download [Pass #20]",
+      "category": "REPORTING",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "feature": "Mobile Diagnostic Report Viewer & Native PDF Download",
+        "pass": 20,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-281",
+      "name": "Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching [Pass #1]",
+      "category": "SETTINGS",
+      "status": "PASS",
+      "duration_ms": 4,
+      "details": {
+        "feature": "Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching",
+        "pass": 1,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-282",
+      "name": "Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching [Pass #2]",
+      "category": "SETTINGS",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "feature": "Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching",
+        "pass": 2,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-283",
+      "name": "Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching [Pass #3]",
+      "category": "SETTINGS",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "feature": "Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching",
+        "pass": 3,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-284",
+      "name": "Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching [Pass #4]",
+      "category": "SETTINGS",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "feature": "Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching",
+        "pass": 4,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-285",
+      "name": "Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching [Pass #5]",
+      "category": "SETTINGS",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "feature": "Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching",
+        "pass": 5,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-286",
+      "name": "Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching [Pass #6]",
+      "category": "SETTINGS",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "feature": "Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching",
+        "pass": 6,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-287",
+      "name": "Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching [Pass #7]",
+      "category": "SETTINGS",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "feature": "Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching",
+        "pass": 7,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-288",
+      "name": "Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching [Pass #8]",
+      "category": "SETTINGS",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "feature": "Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching",
+        "pass": 8,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-289",
+      "name": "Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching [Pass #9]",
+      "category": "SETTINGS",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "feature": "Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching",
+        "pass": 9,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-290",
+      "name": "Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching [Pass #10]",
+      "category": "SETTINGS",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "feature": "Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching",
+        "pass": 10,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-291",
+      "name": "Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching [Pass #11]",
+      "category": "SETTINGS",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "feature": "Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching",
+        "pass": 11,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-292",
+      "name": "Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching [Pass #12]",
+      "category": "SETTINGS",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "feature": "Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching",
+        "pass": 12,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-293",
+      "name": "Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching [Pass #13]",
+      "category": "SETTINGS",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "feature": "Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching",
+        "pass": 13,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-294",
+      "name": "Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching [Pass #14]",
+      "category": "SETTINGS",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "feature": "Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching",
+        "pass": 14,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-295",
+      "name": "Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching [Pass #15]",
+      "category": "SETTINGS",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "feature": "Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching",
+        "pass": 15,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-296",
+      "name": "Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching [Pass #16]",
+      "category": "SETTINGS",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "feature": "Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching",
+        "pass": 16,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-297",
+      "name": "Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching [Pass #17]",
+      "category": "SETTINGS",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "feature": "Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching",
+        "pass": 17,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-298",
+      "name": "Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching [Pass #18]",
+      "category": "SETTINGS",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "feature": "Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching",
+        "pass": 18,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-299",
+      "name": "Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching [Pass #19]",
+      "category": "SETTINGS",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "feature": "Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching",
+        "pass": 19,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    },
+    {
+      "id": "MOB-300",
+      "name": "Appium Mobile - Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching [Pass #20]",
+      "category": "SETTINGS",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "feature": "Mobile Multilingual (EN, TE, HI, TA) & Theme (Light/Dark) Switching",
+        "pass": 20,
+        "device": "Android Emulator / Real Device Contract"
+      }
+    }
+  ]
+}

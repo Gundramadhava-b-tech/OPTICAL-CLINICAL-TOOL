@@ -37,3 +37,8 @@ machine_learning/IMAGE_PROCESSING/logs/*
 machine_learning/IMAGE_PROCESSING/checkpoints/*
 oct_ai_pipeline/output/*
 !oct_ai_pipeline/output/.gitkeep
+
+# CI/CD scratch artifacts
+results/
+summary.md
+screenshots/

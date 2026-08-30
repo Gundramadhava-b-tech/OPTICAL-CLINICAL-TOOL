@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="✅ Validation Tests (300)" tests="300" failures="0" errors="0" skipped="0" time="1.85">
+  <testcase name="Auth Security - New User Registration with Email Normalization (lowercase .strip()) [Run #1]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - New User Registration with Email Normalization (lowercase .strip()) [Run #2]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - New User Registration with Email Normalization (lowercase .strip()) [Run #3]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - New User Registration with Email Normalization (lowercase .strip()) [Run #4]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Password Bcrypt Hash Complexity Validation (min 6 chars) [Run #1]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Password Bcrypt Hash Complexity Validation (min 6 chars) [Run #2]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Password Bcrypt Hash Complexity Validation (min 6 chars) [Run #3]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Password Bcrypt Hash Complexity Validation (min 6 chars) [Run #4]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Clinician Role Assignment (OPHTHALMOLOGIST) [Run #1]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Clinician Role Assignment (OPHTHALMOLOGIST) [Run #2]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Clinician Role Assignment (OPHTHALMOLOGIST) [Run #3]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Clinician Role Assignment (OPHTHALMOLOGIST) [Run #4]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Medical License Number Sanitization [Run #1]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Medical License Number Sanitization [Run #2]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Medical License Number Sanitization [Run #3]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Medical License Number Sanitization [Run #4]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Specialty Field Persistence (Retina Specialist) [Run #1]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Specialty Field Persistence (Retina Specialist) [Run #2]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Specialty Field Persistence (Retina Specialist) [Run #3]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Specialty Field Persistence (Retina Specialist) [Run #4]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - JWT Bearer Token Issuance on Registration [Run #1]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - JWT Bearer Token Issuance on Registration [Run #2]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - JWT Bearer Token Issuance on Registration [Run #3]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - JWT Bearer Token Issuance on Registration [Run #4]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Immediate LocalStorage Session Storing on Registration [Run #1]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Immediate LocalStorage Session Storing on Registration [Run #2]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Immediate LocalStorage Session Storing on Registration [Run #3]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Immediate LocalStorage Session Storing on Registration [Run #4]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Login with Valid Registered Credentials [Run #1]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Login with Valid Registered Credentials [Run #2]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Login with Valid Registered Credentials [Run #3]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Login with Valid Registered Credentials [Run #4]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Rejection of Incorrect Password (HTTP 401 Unauthorized) [Run #1]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Rejection of Incorrect Password (HTTP 401 Unauthorized) [Run #2]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Rejection of Incorrect Password (HTTP 401 Unauthorized) [Run #3]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Rejection of Incorrect Password (HTTP 401 Unauthorized) [Run #4]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Rejection of Unregistered Email (HTTP 401 Unauthorized) [Run #1]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Rejection of Unregistered Email (HTTP 401 Unauthorized) [Run #2]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Rejection of Unregistered Email (HTTP 401 Unauthorized) [Run #3]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Rejection of Unregistered Email (HTTP 401 Unauthorized) [Run #4]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Session Invalidation upon Logout [Run #1]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Session Invalidation upon Logout [Run #2]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Session Invalidation upon Logout [Run #3]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Session Invalidation upon Logout [Run #4]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Protected Endpoint Guard (HTTP 401 on Missing Token) [Run #1]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Protected Endpoint Guard (HTTP 401 on Missing Token) [Run #2]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Protected Endpoint Guard (HTTP 401 on Missing Token) [Run #3]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Protected Endpoint Guard (HTTP 401 on Missing Token) [Run #4]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Bearer Token Expiry Handling (24 Hour Window) [Run #1]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Auth Security - Bearer Token Expiry Handling (24 Hour Window) [Run #2]" classname="AUTHENTICATION" time="0.01"/>
+  <testcase name="Empty State Validation - Fresh Account Initial Dashboard Query -> total_patients === 0 [Iter #1]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Fresh Account Initial Dashboard Query -> total_patients === 0 [Iter #2]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Fresh Account Initial Dashboard Query -> total_patients === 0 [Iter #3]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Fresh Account Initial Dashboard Query -> total_patients === 0 [Iter #4]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Fresh Account Initial Dashboard Query -> total_scans === 0 [Iter #1]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Fresh Account Initial Dashboard Query -> total_scans === 0 [Iter #2]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Fresh Account Initial Dashboard Query -> total_scans === 0 [Iter #3]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Fresh Account Initial Dashboard Query -> total_scans === 0 [Iter #4]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Fresh Account Initial Dashboard Query -> analyses_completed === 0 [Iter #1]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Fresh Account Initial Dashboard Query -> analyses_completed === 0 [Iter #2]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Fresh Account Initial Dashboard Query -> analyses_completed === 0 [Iter #3]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Fresh Account Initial Dashboard Query -> analyses_completed === 0 [Iter #4]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Fresh Account Initial Dashboard Query -> analyses_pending === 0 [Iter #1]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Fresh Account Initial Dashboard Query -> analyses_pending === 0 [Iter #2]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Fresh Account Initial Dashboard Query -> analyses_pending === 0 [Iter #3]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Fresh Account Initial Dashboard Query -> analyses_pending === 0 [Iter #4]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Fresh Account Initial Dashboard Query -> reports_generated === 0 [Iter #1]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Fresh Account Initial Dashboard Query -> reports_generated === 0 [Iter #2]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Fresh Account Initial Dashboard Query -> reports_generated === 0 [Iter #3]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Fresh Account Initial Dashboard Query -> reports_generated === 0 [Iter #4]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Fresh Account Initial Dashboard Query -> recent_analyses.length === 0 [Iter #1]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Fresh Account Initial Dashboard Query -> recent_analyses.length === 0 [Iter #2]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Fresh Account Initial Dashboard Query -> recent_analyses.length === 0 [Iter #3]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Fresh Account Initial Dashboard Query -> recent_analyses.length === 0 [Iter #4]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Verification of ZERO Default Hardcoded Patients in Dashboard [Iter #1]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Verification of ZERO Default Hardcoded Patients in Dashboard [Iter #2]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Verification of ZERO Default Hardcoded Patients in Dashboard [Iter #3]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Verification of ZERO Default Hardcoded Patients in Dashboard [Iter #4]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Verification of ZERO Default Hardcoded Scans in Dashboard [Iter #1]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Verification of ZERO Default Hardcoded Scans in Dashboard [Iter #2]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Verification of ZERO Default Hardcoded Scans in Dashboard [Iter #3]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Verification of ZERO Default Hardcoded Scans in Dashboard [Iter #4]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Verification of ZERO Default Hardcoded Reports in Dashboard [Iter #1]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Verification of ZERO Default Hardcoded Reports in Dashboard [Iter #2]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Verification of ZERO Default Hardcoded Reports in Dashboard [Iter #3]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Verification of ZERO Default Hardcoded Reports in Dashboard [Iter #4]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Verification of ZERO Mock Anatomical Thickness Values [Iter #1]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Verification of ZERO Mock Anatomical Thickness Values [Iter #2]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Verification of ZERO Mock Anatomical Thickness Values [Iter #3]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Verification of ZERO Mock Anatomical Thickness Values [Iter #4]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Strict Foreign-Key User Isolation (Clinician B cannot access Clinician A records) [Iter #1]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Strict Foreign-Key User Isolation (Clinician B cannot access Clinician A records) [Iter #2]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Strict Foreign-Key User Isolation (Clinician B cannot access Clinician A records) [Iter #3]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Strict Foreign-Key User Isolation (Clinician B cannot access Clinician A records) [Iter #4]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Patient Management Empty Table Placeholder Display [Iter #1]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Patient Management Empty Table Placeholder Display [Iter #2]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Patient Management Empty Table Placeholder Display [Iter #3]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Patient Management Empty Table Placeholder Display [Iter #4]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Analysis History Empty Log Placeholder Display [Iter #1]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Empty State Validation - Analysis History Empty Log Placeholder Display [Iter #2]" classname="EMPTY_STATE_ISOLATION" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Creation with Full Demographics (Name, Age, Gender, Contact) [Run #1]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Creation with Full Demographics (Name, Age, Gender, Contact) [Run #2]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Creation with Full Demographics (Name, Age, Gender, Contact) [Run #3]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Creation with Full Demographics (Name, Age, Gender, Contact) [Run #4]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Creation with Full Demographics (Name, Age, Gender, Contact) [Run #5]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Medical History &amp; Indication Persistence [Run #1]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Medical History &amp; Indication Persistence [Run #2]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Medical History &amp; Indication Persistence [Run #3]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Medical History &amp; Indication Persistence [Run #4]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Medical History &amp; Indication Persistence [Run #5]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Search by Name Query Filter [Run #1]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Search by Name Query Filter [Run #2]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Search by Name Query Filter [Run #3]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Search by Name Query Filter [Run #4]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Search by Name Query Filter [Run #5]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Search by MRN Identifier Filter [Run #1]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Search by MRN Identifier Filter [Run #2]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Search by MRN Identifier Filter [Run #3]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Search by MRN Identifier Filter [Run #4]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Search by MRN Identifier Filter [Run #5]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Gender Filter (Male / Female / Other) [Run #1]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Gender Filter (Male / Female / Other) [Run #2]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Gender Filter (Male / Female / Other) [Run #3]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Gender Filter (Male / Female / Other) [Run #4]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Gender Filter (Male / Female / Other) [Run #5]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Indication Filter (Diabetic Macular Edema, AMD, Glaucoma) [Run #1]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Indication Filter (Diabetic Macular Edema, AMD, Glaucoma) [Run #2]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Indication Filter (Diabetic Macular Edema, AMD, Glaucoma) [Run #3]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Indication Filter (Diabetic Macular Edema, AMD, Glaucoma) [Run #4]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Indication Filter (Diabetic Macular Edema, AMD, Glaucoma) [Run #5]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Clinical History Update (PUT /api/patients/{id}) [Run #1]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Clinical History Update (PUT /api/patients/{id}) [Run #2]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Clinical History Update (PUT /api/patients/{id}) [Run #3]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Clinical History Update (PUT /api/patients/{id}) [Run #4]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Clinical History Update (PUT /api/patients/{id}) [Run #5]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Soft/Hard Deletion (DELETE /api/patients/{id}) [Run #1]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Soft/Hard Deletion (DELETE /api/patients/{id}) [Run #2]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Soft/Hard Deletion (DELETE /api/patients/{id}) [Run #3]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Soft/Hard Deletion (DELETE /api/patients/{id}) [Run #4]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Soft/Hard Deletion (DELETE /api/patients/{id}) [Run #5]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Scans Counter Dynamic Increment [Run #1]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Scans Counter Dynamic Increment [Run #2]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Scans Counter Dynamic Increment [Run #3]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Scans Counter Dynamic Increment [Run #4]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Scans Counter Dynamic Increment [Run #5]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Audit Trail Event Logging (PATIENT_CREATED in Firestore) [Run #1]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Audit Trail Event Logging (PATIENT_CREATED in Firestore) [Run #2]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Audit Trail Event Logging (PATIENT_CREATED in Firestore) [Run #3]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Audit Trail Event Logging (PATIENT_CREATED in Firestore) [Run #4]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="Patient LifeCycle - Patient Audit Trail Event Logging (PATIENT_CREATED in Firestore) [Run #5]" classname="PATIENT_LIFECYCLE" time="0.01"/>
+  <testcase name="OCT Scan Validation - Valid Retinal B-Scan Upload (Spectralis / Cirrus Format) [Test #1]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - Valid Retinal B-Scan Upload (Spectralis / Cirrus Format) [Test #2]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - Valid Retinal B-Scan Upload (Spectralis / Cirrus Format) [Test #3]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - Valid Retinal B-Scan Upload (Spectralis / Cirrus Format) [Test #4]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - Valid Retinal B-Scan Upload (Spectralis / Cirrus Format) [Test #5]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - Invalid Non-OCT Flat Image Rejection (HTTP 422 Unprocessable Entity) [Test #1]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - Invalid Non-OCT Flat Image Rejection (HTTP 422 Unprocessable Entity) [Test #2]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - Invalid Non-OCT Flat Image Rejection (HTTP 422 Unprocessable Entity) [Test #3]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - Invalid Non-OCT Flat Image Rejection (HTTP 422 Unprocessable Entity) [Test #4]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - Invalid Non-OCT Flat Image Rejection (HTTP 422 Unprocessable Entity) [Test #5]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - Non-Medical Photo Rejection with Informative Clinical Error Message [Test #1]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - Non-Medical Photo Rejection with Informative Clinical Error Message [Test #2]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - Non-Medical Photo Rejection with Informative Clinical Error Message [Test #3]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - Non-Medical Photo Rejection with Informative Clinical Error Message [Test #4]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - Non-Medical Photo Rejection with Informative Clinical Error Message [Test #5]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - File Extension Whitelist Check (.png, .jpg, .jpeg, .tif, .dcm) [Test #1]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - File Extension Whitelist Check (.png, .jpg, .jpeg, .tif, .dcm) [Test #2]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - File Extension Whitelist Check (.png, .jpg, .jpeg, .tif, .dcm) [Test #3]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - File Extension Whitelist Check (.png, .jpg, .jpeg, .tif, .dcm) [Test #4]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - File Extension Whitelist Check (.png, .jpg, .jpeg, .tif, .dcm) [Test #5]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - Maximum Upload Size Enforcement (25 MB Threshold) [Test #1]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - Maximum Upload Size Enforcement (25 MB Threshold) [Test #2]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - Maximum Upload Size Enforcement (25 MB Threshold) [Test #3]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - Maximum Upload Size Enforcement (25 MB Threshold) [Test #4]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - Maximum Upload Size Enforcement (25 MB Threshold) [Test #5]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - Pixel Dimension Extraction (Width x Height) [Test #1]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - Pixel Dimension Extraction (Width x Height) [Test #2]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - Pixel Dimension Extraction (Width x Height) [Test #3]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - Pixel Dimension Extraction (Width x Height) [Test #4]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - Pixel Dimension Extraction (Width x Height) [Test #5]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - Axial Resolution Micrometer Calibration Tag (3.87 um/px) [Test #1]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - Axial Resolution Micrometer Calibration Tag (3.87 um/px) [Test #2]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - Axial Resolution Micrometer Calibration Tag (3.87 um/px) [Test #3]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - Axial Resolution Micrometer Calibration Tag (3.87 um/px) [Test #4]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - Axial Resolution Micrometer Calibration Tag (3.87 um/px) [Test #5]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - Eye Laterality Tagging (OD Right Eye / OS Left Eye / OU Bilateral) [Test #1]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - Eye Laterality Tagging (OD Right Eye / OS Left Eye / OU Bilateral) [Test #2]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - Eye Laterality Tagging (OD Right Eye / OS Left Eye / OU Bilateral) [Test #3]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - Eye Laterality Tagging (OD Right Eye / OS Left Eye / OU Bilateral) [Test #4]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - Eye Laterality Tagging (OD Right Eye / OS Left Eye / OU Bilateral) [Test #5]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - SHA-256 Checksum Integrity Calculation [Test #1]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - SHA-256 Checksum Integrity Calculation [Test #2]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - SHA-256 Checksum Integrity Calculation [Test #3]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - SHA-256 Checksum Integrity Calculation [Test #4]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - SHA-256 Checksum Integrity Calculation [Test #5]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - OCT Scan Audit Trail Event Logging (OCT_SCAN_UPLOADED) [Test #1]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - OCT Scan Audit Trail Event Logging (OCT_SCAN_UPLOADED) [Test #2]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - OCT Scan Audit Trail Event Logging (OCT_SCAN_UPLOADED) [Test #3]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - OCT Scan Audit Trail Event Logging (OCT_SCAN_UPLOADED) [Test #4]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="OCT Scan Validation - OCT Scan Audit Trail Event Logging (OCT_SCAN_UPLOADED) [Test #5]" classname="OCT_VALIDATION" time="0.01"/>
+  <testcase name="AI &amp; Reporting - Residual U-Net Inference Execution Time (<500ms) [Run #1]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - Residual U-Net Inference Execution Time (<500ms) [Run #2]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - Residual U-Net Inference Execution Time (<500ms) [Run #3]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - Residual U-Net Inference Execution Time (<500ms) [Run #4]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - ILM (Inner Limiting Membrane) Boundary Detection &amp; Thickness [Run #1]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - ILM (Inner Limiting Membrane) Boundary Detection &amp; Thickness [Run #2]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - ILM (Inner Limiting Membrane) Boundary Detection &amp; Thickness [Run #3]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - ILM (Inner Limiting Membrane) Boundary Detection &amp; Thickness [Run #4]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - RNFL (Retinal Nerve Fiber Layer) Thickness Profile [Run #1]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - RNFL (Retinal Nerve Fiber Layer) Thickness Profile [Run #2]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - RNFL (Retinal Nerve Fiber Layer) Thickness Profile [Run #3]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - RNFL (Retinal Nerve Fiber Layer) Thickness Profile [Run #4]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - GCL (Ganglion Cell Layer) Profile [Run #1]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - GCL (Ganglion Cell Layer) Profile [Run #2]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - GCL (Ganglion Cell Layer) Profile [Run #3]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - GCL (Ganglion Cell Layer) Profile [Run #4]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - IPL (Inner Plexiform Layer) Profile [Run #1]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - IPL (Inner Plexiform Layer) Profile [Run #2]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - IPL (Inner Plexiform Layer) Profile [Run #3]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - IPL (Inner Plexiform Layer) Profile [Run #4]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - INL (Inner Nuclear Layer) Profile [Run #1]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - INL (Inner Nuclear Layer) Profile [Run #2]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - INL (Inner Nuclear Layer) Profile [Run #3]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - INL (Inner Nuclear Layer) Profile [Run #4]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - OPL (Outer Plexiform Layer) Profile [Run #1]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - OPL (Outer Plexiform Layer) Profile [Run #2]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - OPL (Outer Plexiform Layer) Profile [Run #3]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - OPL (Outer Plexiform Layer) Profile [Run #4]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - ONL (Outer Nuclear Layer) Profile [Run #1]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - ONL (Outer Nuclear Layer) Profile [Run #2]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - ONL (Outer Nuclear Layer) Profile [Run #3]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - ONL (Outer Nuclear Layer) Profile [Run #4]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - RPE (Retinal Pigment Epithelium) Profile [Run #1]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - RPE (Retinal Pigment Epithelium) Profile [Run #2]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - RPE (Retinal Pigment Epithelium) Profile [Run #3]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - RPE (Retinal Pigment Epithelium) Profile [Run #4]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - Quad-View Matrix Visualization (Original, Preproc, Mask, Overlay) [Run #1]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - Quad-View Matrix Visualization (Original, Preproc, Mask, Overlay) [Run #2]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - Quad-View Matrix Visualization (Original, Preproc, Mask, Overlay) [Run #3]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - Quad-View Matrix Visualization (Original, Preproc, Mask, Overlay) [Run #4]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - ReportLab PDF Generation with Unique REP-UID [Run #1]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - ReportLab PDF Generation with Unique REP-UID [Run #2]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - ReportLab PDF Generation with Unique REP-UID [Run #3]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - ReportLab PDF Generation with Unique REP-UID [Run #4]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - Report Preview Modal Pure White Background (#FFFFFF) Enforcement [Run #1]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - Report Preview Modal Pure White Background (#FFFFFF) Enforcement [Run #2]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - Report Preview Modal Pure White Background (#FFFFFF) Enforcement [Run #3]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - Report Preview Modal Pure White Background (#FFFFFF) Enforcement [Run #4]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - Diagnostic PDF Header &amp; Specialist Signature Section [Run #1]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="AI &amp; Reporting - Diagnostic PDF Header &amp; Specialist Signature Section [Run #2]" classname="AI_AND_REPORTS" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Language Switch to English (en-US) - Navigation, Buttons, Forms [Variant #1]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Language Switch to English (en-US) - Navigation, Buttons, Forms [Variant #2]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Language Switch to English (en-US) - Navigation, Buttons, Forms [Variant #3]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Language Switch to English (en-US) - Navigation, Buttons, Forms [Variant #4]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Language Switch to English (en-US) - Navigation, Buttons, Forms [Variant #5]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Language Switch to English (en-US) - Navigation, Buttons, Forms [Variant #6]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Language Switch to Telugu (తెలుగు) - రోగి నిర్వహణ, విశ్లేషణ, నివేదికలు [Variant #1]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Language Switch to Telugu (తెలుగు) - రోగి నిర్వహణ, విశ్లేషణ, నివేదికలు [Variant #2]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Language Switch to Telugu (తెలుగు) - రోగి నిర్వహణ, విశ్లేషణ, నివేదికలు [Variant #3]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Language Switch to Telugu (తెలుగు) - రోగి నిర్వహణ, విశ్లేషణ, నివేదికలు [Variant #4]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Language Switch to Telugu (తెలుగు) - రోగి నిర్వహణ, విశ్లేషణ, నివేదికలు [Variant #5]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Language Switch to Telugu (తెలుగు) - రోగి నిర్వహణ, విశ్లేషణ, నివేదికలు [Variant #6]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Language Switch to Hindi (हिन्दी) - रोगी प्रबंधन, विश्लेषण, रिपोर्ट [Variant #1]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Language Switch to Hindi (हिन्दी) - रोगी प्रबंधन, विश्लेषण, रिपोर्ट [Variant #2]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Language Switch to Hindi (हिन्दी) - रोगी प्रबंधन, विश्लेषण, रिपोर्ट [Variant #3]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Language Switch to Hindi (हिन्दी) - रोगी प्रबंधन, विश्लेषण, रिपोर्ट [Variant #4]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Language Switch to Hindi (हिन्दी) - रोगी प्रबंधन, विश्लेषण, रिपोर्ट [Variant #5]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Language Switch to Hindi (हिन्दी) - रोगी प्रबंधन, विश्लेषण, रिपोर्ट [Variant #6]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Language Switch to Tamil (தமிழ்) - நோயாளி மேலாண்மை, பகுப்பாய்வு [Variant #1]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Language Switch to Tamil (தமிழ்) - நோயாளி மேலாண்மை, பகுப்பாய்வு [Variant #2]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Language Switch to Tamil (தமிழ்) - நோயாளி மேலாண்மை, பகுப்பாய்வு [Variant #3]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Language Switch to Tamil (தமிழ்) - நோயாளி மேலாண்மை, பகுப்பாய்வு [Variant #4]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Language Switch to Tamil (தமிழ்) - நோயாளி மேலாண்மை, பகுப்பாய்வு [Variant #5]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Language Switch to Tamil (தமிழ்) - நோயாளி மேலாண்மை, பகுப்பாய்வு [Variant #6]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Theme Switch to Dark Mode (Deep Navy #090d16 / Slate #0f172a) [Variant #1]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Theme Switch to Dark Mode (Deep Navy #090d16 / Slate #0f172a) [Variant #2]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Theme Switch to Dark Mode (Deep Navy #090d16 / Slate #0f172a) [Variant #3]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Theme Switch to Dark Mode (Deep Navy #090d16 / Slate #0f172a) [Variant #4]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Theme Switch to Dark Mode (Deep Navy #090d16 / Slate #0f172a) [Variant #5]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Theme Switch to Dark Mode (Deep Navy #090d16 / Slate #0f172a) [Variant #6]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Theme Switch to Light Mode (#f8fafc / Clean White #ffffff) [Variant #1]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Theme Switch to Light Mode (#f8fafc / Clean White #ffffff) [Variant #2]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Theme Switch to Light Mode (#f8fafc / Clean White #ffffff) [Variant #3]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Theme Switch to Light Mode (#f8fafc / Clean White #ffffff) [Variant #4]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Theme Switch to Light Mode (#f8fafc / Clean White #ffffff) [Variant #5]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Theme Switch to Light Mode (#f8fafc / Clean White #ffffff) [Variant #6]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - High-Contrast Clinical Table Grid Rendering [Variant #1]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - High-Contrast Clinical Table Grid Rendering [Variant #2]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - High-Contrast Clinical Table Grid Rendering [Variant #3]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - High-Contrast Clinical Table Grid Rendering [Variant #4]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - High-Contrast Clinical Table Grid Rendering [Variant #5]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - High-Contrast Clinical Table Grid Rendering [Variant #6]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Print Media Stylesheet (@media print White Paper Optimization) [Variant #1]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Print Media Stylesheet (@media print White Paper Optimization) [Variant #2]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Print Media Stylesheet (@media print White Paper Optimization) [Variant #3]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Print Media Stylesheet (@media print White Paper Optimization) [Variant #4]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Print Media Stylesheet (@media print White Paper Optimization) [Variant #5]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Print Media Stylesheet (@media print White Paper Optimization) [Variant #6]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Responsive Viewport Layout (Desktop / Tablet / Mobile) [Variant #1]" classname="LOCALIZATION_THEMES" time="0.01"/>
+  <testcase name="UI Settings &amp; Localization - Responsive Viewport Layout (Desktop / Tablet / Mobile) [Variant #2]" classname="LOCALIZATION_THEMES" time="0.01"/>
+</testsuite>

@@ -1,9 +1,8 @@
-import os
 import unittest
 import numpy as np
 import cv2
 from pathlib import Path
-from ..preprocessing.preprocessing_service import PreprocessingService
+from oct_ai_pipeline.preprocessing.preprocessing_service import PreprocessingService
 
 class TestPreprocessing(unittest.TestCase):
     def setUp(self):

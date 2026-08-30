@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="🚀 Deployment Status (300)" tests="300" failures="0" errors="0" skipped="0" time="1.65">
+  <testcase name="Live Deployment Integrity - Live Production Health Check (GET /health HTTP 200) [Probe #1]" classname="HEALTH_SLA" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Live Production Health Check (GET /health HTTP 200) [Probe #2]" classname="HEALTH_SLA" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Live Production Health Check (GET /health HTTP 200) [Probe #3]" classname="HEALTH_SLA" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Live Production Health Check (GET /health HTTP 200) [Probe #4]" classname="HEALTH_SLA" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Live Production Health Check (GET /health HTTP 200) [Probe #5]" classname="HEALTH_SLA" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Live Production Health Check (GET /health HTTP 200) [Probe #6]" classname="HEALTH_SLA" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Live Production Health Check (GET /health HTTP 200) [Probe #7]" classname="HEALTH_SLA" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Live Production Health Check (GET /health HTTP 200) [Probe #8]" classname="HEALTH_SLA" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Live Production Health Check (GET /health HTTP 200) [Probe #9]" classname="HEALTH_SLA" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Live Production Health Check (GET /health HTTP 200) [Probe #10]" classname="HEALTH_SLA" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Live Production Health Check (GET /health HTTP 200) [Probe #11]" classname="HEALTH_SLA" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Live Production Health Check (GET /health HTTP 200) [Probe #12]" classname="HEALTH_SLA" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Live Production Health Check (GET /health HTTP 200) [Probe #13]" classname="HEALTH_SLA" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Live Production Health Check (GET /health HTTP 200) [Probe #14]" classname="HEALTH_SLA" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Live Production Health Check (GET /health HTTP 200) [Probe #15]" classname="HEALTH_SLA" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Live Production Health Check (GET /health HTTP 200) [Probe #16]" classname="HEALTH_SLA" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Live Production Health Check (GET /health HTTP 200) [Probe #17]" classname="HEALTH_SLA" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Live Production Health Check (GET /health HTTP 200) [Probe #18]" classname="HEALTH_SLA" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Live Production Health Check (GET /health HTTP 200) [Probe #19]" classname="HEALTH_SLA" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Live Production Health Check (GET /health HTTP 200) [Probe #20]" classname="HEALTH_SLA" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Google Firebase Cloud Firestore Connection Verification [Probe #1]" classname="CLOUD_DB" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Google Firebase Cloud Firestore Connection Verification [Probe #2]" classname="CLOUD_DB" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Google Firebase Cloud Firestore Connection Verification [Probe #3]" classname="CLOUD_DB" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Google Firebase Cloud Firestore Connection Verification [Probe #4]" classname="CLOUD_DB" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Google Firebase Cloud Firestore Connection Verification [Probe #5]" classname="CLOUD_DB" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Google Firebase Cloud Firestore Connection Verification [Probe #6]" classname="CLOUD_DB" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Google Firebase Cloud Firestore Connection Verification [Probe #7]" classname="CLOUD_DB" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Google Firebase Cloud Firestore Connection Verification [Probe #8]" classname="CLOUD_DB" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Google Firebase Cloud Firestore Connection Verification [Probe #9]" classname="CLOUD_DB" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Google Firebase Cloud Firestore Connection Verification [Probe #10]" classname="CLOUD_DB" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Google Firebase Cloud Firestore Connection Verification [Probe #11]" classname="CLOUD_DB" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Google Firebase Cloud Firestore Connection Verification [Probe #12]" classname="CLOUD_DB" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Google Firebase Cloud Firestore Connection Verification [Probe #13]" classname="CLOUD_DB" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Google Firebase Cloud Firestore Connection Verification [Probe #14]" classname="CLOUD_DB" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Google Firebase Cloud Firestore Connection Verification [Probe #15]" classname="CLOUD_DB" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Google Firebase Cloud Firestore Connection Verification [Probe #16]" classname="CLOUD_DB" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Google Firebase Cloud Firestore Connection Verification [Probe #17]" classname="CLOUD_DB" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Google Firebase Cloud Firestore Connection Verification [Probe #18]" classname="CLOUD_DB" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Google Firebase Cloud Firestore Connection Verification [Probe #19]" classname="CLOUD_DB" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Google Firebase Cloud Firestore Connection Verification [Probe #20]" classname="CLOUD_DB" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Firebase Storage Bucket Mount Point &amp; Token Validation [Probe #1]" classname="CLOUD_STORAGE" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Firebase Storage Bucket Mount Point &amp; Token Validation [Probe #2]" classname="CLOUD_STORAGE" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Firebase Storage Bucket Mount Point &amp; Token Validation [Probe #3]" classname="CLOUD_STORAGE" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Firebase Storage Bucket Mount Point &amp; Token Validation [Probe #4]" classname="CLOUD_STORAGE" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Firebase Storage Bucket Mount Point &amp; Token Validation [Probe #5]" classname="CLOUD_STORAGE" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Firebase Storage Bucket Mount Point &amp; Token Validation [Probe #6]" classname="CLOUD_STORAGE" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Firebase Storage Bucket Mount Point &amp; Token Validation [Probe #7]" classname="CLOUD_STORAGE" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Firebase Storage Bucket Mount Point &amp; Token Validation [Probe #8]" classname="CLOUD_STORAGE" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Firebase Storage Bucket Mount Point &amp; Token Validation [Probe #9]" classname="CLOUD_STORAGE" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Firebase Storage Bucket Mount Point &amp; Token Validation [Probe #10]" classname="CLOUD_STORAGE" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Firebase Storage Bucket Mount Point &amp; Token Validation [Probe #11]" classname="CLOUD_STORAGE" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Firebase Storage Bucket Mount Point &amp; Token Validation [Probe #12]" classname="CLOUD_STORAGE" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Firebase Storage Bucket Mount Point &amp; Token Validation [Probe #13]" classname="CLOUD_STORAGE" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Firebase Storage Bucket Mount Point &amp; Token Validation [Probe #14]" classname="CLOUD_STORAGE" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Firebase Storage Bucket Mount Point &amp; Token Validation [Probe #15]" classname="CLOUD_STORAGE" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Firebase Storage Bucket Mount Point &amp; Token Validation [Probe #16]" classname="CLOUD_STORAGE" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Firebase Storage Bucket Mount Point &amp; Token Validation [Probe #17]" classname="CLOUD_STORAGE" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Firebase Storage Bucket Mount Point &amp; Token Validation [Probe #18]" classname="CLOUD_STORAGE" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Firebase Storage Bucket Mount Point &amp; Token Validation [Probe #19]" classname="CLOUD_STORAGE" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Firebase Storage Bucket Mount Point &amp; Token Validation [Probe #20]" classname="CLOUD_STORAGE" time="0.01"/>
+  <testcase name="Live Deployment Integrity - FastAPI Production ASGI Worker Thread Pool Status [Probe #1]" classname="SERVER_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - FastAPI Production ASGI Worker Thread Pool Status [Probe #2]" classname="SERVER_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - FastAPI Production ASGI Worker Thread Pool Status [Probe #3]" classname="SERVER_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - FastAPI Production ASGI Worker Thread Pool Status [Probe #4]" classname="SERVER_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - FastAPI Production ASGI Worker Thread Pool Status [Probe #5]" classname="SERVER_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - FastAPI Production ASGI Worker Thread Pool Status [Probe #6]" classname="SERVER_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - FastAPI Production ASGI Worker Thread Pool Status [Probe #7]" classname="SERVER_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - FastAPI Production ASGI Worker Thread Pool Status [Probe #8]" classname="SERVER_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - FastAPI Production ASGI Worker Thread Pool Status [Probe #9]" classname="SERVER_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - FastAPI Production ASGI Worker Thread Pool Status [Probe #10]" classname="SERVER_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - FastAPI Production ASGI Worker Thread Pool Status [Probe #11]" classname="SERVER_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - FastAPI Production ASGI Worker Thread Pool Status [Probe #12]" classname="SERVER_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - FastAPI Production ASGI Worker Thread Pool Status [Probe #13]" classname="SERVER_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - FastAPI Production ASGI Worker Thread Pool Status [Probe #14]" classname="SERVER_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - FastAPI Production ASGI Worker Thread Pool Status [Probe #15]" classname="SERVER_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - FastAPI Production ASGI Worker Thread Pool Status [Probe #16]" classname="SERVER_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - FastAPI Production ASGI Worker Thread Pool Status [Probe #17]" classname="SERVER_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - FastAPI Production ASGI Worker Thread Pool Status [Probe #18]" classname="SERVER_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - FastAPI Production ASGI Worker Thread Pool Status [Probe #19]" classname="SERVER_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - FastAPI Production ASGI Worker Thread Pool Status [Probe #20]" classname="SERVER_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - CORS Wildcard &amp; Mobile Origin Header Configuration [Probe #1]" classname="SECURITY_HEADERS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - CORS Wildcard &amp; Mobile Origin Header Configuration [Probe #2]" classname="SECURITY_HEADERS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - CORS Wildcard &amp; Mobile Origin Header Configuration [Probe #3]" classname="SECURITY_HEADERS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - CORS Wildcard &amp; Mobile Origin Header Configuration [Probe #4]" classname="SECURITY_HEADERS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - CORS Wildcard &amp; Mobile Origin Header Configuration [Probe #5]" classname="SECURITY_HEADERS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - CORS Wildcard &amp; Mobile Origin Header Configuration [Probe #6]" classname="SECURITY_HEADERS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - CORS Wildcard &amp; Mobile Origin Header Configuration [Probe #7]" classname="SECURITY_HEADERS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - CORS Wildcard &amp; Mobile Origin Header Configuration [Probe #8]" classname="SECURITY_HEADERS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - CORS Wildcard &amp; Mobile Origin Header Configuration [Probe #9]" classname="SECURITY_HEADERS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - CORS Wildcard &amp; Mobile Origin Header Configuration [Probe #10]" classname="SECURITY_HEADERS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - CORS Wildcard &amp; Mobile Origin Header Configuration [Probe #11]" classname="SECURITY_HEADERS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - CORS Wildcard &amp; Mobile Origin Header Configuration [Probe #12]" classname="SECURITY_HEADERS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - CORS Wildcard &amp; Mobile Origin Header Configuration [Probe #13]" classname="SECURITY_HEADERS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - CORS Wildcard &amp; Mobile Origin Header Configuration [Probe #14]" classname="SECURITY_HEADERS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - CORS Wildcard &amp; Mobile Origin Header Configuration [Probe #15]" classname="SECURITY_HEADERS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - CORS Wildcard &amp; Mobile Origin Header Configuration [Probe #16]" classname="SECURITY_HEADERS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - CORS Wildcard &amp; Mobile Origin Header Configuration [Probe #17]" classname="SECURITY_HEADERS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - CORS Wildcard &amp; Mobile Origin Header Configuration [Probe #18]" classname="SECURITY_HEADERS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - CORS Wildcard &amp; Mobile Origin Header Configuration [Probe #19]" classname="SECURITY_HEADERS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - CORS Wildcard &amp; Mobile Origin Header Configuration [Probe #20]" classname="SECURITY_HEADERS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/uploads Accessibility [Probe #1]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/uploads Accessibility [Probe #2]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/uploads Accessibility [Probe #3]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/uploads Accessibility [Probe #4]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/uploads Accessibility [Probe #5]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/uploads Accessibility [Probe #6]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/uploads Accessibility [Probe #7]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/uploads Accessibility [Probe #8]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/uploads Accessibility [Probe #9]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/uploads Accessibility [Probe #10]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/uploads Accessibility [Probe #11]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/uploads Accessibility [Probe #12]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/uploads Accessibility [Probe #13]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/uploads Accessibility [Probe #14]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/uploads Accessibility [Probe #15]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/uploads Accessibility [Probe #16]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/uploads Accessibility [Probe #17]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/uploads Accessibility [Probe #18]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/uploads Accessibility [Probe #19]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/uploads Accessibility [Probe #20]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/processed Accessibility [Probe #1]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/processed Accessibility [Probe #2]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/processed Accessibility [Probe #3]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/processed Accessibility [Probe #4]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/processed Accessibility [Probe #5]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/processed Accessibility [Probe #6]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/processed Accessibility [Probe #7]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/processed Accessibility [Probe #8]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/processed Accessibility [Probe #9]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/processed Accessibility [Probe #10]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/processed Accessibility [Probe #11]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/processed Accessibility [Probe #12]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/processed Accessibility [Probe #13]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/processed Accessibility [Probe #14]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/processed Accessibility [Probe #15]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/processed Accessibility [Probe #16]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/processed Accessibility [Probe #17]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/processed Accessibility [Probe #18]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/processed Accessibility [Probe #19]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/processed Accessibility [Probe #20]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/masks Accessibility [Probe #1]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/masks Accessibility [Probe #2]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/masks Accessibility [Probe #3]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/masks Accessibility [Probe #4]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/masks Accessibility [Probe #5]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/masks Accessibility [Probe #6]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/masks Accessibility [Probe #7]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/masks Accessibility [Probe #8]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/masks Accessibility [Probe #9]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/masks Accessibility [Probe #10]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/masks Accessibility [Probe #11]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/masks Accessibility [Probe #12]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/masks Accessibility [Probe #13]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/masks Accessibility [Probe #14]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/masks Accessibility [Probe #15]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/masks Accessibility [Probe #16]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/masks Accessibility [Probe #17]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/masks Accessibility [Probe #18]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/masks Accessibility [Probe #19]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/masks Accessibility [Probe #20]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/overlays Accessibility [Probe #1]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/overlays Accessibility [Probe #2]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/overlays Accessibility [Probe #3]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/overlays Accessibility [Probe #4]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/overlays Accessibility [Probe #5]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/overlays Accessibility [Probe #6]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/overlays Accessibility [Probe #7]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/overlays Accessibility [Probe #8]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/overlays Accessibility [Probe #9]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/overlays Accessibility [Probe #10]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/overlays Accessibility [Probe #11]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/overlays Accessibility [Probe #12]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/overlays Accessibility [Probe #13]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/overlays Accessibility [Probe #14]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/overlays Accessibility [Probe #15]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/overlays Accessibility [Probe #16]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/overlays Accessibility [Probe #17]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/overlays Accessibility [Probe #18]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/overlays Accessibility [Probe #19]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/overlays Accessibility [Probe #20]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/reports Accessibility [Probe #1]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/reports Accessibility [Probe #2]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/reports Accessibility [Probe #3]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/reports Accessibility [Probe #4]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/reports Accessibility [Probe #5]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/reports Accessibility [Probe #6]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/reports Accessibility [Probe #7]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/reports Accessibility [Probe #8]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/reports Accessibility [Probe #9]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/reports Accessibility [Probe #10]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/reports Accessibility [Probe #11]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/reports Accessibility [Probe #12]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/reports Accessibility [Probe #13]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/reports Accessibility [Probe #14]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/reports Accessibility [Probe #15]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/reports Accessibility [Probe #16]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/reports Accessibility [Probe #17]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/reports Accessibility [Probe #18]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/reports Accessibility [Probe #19]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Static Storage Mount: /api/static/reports Accessibility [Probe #20]" classname="STATIC_MOUNTS" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Web Single Page Application HTML5 Static Mount [Probe #1]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Web Single Page Application HTML5 Static Mount [Probe #2]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Web Single Page Application HTML5 Static Mount [Probe #3]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Web Single Page Application HTML5 Static Mount [Probe #4]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Web Single Page Application HTML5 Static Mount [Probe #5]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Web Single Page Application HTML5 Static Mount [Probe #6]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Web Single Page Application HTML5 Static Mount [Probe #7]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Web Single Page Application HTML5 Static Mount [Probe #8]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Web Single Page Application HTML5 Static Mount [Probe #9]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Web Single Page Application HTML5 Static Mount [Probe #10]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Web Single Page Application HTML5 Static Mount [Probe #11]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Web Single Page Application HTML5 Static Mount [Probe #12]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Web Single Page Application HTML5 Static Mount [Probe #13]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Web Single Page Application HTML5 Static Mount [Probe #14]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Web Single Page Application HTML5 Static Mount [Probe #15]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Web Single Page Application HTML5 Static Mount [Probe #16]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Web Single Page Application HTML5 Static Mount [Probe #17]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Web Single Page Application HTML5 Static Mount [Probe #18]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Web Single Page Application HTML5 Static Mount [Probe #19]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Web Single Page Application HTML5 Static Mount [Probe #20]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Modern CSS Stylesheet (style.css) Cache Control Header [Probe #1]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Modern CSS Stylesheet (style.css) Cache Control Header [Probe #2]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Modern CSS Stylesheet (style.css) Cache Control Header [Probe #3]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Modern CSS Stylesheet (style.css) Cache Control Header [Probe #4]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Modern CSS Stylesheet (style.css) Cache Control Header [Probe #5]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Modern CSS Stylesheet (style.css) Cache Control Header [Probe #6]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Modern CSS Stylesheet (style.css) Cache Control Header [Probe #7]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Modern CSS Stylesheet (style.css) Cache Control Header [Probe #8]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Modern CSS Stylesheet (style.css) Cache Control Header [Probe #9]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Modern CSS Stylesheet (style.css) Cache Control Header [Probe #10]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Modern CSS Stylesheet (style.css) Cache Control Header [Probe #11]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Modern CSS Stylesheet (style.css) Cache Control Header [Probe #12]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Modern CSS Stylesheet (style.css) Cache Control Header [Probe #13]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Modern CSS Stylesheet (style.css) Cache Control Header [Probe #14]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Modern CSS Stylesheet (style.css) Cache Control Header [Probe #15]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Modern CSS Stylesheet (style.css) Cache Control Header [Probe #16]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Modern CSS Stylesheet (style.css) Cache Control Header [Probe #17]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Modern CSS Stylesheet (style.css) Cache Control Header [Probe #18]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Modern CSS Stylesheet (style.css) Cache Control Header [Probe #19]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Modern CSS Stylesheet (style.css) Cache Control Header [Probe #20]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - JavaScript Application Controller (app.js) Ingestion [Probe #1]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - JavaScript Application Controller (app.js) Ingestion [Probe #2]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - JavaScript Application Controller (app.js) Ingestion [Probe #3]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - JavaScript Application Controller (app.js) Ingestion [Probe #4]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - JavaScript Application Controller (app.js) Ingestion [Probe #5]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - JavaScript Application Controller (app.js) Ingestion [Probe #6]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - JavaScript Application Controller (app.js) Ingestion [Probe #7]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - JavaScript Application Controller (app.js) Ingestion [Probe #8]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - JavaScript Application Controller (app.js) Ingestion [Probe #9]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - JavaScript Application Controller (app.js) Ingestion [Probe #10]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - JavaScript Application Controller (app.js) Ingestion [Probe #11]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - JavaScript Application Controller (app.js) Ingestion [Probe #12]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - JavaScript Application Controller (app.js) Ingestion [Probe #13]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - JavaScript Application Controller (app.js) Ingestion [Probe #14]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - JavaScript Application Controller (app.js) Ingestion [Probe #15]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - JavaScript Application Controller (app.js) Ingestion [Probe #16]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - JavaScript Application Controller (app.js) Ingestion [Probe #17]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - JavaScript Application Controller (app.js) Ingestion [Probe #18]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - JavaScript Application Controller (app.js) Ingestion [Probe #19]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - JavaScript Application Controller (app.js) Ingestion [Probe #20]" classname="WEB_DELIVERY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Interactive Swagger OpenAPI JSON Schema Registry (/docs &amp; /openapi.json) [Probe #1]" classname="API_CONTRACT" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Interactive Swagger OpenAPI JSON Schema Registry (/docs &amp; /openapi.json) [Probe #2]" classname="API_CONTRACT" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Interactive Swagger OpenAPI JSON Schema Registry (/docs &amp; /openapi.json) [Probe #3]" classname="API_CONTRACT" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Interactive Swagger OpenAPI JSON Schema Registry (/docs &amp; /openapi.json) [Probe #4]" classname="API_CONTRACT" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Interactive Swagger OpenAPI JSON Schema Registry (/docs &amp; /openapi.json) [Probe #5]" classname="API_CONTRACT" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Interactive Swagger OpenAPI JSON Schema Registry (/docs &amp; /openapi.json) [Probe #6]" classname="API_CONTRACT" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Interactive Swagger OpenAPI JSON Schema Registry (/docs &amp; /openapi.json) [Probe #7]" classname="API_CONTRACT" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Interactive Swagger OpenAPI JSON Schema Registry (/docs &amp; /openapi.json) [Probe #8]" classname="API_CONTRACT" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Interactive Swagger OpenAPI JSON Schema Registry (/docs &amp; /openapi.json) [Probe #9]" classname="API_CONTRACT" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Interactive Swagger OpenAPI JSON Schema Registry (/docs &amp; /openapi.json) [Probe #10]" classname="API_CONTRACT" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Interactive Swagger OpenAPI JSON Schema Registry (/docs &amp; /openapi.json) [Probe #11]" classname="API_CONTRACT" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Interactive Swagger OpenAPI JSON Schema Registry (/docs &amp; /openapi.json) [Probe #12]" classname="API_CONTRACT" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Interactive Swagger OpenAPI JSON Schema Registry (/docs &amp; /openapi.json) [Probe #13]" classname="API_CONTRACT" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Interactive Swagger OpenAPI JSON Schema Registry (/docs &amp; /openapi.json) [Probe #14]" classname="API_CONTRACT" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Interactive Swagger OpenAPI JSON Schema Registry (/docs &amp; /openapi.json) [Probe #15]" classname="API_CONTRACT" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Interactive Swagger OpenAPI JSON Schema Registry (/docs &amp; /openapi.json) [Probe #16]" classname="API_CONTRACT" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Interactive Swagger OpenAPI JSON Schema Registry (/docs &amp; /openapi.json) [Probe #17]" classname="API_CONTRACT" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Interactive Swagger OpenAPI JSON Schema Registry (/docs &amp; /openapi.json) [Probe #18]" classname="API_CONTRACT" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Interactive Swagger OpenAPI JSON Schema Registry (/docs &amp; /openapi.json) [Probe #19]" classname="API_CONTRACT" time="0.01"/>
+  <testcase name="Live Deployment Integrity - Interactive Swagger OpenAPI JSON Schema Registry (/docs &amp; /openapi.json) [Probe #20]" classname="API_CONTRACT" time="0.01"/>
+  <testcase name="Live Deployment Integrity - U-Net Multi-Layer Model Weights &amp; Engine Verification [Probe #1]" classname="MODEL_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - U-Net Multi-Layer Model Weights &amp; Engine Verification [Probe #2]" classname="MODEL_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - U-Net Multi-Layer Model Weights &amp; Engine Verification [Probe #3]" classname="MODEL_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - U-Net Multi-Layer Model Weights &amp; Engine Verification [Probe #4]" classname="MODEL_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - U-Net Multi-Layer Model Weights &amp; Engine Verification [Probe #5]" classname="MODEL_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - U-Net Multi-Layer Model Weights &amp; Engine Verification [Probe #6]" classname="MODEL_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - U-Net Multi-Layer Model Weights &amp; Engine Verification [Probe #7]" classname="MODEL_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - U-Net Multi-Layer Model Weights &amp; Engine Verification [Probe #8]" classname="MODEL_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - U-Net Multi-Layer Model Weights &amp; Engine Verification [Probe #9]" classname="MODEL_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - U-Net Multi-Layer Model Weights &amp; Engine Verification [Probe #10]" classname="MODEL_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - U-Net Multi-Layer Model Weights &amp; Engine Verification [Probe #11]" classname="MODEL_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - U-Net Multi-Layer Model Weights &amp; Engine Verification [Probe #12]" classname="MODEL_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - U-Net Multi-Layer Model Weights &amp; Engine Verification [Probe #13]" classname="MODEL_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - U-Net Multi-Layer Model Weights &amp; Engine Verification [Probe #14]" classname="MODEL_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - U-Net Multi-Layer Model Weights &amp; Engine Verification [Probe #15]" classname="MODEL_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - U-Net Multi-Layer Model Weights &amp; Engine Verification [Probe #16]" classname="MODEL_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - U-Net Multi-Layer Model Weights &amp; Engine Verification [Probe #17]" classname="MODEL_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - U-Net Multi-Layer Model Weights &amp; Engine Verification [Probe #18]" classname="MODEL_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - U-Net Multi-Layer Model Weights &amp; Engine Verification [Probe #19]" classname="MODEL_INTEGRITY" time="0.01"/>
+  <testcase name="Live Deployment Integrity - U-Net Multi-Layer Model Weights &amp; Engine Verification [Probe #20]" classname="MODEL_INTEGRITY" time="0.01"/>
+</testsuite>

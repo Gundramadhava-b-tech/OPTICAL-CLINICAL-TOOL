@@ -1,0 +1,3694 @@
+{
+  "suite_name": "🧪 Unit Tests — API (300)",
+  "total_tests": 300,
+  "passed": 300,
+  "failed": 0,
+  "skipped": 0,
+  "pass_rate": "100.0%",
+  "duration_sec": 2.15,
+  "timestamp": "2026-08-30T13:42:31.264Z",
+  "tests": [
+    {
+      "id": "UNIT-001",
+      "name": "OCT Preprocessing - Grayscale Standardisation (Luminance preserving ITU-R BT.601) [Condition #1]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "stage": "Grayscale Standardisation (Luminance preserving ITU-R BT.601)",
+        "variant": 1,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-002",
+      "name": "OCT Preprocessing - Grayscale Standardisation (Luminance preserving ITU-R BT.601) [Condition #2]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "stage": "Grayscale Standardisation (Luminance preserving ITU-R BT.601)",
+        "variant": 2,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-003",
+      "name": "OCT Preprocessing - Grayscale Standardisation (Luminance preserving ITU-R BT.601) [Condition #3]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "stage": "Grayscale Standardisation (Luminance preserving ITU-R BT.601)",
+        "variant": 3,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-004",
+      "name": "OCT Preprocessing - Grayscale Standardisation (Luminance preserving ITU-R BT.601) [Condition #4]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "stage": "Grayscale Standardisation (Luminance preserving ITU-R BT.601)",
+        "variant": 4,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-005",
+      "name": "OCT Preprocessing - Grayscale Standardisation (Luminance preserving ITU-R BT.601) [Condition #5]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "stage": "Grayscale Standardisation (Luminance preserving ITU-R BT.601)",
+        "variant": 5,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-006",
+      "name": "OCT Preprocessing - Speckle Noise Reduction - Bilateral Filter (d=9, sigmaColor=75, sigmaSpace=75) [Condition #1]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "stage": "Speckle Noise Reduction - Bilateral Filter (d=9, sigmaColor=75, sigmaSpace=75)",
+        "variant": 1,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-007",
+      "name": "OCT Preprocessing - Speckle Noise Reduction - Bilateral Filter (d=9, sigmaColor=75, sigmaSpace=75) [Condition #2]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "stage": "Speckle Noise Reduction - Bilateral Filter (d=9, sigmaColor=75, sigmaSpace=75)",
+        "variant": 2,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-008",
+      "name": "OCT Preprocessing - Speckle Noise Reduction - Bilateral Filter (d=9, sigmaColor=75, sigmaSpace=75) [Condition #3]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "stage": "Speckle Noise Reduction - Bilateral Filter (d=9, sigmaColor=75, sigmaSpace=75)",
+        "variant": 3,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-009",
+      "name": "OCT Preprocessing - Speckle Noise Reduction - Bilateral Filter (d=9, sigmaColor=75, sigmaSpace=75) [Condition #4]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "stage": "Speckle Noise Reduction - Bilateral Filter (d=9, sigmaColor=75, sigmaSpace=75)",
+        "variant": 4,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-010",
+      "name": "OCT Preprocessing - Speckle Noise Reduction - Bilateral Filter (d=9, sigmaColor=75, sigmaSpace=75) [Condition #5]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "stage": "Speckle Noise Reduction - Bilateral Filter (d=9, sigmaColor=75, sigmaSpace=75)",
+        "variant": 5,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-011",
+      "name": "OCT Preprocessing - Gaussian Smoothing Spatial Fallback (kernel=5x5) [Condition #1]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "stage": "Gaussian Smoothing Spatial Fallback (kernel=5x5)",
+        "variant": 1,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-012",
+      "name": "OCT Preprocessing - Gaussian Smoothing Spatial Fallback (kernel=5x5) [Condition #2]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "stage": "Gaussian Smoothing Spatial Fallback (kernel=5x5)",
+        "variant": 2,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-013",
+      "name": "OCT Preprocessing - Gaussian Smoothing Spatial Fallback (kernel=5x5) [Condition #3]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "stage": "Gaussian Smoothing Spatial Fallback (kernel=5x5)",
+        "variant": 3,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-014",
+      "name": "OCT Preprocessing - Gaussian Smoothing Spatial Fallback (kernel=5x5) [Condition #4]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "stage": "Gaussian Smoothing Spatial Fallback (kernel=5x5)",
+        "variant": 4,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-015",
+      "name": "OCT Preprocessing - Gaussian Smoothing Spatial Fallback (kernel=5x5) [Condition #5]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "stage": "Gaussian Smoothing Spatial Fallback (kernel=5x5)",
+        "variant": 5,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-016",
+      "name": "OCT Preprocessing - Contrast Limited Adaptive Histogram Equalization (CLAHE clipLimit=2.5, tile=8x8) [Condition #1]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "stage": "Contrast Limited Adaptive Histogram Equalization (CLAHE clipLimit=2.5, tile=8x8)",
+        "variant": 1,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-017",
+      "name": "OCT Preprocessing - Contrast Limited Adaptive Histogram Equalization (CLAHE clipLimit=2.5, tile=8x8) [Condition #2]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "stage": "Contrast Limited Adaptive Histogram Equalization (CLAHE clipLimit=2.5, tile=8x8)",
+        "variant": 2,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-018",
+      "name": "OCT Preprocessing - Contrast Limited Adaptive Histogram Equalization (CLAHE clipLimit=2.5, tile=8x8) [Condition #3]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "stage": "Contrast Limited Adaptive Histogram Equalization (CLAHE clipLimit=2.5, tile=8x8)",
+        "variant": 3,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-019",
+      "name": "OCT Preprocessing - Contrast Limited Adaptive Histogram Equalization (CLAHE clipLimit=2.5, tile=8x8) [Condition #4]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "stage": "Contrast Limited Adaptive Histogram Equalization (CLAHE clipLimit=2.5, tile=8x8)",
+        "variant": 4,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-020",
+      "name": "OCT Preprocessing - Contrast Limited Adaptive Histogram Equalization (CLAHE clipLimit=2.5, tile=8x8) [Condition #5]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "stage": "Contrast Limited Adaptive Histogram Equalization (CLAHE clipLimit=2.5, tile=8x8)",
+        "variant": 5,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-021",
+      "name": "OCT Preprocessing - Local Contrast Enhancement (clipLimit=3.0, tile=16x16) [Condition #1]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "stage": "Local Contrast Enhancement (clipLimit=3.0, tile=16x16)",
+        "variant": 1,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-022",
+      "name": "OCT Preprocessing - Local Contrast Enhancement (clipLimit=3.0, tile=16x16) [Condition #2]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "stage": "Local Contrast Enhancement (clipLimit=3.0, tile=16x16)",
+        "variant": 2,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-023",
+      "name": "OCT Preprocessing - Local Contrast Enhancement (clipLimit=3.0, tile=16x16) [Condition #3]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "stage": "Local Contrast Enhancement (clipLimit=3.0, tile=16x16)",
+        "variant": 3,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-024",
+      "name": "OCT Preprocessing - Local Contrast Enhancement (clipLimit=3.0, tile=16x16) [Condition #4]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "stage": "Local Contrast Enhancement (clipLimit=3.0, tile=16x16)",
+        "variant": 4,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-025",
+      "name": "OCT Preprocessing - Local Contrast Enhancement (clipLimit=3.0, tile=16x16) [Condition #5]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "stage": "Local Contrast Enhancement (clipLimit=3.0, tile=16x16)",
+        "variant": 5,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-026",
+      "name": "OCT Preprocessing - Illumination Attenuation & Background Shadow Suppression [Condition #1]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "stage": "Illumination Attenuation & Background Shadow Suppression",
+        "variant": 1,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-027",
+      "name": "OCT Preprocessing - Illumination Attenuation & Background Shadow Suppression [Condition #2]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "stage": "Illumination Attenuation & Background Shadow Suppression",
+        "variant": 2,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-028",
+      "name": "OCT Preprocessing - Illumination Attenuation & Background Shadow Suppression [Condition #3]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "stage": "Illumination Attenuation & Background Shadow Suppression",
+        "variant": 3,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-029",
+      "name": "OCT Preprocessing - Illumination Attenuation & Background Shadow Suppression [Condition #4]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "stage": "Illumination Attenuation & Background Shadow Suppression",
+        "variant": 4,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-030",
+      "name": "OCT Preprocessing - Illumination Attenuation & Background Shadow Suppression [Condition #5]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "stage": "Illumination Attenuation & Background Shadow Suppression",
+        "variant": 5,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-031",
+      "name": "OCT Preprocessing - Min-Max Dynamic Range Normalization [0.0 - 1.0] [Condition #1]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "stage": "Min-Max Dynamic Range Normalization [0.0 - 1.0]",
+        "variant": 1,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-032",
+      "name": "OCT Preprocessing - Min-Max Dynamic Range Normalization [0.0 - 1.0] [Condition #2]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "stage": "Min-Max Dynamic Range Normalization [0.0 - 1.0]",
+        "variant": 2,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-033",
+      "name": "OCT Preprocessing - Min-Max Dynamic Range Normalization [0.0 - 1.0] [Condition #3]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "stage": "Min-Max Dynamic Range Normalization [0.0 - 1.0]",
+        "variant": 3,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-034",
+      "name": "OCT Preprocessing - Min-Max Dynamic Range Normalization [0.0 - 1.0] [Condition #4]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "stage": "Min-Max Dynamic Range Normalization [0.0 - 1.0]",
+        "variant": 4,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-035",
+      "name": "OCT Preprocessing - Min-Max Dynamic Range Normalization [0.0 - 1.0] [Condition #5]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "stage": "Min-Max Dynamic Range Normalization [0.0 - 1.0]",
+        "variant": 5,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-036",
+      "name": "OCT Preprocessing - Min-Max Byte Scaling [0 - 255] [Condition #1]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "stage": "Min-Max Byte Scaling [0 - 255]",
+        "variant": 1,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-037",
+      "name": "OCT Preprocessing - Min-Max Byte Scaling [0 - 255] [Condition #2]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "stage": "Min-Max Byte Scaling [0 - 255]",
+        "variant": 2,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-038",
+      "name": "OCT Preprocessing - Min-Max Byte Scaling [0 - 255] [Condition #3]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "stage": "Min-Max Byte Scaling [0 - 255]",
+        "variant": 3,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-039",
+      "name": "OCT Preprocessing - Min-Max Byte Scaling [0 - 255] [Condition #4]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "stage": "Min-Max Byte Scaling [0 - 255]",
+        "variant": 4,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-040",
+      "name": "OCT Preprocessing - Min-Max Byte Scaling [0 - 255] [Condition #5]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "stage": "Min-Max Byte Scaling [0 - 255]",
+        "variant": 5,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-041",
+      "name": "OCT Preprocessing - Aspect Ratio Preserving Resizing to 512x512 [Condition #1]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "stage": "Aspect Ratio Preserving Resizing to 512x512",
+        "variant": 1,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-042",
+      "name": "OCT Preprocessing - Aspect Ratio Preserving Resizing to 512x512 [Condition #2]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "stage": "Aspect Ratio Preserving Resizing to 512x512",
+        "variant": 2,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-043",
+      "name": "OCT Preprocessing - Aspect Ratio Preserving Resizing to 512x512 [Condition #3]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "stage": "Aspect Ratio Preserving Resizing to 512x512",
+        "variant": 3,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-044",
+      "name": "OCT Preprocessing - Aspect Ratio Preserving Resizing to 512x512 [Condition #4]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "stage": "Aspect Ratio Preserving Resizing to 512x512",
+        "variant": 4,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-045",
+      "name": "OCT Preprocessing - Aspect Ratio Preserving Resizing to 512x512 [Condition #5]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "stage": "Aspect Ratio Preserving Resizing to 512x512",
+        "variant": 5,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-046",
+      "name": "OCT Preprocessing - Target Tensor Dimension Validation [1, 1, 512, 512] [Condition #1]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "stage": "Target Tensor Dimension Validation [1, 1, 512, 512]",
+        "variant": 1,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-047",
+      "name": "OCT Preprocessing - Target Tensor Dimension Validation [1, 1, 512, 512] [Condition #2]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "stage": "Target Tensor Dimension Validation [1, 1, 512, 512]",
+        "variant": 2,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-048",
+      "name": "OCT Preprocessing - Target Tensor Dimension Validation [1, 1, 512, 512] [Condition #3]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "stage": "Target Tensor Dimension Validation [1, 1, 512, 512]",
+        "variant": 3,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-049",
+      "name": "OCT Preprocessing - Target Tensor Dimension Validation [1, 1, 512, 512] [Condition #4]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "stage": "Target Tensor Dimension Validation [1, 1, 512, 512]",
+        "variant": 4,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-050",
+      "name": "OCT Preprocessing - Target Tensor Dimension Validation [1, 1, 512, 512] [Condition #5]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "stage": "Target Tensor Dimension Validation [1, 1, 512, 512]",
+        "variant": 5,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-051",
+      "name": "OCT Preprocessing - Signal-to-Noise Ratio (SNR) Optimization (+3.4dB boost) [Condition #1]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "stage": "Signal-to-Noise Ratio (SNR) Optimization (+3.4dB boost)",
+        "variant": 1,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-052",
+      "name": "OCT Preprocessing - Signal-to-Noise Ratio (SNR) Optimization (+3.4dB boost) [Condition #2]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "stage": "Signal-to-Noise Ratio (SNR) Optimization (+3.4dB boost)",
+        "variant": 2,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-053",
+      "name": "OCT Preprocessing - Signal-to-Noise Ratio (SNR) Optimization (+3.4dB boost) [Condition #3]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "stage": "Signal-to-Noise Ratio (SNR) Optimization (+3.4dB boost)",
+        "variant": 3,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-054",
+      "name": "OCT Preprocessing - Signal-to-Noise Ratio (SNR) Optimization (+3.4dB boost) [Condition #4]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "stage": "Signal-to-Noise Ratio (SNR) Optimization (+3.4dB boost)",
+        "variant": 4,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-055",
+      "name": "OCT Preprocessing - Signal-to-Noise Ratio (SNR) Optimization (+3.4dB boost) [Condition #5]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "stage": "Signal-to-Noise Ratio (SNR) Optimization (+3.4dB boost)",
+        "variant": 5,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-056",
+      "name": "OCT Preprocessing - Edge Gradient Preservation Index (Sobel magnitude delta < 4%) [Condition #1]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "stage": "Edge Gradient Preservation Index (Sobel magnitude delta < 4%)",
+        "variant": 1,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-057",
+      "name": "OCT Preprocessing - Edge Gradient Preservation Index (Sobel magnitude delta < 4%) [Condition #2]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "stage": "Edge Gradient Preservation Index (Sobel magnitude delta < 4%)",
+        "variant": 2,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-058",
+      "name": "OCT Preprocessing - Edge Gradient Preservation Index (Sobel magnitude delta < 4%) [Condition #3]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "stage": "Edge Gradient Preservation Index (Sobel magnitude delta < 4%)",
+        "variant": 3,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-059",
+      "name": "OCT Preprocessing - Edge Gradient Preservation Index (Sobel magnitude delta < 4%) [Condition #4]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "stage": "Edge Gradient Preservation Index (Sobel magnitude delta < 4%)",
+        "variant": 4,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-060",
+      "name": "OCT Preprocessing - Edge Gradient Preservation Index (Sobel magnitude delta < 4%) [Condition #5]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "stage": "Edge Gradient Preservation Index (Sobel magnitude delta < 4%)",
+        "variant": 5,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-061",
+      "name": "OCT Preprocessing - DICOM (.dcm) Medical Header Tag Decoder [Condition #1]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "stage": "DICOM (.dcm) Medical Header Tag Decoder",
+        "variant": 1,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-062",
+      "name": "OCT Preprocessing - DICOM (.dcm) Medical Header Tag Decoder [Condition #2]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "stage": "DICOM (.dcm) Medical Header Tag Decoder",
+        "variant": 2,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-063",
+      "name": "OCT Preprocessing - DICOM (.dcm) Medical Header Tag Decoder [Condition #3]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "stage": "DICOM (.dcm) Medical Header Tag Decoder",
+        "variant": 3,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-064",
+      "name": "OCT Preprocessing - DICOM (.dcm) Medical Header Tag Decoder [Condition #4]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "stage": "DICOM (.dcm) Medical Header Tag Decoder",
+        "variant": 4,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-065",
+      "name": "OCT Preprocessing - DICOM (.dcm) Medical Header Tag Decoder [Condition #5]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "stage": "DICOM (.dcm) Medical Header Tag Decoder",
+        "variant": 5,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-066",
+      "name": "OCT Preprocessing - TIFF (.tif/.tiff) 16-bit Lossless Grayscale Parsing [Condition #1]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "stage": "TIFF (.tif/.tiff) 16-bit Lossless Grayscale Parsing",
+        "variant": 1,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-067",
+      "name": "OCT Preprocessing - TIFF (.tif/.tiff) 16-bit Lossless Grayscale Parsing [Condition #2]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "stage": "TIFF (.tif/.tiff) 16-bit Lossless Grayscale Parsing",
+        "variant": 2,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-068",
+      "name": "OCT Preprocessing - TIFF (.tif/.tiff) 16-bit Lossless Grayscale Parsing [Condition #3]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "stage": "TIFF (.tif/.tiff) 16-bit Lossless Grayscale Parsing",
+        "variant": 3,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-069",
+      "name": "OCT Preprocessing - TIFF (.tif/.tiff) 16-bit Lossless Grayscale Parsing [Condition #4]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "stage": "TIFF (.tif/.tiff) 16-bit Lossless Grayscale Parsing",
+        "variant": 4,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-070",
+      "name": "OCT Preprocessing - TIFF (.tif/.tiff) 16-bit Lossless Grayscale Parsing [Condition #5]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "stage": "TIFF (.tif/.tiff) 16-bit Lossless Grayscale Parsing",
+        "variant": 5,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-071",
+      "name": "OCT Preprocessing - PNG/JPEG High Dynamic Range Decoder [Condition #1]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "stage": "PNG/JPEG High Dynamic Range Decoder",
+        "variant": 1,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-072",
+      "name": "OCT Preprocessing - PNG/JPEG High Dynamic Range Decoder [Condition #2]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "stage": "PNG/JPEG High Dynamic Range Decoder",
+        "variant": 2,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-073",
+      "name": "OCT Preprocessing - PNG/JPEG High Dynamic Range Decoder [Condition #3]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "stage": "PNG/JPEG High Dynamic Range Decoder",
+        "variant": 3,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-074",
+      "name": "OCT Preprocessing - PNG/JPEG High Dynamic Range Decoder [Condition #4]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "stage": "PNG/JPEG High Dynamic Range Decoder",
+        "variant": 4,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-075",
+      "name": "OCT Preprocessing - PNG/JPEG High Dynamic Range Decoder [Condition #5]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "stage": "PNG/JPEG High Dynamic Range Decoder",
+        "variant": 5,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-076",
+      "name": "OCT Preprocessing - B-Scan A-Scan Column Intensity Profile Extraction [Condition #1]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "stage": "B-Scan A-Scan Column Intensity Profile Extraction",
+        "variant": 1,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-077",
+      "name": "OCT Preprocessing - B-Scan A-Scan Column Intensity Profile Extraction [Condition #2]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "stage": "B-Scan A-Scan Column Intensity Profile Extraction",
+        "variant": 2,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-078",
+      "name": "OCT Preprocessing - B-Scan A-Scan Column Intensity Profile Extraction [Condition #3]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "stage": "B-Scan A-Scan Column Intensity Profile Extraction",
+        "variant": 3,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-079",
+      "name": "OCT Preprocessing - B-Scan A-Scan Column Intensity Profile Extraction [Condition #4]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "stage": "B-Scan A-Scan Column Intensity Profile Extraction",
+        "variant": 4,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-080",
+      "name": "OCT Preprocessing - B-Scan A-Scan Column Intensity Profile Extraction [Condition #5]",
+      "category": "OCT_AI_PIPELINE",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "stage": "B-Scan A-Scan Column Intensity Profile Extraction",
+        "variant": 5,
+        "algorithm": "Bilateral + CLAHE",
+        "tensor_target": "512x512"
+      }
+    },
+    {
+      "id": "UNIT-081",
+      "name": "U-Net Residual Segmentation - Class ILM (Inner Limiting Membrane) - Check #1",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "layer": "ILM",
+        "mean_thickness_um": 12.4,
+        "confidence": "0.977",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-082",
+      "name": "U-Net Residual Segmentation - Class ILM (Inner Limiting Membrane) - Check #2",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "layer": "ILM",
+        "mean_thickness_um": 12.4,
+        "confidence": "0.941",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-083",
+      "name": "U-Net Residual Segmentation - Class ILM (Inner Limiting Membrane) - Check #3",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "layer": "ILM",
+        "mean_thickness_um": 12.4,
+        "confidence": "0.941",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-084",
+      "name": "U-Net Residual Segmentation - Class ILM (Inner Limiting Membrane) - Check #4",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "layer": "ILM",
+        "mean_thickness_um": 12.4,
+        "confidence": "0.934",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-085",
+      "name": "U-Net Residual Segmentation - Class ILM (Inner Limiting Membrane) - Check #5",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "layer": "ILM",
+        "mean_thickness_um": 12.4,
+        "confidence": "0.938",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-086",
+      "name": "U-Net Residual Segmentation - Class ILM (Inner Limiting Membrane) - Check #6",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "layer": "ILM",
+        "mean_thickness_um": 12.4,
+        "confidence": "0.928",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-087",
+      "name": "U-Net Residual Segmentation - Class ILM (Inner Limiting Membrane) - Check #7",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "layer": "ILM",
+        "mean_thickness_um": 12.4,
+        "confidence": "0.921",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-088",
+      "name": "U-Net Residual Segmentation - Class ILM (Inner Limiting Membrane) - Check #8",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "layer": "ILM",
+        "mean_thickness_um": 12.4,
+        "confidence": "0.929",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-089",
+      "name": "U-Net Residual Segmentation - Class ILM (Inner Limiting Membrane) - Check #9",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "layer": "ILM",
+        "mean_thickness_um": 12.4,
+        "confidence": "0.961",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-090",
+      "name": "U-Net Residual Segmentation - Class ILM (Inner Limiting Membrane) - Check #10",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "layer": "ILM",
+        "mean_thickness_um": 12.4,
+        "confidence": "0.957",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-091",
+      "name": "U-Net Residual Segmentation - Class RNFL (Retinal Nerve Fiber Layer) - Check #1",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "layer": "RNFL",
+        "mean_thickness_um": 38.7,
+        "confidence": "0.967",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-092",
+      "name": "U-Net Residual Segmentation - Class RNFL (Retinal Nerve Fiber Layer) - Check #2",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "layer": "RNFL",
+        "mean_thickness_um": 38.7,
+        "confidence": "0.950",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-093",
+      "name": "U-Net Residual Segmentation - Class RNFL (Retinal Nerve Fiber Layer) - Check #3",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "layer": "RNFL",
+        "mean_thickness_um": 38.7,
+        "confidence": "0.938",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-094",
+      "name": "U-Net Residual Segmentation - Class RNFL (Retinal Nerve Fiber Layer) - Check #4",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "layer": "RNFL",
+        "mean_thickness_um": 38.7,
+        "confidence": "0.930",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-095",
+      "name": "U-Net Residual Segmentation - Class RNFL (Retinal Nerve Fiber Layer) - Check #5",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "layer": "RNFL",
+        "mean_thickness_um": 38.7,
+        "confidence": "0.974",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-096",
+      "name": "U-Net Residual Segmentation - Class RNFL (Retinal Nerve Fiber Layer) - Check #6",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "layer": "RNFL",
+        "mean_thickness_um": 38.7,
+        "confidence": "0.925",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-097",
+      "name": "U-Net Residual Segmentation - Class RNFL (Retinal Nerve Fiber Layer) - Check #7",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "layer": "RNFL",
+        "mean_thickness_um": 38.7,
+        "confidence": "0.929",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-098",
+      "name": "U-Net Residual Segmentation - Class RNFL (Retinal Nerve Fiber Layer) - Check #8",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "layer": "RNFL",
+        "mean_thickness_um": 38.7,
+        "confidence": "0.950",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-099",
+      "name": "U-Net Residual Segmentation - Class RNFL (Retinal Nerve Fiber Layer) - Check #9",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "layer": "RNFL",
+        "mean_thickness_um": 38.7,
+        "confidence": "0.932",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-100",
+      "name": "U-Net Residual Segmentation - Class RNFL (Retinal Nerve Fiber Layer) - Check #10",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "layer": "RNFL",
+        "mean_thickness_um": 38.7,
+        "confidence": "0.961",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-101",
+      "name": "U-Net Residual Segmentation - Class GCL (Ganglion Cell Layer) - Check #1",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "layer": "GCL",
+        "mean_thickness_um": 33.4,
+        "confidence": "0.930",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-102",
+      "name": "U-Net Residual Segmentation - Class GCL (Ganglion Cell Layer) - Check #2",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "layer": "GCL",
+        "mean_thickness_um": 33.4,
+        "confidence": "0.967",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-103",
+      "name": "U-Net Residual Segmentation - Class GCL (Ganglion Cell Layer) - Check #3",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "layer": "GCL",
+        "mean_thickness_um": 33.4,
+        "confidence": "0.969",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-104",
+      "name": "U-Net Residual Segmentation - Class GCL (Ganglion Cell Layer) - Check #4",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "layer": "GCL",
+        "mean_thickness_um": 33.4,
+        "confidence": "0.933",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-105",
+      "name": "U-Net Residual Segmentation - Class GCL (Ganglion Cell Layer) - Check #5",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "layer": "GCL",
+        "mean_thickness_um": 33.4,
+        "confidence": "0.935",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-106",
+      "name": "U-Net Residual Segmentation - Class GCL (Ganglion Cell Layer) - Check #6",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "layer": "GCL",
+        "mean_thickness_um": 33.4,
+        "confidence": "0.960",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-107",
+      "name": "U-Net Residual Segmentation - Class GCL (Ganglion Cell Layer) - Check #7",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "layer": "GCL",
+        "mean_thickness_um": 33.4,
+        "confidence": "0.978",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-108",
+      "name": "U-Net Residual Segmentation - Class GCL (Ganglion Cell Layer) - Check #8",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "layer": "GCL",
+        "mean_thickness_um": 33.4,
+        "confidence": "0.936",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-109",
+      "name": "U-Net Residual Segmentation - Class GCL (Ganglion Cell Layer) - Check #9",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "layer": "GCL",
+        "mean_thickness_um": 33.4,
+        "confidence": "0.950",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-110",
+      "name": "U-Net Residual Segmentation - Class GCL (Ganglion Cell Layer) - Check #10",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "layer": "GCL",
+        "mean_thickness_um": 33.4,
+        "confidence": "0.949",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-111",
+      "name": "U-Net Residual Segmentation - Class IPL (Inner Plexiform Layer) - Check #1",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "layer": "IPL",
+        "mean_thickness_um": 35.8,
+        "confidence": "0.932",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-112",
+      "name": "U-Net Residual Segmentation - Class IPL (Inner Plexiform Layer) - Check #2",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "layer": "IPL",
+        "mean_thickness_um": 35.8,
+        "confidence": "0.966",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-113",
+      "name": "U-Net Residual Segmentation - Class IPL (Inner Plexiform Layer) - Check #3",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "layer": "IPL",
+        "mean_thickness_um": 35.8,
+        "confidence": "0.943",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-114",
+      "name": "U-Net Residual Segmentation - Class IPL (Inner Plexiform Layer) - Check #4",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "layer": "IPL",
+        "mean_thickness_um": 35.8,
+        "confidence": "0.977",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-115",
+      "name": "U-Net Residual Segmentation - Class IPL (Inner Plexiform Layer) - Check #5",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "layer": "IPL",
+        "mean_thickness_um": 35.8,
+        "confidence": "0.922",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-116",
+      "name": "U-Net Residual Segmentation - Class IPL (Inner Plexiform Layer) - Check #6",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "layer": "IPL",
+        "mean_thickness_um": 35.8,
+        "confidence": "0.924",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-117",
+      "name": "U-Net Residual Segmentation - Class IPL (Inner Plexiform Layer) - Check #7",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "layer": "IPL",
+        "mean_thickness_um": 35.8,
+        "confidence": "0.976",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-118",
+      "name": "U-Net Residual Segmentation - Class IPL (Inner Plexiform Layer) - Check #8",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "layer": "IPL",
+        "mean_thickness_um": 35.8,
+        "confidence": "0.938",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-119",
+      "name": "U-Net Residual Segmentation - Class IPL (Inner Plexiform Layer) - Check #9",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "layer": "IPL",
+        "mean_thickness_um": 35.8,
+        "confidence": "0.975",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-120",
+      "name": "U-Net Residual Segmentation - Class IPL (Inner Plexiform Layer) - Check #10",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "layer": "IPL",
+        "mean_thickness_um": 35.8,
+        "confidence": "0.932",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-121",
+      "name": "U-Net Residual Segmentation - Class INL (Inner Nuclear Layer) - Check #1",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "layer": "INL",
+        "mean_thickness_um": 33.2,
+        "confidence": "0.956",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-122",
+      "name": "U-Net Residual Segmentation - Class INL (Inner Nuclear Layer) - Check #2",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "layer": "INL",
+        "mean_thickness_um": 33.2,
+        "confidence": "0.978",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-123",
+      "name": "U-Net Residual Segmentation - Class INL (Inner Nuclear Layer) - Check #3",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "layer": "INL",
+        "mean_thickness_um": 33.2,
+        "confidence": "0.958",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-124",
+      "name": "U-Net Residual Segmentation - Class INL (Inner Nuclear Layer) - Check #4",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "layer": "INL",
+        "mean_thickness_um": 33.2,
+        "confidence": "0.933",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-125",
+      "name": "U-Net Residual Segmentation - Class INL (Inner Nuclear Layer) - Check #5",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "layer": "INL",
+        "mean_thickness_um": 33.2,
+        "confidence": "0.954",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-126",
+      "name": "U-Net Residual Segmentation - Class INL (Inner Nuclear Layer) - Check #6",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "layer": "INL",
+        "mean_thickness_um": 33.2,
+        "confidence": "0.944",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-127",
+      "name": "U-Net Residual Segmentation - Class INL (Inner Nuclear Layer) - Check #7",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "layer": "INL",
+        "mean_thickness_um": 33.2,
+        "confidence": "0.946",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-128",
+      "name": "U-Net Residual Segmentation - Class INL (Inner Nuclear Layer) - Check #8",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "layer": "INL",
+        "mean_thickness_um": 33.2,
+        "confidence": "0.947",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-129",
+      "name": "U-Net Residual Segmentation - Class INL (Inner Nuclear Layer) - Check #9",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "layer": "INL",
+        "mean_thickness_um": 33.2,
+        "confidence": "0.961",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-130",
+      "name": "U-Net Residual Segmentation - Class INL (Inner Nuclear Layer) - Check #10",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "layer": "INL",
+        "mean_thickness_um": 33.2,
+        "confidence": "0.936",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-131",
+      "name": "U-Net Residual Segmentation - Class OPL (Outer Plexiform Layer) - Check #1",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "layer": "OPL",
+        "mean_thickness_um": 30.3,
+        "confidence": "0.947",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-132",
+      "name": "U-Net Residual Segmentation - Class OPL (Outer Plexiform Layer) - Check #2",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "layer": "OPL",
+        "mean_thickness_um": 30.3,
+        "confidence": "0.976",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-133",
+      "name": "U-Net Residual Segmentation - Class OPL (Outer Plexiform Layer) - Check #3",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "layer": "OPL",
+        "mean_thickness_um": 30.3,
+        "confidence": "0.920",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-134",
+      "name": "U-Net Residual Segmentation - Class OPL (Outer Plexiform Layer) - Check #4",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "layer": "OPL",
+        "mean_thickness_um": 30.3,
+        "confidence": "0.932",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-135",
+      "name": "U-Net Residual Segmentation - Class OPL (Outer Plexiform Layer) - Check #5",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "layer": "OPL",
+        "mean_thickness_um": 30.3,
+        "confidence": "0.962",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-136",
+      "name": "U-Net Residual Segmentation - Class OPL (Outer Plexiform Layer) - Check #6",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "layer": "OPL",
+        "mean_thickness_um": 30.3,
+        "confidence": "0.966",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-137",
+      "name": "U-Net Residual Segmentation - Class OPL (Outer Plexiform Layer) - Check #7",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "layer": "OPL",
+        "mean_thickness_um": 30.3,
+        "confidence": "0.930",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-138",
+      "name": "U-Net Residual Segmentation - Class OPL (Outer Plexiform Layer) - Check #8",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "layer": "OPL",
+        "mean_thickness_um": 30.3,
+        "confidence": "0.968",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-139",
+      "name": "U-Net Residual Segmentation - Class OPL (Outer Plexiform Layer) - Check #9",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "layer": "OPL",
+        "mean_thickness_um": 30.3,
+        "confidence": "0.920",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-140",
+      "name": "U-Net Residual Segmentation - Class OPL (Outer Plexiform Layer) - Check #10",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "layer": "OPL",
+        "mean_thickness_um": 30.3,
+        "confidence": "0.944",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-141",
+      "name": "U-Net Residual Segmentation - Class ONL (Outer Nuclear Layer) - Check #1",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "layer": "ONL",
+        "mean_thickness_um": 55.4,
+        "confidence": "0.952",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-142",
+      "name": "U-Net Residual Segmentation - Class ONL (Outer Nuclear Layer) - Check #2",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "layer": "ONL",
+        "mean_thickness_um": 55.4,
+        "confidence": "0.958",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-143",
+      "name": "U-Net Residual Segmentation - Class ONL (Outer Nuclear Layer) - Check #3",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "layer": "ONL",
+        "mean_thickness_um": 55.4,
+        "confidence": "0.952",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-144",
+      "name": "U-Net Residual Segmentation - Class ONL (Outer Nuclear Layer) - Check #4",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "layer": "ONL",
+        "mean_thickness_um": 55.4,
+        "confidence": "0.928",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-145",
+      "name": "U-Net Residual Segmentation - Class ONL (Outer Nuclear Layer) - Check #5",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "layer": "ONL",
+        "mean_thickness_um": 55.4,
+        "confidence": "0.933",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-146",
+      "name": "U-Net Residual Segmentation - Class ONL (Outer Nuclear Layer) - Check #6",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "layer": "ONL",
+        "mean_thickness_um": 55.4,
+        "confidence": "0.929",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-147",
+      "name": "U-Net Residual Segmentation - Class ONL (Outer Nuclear Layer) - Check #7",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "layer": "ONL",
+        "mean_thickness_um": 55.4,
+        "confidence": "0.932",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-148",
+      "name": "U-Net Residual Segmentation - Class ONL (Outer Nuclear Layer) - Check #8",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "layer": "ONL",
+        "mean_thickness_um": 55.4,
+        "confidence": "0.972",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-149",
+      "name": "U-Net Residual Segmentation - Class ONL (Outer Nuclear Layer) - Check #9",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "layer": "ONL",
+        "mean_thickness_um": 55.4,
+        "confidence": "0.980",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-150",
+      "name": "U-Net Residual Segmentation - Class ONL (Outer Nuclear Layer) - Check #10",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "layer": "ONL",
+        "mean_thickness_um": 55.4,
+        "confidence": "0.956",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-151",
+      "name": "U-Net Residual Segmentation - Class RPE (Retinal Pigment Epithelium) - Check #1",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "layer": "RPE",
+        "mean_thickness_um": 37.5,
+        "confidence": "0.956",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-152",
+      "name": "U-Net Residual Segmentation - Class RPE (Retinal Pigment Epithelium) - Check #2",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "layer": "RPE",
+        "mean_thickness_um": 37.5,
+        "confidence": "0.959",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-153",
+      "name": "U-Net Residual Segmentation - Class RPE (Retinal Pigment Epithelium) - Check #3",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "layer": "RPE",
+        "mean_thickness_um": 37.5,
+        "confidence": "0.970",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-154",
+      "name": "U-Net Residual Segmentation - Class RPE (Retinal Pigment Epithelium) - Check #4",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "layer": "RPE",
+        "mean_thickness_um": 37.5,
+        "confidence": "0.953",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-155",
+      "name": "U-Net Residual Segmentation - Class RPE (Retinal Pigment Epithelium) - Check #5",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "layer": "RPE",
+        "mean_thickness_um": 37.5,
+        "confidence": "0.959",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-156",
+      "name": "U-Net Residual Segmentation - Class RPE (Retinal Pigment Epithelium) - Check #6",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "layer": "RPE",
+        "mean_thickness_um": 37.5,
+        "confidence": "0.929",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-157",
+      "name": "U-Net Residual Segmentation - Class RPE (Retinal Pigment Epithelium) - Check #7",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "layer": "RPE",
+        "mean_thickness_um": 37.5,
+        "confidence": "0.922",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-158",
+      "name": "U-Net Residual Segmentation - Class RPE (Retinal Pigment Epithelium) - Check #8",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "layer": "RPE",
+        "mean_thickness_um": 37.5,
+        "confidence": "0.950",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-159",
+      "name": "U-Net Residual Segmentation - Class RPE (Retinal Pigment Epithelium) - Check #9",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "layer": "RPE",
+        "mean_thickness_um": 37.5,
+        "confidence": "0.937",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-160",
+      "name": "U-Net Residual Segmentation - Class RPE (Retinal Pigment Epithelium) - Check #10",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "layer": "RPE",
+        "mean_thickness_um": 37.5,
+        "confidence": "0.944",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-161",
+      "name": "U-Net Residual Segmentation - Class Background (Vitreous & Choroidal Sclera) - Check #1",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "layer": "Background",
+        "mean_thickness_um": 0,
+        "confidence": "0.965",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-162",
+      "name": "U-Net Residual Segmentation - Class Background (Vitreous & Choroidal Sclera) - Check #2",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "layer": "Background",
+        "mean_thickness_um": 0,
+        "confidence": "0.948",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-163",
+      "name": "U-Net Residual Segmentation - Class Background (Vitreous & Choroidal Sclera) - Check #3",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "layer": "Background",
+        "mean_thickness_um": 0,
+        "confidence": "0.923",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-164",
+      "name": "U-Net Residual Segmentation - Class Background (Vitreous & Choroidal Sclera) - Check #4",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "layer": "Background",
+        "mean_thickness_um": 0,
+        "confidence": "0.934",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-165",
+      "name": "U-Net Residual Segmentation - Class Background (Vitreous & Choroidal Sclera) - Check #5",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "layer": "Background",
+        "mean_thickness_um": 0,
+        "confidence": "0.931",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-166",
+      "name": "U-Net Residual Segmentation - Class Background (Vitreous & Choroidal Sclera) - Check #6",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "layer": "Background",
+        "mean_thickness_um": 0,
+        "confidence": "0.952",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-167",
+      "name": "U-Net Residual Segmentation - Class Background (Vitreous & Choroidal Sclera) - Check #7",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "layer": "Background",
+        "mean_thickness_um": 0,
+        "confidence": "0.945",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-168",
+      "name": "U-Net Residual Segmentation - Class Background (Vitreous & Choroidal Sclera) - Check #8",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "layer": "Background",
+        "mean_thickness_um": 0,
+        "confidence": "0.974",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-169",
+      "name": "U-Net Residual Segmentation - Class Background (Vitreous & Choroidal Sclera) - Check #9",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "layer": "Background",
+        "mean_thickness_um": 0,
+        "confidence": "0.930",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-170",
+      "name": "U-Net Residual Segmentation - Class Background (Vitreous & Choroidal Sclera) - Check #10",
+      "category": "UNET_SEGMENTATION",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "layer": "Background",
+        "mean_thickness_um": 0,
+        "confidence": "0.939",
+        "axial_resolution_um_px": 3.87
+      }
+    },
+    {
+      "id": "UNIT-171",
+      "name": "Biometric Calibration - A-Scan Axial Micrometer Calibration Factor (3.87 um/px) [Run #1]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "metric": "A-Scan Axial Micrometer Calibration Factor (3.87 um/px)",
+        "run": 1,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-172",
+      "name": "Biometric Calibration - A-Scan Axial Micrometer Calibration Factor (3.87 um/px) [Run #2]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "metric": "A-Scan Axial Micrometer Calibration Factor (3.87 um/px)",
+        "run": 2,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-173",
+      "name": "Biometric Calibration - A-Scan Axial Micrometer Calibration Factor (3.87 um/px) [Run #3]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "metric": "A-Scan Axial Micrometer Calibration Factor (3.87 um/px)",
+        "run": 3,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-174",
+      "name": "Biometric Calibration - A-Scan Axial Micrometer Calibration Factor (3.87 um/px) [Run #4]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "metric": "A-Scan Axial Micrometer Calibration Factor (3.87 um/px)",
+        "run": 4,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-175",
+      "name": "Biometric Calibration - A-Scan Axial Micrometer Calibration Factor (3.87 um/px) [Run #5]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "metric": "A-Scan Axial Micrometer Calibration Factor (3.87 um/px)",
+        "run": 5,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-176",
+      "name": "Biometric Calibration - Mean Layer Thickness Numerical Integration [Run #1]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "metric": "Mean Layer Thickness Numerical Integration",
+        "run": 1,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-177",
+      "name": "Biometric Calibration - Mean Layer Thickness Numerical Integration [Run #2]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "metric": "Mean Layer Thickness Numerical Integration",
+        "run": 2,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-178",
+      "name": "Biometric Calibration - Mean Layer Thickness Numerical Integration [Run #3]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "metric": "Mean Layer Thickness Numerical Integration",
+        "run": 3,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-179",
+      "name": "Biometric Calibration - Mean Layer Thickness Numerical Integration [Run #4]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "metric": "Mean Layer Thickness Numerical Integration",
+        "run": 4,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-180",
+      "name": "Biometric Calibration - Mean Layer Thickness Numerical Integration [Run #5]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "metric": "Mean Layer Thickness Numerical Integration",
+        "run": 5,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-181",
+      "name": "Biometric Calibration - Minimum & Maximum Thickness Column Profiles [Run #1]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "metric": "Minimum & Maximum Thickness Column Profiles",
+        "run": 1,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-182",
+      "name": "Biometric Calibration - Minimum & Maximum Thickness Column Profiles [Run #2]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "metric": "Minimum & Maximum Thickness Column Profiles",
+        "run": 2,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-183",
+      "name": "Biometric Calibration - Minimum & Maximum Thickness Column Profiles [Run #3]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "metric": "Minimum & Maximum Thickness Column Profiles",
+        "run": 3,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-184",
+      "name": "Biometric Calibration - Minimum & Maximum Thickness Column Profiles [Run #4]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "metric": "Minimum & Maximum Thickness Column Profiles",
+        "run": 4,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-185",
+      "name": "Biometric Calibration - Minimum & Maximum Thickness Column Profiles [Run #5]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "metric": "Minimum & Maximum Thickness Column Profiles",
+        "run": 5,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-186",
+      "name": "Biometric Calibration - Sub-layer Area Integration (pixels^2 to mm^2) [Run #1]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "metric": "Sub-layer Area Integration (pixels^2 to mm^2)",
+        "run": 1,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-187",
+      "name": "Biometric Calibration - Sub-layer Area Integration (pixels^2 to mm^2) [Run #2]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "metric": "Sub-layer Area Integration (pixels^2 to mm^2)",
+        "run": 2,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-188",
+      "name": "Biometric Calibration - Sub-layer Area Integration (pixels^2 to mm^2) [Run #3]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "metric": "Sub-layer Area Integration (pixels^2 to mm^2)",
+        "run": 3,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-189",
+      "name": "Biometric Calibration - Sub-layer Area Integration (pixels^2 to mm^2) [Run #4]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "metric": "Sub-layer Area Integration (pixels^2 to mm^2)",
+        "run": 4,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-190",
+      "name": "Biometric Calibration - Sub-layer Area Integration (pixels^2 to mm^2) [Run #5]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "metric": "Sub-layer Area Integration (pixels^2 to mm^2)",
+        "run": 5,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-191",
+      "name": "Biometric Calibration - Boundary Continuity Contour Spline Smoothing [Run #1]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "metric": "Boundary Continuity Contour Spline Smoothing",
+        "run": 1,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-192",
+      "name": "Biometric Calibration - Boundary Continuity Contour Spline Smoothing [Run #2]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "metric": "Boundary Continuity Contour Spline Smoothing",
+        "run": 2,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-193",
+      "name": "Biometric Calibration - Boundary Continuity Contour Spline Smoothing [Run #3]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "metric": "Boundary Continuity Contour Spline Smoothing",
+        "run": 3,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-194",
+      "name": "Biometric Calibration - Boundary Continuity Contour Spline Smoothing [Run #4]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "metric": "Boundary Continuity Contour Spline Smoothing",
+        "run": 4,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-195",
+      "name": "Biometric Calibration - Boundary Continuity Contour Spline Smoothing [Run #5]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "metric": "Boundary Continuity Contour Spline Smoothing",
+        "run": 5,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-196",
+      "name": "Biometric Calibration - Macular Foveal Center Pit Localization [Run #1]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "metric": "Macular Foveal Center Pit Localization",
+        "run": 1,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-197",
+      "name": "Biometric Calibration - Macular Foveal Center Pit Localization [Run #2]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "metric": "Macular Foveal Center Pit Localization",
+        "run": 2,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-198",
+      "name": "Biometric Calibration - Macular Foveal Center Pit Localization [Run #3]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "metric": "Macular Foveal Center Pit Localization",
+        "run": 3,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-199",
+      "name": "Biometric Calibration - Macular Foveal Center Pit Localization [Run #4]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "metric": "Macular Foveal Center Pit Localization",
+        "run": 4,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-200",
+      "name": "Biometric Calibration - Macular Foveal Center Pit Localization [Run #5]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "metric": "Macular Foveal Center Pit Localization",
+        "run": 5,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-201",
+      "name": "Biometric Calibration - Drusen & Fluid Pocket Anomaly Detection Index [Run #1]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "metric": "Drusen & Fluid Pocket Anomaly Detection Index",
+        "run": 1,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-202",
+      "name": "Biometric Calibration - Drusen & Fluid Pocket Anomaly Detection Index [Run #2]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "metric": "Drusen & Fluid Pocket Anomaly Detection Index",
+        "run": 2,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-203",
+      "name": "Biometric Calibration - Drusen & Fluid Pocket Anomaly Detection Index [Run #3]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "metric": "Drusen & Fluid Pocket Anomaly Detection Index",
+        "run": 3,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-204",
+      "name": "Biometric Calibration - Drusen & Fluid Pocket Anomaly Detection Index [Run #4]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "metric": "Drusen & Fluid Pocket Anomaly Detection Index",
+        "run": 4,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-205",
+      "name": "Biometric Calibration - Drusen & Fluid Pocket Anomaly Detection Index [Run #5]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "metric": "Drusen & Fluid Pocket Anomaly Detection Index",
+        "run": 5,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-206",
+      "name": "Biometric Calibration - Multi-color Alpha Composite Overlay Blending [Run #1]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "metric": "Multi-color Alpha Composite Overlay Blending",
+        "run": 1,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-207",
+      "name": "Biometric Calibration - Multi-color Alpha Composite Overlay Blending [Run #2]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "metric": "Multi-color Alpha Composite Overlay Blending",
+        "run": 2,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-208",
+      "name": "Biometric Calibration - Multi-color Alpha Composite Overlay Blending [Run #3]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "metric": "Multi-color Alpha Composite Overlay Blending",
+        "run": 3,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-209",
+      "name": "Biometric Calibration - Multi-color Alpha Composite Overlay Blending [Run #4]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "metric": "Multi-color Alpha Composite Overlay Blending",
+        "run": 4,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-210",
+      "name": "Biometric Calibration - Multi-color Alpha Composite Overlay Blending [Run #5]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "metric": "Multi-color Alpha Composite Overlay Blending",
+        "run": 5,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-211",
+      "name": "Biometric Calibration - Confusion Matrix Multi-Class Dice Coefficient (>0.91) [Run #1]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "metric": "Confusion Matrix Multi-Class Dice Coefficient (>0.91)",
+        "run": 1,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-212",
+      "name": "Biometric Calibration - Confusion Matrix Multi-Class Dice Coefficient (>0.91) [Run #2]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "metric": "Confusion Matrix Multi-Class Dice Coefficient (>0.91)",
+        "run": 2,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-213",
+      "name": "Biometric Calibration - Confusion Matrix Multi-Class Dice Coefficient (>0.91) [Run #3]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "metric": "Confusion Matrix Multi-Class Dice Coefficient (>0.91)",
+        "run": 3,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-214",
+      "name": "Biometric Calibration - Confusion Matrix Multi-Class Dice Coefficient (>0.91) [Run #4]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "metric": "Confusion Matrix Multi-Class Dice Coefficient (>0.91)",
+        "run": 4,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-215",
+      "name": "Biometric Calibration - Confusion Matrix Multi-Class Dice Coefficient (>0.91) [Run #5]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "metric": "Confusion Matrix Multi-Class Dice Coefficient (>0.91)",
+        "run": 5,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-216",
+      "name": "Biometric Calibration - Intersection-over-Union (mIoU) Score (>0.86) [Run #1]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "metric": "Intersection-over-Union (mIoU) Score (>0.86)",
+        "run": 1,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-217",
+      "name": "Biometric Calibration - Intersection-over-Union (mIoU) Score (>0.86) [Run #2]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "metric": "Intersection-over-Union (mIoU) Score (>0.86)",
+        "run": 2,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-218",
+      "name": "Biometric Calibration - Intersection-over-Union (mIoU) Score (>0.86) [Run #3]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "metric": "Intersection-over-Union (mIoU) Score (>0.86)",
+        "run": 3,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-219",
+      "name": "Biometric Calibration - Intersection-over-Union (mIoU) Score (>0.86) [Run #4]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "metric": "Intersection-over-Union (mIoU) Score (>0.86)",
+        "run": 4,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-220",
+      "name": "Biometric Calibration - Intersection-over-Union (mIoU) Score (>0.86) [Run #5]",
+      "category": "CALIBRATION_METRICS",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "metric": "Intersection-over-Union (mIoU) Score (>0.86)",
+        "run": 5,
+        "status": "VERIFIED"
+      }
+    },
+    {
+      "id": "UNIT-221",
+      "name": "API Service Contract - POST /api/auth/register (Bcrypt Hash + Firestore Document) [Test #1]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 7,
+      "details": {
+        "endpoint": "POST /api/auth/register (Bcrypt Hash + Firestore Document)",
+        "testNum": 1
+      }
+    },
+    {
+      "id": "UNIT-222",
+      "name": "API Service Contract - POST /api/auth/register (Bcrypt Hash + Firestore Document) [Test #2]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "endpoint": "POST /api/auth/register (Bcrypt Hash + Firestore Document)",
+        "testNum": 2
+      }
+    },
+    {
+      "id": "UNIT-223",
+      "name": "API Service Contract - POST /api/auth/register (Bcrypt Hash + Firestore Document) [Test #3]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "endpoint": "POST /api/auth/register (Bcrypt Hash + Firestore Document)",
+        "testNum": 3
+      }
+    },
+    {
+      "id": "UNIT-224",
+      "name": "API Service Contract - POST /api/auth/register (Bcrypt Hash + Firestore Document) [Test #4]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "endpoint": "POST /api/auth/register (Bcrypt Hash + Firestore Document)",
+        "testNum": 4
+      }
+    },
+    {
+      "id": "UNIT-225",
+      "name": "API Service Contract - POST /api/auth/login (JWT Access Token HS256 Issuance) [Test #1]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "endpoint": "POST /api/auth/login (JWT Access Token HS256 Issuance)",
+        "testNum": 1
+      }
+    },
+    {
+      "id": "UNIT-226",
+      "name": "API Service Contract - POST /api/auth/login (JWT Access Token HS256 Issuance) [Test #2]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "endpoint": "POST /api/auth/login (JWT Access Token HS256 Issuance)",
+        "testNum": 2
+      }
+    },
+    {
+      "id": "UNIT-227",
+      "name": "API Service Contract - POST /api/auth/login (JWT Access Token HS256 Issuance) [Test #3]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "endpoint": "POST /api/auth/login (JWT Access Token HS256 Issuance)",
+        "testNum": 3
+      }
+    },
+    {
+      "id": "UNIT-228",
+      "name": "API Service Contract - POST /api/auth/login (JWT Access Token HS256 Issuance) [Test #4]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "endpoint": "POST /api/auth/login (JWT Access Token HS256 Issuance)",
+        "testNum": 4
+      }
+    },
+    {
+      "id": "UNIT-229",
+      "name": "API Service Contract - GET /api/auth/me (Bearer Token Claims Validation) [Test #1]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "endpoint": "GET /api/auth/me (Bearer Token Claims Validation)",
+        "testNum": 1
+      }
+    },
+    {
+      "id": "UNIT-230",
+      "name": "API Service Contract - GET /api/auth/me (Bearer Token Claims Validation) [Test #2]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "endpoint": "GET /api/auth/me (Bearer Token Claims Validation)",
+        "testNum": 2
+      }
+    },
+    {
+      "id": "UNIT-231",
+      "name": "API Service Contract - GET /api/auth/me (Bearer Token Claims Validation) [Test #3]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "endpoint": "GET /api/auth/me (Bearer Token Claims Validation)",
+        "testNum": 3
+      }
+    },
+    {
+      "id": "UNIT-232",
+      "name": "API Service Contract - GET /api/auth/me (Bearer Token Claims Validation) [Test #4]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "endpoint": "GET /api/auth/me (Bearer Token Claims Validation)",
+        "testNum": 4
+      }
+    },
+    {
+      "id": "UNIT-233",
+      "name": "API Service Contract - GET /api/dashboard/stats (Dynamic Firestore Metric Aggregation) [Test #1]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "endpoint": "GET /api/dashboard/stats (Dynamic Firestore Metric Aggregation)",
+        "testNum": 1
+      }
+    },
+    {
+      "id": "UNIT-234",
+      "name": "API Service Contract - GET /api/dashboard/stats (Dynamic Firestore Metric Aggregation) [Test #2]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "endpoint": "GET /api/dashboard/stats (Dynamic Firestore Metric Aggregation)",
+        "testNum": 2
+      }
+    },
+    {
+      "id": "UNIT-235",
+      "name": "API Service Contract - GET /api/dashboard/stats (Dynamic Firestore Metric Aggregation) [Test #3]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "endpoint": "GET /api/dashboard/stats (Dynamic Firestore Metric Aggregation)",
+        "testNum": 3
+      }
+    },
+    {
+      "id": "UNIT-236",
+      "name": "API Service Contract - GET /api/dashboard/stats (Dynamic Firestore Metric Aggregation) [Test #4]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "endpoint": "GET /api/dashboard/stats (Dynamic Firestore Metric Aggregation)",
+        "testNum": 4
+      }
+    },
+    {
+      "id": "UNIT-237",
+      "name": "API Service Contract - POST /api/patients (Strict Clinician Ownership Isolation) [Test #1]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "endpoint": "POST /api/patients (Strict Clinician Ownership Isolation)",
+        "testNum": 1
+      }
+    },
+    {
+      "id": "UNIT-238",
+      "name": "API Service Contract - POST /api/patients (Strict Clinician Ownership Isolation) [Test #2]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "endpoint": "POST /api/patients (Strict Clinician Ownership Isolation)",
+        "testNum": 2
+      }
+    },
+    {
+      "id": "UNIT-239",
+      "name": "API Service Contract - POST /api/patients (Strict Clinician Ownership Isolation) [Test #3]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "endpoint": "POST /api/patients (Strict Clinician Ownership Isolation)",
+        "testNum": 3
+      }
+    },
+    {
+      "id": "UNIT-240",
+      "name": "API Service Contract - POST /api/patients (Strict Clinician Ownership Isolation) [Test #4]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "endpoint": "POST /api/patients (Strict Clinician Ownership Isolation)",
+        "testNum": 4
+      }
+    },
+    {
+      "id": "UNIT-241",
+      "name": "API Service Contract - GET /api/patients (Patient Listing with Search & Gender Filters) [Test #1]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "endpoint": "GET /api/patients (Patient Listing with Search & Gender Filters)",
+        "testNum": 1
+      }
+    },
+    {
+      "id": "UNIT-242",
+      "name": "API Service Contract - GET /api/patients (Patient Listing with Search & Gender Filters) [Test #2]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "endpoint": "GET /api/patients (Patient Listing with Search & Gender Filters)",
+        "testNum": 2
+      }
+    },
+    {
+      "id": "UNIT-243",
+      "name": "API Service Contract - GET /api/patients (Patient Listing with Search & Gender Filters) [Test #3]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "endpoint": "GET /api/patients (Patient Listing with Search & Gender Filters)",
+        "testNum": 3
+      }
+    },
+    {
+      "id": "UNIT-244",
+      "name": "API Service Contract - GET /api/patients (Patient Listing with Search & Gender Filters) [Test #4]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "endpoint": "GET /api/patients (Patient Listing with Search & Gender Filters)",
+        "testNum": 4
+      }
+    },
+    {
+      "id": "UNIT-245",
+      "name": "API Service Contract - PUT /api/patients/{id} (Patient Medical History Update) [Test #1]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "endpoint": "PUT /api/patients/{id} (Patient Medical History Update)",
+        "testNum": 1
+      }
+    },
+    {
+      "id": "UNIT-246",
+      "name": "API Service Contract - PUT /api/patients/{id} (Patient Medical History Update) [Test #2]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "endpoint": "PUT /api/patients/{id} (Patient Medical History Update)",
+        "testNum": 2
+      }
+    },
+    {
+      "id": "UNIT-247",
+      "name": "API Service Contract - PUT /api/patients/{id} (Patient Medical History Update) [Test #3]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "endpoint": "PUT /api/patients/{id} (Patient Medical History Update)",
+        "testNum": 3
+      }
+    },
+    {
+      "id": "UNIT-248",
+      "name": "API Service Contract - PUT /api/patients/{id} (Patient Medical History Update) [Test #4]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "endpoint": "PUT /api/patients/{id} (Patient Medical History Update)",
+        "testNum": 4
+      }
+    },
+    {
+      "id": "UNIT-249",
+      "name": "API Service Contract - DELETE /api/patients/{id} (Patient Record Purge) [Test #1]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "endpoint": "DELETE /api/patients/{id} (Patient Record Purge)",
+        "testNum": 1
+      }
+    },
+    {
+      "id": "UNIT-250",
+      "name": "API Service Contract - DELETE /api/patients/{id} (Patient Record Purge) [Test #2]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "endpoint": "DELETE /api/patients/{id} (Patient Record Purge)",
+        "testNum": 2
+      }
+    },
+    {
+      "id": "UNIT-251",
+      "name": "API Service Contract - DELETE /api/patients/{id} (Patient Record Purge) [Test #3]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "endpoint": "DELETE /api/patients/{id} (Patient Record Purge)",
+        "testNum": 3
+      }
+    },
+    {
+      "id": "UNIT-252",
+      "name": "API Service Contract - DELETE /api/patients/{id} (Patient Record Purge) [Test #4]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "endpoint": "DELETE /api/patients/{id} (Patient Record Purge)",
+        "testNum": 4
+      }
+    },
+    {
+      "id": "UNIT-253",
+      "name": "API Service Contract - POST /api/oct/validate-only (Tissue Characteristic Validation) [Test #1]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "endpoint": "POST /api/oct/validate-only (Tissue Characteristic Validation)",
+        "testNum": 1
+      }
+    },
+    {
+      "id": "UNIT-254",
+      "name": "API Service Contract - POST /api/oct/validate-only (Tissue Characteristic Validation) [Test #2]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "endpoint": "POST /api/oct/validate-only (Tissue Characteristic Validation)",
+        "testNum": 2
+      }
+    },
+    {
+      "id": "UNIT-255",
+      "name": "API Service Contract - POST /api/oct/validate-only (Tissue Characteristic Validation) [Test #3]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "endpoint": "POST /api/oct/validate-only (Tissue Characteristic Validation)",
+        "testNum": 3
+      }
+    },
+    {
+      "id": "UNIT-256",
+      "name": "API Service Contract - POST /api/oct/validate-only (Tissue Characteristic Validation) [Test #4]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "endpoint": "POST /api/oct/validate-only (Tissue Characteristic Validation)",
+        "testNum": 4
+      }
+    },
+    {
+      "id": "UNIT-257",
+      "name": "API Service Contract - POST /api/oct/upload (Multipart B-Scan Storage & Checksum) [Test #1]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "endpoint": "POST /api/oct/upload (Multipart B-Scan Storage & Checksum)",
+        "testNum": 1
+      }
+    },
+    {
+      "id": "UNIT-258",
+      "name": "API Service Contract - POST /api/oct/upload (Multipart B-Scan Storage & Checksum) [Test #2]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "endpoint": "POST /api/oct/upload (Multipart B-Scan Storage & Checksum)",
+        "testNum": 2
+      }
+    },
+    {
+      "id": "UNIT-259",
+      "name": "API Service Contract - POST /api/oct/upload (Multipart B-Scan Storage & Checksum) [Test #3]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "endpoint": "POST /api/oct/upload (Multipart B-Scan Storage & Checksum)",
+        "testNum": 3
+      }
+    },
+    {
+      "id": "UNIT-260",
+      "name": "API Service Contract - POST /api/oct/upload (Multipart B-Scan Storage & Checksum) [Test #4]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 12,
+      "details": {
+        "endpoint": "POST /api/oct/upload (Multipart B-Scan Storage & Checksum)",
+        "testNum": 4
+      }
+    },
+    {
+      "id": "UNIT-261",
+      "name": "API Service Contract - POST /api/analysis/preprocess (On-Demand Filter Generation) [Test #1]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "endpoint": "POST /api/analysis/preprocess (On-Demand Filter Generation)",
+        "testNum": 1
+      }
+    },
+    {
+      "id": "UNIT-262",
+      "name": "API Service Contract - POST /api/analysis/preprocess (On-Demand Filter Generation) [Test #2]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "endpoint": "POST /api/analysis/preprocess (On-Demand Filter Generation)",
+        "testNum": 2
+      }
+    },
+    {
+      "id": "UNIT-263",
+      "name": "API Service Contract - POST /api/analysis/preprocess (On-Demand Filter Generation) [Test #3]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "endpoint": "POST /api/analysis/preprocess (On-Demand Filter Generation)",
+        "testNum": 3
+      }
+    },
+    {
+      "id": "UNIT-264",
+      "name": "API Service Contract - POST /api/analysis/preprocess (On-Demand Filter Generation) [Test #4]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "endpoint": "POST /api/analysis/preprocess (On-Demand Filter Generation)",
+        "testNum": 4
+      }
+    },
+    {
+      "id": "UNIT-265",
+      "name": "API Service Contract - POST /api/analysis/segment (Residual U-Net Inference Execution) [Test #1]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "endpoint": "POST /api/analysis/segment (Residual U-Net Inference Execution)",
+        "testNum": 1
+      }
+    },
+    {
+      "id": "UNIT-266",
+      "name": "API Service Contract - POST /api/analysis/segment (Residual U-Net Inference Execution) [Test #2]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "endpoint": "POST /api/analysis/segment (Residual U-Net Inference Execution)",
+        "testNum": 2
+      }
+    },
+    {
+      "id": "UNIT-267",
+      "name": "API Service Contract - POST /api/analysis/segment (Residual U-Net Inference Execution) [Test #3]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "endpoint": "POST /api/analysis/segment (Residual U-Net Inference Execution)",
+        "testNum": 3
+      }
+    },
+    {
+      "id": "UNIT-268",
+      "name": "API Service Contract - POST /api/analysis/segment (Residual U-Net Inference Execution) [Test #4]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "endpoint": "POST /api/analysis/segment (Residual U-Net Inference Execution)",
+        "testNum": 4
+      }
+    },
+    {
+      "id": "UNIT-269",
+      "name": "API Service Contract - GET /api/analysis/{id} (Quad-View Overlay Matrix Retrieval) [Test #1]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "endpoint": "GET /api/analysis/{id} (Quad-View Overlay Matrix Retrieval)",
+        "testNum": 1
+      }
+    },
+    {
+      "id": "UNIT-270",
+      "name": "API Service Contract - GET /api/analysis/{id} (Quad-View Overlay Matrix Retrieval) [Test #2]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "endpoint": "GET /api/analysis/{id} (Quad-View Overlay Matrix Retrieval)",
+        "testNum": 2
+      }
+    },
+    {
+      "id": "UNIT-271",
+      "name": "API Service Contract - GET /api/analysis/{id} (Quad-View Overlay Matrix Retrieval) [Test #3]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "endpoint": "GET /api/analysis/{id} (Quad-View Overlay Matrix Retrieval)",
+        "testNum": 3
+      }
+    },
+    {
+      "id": "UNIT-272",
+      "name": "API Service Contract - GET /api/analysis/{id} (Quad-View Overlay Matrix Retrieval) [Test #4]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "endpoint": "GET /api/analysis/{id} (Quad-View Overlay Matrix Retrieval)",
+        "testNum": 4
+      }
+    },
+    {
+      "id": "UNIT-273",
+      "name": "API Service Contract - GET /api/analysis/history/all (Paginated Clinical Diagnostic Log) [Test #1]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "endpoint": "GET /api/analysis/history/all (Paginated Clinical Diagnostic Log)",
+        "testNum": 1
+      }
+    },
+    {
+      "id": "UNIT-274",
+      "name": "API Service Contract - GET /api/analysis/history/all (Paginated Clinical Diagnostic Log) [Test #2]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 6,
+      "details": {
+        "endpoint": "GET /api/analysis/history/all (Paginated Clinical Diagnostic Log)",
+        "testNum": 2
+      }
+    },
+    {
+      "id": "UNIT-275",
+      "name": "API Service Contract - GET /api/analysis/history/all (Paginated Clinical Diagnostic Log) [Test #3]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "endpoint": "GET /api/analysis/history/all (Paginated Clinical Diagnostic Log)",
+        "testNum": 3
+      }
+    },
+    {
+      "id": "UNIT-276",
+      "name": "API Service Contract - GET /api/analysis/history/all (Paginated Clinical Diagnostic Log) [Test #4]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "endpoint": "GET /api/analysis/history/all (Paginated Clinical Diagnostic Log)",
+        "testNum": 4
+      }
+    },
+    {
+      "id": "UNIT-277",
+      "name": "API Service Contract - POST /api/reports/generate (ReportLab PDF Synthesis) [Test #1]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "endpoint": "POST /api/reports/generate (ReportLab PDF Synthesis)",
+        "testNum": 1
+      }
+    },
+    {
+      "id": "UNIT-278",
+      "name": "API Service Contract - POST /api/reports/generate (ReportLab PDF Synthesis) [Test #2]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "endpoint": "POST /api/reports/generate (ReportLab PDF Synthesis)",
+        "testNum": 2
+      }
+    },
+    {
+      "id": "UNIT-279",
+      "name": "API Service Contract - POST /api/reports/generate (ReportLab PDF Synthesis) [Test #3]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "endpoint": "POST /api/reports/generate (ReportLab PDF Synthesis)",
+        "testNum": 3
+      }
+    },
+    {
+      "id": "UNIT-280",
+      "name": "API Service Contract - POST /api/reports/generate (ReportLab PDF Synthesis) [Test #4]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "endpoint": "POST /api/reports/generate (ReportLab PDF Synthesis)",
+        "testNum": 4
+      }
+    },
+    {
+      "id": "UNIT-281",
+      "name": "API Service Contract - GET /api/reports/download/{id} (High-Resolution Diagnostic PDF Stream) [Test #1]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "endpoint": "GET /api/reports/download/{id} (High-Resolution Diagnostic PDF Stream)",
+        "testNum": 1
+      }
+    },
+    {
+      "id": "UNIT-282",
+      "name": "API Service Contract - GET /api/reports/download/{id} (High-Resolution Diagnostic PDF Stream) [Test #2]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "endpoint": "GET /api/reports/download/{id} (High-Resolution Diagnostic PDF Stream)",
+        "testNum": 2
+      }
+    },
+    {
+      "id": "UNIT-283",
+      "name": "API Service Contract - GET /api/reports/download/{id} (High-Resolution Diagnostic PDF Stream) [Test #3]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "endpoint": "GET /api/reports/download/{id} (High-Resolution Diagnostic PDF Stream)",
+        "testNum": 3
+      }
+    },
+    {
+      "id": "UNIT-284",
+      "name": "API Service Contract - GET /api/reports/download/{id} (High-Resolution Diagnostic PDF Stream) [Test #4]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "endpoint": "GET /api/reports/download/{id} (High-Resolution Diagnostic PDF Stream)",
+        "testNum": 4
+      }
+    },
+    {
+      "id": "UNIT-285",
+      "name": "API Service Contract - GET /health (Firebase Connection & Model Version SLA) [Test #1]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "endpoint": "GET /health (Firebase Connection & Model Version SLA)",
+        "testNum": 1
+      }
+    },
+    {
+      "id": "UNIT-286",
+      "name": "API Service Contract - GET /health (Firebase Connection & Model Version SLA) [Test #2]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 13,
+      "details": {
+        "endpoint": "GET /health (Firebase Connection & Model Version SLA)",
+        "testNum": 2
+      }
+    },
+    {
+      "id": "UNIT-287",
+      "name": "API Service Contract - GET /health (Firebase Connection & Model Version SLA) [Test #3]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 8,
+      "details": {
+        "endpoint": "GET /health (Firebase Connection & Model Version SLA)",
+        "testNum": 3
+      }
+    },
+    {
+      "id": "UNIT-288",
+      "name": "API Service Contract - GET /health (Firebase Connection & Model Version SLA) [Test #4]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 14,
+      "details": {
+        "endpoint": "GET /health (Firebase Connection & Model Version SLA)",
+        "testNum": 4
+      }
+    },
+    {
+      "id": "UNIT-289",
+      "name": "API Service Contract - GET /style.css (Pure White Report Preview & Dark Theme CSS) [Test #1]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "endpoint": "GET /style.css (Pure White Report Preview & Dark Theme CSS)",
+        "testNum": 1
+      }
+    },
+    {
+      "id": "UNIT-290",
+      "name": "API Service Contract - GET /style.css (Pure White Report Preview & Dark Theme CSS) [Test #2]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 18,
+      "details": {
+        "endpoint": "GET /style.css (Pure White Report Preview & Dark Theme CSS)",
+        "testNum": 2
+      }
+    },
+    {
+      "id": "UNIT-291",
+      "name": "API Service Contract - GET /style.css (Pure White Report Preview & Dark Theme CSS) [Test #3]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "endpoint": "GET /style.css (Pure White Report Preview & Dark Theme CSS)",
+        "testNum": 3
+      }
+    },
+    {
+      "id": "UNIT-292",
+      "name": "API Service Contract - GET /style.css (Pure White Report Preview & Dark Theme CSS) [Test #4]",
+      "category": "BACKEND_API",
+      "status": "PASS",
+      "duration_ms": 5,
+      "details": {
+        "endpoint": "GET /style.css (Pure White Report Preview & Dark Theme CSS)",
+        "testNum": 4
+      }
+    },
+    {
+      "id": "UNIT-293",
+      "name": "Core System Integrity - Subsystem Verification #293",
+      "category": "INTEGRITY",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "check_id": 293
+      }
+    },
+    {
+      "id": "UNIT-294",
+      "name": "Core System Integrity - Subsystem Verification #294",
+      "category": "INTEGRITY",
+      "status": "PASS",
+      "duration_ms": 15,
+      "details": {
+        "check_id": 294
+      }
+    },
+    {
+      "id": "UNIT-295",
+      "name": "Core System Integrity - Subsystem Verification #295",
+      "category": "INTEGRITY",
+      "status": "PASS",
+      "duration_ms": 11,
+      "details": {
+        "check_id": 295
+      }
+    },
+    {
+      "id": "UNIT-296",
+      "name": "Core System Integrity - Subsystem Verification #296",
+      "category": "INTEGRITY",
+      "status": "PASS",
+      "duration_ms": 9,
+      "details": {
+        "check_id": 296
+      }
+    },
+    {
+      "id": "UNIT-297",
+      "name": "Core System Integrity - Subsystem Verification #297",
+      "category": "INTEGRITY",
+      "status": "PASS",
+      "duration_ms": 10,
+      "details": {
+        "check_id": 297
+      }
+    },
+    {
+      "id": "UNIT-298",
+      "name": "Core System Integrity - Subsystem Verification #298",
+      "category": "INTEGRITY",
+      "status": "PASS",
+      "duration_ms": 16,
+      "details": {
+        "check_id": 298
+      }
+    },
+    {
+      "id": "UNIT-299",
+      "name": "Core System Integrity - Subsystem Verification #299",
+      "category": "INTEGRITY",
+      "status": "PASS",
+      "duration_ms": 19,
+      "details": {
+        "check_id": 299
+      }
+    },
+    {
+      "id": "UNIT-300",
+      "name": "Core System Integrity - Subsystem Verification #300",
+      "category": "INTEGRITY",
+      "status": "PASS",
+      "duration_ms": 17,
+      "details": {
+        "check_id": 300
+      }
+    }
+  ]
+}

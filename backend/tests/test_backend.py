@@ -27,10 +27,23 @@ class RetinaSegBackendTestCase(unittest.TestCase):
         self.assertEqual(data["status"], "healthy")
         self.assertEqual(data["layers_supported"], 8)
 
-    def test_02_login_and_auth(self):
+    def test_02_register_and_login(self):
+        # 1. Register a new user
+        reg_payload = {
+            "email": "test_doctor@retinaseg.ai",
+            "password": "TestPassword123",
+            "full_name": "Test Dr. Watson",
+            "role": "OPHTHALMOLOGIST",
+            "specialty": "Medical Retina",
+            "license_number": "TEST-12345"
+        }
+        reg_res = self.client.post(f"{settings.API_V1_STR}/auth/register", json=reg_payload)
+        self.assertIn(reg_res.status_code, [200, 400]) # 400 if already exists
+
+        # 2. Login
         login_payload = {
-            "email": "doctor@retinaseg.ai",
-            "password": "Doctor@123"
+            "email": "test_doctor@retinaseg.ai",
+            "password": "TestPassword123"
         }
         res = self.client.post(f"{settings.API_V1_STR}/auth/login", json=login_payload)
         self.assertEqual(res.status_code, 200, f"Login failed: {res.text}")
@@ -41,11 +54,30 @@ class RetinaSegBackendTestCase(unittest.TestCase):
 
     def test_03_patient_list_and_create(self):
         headers = {"Authorization": f"Bearer {self.__class__.auth_token}"}
+
+        # 1. Create a patient
+        patient_payload = {
+            "patient_id": f"PAT-TEST-{os.getpid()}",
+            "full_name": "Test Patient",
+            "age": 45,
+            "gender": "Male",
+            "contact": "555-0199",
+            "email": "patient@test.com",
+            "medical_history": "None",
+            "eye_condition": "Routine Check"
+        }
+        create_res = self.client.post(f"{settings.API_V1_STR}/patients", headers=headers, json=patient_payload)
+        self.assertEqual(create_res.status_code, 200)
+
+        # 2. List patients
         res = self.client.get(f"{settings.API_V1_STR}/patients", headers=headers)
         self.assertEqual(res.status_code, 200)
         patients = res.json()
         self.assertGreaterEqual(len(patients), 1)
-        self.__class__.patient_id = patients[0]["id"]
+        # Find our test patient
+        test_p = next((p for p in patients if p["patient_id"].startswith("PAT-TEST-")), None)
+        self.assertIsNotNone(test_p)
+        self.__class__.patient_id = test_p["id"]
 
     def test_04_oct_upload_valid(self):
         sample_path = root_dir / "backend" / "sample_data" / "sample_scans" / "sample_normal_macula_od.png"

@@ -1,58 +1,69 @@
-# CI/CD Pipeline Setup — RetinaSeg AI
+# 🚀 RetinaSeg AI — CI/CD Pipeline & Master Test Documentation
 
-This project uses **GitHub Actions** for a multi-stage automated testing and reporting pipeline.
+This document describes the automated GitHub Actions CI/CD pipeline, job hierarchy, test suites, artifact packaging, and GitHub Pages executive reporting for **RetinaSeg AI** — *Automated Retinal Layer Segmentation in OCT Images Using Enhanced Preprocessing and U-Net Architecture*.
 
-## 🚀 Workflow Overview
-The pipeline consists of 6 parallel test jobs followed by a master report compilation and deployment to GitHub Pages.
+---
 
-1.  **🧪 Unit Tests**: Runs Flutter unit tests and Python (FastAPI/AI) tests using `pytest`.
-2.  **✅ Validation Tests**: Verifies application logic, data isolation, and clinical rules.
-3.  **🌐 Selenium Web Tests**: Builds the Flutter Web release and runs browser automation.
-4.  **📱 Appium Android Tests**: Builds the Android APK and runs mobile UI tests.
-5.  **⚡ Load Testing**: Executes high-throughput performance tests on API endpoints.
-6.  **🚀 Deployment Status**: Final build integrity and configuration check.
+## 1. 📊 Workflow Architecture Graph
 
-## 📊 Master Report
-After tests complete, a Python script (`scripts/generate_master_report.py`) parses all JUnit XML results and generates a professional HTML dashboard. 
+The pipeline executes 6 parallel test and validation suites, compiles a single dynamic executive report, and deploys the dashboard directly to **GitHub Pages**:
 
-**View the report**:
-- Go to the **Actions** tab in GitHub.
-- Click on the latest workflow run.
-- Scroll down to the **Summary** to see the Executive Matrix.
-- Or visit your **GitHub Pages** URL to see the full HTML dashboard.
-
-## 🛠️ Configuration
-
-### GitHub Secrets
-To fully enable the pipeline, configure the following in **Settings > Secrets and variables > Actions**:
-
-| Secret Name | Purpose |
-| --- | --- |
-| `FIREBASE_API_KEY` | Used for authenticating against the production Firebase project. |
-| `DATABASE_URL` | Connection string for the test PostgreSQL database. |
-| `TEST_USERNAME` | Valid credentials for the validation test suite. |
-| `TEST_PASSWORD` | Password for the test account. |
-
-### Enabling GitHub Pages
-1. Go to **Settings > Pages**.
-2. Under **Build and deployment > Source**, select **GitHub Actions**.
-3. The pipeline will now automatically update your site on every push to `master`.
-
-## 🧪 Running Locally
-You can run the individual test components on your machine:
-
-**Unit Tests (Python)**:
-```bash
-pytest backend/tests oct_ai_pipeline/tests --junitxml=results/unit-results.xml
+```
+🧪 Unit Tests — API
+        │
+        ├───────────────┐
+        │               │
+✅ Validation Tests    │
+        │               │
+        │               │
+🌐 Selenium — Website Tests
+        │               │
+        │               │
+📱 Appium — Android Tests
+        │               │
+        │               │
+⚡ Load Testing — Performance
+        │               │
+        │               │
+🚀 Deployment Status
+        │
+        └───────────────┐
+                        ▼
+             📊 Compile Master Report & Deploy
+                        │
+                        ▼
+             🌐 Deploy to GitHub Pages
 ```
 
-**Flutter Tests**:
-```bash
-cd frontend
-flutter test
-```
+---
 
-**Generate Master Report**:
-```bash
-python scripts/generate_master_report.py --sha local --run-number 1 --results-dir results
-```
+## 2. 🧪 Test Suites Breakdown
+
+| Job Name | Test Target | Key Validations | Output Artifact |
+|---|---|---|---|
+| **`🧪 Unit Tests — API`** | Core OCT Pipeline & Backend Services | 16-step OCT preprocessing, CLAHE, Bilateral filtering, min-max normalization, $512\times 512$ resizing, tensor formatting, U-Net residual inference, 8 retinal layer indexing, thickness calibration ($3.87\,\mu\text{m/px}$), area calculation, and Firebase services. | `unit-test-report` |
+| **`✅ Validation Tests`** | End-to-End Clinical Lifecycle | User registration, login, **strict new-user empty dashboard verification ($0$ patients, $0$ scans, $0$ reports)**, patient CRUD, valid OCT scan upload, invalid non-OCT rejection ($422$), 8-layer segmentation, and PDF report creation. | `validation-test-report` |
+| **`🌐 Selenium — Website Tests`** | Web Platform UI & Cross-Browser | Web app loading, login validation, session state, quad-view viewer, pure white report preview, language translation (EN, TE, HI, TA), and light/dark theme toggles. | `selenium-web-report` |
+| **`📱 Appium — Android Tests`** | Mobile Client & Android Integration | Android package manifest, Gradle configuration, mobile CORS contracts, API response formats, and error handling. | `appium-android-report` |
+| **`⚡ Load Testing — Performance`** | Concurrency & Latency SLA | Multi-threaded concurrent requests against `/api/auth/login`, `/api/dashboard/stats`, `/api/patients`, `/api/oct/upload`, measuring RPS, average latency, P95, P99, and error rate. | `load-test-report` |
+| **`🚀 Deployment Status`** | Production Build Integrity | Web build verification, static storage mount points, Swagger documentation, and route completeness. | `deployment-test-report`<br>`flutter-web-build` |
+
+---
+
+## 3. 📈 Executive Master Report & GitHub Pages
+
+The aggregator job (`📊 Compile Master Report & Deploy`) executes `scripts/generate_master_report.py`:
+1. Dynamically parses all JUnit XML and JSON test logs generated by the 6 parallel jobs.
+2. Calculates real test statistics: Total Executed, Passed, Failed, Skipped, and Pass Rate.
+3. Generates the executive dark-mode HTML dashboard (`reports/master-report.html`).
+4. Generates the spreadsheet report (`reports/master-excel-report.csv`).
+5. Posts a formatted markdown summary table to the GitHub Actions workflow run summary (`$GITHUB_STEP_SUMMARY`).
+6. Deploys the static report directly to live GitHub Pages via `actions/deploy-pages@v4`.
+
+---
+
+## 4. 🔒 User Data Isolation & Real Test Integrity Guarantee
+
+- **Zero Fake Data**: No mock numbers, simulated pass percentages, or hardcoded $6328$ counts. All numbers reflect actual executed tests.
+- **Empty State Guarantee**: New registered users start with zero patients and zero scans.
+- **Pure Cloud Firestore**: All clinical data persists to `oct-medical-application` with foreign-key isolation.
