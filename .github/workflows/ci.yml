@@ -33,7 +33,6 @@ jobs:
         run: |
           mkdir -p reports/unit-test-report
           export PYTHONPATH=$PYTHONPATH:$(pwd)
-          # Running actual unit tests
           pytest tests/unit/test_api_and_services.py tests/unit/test_oct_ai_pipeline.py \
             --html=reports/unit-test-report/unit_test_report.html --self-contained-html \
             --json-report --json-report-file=reports/unit-test-report/unit_report.json || true

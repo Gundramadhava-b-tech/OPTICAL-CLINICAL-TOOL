@@ -51,6 +51,19 @@
       "created_at": "2026-08-30T14:05:25.876018Z",
       "last_login": "2026-08-30T14:05:25.876067Z",
       "updated_at": "2026-08-30T14:05:25.877244Z"
+    },
+    "c6e13bc8f01e": {
+      "id": "c6e13bc8f01e",
+      "email": "gurumadhava759@gmail.com",
+      "full_name": "Raju",
+      "password_hash": "$2b$12$tGUSwgiEa.iXpkJ.xiD5jObBZbVh2XZcctzEqrSbzjwtHf51eNkJ.",
+      "role": "OPHTHALMOLOGIST",
+      "specialty": "Retina Specialist",
+      "license_number": null,
+      "is_active": true,
+      "created_at": "2026-08-30T15:46:39.450029Z",
+      "last_login": "2026-08-30T15:46:39.450055Z",
+      "updated_at": "2026-08-30T15:46:39.450299Z"
     }
   },
   "patients": {
@@ -675,6 +688,21 @@
       "timestamp": "2026-08-30T14:05:36.651335Z",
       "created_at": "2026-08-30T14:05:36.651396Z",
       "updated_at": "2026-08-30T14:05:36.651416Z"
+    },
+    "audit_1788085001903": {
+      "id": "audit_1788085001903",
+      "user_id": "c6e13bc8f01e",
+      "user_email": "gurumadhava759@gmail.com",
+      "action": "USER_REGISTERED",
+      "resource_type": "USER",
+      "resource_id": "c6e13bc8f01e",
+      "details": {
+        "email": "gurumadhava759@gmail.com",
+        "role": "OPHTHALMOLOGIST"
+      },
+      "timestamp": "2026-08-30T15:46:41.905804Z",
+      "created_at": "2026-08-30T15:46:41.905846Z",
+      "updated_at": "2026-08-30T15:46:41.905859Z"
     }
   }
 }
