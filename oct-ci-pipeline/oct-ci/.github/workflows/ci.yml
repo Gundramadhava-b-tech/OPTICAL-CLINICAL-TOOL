@@ -1,0 +1,290 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # ------------------------------------------------------------------
+  # 1) Unit Tests — FastAPI backend (pytest)
+  # ------------------------------------------------------------------
+  unit-tests-api:
+    name: "🧪 Unit Tests — API"
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pytest pytest-json-report
+      - name: Run Unit Test Suite
+        run: |
+          pytest tests/unit -v \
+            --json-report --json-report-file=../reports/unit_report.json \
+            --junitxml=../reports/unit_report.xml
+        continue-on-error: false
+      - name: Upload Unit Test Report Artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: unit-test-report
+          path: reports/unit_report.json
+
+  # ------------------------------------------------------------------
+  # 2) Validation Tests — request/response schema & preprocessing
+  #    validation (Pydantic models, image shape/format checks)
+  # ------------------------------------------------------------------
+  validation-tests:
+    name: "✅ Validation Tests"
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pytest pytest-json-report
+      - name: Run Validation Test Suite
+        run: |
+          pytest tests/validation -v \
+            --json-report --json-report-file=../reports/validation_report.json \
+            --junitxml=../reports/validation_report.xml
+      - name: Upload Validation Test Report Artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-test-report
+          path: reports/validation_report.json
+
+  # ------------------------------------------------------------------
+  # 3) Selenium — Flutter Web E2E
+  # ------------------------------------------------------------------
+  selenium-web-tests:
+    name: "🌐 Selenium — Website Tests"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+      - name: Build Flutter Web
+        run: |
+          cd frontend
+          flutter pub get
+          flutter build web --release
+      - name: Serve web build
+        run: |
+          cd frontend/build/web
+          nohup python3 -m http.server 8080 &
+          sleep 3
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install Selenium deps
+        run: pip install selenium pytest pytest-json-report webdriver-manager
+      - name: Run Selenium Website E2E Tests
+        run: |
+          pytest tests/selenium -v \
+            --json-report --json-report-file=reports/selenium_report.json \
+            --junitxml=reports/selenium_report.xml
+      - name: Upload Selenium Web Report Artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: selenium-web-report
+          path: reports/selenium_report.json
+
+  # ------------------------------------------------------------------
+  # 4) Appium — Flutter Android E2E
+  # ------------------------------------------------------------------
+  appium-android-tests:
+    name: "📱 Appium — Android Tests"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+      - name: Enable KVM (for emulator)
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+      - name: Build debug APK
+        run: |
+          cd frontend
+          flutter pub get
+          flutter build apk --debug
+      - name: Run Appium Android E2E Tests
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 33
+          arch: x86_64
+          profile: pixel_6
+          script: |
+            npm install -g appium
+            appium driver install uiautomator2
+            appium &
+            sleep 10
+            pip install Appium-Python-Client pytest pytest-json-report
+            pytest tests/appium -v \
+              --json-report --json-report-file=reports/appium_report.json \
+              --junitxml=reports/appium_report.xml
+      - name: Upload Appium Android Report Artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: appium-android-report
+          path: reports/appium_report.json
+
+  # ------------------------------------------------------------------
+  # 5) Load Testing — k6 against FastAPI inference endpoints
+  # ------------------------------------------------------------------
+  load-testing:
+    name: "⚡ Load Testing — Performance"
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install & start API
+        run: |
+          pip install -r requirements.txt
+          nohup uvicorn app.main:app --host 0.0.0.0 --port 8000 &
+          sleep 5
+      - name: Install k6
+        run: |
+          sudo gpg -k
+          sudo gpg --no-default-keyring --keyring /usr/share/keyrings/k6-archive-keyring.gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys C5AD17C747E3415A3642D57D77C6C491D6AC1D69
+          echo "deb [signed-by=/usr/share/keyrings/k6-archive-keyring.gpg] https://dl.k6.io/deb stable main" | sudo tee /etc/apt/sources.list.d/k6.list
+          sudo apt-get update && sudo apt-get install -y k6
+      - name: Run k6 Performance Load Tests
+        run: k6 run --summary-export=../reports/load_report.json ../tests/load/loadtest.js
+      - name: Upload Load Test Report Artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: load-test-report
+          path: reports/load_report.json
+
+  # ------------------------------------------------------------------
+  # 6) Deployment Status — smoke check the backend boots & responds
+  # ------------------------------------------------------------------
+  deployment-status:
+    name: "🚀 Deployment Status"
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install & start API
+        run: |
+          pip install -r requirements.txt
+          nohup uvicorn app.main:app --host 0.0.0.0 --port 8000 &
+          sleep 5
+      - name: Verify Live Deployment Status
+        run: |
+          pip install requests pytest pytest-json-report
+          pytest tests/deployment -v \
+            --json-report --json-report-file=../reports/deployment_report.json \
+            --junitxml=../reports/deployment_report.xml
+      - name: Upload Deployment Test Report Artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: deployment-test-report
+          path: reports/deployment_report.json
+
+  # ------------------------------------------------------------------
+  # 7) Compile Master Report & Deploy
+  # ------------------------------------------------------------------
+  compile-master-report:
+    name: "📊 Compile Master Report & Deploy"
+    needs:
+      - unit-tests-api
+      - validation-tests
+      - selenium-web-tests
+      - appium-android-tests
+      - load-testing
+      - deployment-status
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Download All Reports
+        uses: actions/download-artifact@v4
+        with:
+          path: downloaded-reports
+      - name: Generate Master Dashboard & Excel Reports
+        run: |
+          pip install openpyxl
+          python scripts/generate_master_report.py \
+            --input-dir downloaded-reports \
+            --output-dir build/reports \
+            --commit-sha ${{ github.sha }} \
+            --run-number ${{ github.run_number }}
+      - name: Upload Master Excel Report Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: master-excel-report
+          path: build/reports/master_report.xlsx
+      - name: Upload Full E2E Report Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: full-e2e-report
+          path: build/reports/dashboard.html
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload Pages Deployment Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build/reports
+
+  deploy-pages:
+    name: "🌍 Deploy to GitHub Pages"
+    needs: compile-master-report
+    if: always()
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
